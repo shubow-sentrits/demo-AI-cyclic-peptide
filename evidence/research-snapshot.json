@@ -58,10 +58,11 @@
       "venue": "Chemical Communications 62, 672–691（Highlight；2025-12 在线）",
       "doi": "10.1039/D5CC04998A",
       "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2026/CC/D5CC04998A",
-      "read": "摘要与书目已读；开放获取页面可见，但 PDF 请求返回 403。",
-      "note": "生成架构与肽化学的补充阅读；本版不依据其未读正文作具体模型结论。",
-      "priority": "可选补全文",
-      "need": "开放获取但本环境下载受限；可从出版社页面手动下载。"
+      "read": "用户补全文；已读 pp. 5–10 生成架构与非天然残基、pp. 14–16 数据偏差和闭环讨论。",
+      "note": "综述把生成架构、肽化学与实验系统连接起来。模型输出结构/序列，ADMET 仍受数据分布与测量条件限制；负样本缺失会误导优化。适合作为方法地图，不以其概述替代原始实验。",
+      "priority": "补充",
+      "file": "R04_generative_AI.pdf",
+      "localOnly": true
     },
     {
       "id": "R05",
@@ -132,10 +133,11 @@
       "venue": "Current Opinion in Structural Biology 92, 103025",
       "doi": "10.1016/j.sbi.2025.103025",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40068542/",
-      "read": "摘要已读；PubMed 标记 Free article，出版社全文在本环境未能获取。",
-      "note": "聚焦 hit 优化、已知配体/蛋白界面启发与双环设计。作者来自 BicycleTx。",
-      "priority": "可选补全文",
-      "need": "优先从 PubMed 的 Full text link 获取；不应因自动访问失败推断它收费。"
+      "read": "用户补全文；已读 pp. 1–5，重点为展示筛选、结构指导优化和双环连接化学。",
+      "note": "双环路线通常从展示筛选的 hit 出发，结合结构解析、单体替换及多聚/偶联设计优化。连接骨架决定几何约束；双环并非简单把头尾单环“再闭一次”。作者来自 BicycleTx，案例为综述归纳，未逐篇复核原始研究。",
+      "priority": "补充",
+      "file": "R09_bicyclic_review.pdf",
+      "localOnly": true
     },
     {
       "id": "R10",
@@ -218,10 +220,11 @@
       "year": 2026,
       "venue": "ICLR 2026；官方仓库引用",
       "url": "https://openreview.net/forum?id=B8BXHrshMi",
-      "read": "官方 README 已读；OpenReview PDF 下载 403，未完成论文全文核验。",
-      "note": "可确认联合序列/结构建模、代码及权重入口。当前材料不足以把它列成已验证的环肽设计平台；创业主体与商业边界也未确认。",
-      "priority": "优先补全文",
-      "need": "提供论文及补充材料，或创始人分享的技术资料；重点核对环肽闭环、非天然残基及湿实验。"
+      "read": "用户提供 ICLR 2026 正文及附录；已读 §§3–4、Appendix D.2；图示核查 PDF p.21 Table 9。",
+      "note": "3B 参数，masked sequence learning + 结构扩散去噪，支持无 MSA 联合表示。D.2 输入蛋白序列/结构、epitope 和已知肽序列，输出复合物结构；51 对 FoldBench 样本，每例 5 次采样。Table 9 的 SR=0.9137 是 DockQ≥0.23 的结构样本比例，不是新环肽实测结合率。不同对照的输入信息并不相同。",
+      "priority": "补充",
+      "file": "P05_FlexRibbon.pdf",
+      "localOnly": true
     },
     {
       "id": "P06",
@@ -262,10 +265,10 @@
       "venue": "JCIM 65, 6155–6165",
       "doi": "10.1021/acs.jcim.5c00227",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40495275/",
-      "read": "摘要及官方 README 已读；ACS 正文访问 403。",
-      "note": "CycRFdiffusion、ProteinMPNN、HighFold 组成流程；仓库提供 MD 数据链接。完整比较、筛选阈值及湿实验证据需正文与补充材料核验。",
+      "read": "2025 JCIM 摘要及仓库已读；本次收到的是 2024-12-02 预印本，另列 P12，期刊正文及 SI 尚待补齐。",
+      "note": "期刊版与预印本分开记录。P12 可支撑环编码→ProteinMPNN→HighFold→Rosetta 的计算流程；不能据预印本确认期刊新增的 MD 或湿实验。",
       "priority": "优先补全文",
-      "need": "建议正文和 Supporting Information 一起提供；不能把后续同名/近名方法的实验合并到本篇。"
+      "need": "仍需 2025 JCIM 正式版正文和 SI，用于与 P12 逐项比较。"
     },
     {
       "id": "P09",
@@ -292,6 +295,101 @@
       "read": "摘要、官方 README 与模型/输入说明已读，未做论文全文精读。",
       "note": "基于含遮蔽位置的肽化学表示生成替代残基，支持用户定义的多目标奖励。预测奖励上升需要后续实验检查。",
       "priority": "索引"
+    },
+    {
+      "id": "P11",
+      "type": "paper",
+      "title": "CP-GFM-SGX: Topology-Aware Cyclic Peptide Generation and Design with Receptor-Conditioned Structural Evaluation and Experimental KRAS Affinity Optimization",
+      "url": "https://doi.org/10.26434/chemrxiv.15010253/v1",
+      "authors": "Hu Z.; Dillworth R.",
+      "year": 2026,
+      "venue": "ChemRxiv v1；附件首页 2026-10-12",
+      "read": "用户补全文；已读方法、Tracks A–C、§4.5、表7与讨论；视觉核查 p.27。",
+      "note": "Track A 为已知配体恢复，Track B 为计算口袋对照，Track C 为合成故障测试；KRAS SAR 是独立案例。表7约60→1 μM，与p.27的约5,200倍不符；不采纳跨平台全面优越性主张。详见本次核验专题。",
+      "priority": "重点核验",
+      "doi": "10.26434/chemrxiv.15010253/v1",
+      "file": "P11_CP_GFM_v1.pdf",
+      "localOnly": true,
+      "minutes": 20
+    },
+    {
+      "id": "P12",
+      "type": "paper",
+      "title": "CycleDesigner: Leveraging RFdiffusion and HighFold to Design Cyclic Peptide Binders for Specific Targets",
+      "url": "https://doi.org/10.1101/2024.11.27.625581",
+      "authors": "Zhang C. et al.",
+      "year": 2024,
+      "venue": "bioRxiv；2024-12-02 版本，与 P08 期刊版分别记录",
+      "read": "用户补预印本全文；已读 pp.3–8 方法、11–18 结果与结论；视觉核查 p.5 流程图。",
+      "note": "预印本流程：23靶点×5骨架×5序列=575序列；HighFold产生2,875个复合物预测。结构模型数不是独立分子数；p.18将湿实验验证列为未来工作。热点来自已知配体5 Å邻域，不等于盲位点设计。",
+      "priority": "补充",
+      "doi": "10.1101/2024.11.27.625581",
+      "file": "P12_CycleDesigner_preprint.pdf",
+      "localOnly": true,
+      "minutes": 15
+    },
+    {
+      "id": "P13",
+      "type": "paper",
+      "title": "Accurate structural modeling of chemically diverse molecular interfaces with Vilya-2",
+      "url": "https://arxiv.org/abs/2607.25156",
+      "authors": "Vilya Research et al.",
+      "year": 2026,
+      "venue": "arXiv:2607.25156v1",
+      "read": "原始摘要与官方资料已核验；未完成全文精读。",
+      "note": "给定化学身份，预测肽–靶点复合物并排序构象；论文报告59.1%的肽界面达到主链 RMSD<2 Å。这是结构恢复终点，不是生成新 binder 的实验命中率。",
+      "priority": "补充",
+      "doi": "10.48550/arXiv.2607.25156"
+    },
+    {
+      "id": "P14",
+      "type": "paper",
+      "title": "Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design",
+      "url": "https://arxiv.org/abs/2507.19375",
+      "authors": "Latent Labs Team",
+      "year": 2025,
+      "venue": "arXiv:2507.19375v1",
+      "read": "原始摘要与官方资料已核验；未完成全文精读。",
+      "note": "根据靶点 epitope 联合生成序列和全原子结构。摘要报告所评估宏环靶点实验命中率超过90%；需保留目标集、化学和 assay 条件，不能作为所有新靶点的保证。与 P04 的 X2 版本分开。",
+      "priority": "补充",
+      "doi": "10.48550/arXiv.2507.19375"
+    },
+    {
+      "id": "P15",
+      "type": "paper",
+      "title": "De novo design of high-affinity protein binders with AlphaProteo",
+      "url": "https://arxiv.org/abs/2409.08022",
+      "authors": "Zambaldi V. et al.",
+      "year": 2024,
+      "venue": "arXiv:2409.08022v1",
+      "read": "论文摘要与 DeepMind 官方实验说明已核验；未精读全文。",
+      "note": "蛋白 binder 实验验证参照；官方介绍披露7个成功靶点及TNFα失败。其分子模态并非小型头尾环肽，不把蛋白结果转成环肽命中率。",
+      "priority": "补充",
+      "doi": "10.48550/arXiv.2409.08022"
+    },
+    {
+      "id": "P16",
+      "type": "paper",
+      "title": "Introducing Chai-2: Zero-shot antibody design in a 24-well plate",
+      "url": "https://www.chaidiscovery.com/news/introducing-chai-2",
+      "authors": "Chai Discovery Team",
+      "year": 2025,
+      "venue": "官方技术说明；2025-06-30",
+      "read": "官方说明已读；关联 bioRxiv 正文访问受限，不作为全文已读。",
+      "note": "官方报告最多20个抗体/纳米抗体设计/靶点，共52靶点，16%结合率、50%靶点至少一个hit；这是抗体证据。官网向macrocycle扩展的描述不等于已验证环肽结果。",
+      "priority": "补充"
+    },
+    {
+      "id": "P17",
+      "type": "paper",
+      "title": "Riptides Benchmark",
+      "url": "https://github.com/VilyaPublic/Riptides",
+      "authors": "VilyaPublic",
+      "year": 2026,
+      "venue": "官方基准与评估代码",
+      "read": "官方 README 已核验；本轮未实际运行评测。",
+      "note": "评测输入是受体PDB和配体SDF；输出全原子/主链RMSD及PoseBusters有效性检查。代码MIT、数据CC BY 4.0；开放基准和预计算结果不等于Vilya-2模型权重开放。",
+      "priority": "补充"
     }
   ],
   "routes": [
@@ -543,7 +641,8 @@
       "refs": [
         "P01"
       ],
-      "limit": "优先看从生成到送测的完整漏斗，并在相同实验预算下设比较组。"
+      "limit": "优先看从生成到送测的完整漏斗，并在相同实验预算下设比较组。",
+      "scope": "core"
     },
     {
       "id": "afcyc",
@@ -588,7 +687,8 @@
       "refs": [
         "P03"
       ],
-      "limit": "同一工具也可只做预测；图中展示的是论文设计流程。"
+      "limit": "同一工具也可只做预测；图中展示的是论文设计流程。",
+      "scope": "core"
     },
     {
       "id": "cycle",
@@ -607,12 +707,12 @@
         "b-s",
         "s-q"
       ],
-      "focus": "中国团队；补全文后深入",
+      "focus": "环肽计算流程；版本分开",
       "input": "靶点结构、结合位点与设计长度",
-      "output": "CycRFdiffusion 骨架、序列及 HighFold/MD 评估",
+      "output": "环骨架、序列与 HighFold 预测复合物及 Rosetta 筛选",
       "method": "CycRFdiffusion + ProteinMPNN + HighFold。",
-      "chem": "具体环型、化学范围及测试集合需全文复核。",
-      "evidence": "本轮读到摘要和仓库；未独立核实原论文湿实验，不将 MD 标成湿实验。",
+      "chem": "已读预印本以环状位置编码处理肽骨架；不能由此推断任意 D/N-Me 单体。",
+      "evidence": "P12 的 575 序列对应 2,875 个结构预测；湿实验列为后续工作。P08 正式版与 SI 仍待核验。",
       "access": "仓库公开；根目录未发现 LICENSE。作者单位含 Shenzhen Highslab，不能据此推断代码属于完整商用平台。",
       "links": [
         [
@@ -621,9 +721,11 @@
         ]
       ],
       "refs": [
-        "P08"
+        "P08",
+        "P12"
       ],
-      "limit": "与后续 CycleRFdiffusion / TREM2 等近名研究分别核验。"
+      "limit": "已知配体定义的热点与盲位点任务不同；结构自洽和能量筛选不能换算为结合命中率。",
+      "scope": "core"
     },
     {
       "id": "boltz",
@@ -670,7 +772,8 @@
       "refs": [
         "P02"
       ],
-      "limit": "不要用蛋白/纳米抗体的命中率替代环肽命中率。"
+      "limit": "不要用蛋白/纳米抗体的命中率替代环肽命中率。",
+      "scope": "core"
     },
     {
       "id": "pepinvent",
@@ -699,7 +802,8 @@
       "refs": [
         "P10"
       ],
-      "limit": "奖励不是实验结果；需要对同系物之外的化学空间检查适用性。"
+      "limit": "奖励不是实验结果；需要对同系物之外的化学空间检查适用性。",
+      "scope": "core"
     },
     {
       "id": "ringer",
@@ -727,7 +831,8 @@
       "refs": [
         "P09"
       ],
-      "limit": "构象数量多不等于获得真实溶液态布居。"
+      "limit": "构象数量多不等于获得真实溶液态布居。",
+      "scope": "core"
     },
     {
       "id": "cycdiff",
@@ -760,7 +865,8 @@
       "refs": [
         "P06"
       ],
-      "limit": "可以学其方法，但不能把“优化过预测通透”说成“解决了胞内递送”。"
+      "limit": "可以学其方法，但不能把“优化过预测通透”说成“解决了胞内递送”。",
+      "scope": "core"
     },
     {
       "id": "pepper",
@@ -794,11 +900,12 @@
       "refs": [
         "P07"
       ],
-      "limit": "合成失败应作为可学习的标签，而非简单从数据库删除。"
+      "limit": "合成失败应作为可学习的标签，而非简单从数据库删除。",
+      "scope": "core"
     },
     {
       "id": "latent",
-      "name": "Latent-X2 / Latent-Y",
+      "name": "Latent-X / X2 / Latent-Y",
       "kind": "闭源平台",
       "route": "joint",
       "core": [
@@ -818,11 +925,11 @@
         "y-a"
       ],
       "focus": "商业生成基线",
-      "input": "X2：靶点与 epitope；Y：研究目标/文本与约束",
+      "input": "X/X2：靶点与epitope；Y：研究目标/文本与约束",
       "output": "候选序列、预测复合物及计算工作流结果",
-      "method": "X2 是生成模型；Y 是调用模型和工具的设计 agent。",
+      "method": "X、X2 是不同版本生成模型；Y 为调用模型和工具的 agent。版本分别引用。",
       "chem": "平台称覆盖 macrocycles；具体非天然单体/闭环支持需按合同和版本确认。",
-      "evidence": "X2 预印本有环肽结合数据。Y 页面主要展示抗体实验，不将其成功率作为环肽结果。",
+      "evidence": "X 摘要报告前瞻宏环结合实验；X2 的已读全文有 K-Ras(G12D)、PHD2 环肽数据。Y 的抗体案例不外推环肽。",
       "access": "托管服务；本轮未发现公开的 X2 核心权重。使用额度、数据保留、产物/IP 与价格须向平台确认。",
       "links": [
         [
@@ -835,9 +942,11 @@
         ]
       ],
       "refs": [
+        "P14",
         "P04"
       ],
-      "limit": "平台调用方便，但实验、化学确认与失败记录仍由项目承担。"
+      "limit": "平台调用方便，但实验、化学确认与失败记录仍由项目承担。",
+      "scope": "core"
     },
     {
       "id": "pdps",
@@ -878,7 +987,8 @@
       "refs": [
         "R03"
       ],
-      "limit": "库规模与实际有效采样不是同一个数量，需问反选、重合成和功能确认。"
+      "limit": "库规模与实际有效采样不是同一个数量，需问反选、重合成和功能确认。",
+      "scope": "core"
     },
     {
       "id": "bicycle",
@@ -904,7 +1014,7 @@
       "output": "经化学约束的双环 hits、优化/偶联候选",
       "method": "先展示线性肽，再在 phage 上用化学骨架形成多点连接，筛选后药化优化。",
       "chem": "双环/硫醚与连接骨架；与头尾酰胺单环路线不同。",
-      "evidence": "官方平台说明可确认筛选方式；本页不重述实时临床阶段。",
+      "evidence": "R09 全文支持展示筛选→结构指导优化的路线归纳；综述案例未逐篇追溯原始论文，故不新增实验确认标记。",
       "access": "专有研发与合作平台；不把它称为开放 AI 生成器。",
       "links": [
         [
@@ -915,7 +1025,8 @@
       "refs": [
         "R09"
       ],
-      "limit": "偶联毒素/放射性载荷的疗效，不等于裸环肽自身阻断靶点的活性。"
+      "limit": "偶联毒素/放射性载荷的疗效，不等于裸环肽自身阻断靶点的活性。",
+      "scope": "core"
     },
     {
       "id": "insamo",
@@ -958,7 +1069,8 @@
       "refs": [
         "R08"
       ],
-      "limit": "重点问连续几轮实验如何改变决策、负样本比例及单位有效数据成本。"
+      "limit": "重点问连续几轮实验如何改变决策、负样本比例及单位有效数据成本。",
+      "scope": "core"
     },
     {
       "id": "schrodinger",
@@ -989,7 +1101,8 @@
       "refs": [
         "R05"
       ],
-      "limit": "FEP 适合有依据的局部比较，不能不加区别地给所有新骨架分配昂贵模拟。"
+      "limit": "FEP 适合有依据的局部比较，不能不加区别地给所有新骨架分配昂贵模拟。",
+      "scope": "core"
     },
     {
       "id": "flex",
@@ -997,16 +1110,17 @@
       "kind": "开放代码",
       "route": "joint",
       "core": [
-        "joint"
+        "joint",
+        "rank"
       ],
       "wet": [],
       "edges": [],
-      "focus": "定向尽调；环肽证据待补",
-      "input": "官方示例为 JSON/LMDB 分子样本与预训练参数",
-      "output": "联合序列/结构建模及结构采样输出",
-      "method": "官方定位是 Joint Sequence and Structure Pretraining for Protein Modeling。",
-      "chem": "本轮未确认头尾闭环、D 残基、N-甲基化的完整设计与验证链。",
-      "evidence": "只确认仓库、ICLR 论文引用及权重入口；在图上以“相邻技术”定位。",
+      "focus": "相邻技术：界面预测",
+      "input": "肽任务：蛋白序列/结构、epitope、已知肽序列",
+      "output": "复合物结构；其他任务包含 CDR 序列/结构设计",
+      "method": "3B 参数联合预训练：masked sequence learning 与结构扩散去噪；序列、粗粒度、全原子三级架构。",
+      "chem": "本次全文未建立头尾闭环、D残基或N-甲基化环肽设计及实测结合链。",
+      "evidence": "P05 Appendix D.2/Table 9：51对蛋白–肽，每例5样本，SR=0.9137按DockQ≥0.23计算；不是环肽湿实验。",
       "access": "代码 README 标 Apache 2.0；权重独立条款未核实。具体创业主体及对外商用接口待创始人确认。",
       "links": [
         [
@@ -1021,7 +1135,196 @@
       "refs": [
         "P05"
       ],
-      "limit": "优先索取实际环肽输入输出、实验报告及商业服务说明。"
+      "limit": "保持相邻技术定位；论文单位含中关村学院等，仍不能据此确认创始人口中的创业主体。",
+      "scope": "adjacent"
+    },
+    {
+      "id": "cpgfm",
+      "name": "CP-GFM / SGX",
+      "kind": "公开接口 / 核心未开放",
+      "route": "joint",
+      "core": [
+        "target",
+        "joint",
+        "conf",
+        "rank",
+        "chem",
+        "make",
+        "bind",
+        "learn"
+      ],
+      "edges": [
+        "t-j",
+        "j-q",
+        "c-f",
+        "f-q",
+        "c-y",
+        "y-a",
+        "a-i",
+        "i-c"
+      ],
+      "wet": [],
+      "scope": "qualified",
+      "focus": "环肽闭环；报告有待澄清项",
+      "input": "受体状态、口袋、环拓扑/化学约束；SAR阶段另需已知hit",
+      "output": "候选及证据记录；实验系列的下一轮化学决策",
+      "method": "拓扑感知生成与证据状态控制；公开toy仅演示接口。图中生成评估与KRAS优化是不同证据轨道，不表示已证实的连续从头发现链。",
+      "chem": "报告聚焦头尾环肽；KRAS系列含非天然单体及N-甲基化。",
+      "evidence": "作者报告5体系Top-1恢复4/5；7靶点计算口袋偏好；KRAS约60→1 μM SAR。附件存在倍数、矩阵计数/定义不一致，暂不标绿色实验确认点。",
+      "access": "仓库不含研究核心权重、生产实现和完整实验原始记录；README许可/专利条款仍为草案。",
+      "links": [
+        [
+          "公开接口",
+          "https://github.com/YulixirAI/CP-GFM"
+        ],
+        [
+          "技术报告",
+          "https://github.com/YulixirAI/CP-GFM/blob/main/docs/CP-GFM-SGX_Technical_Report.md"
+        ]
+      ],
+      "refs": [
+        "P11"
+      ],
+      "limit": "需要原始曲线及作者澄清；不采纳5,200倍、全自动进化或跨平台全面优越性结论。"
+    },
+    {
+      "id": "vilya",
+      "name": "Vilya-2",
+      "kind": "结构预测模型",
+      "route": "joint",
+      "core": [
+        "conf",
+        "rank"
+      ],
+      "edges": [
+        "f-q"
+      ],
+      "wet": [],
+      "scope": "evaluation",
+      "focus": "环肽相关：结构评估",
+      "input": "靶点结构与已指定化学身份的肽/配体",
+      "output": "复合物构象群与置信排序",
+      "method": "全原子扩散模型预测分子界面。",
+      "chem": "包含非天然残基和复杂宏环拓扑；按论文任务范围理解。",
+      "evidence": "P13 摘要报告肽界面主链RMSD<2 Å恢复率59.1%，非实验命中率。",
+      "access": "Riptides开放基准与预测结果；所查资料不提供Vilya-2核心权重的开放依据。",
+      "links": [
+        [
+          "论文",
+          "https://arxiv.org/abs/2607.25156"
+        ]
+      ],
+      "refs": [
+        "P13",
+        "P17"
+      ],
+      "limit": "候选身份已给定；结构预测不等于从头产生化学身份或证明结合。"
+    },
+    {
+      "id": "riptides",
+      "name": "Riptides",
+      "kind": "开放评测工具",
+      "route": "joint",
+      "core": [
+        "rank"
+      ],
+      "edges": [],
+      "wet": [],
+      "scope": "evaluation",
+      "focus": "基准：模型外部检查",
+      "input": "受体PDB、配体SDF、模型预测与参考结构",
+      "output": "RMSD与PoseBusters检查表",
+      "method": "统一结构比对及化学几何有效性检查。",
+      "chem": "基准覆盖的肽/宏环，不是全化学空间。",
+      "evidence": "评测程序与数据公开；本轮未运行。",
+      "access": "README：代码MIT、数据CC BY 4.0。",
+      "links": [
+        [
+          "官方基准",
+          "https://github.com/VilyaPublic/Riptides"
+        ]
+      ],
+      "refs": [
+        "P17",
+        "P13"
+      ],
+      "limit": "不要使用参考配体坐标挑选候选，再报告为前瞻Top-1结果。"
+    },
+    {
+      "id": "alphaproteo",
+      "name": "AlphaProteo",
+      "kind": "专有研究模型",
+      "route": "joint",
+      "core": [
+        "target",
+        "joint",
+        "rank",
+        "make",
+        "bind"
+      ],
+      "edges": [
+        "t-j",
+        "j-q",
+        "q-y",
+        "y-a"
+      ],
+      "wet": [],
+      "scope": "adjacent",
+      "focus": "相邻模态：蛋白binder",
+      "input": "靶点结构与偏好结合区域",
+      "output": "候选蛋白binder",
+      "method": "靶点条件生成与实验筛选。",
+      "chem": "蛋白binder；不是已验证的小型头尾环肽。",
+      "evidence": "官方报告7个成功靶点及TNFα失败；部分功能与结构验证。",
+      "access": "所查官方材料未提供核心代码/权重下载；不能视作现成开放基线。",
+      "links": [
+        [
+          "官方说明",
+          "https://deepmind.google/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/"
+        ]
+      ],
+      "refs": [
+        "P15"
+      ],
+      "limit": "淡色虚线仅供验证流程参照；不计入环肽湿实验标记。"
+    },
+    {
+      "id": "chai",
+      "name": "Chai-2",
+      "kind": "专有平台",
+      "route": "joint",
+      "core": [
+        "target",
+        "joint",
+        "rank",
+        "make",
+        "bind"
+      ],
+      "edges": [
+        "t-j",
+        "j-q",
+        "q-y",
+        "y-a"
+      ],
+      "wet": [],
+      "scope": "adjacent",
+      "focus": "相邻模态：抗体/小蛋白",
+      "input": "靶点/epitope与分子模态",
+      "output": "抗体、VHH或miniprotein候选及复合物预测",
+      "method": "多模态生成结合全原子结构预测。",
+      "chem": "已核验说明以抗体、纳米抗体和miniprotein为主。",
+      "evidence": "官方抗体/纳米抗体系列：52靶点、≤20设计/靶点；16%结合率不是环肽成功率。",
+      "access": "官方说明提供合作访问入口；本轮未申请。",
+      "links": [
+        [
+          "官方说明",
+          "https://www.chaidiscovery.com/news/introducing-chai-2"
+        ]
+      ],
+      "refs": [
+        "P16"
+      ],
+      "limit": "官网对macrocycle扩展的描述不作为环肽实验证据；淡色虚线为相邻模态。"
     }
   ]
 }

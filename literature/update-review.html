@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>全文核验与项目更新</title><link rel="stylesheet" href="../styles.css"></head><body class="document-page"><header><div class="wrap"><div class="eyebrow">EVIDENCE UPDATE / 2026.11.03</div><h1>拿到全文后，哪些判断变了？</h1><p class="lede">把模型能力、计算指标和实验结果分开，再决定它应该点亮图谱上的哪一步。</p><a href="../index.html#map">返回统一图谱</a> · <a href="notes/index.html">全部阅读笔记</a></div></header><main class="wrap">
+<section><h2>五份附件与版本</h2><div class="table-wrap"><table><thead><tr><th>资料</th><th>本次补齐</th><th>如何使用</th></tr></thead><tbody>
+<tr><td>R04 · ChemComm 综述</td><td>20页正式全文</td><td>生成架构、非天然化学、ADMET偏差与闭环方法地图。</td></tr>
+<tr><td>R09 · 双环设计综述</td><td>7页正式全文</td><td>展示筛选、结构生物学与药化迭代；作者为BicycleTx团队。</td></tr>
+<tr><td>P05 · FlexRibbon</td><td>27页 ICLR 2026 正文及附录</td><td>确认蛋白–肽界面预测的输入与指标；仍非已验证环肽生成平台。</td></tr>
+<tr><td>P12 · CycleDesigner</td><td>20页，2024-12-02 bioRxiv预印本</td><td>单列P12；P08的2025 JCIM正式版与SI继续待补。</td></tr>
+<tr><td>P11 · CP-GFM-SGX</td><td>30页，ChemRxiv v1附件</td><td>按证据轨道分开阅读；保留内部不一致清单，不复制其全面优越性结论。</td></tr>
+</tbody></table></div><p>附件来自用户；原文仅作本地阅读，新PDF及文本已加入Git忽略规则。此页为独立笔记，页码指PDF页码。原文件校验值见 <a href="../evidence/attachment-manifest.json">附件清单</a>。本轮没有运行科学模型、复现实验或核实作者身份。</p></section>
+<section><h2>CP-GFM：值得关注，但需要解决证据冲突</h2><p><a href="https://doi.org/10.26434/chemrxiv.15010253/v1">P11预印本</a>与<a href="https://github.com/YulixirAI/CP-GFM">公开接口</a>不是同一交付物。仓库的toy runtime示范数据契约，不能复现研究模型和KRAS实验。这里将其作为拓扑约束、证据追溯和SAR反馈的待核验案例；图中暂不增加绿色实验确认点。</p>
+<div class="table-wrap"><table><thead><tr><th>轨道</th><th>输入 → 输出</th><th>可以支持什么</th><th>不能支持什么</th></tr></thead><tbody>
+<tr><td>A：姿态恢复</td><td>已知配体身份、受体上下文 → 100候选姿态及Top-1</td><td>5体系中4个所选姿态主链RMSD&lt;2 Å；事后best-of-100为5/5。</td><td>不是新序列命中率；事后最佳姿态不是可前瞻选择的输出。</td></tr>
+<tr><td>B：口袋对照</td><td>目标口袋及打乱对照 → 计算得分差</td><td>7靶点报告正向口袋偏好。</td><td>REU不是结合自由能或Kd；42/42等是已选top-K的条件分母，原始提案联合合格率未能估计。</td></tr>
+<tr><td>C：流程控制</td><td>可控合成故障 → 状态机保护行为</td><td>证据缺失、失效来源、重试及预算等特定控制机制。</td><td>不是现实实验错误率，也不是药物性能比较。</td></tr>
+<tr><td>KRAS SAR</td><td>已有CRO-748系列 → 合成、SPR/BLI、下一批类似物</td><td>作者报告约60→6→1 μM的靶点内优化轨迹。</td><td>不是冻结SGX基准的前瞻命中率，也不证明每轮重训或无人干预。</td></tr>
+</tbody></table></div>
+<h3>全文中需要澄清的五点</h3><ol>
+<li><strong>改善倍数：</strong>pp.24–25及表7为约60→1 μM，即约60倍；p.27却写约5,200倍、五轮。现有表格不支持后一个数字。两者不能拼接。</li>
+<li><strong>矩阵计数：</strong>p.22正文写23 E + 7 P + 2 NPD，总和32；p.23图注及p.28为23 + 7 + 1，总和31。不能把这套自定义表格作为客观平台排名。</li>
+<li><strong>标签定义：</strong>比较部分E/P用于文档证据是否明确/部分披露，后文改称Exceeds/Meets；证据披露程度与性能超越是不同指标。</li>
+<li><strong>实验与自动学习：</strong>正文同时存在“没有批准的公开SGX湿实验结果”和KRAS平台案例；按不同证据范围解释尚可，但必须标明。p.27还一面声称无需人工持续改善，一面说明没有把KRAS系列当作冻结模型逐轮重训证据，故不采纳全自动学习结论。</li>
+<li><strong>Cycle 2C精度：</strong>表列NMe2约0.8 μM，而koff/kon = 0.20 ÷ (1.5×10⁵) M = 1.33 μM。与1 μM参考物的差异不能据此认定改善；无可靠1:1拟合的候选不参与定量排名。</li>
+</ol><p class="key-point">建议索取：勘误版本；化合物身份与分析放行记录；SPR/BLI原始曲线、浓度和拟合残差；重复与置信区间；全部合成/送测分母；模型版本与每轮决策记录。正文已收到，不再列入“缺全文”。这些矛盾是报告可信度与可复核性问题，本页不据此推断实验造假。</p></section>
+<section><h2>FlexRibbon：从“未知细节”变成“明确的相邻任务”</h2><p>P05 pp.3–5将模型分为序列、粗粒度结构、全原子结构模块，联合训练序列恢复和坐标去噪。可用于界面建模、CDR设计及其他下游任务；不同任务必须分别看其条件和标签。</p><p>Appendix D.2 / Table 9（p.21）：输入含蛋白序列、结构、epitope以及<strong>已知肽序列</strong>，输出蛋白–肽复合物。评估51对FoldBench样本，每例生成5个样本；SR=0.9137按DockQ≥0.23的样本比例计算。它不是“91%的新环肽能结合”。该页也说明部分对照使用MSA，而FlexRibbon/PepGLAD使用受体结构与epitope，输入不同须保留。</p><p>图中保留联合建模与结构评估位置，并以相邻任务样式显示。本次全文没有建立头尾环化、D残基/N-甲基化到实测结合的完整链。论文列出的中关村学院等单位，也不能自动证明与口头提及创业项目的主体关系。</p><p><a href="https://openreview.net/forum?id=B8BXHrshMi">P05论文入口</a> · <a href="https://github.com/bjzgcai/FlexRibbon">代码入口</a></p></section>
+<section><h2>CycleDesigner：计算模型数不等于候选分子数</h2><p>P12 pp.3–8：靶点、hotspot、环长 → 改环状位置编码的RFdiffusion → ProteinMPNN序列 → HighFold重预测 → Rosetta筛选。已知配体5 Å邻域被用于热点定义，因此本实验的条件信息比盲位点任务更充分。本文所用单链数据筛选限制也不应外推为所有RFdiffusion版本的能力限制。</p><p>p.11的漏斗为23×5=115骨架，115×5=575序列，再产生2,875个复合物预测。结构预测副本不是额外的独立化合物。p.18明确将优选候选的实验验证列为未来工作，因此本版不添加湿实验标记。正式JCIM版可能有后续变化，待拿到P08正文/SI再比较。</p><p><a href="https://doi.org/10.1101/2024.11.27.625581">P12预印本</a> · <a href="https://doi.org/10.1021/acs.jcim.5c00227">P08期刊版</a></p></section>
+<section><h2>两篇综述如何用于3–4小时背景补充</h2><p><strong>R04，选读15分钟：</strong>pp.5–10理解模型生成什么，pp.14–16理解训练分布、负样本和实验闭环。思考“预测分数更好”需要哪种测量才能成为投资人可接受的证据。综述对临床速度、药物数量和平台能力的概述不直接作为本页核实结论。</p><p><strong>R09，选读15分钟：</strong>pp.1–5理解实验库hit如何借结构生物学进入药化优化。双环的连接骨架、多个表位和偶联策略可能改变功能与PK，不能只用序列或一个Kd比较所有候选。作者来自BicycleTx，作为路线解释资料使用；临床状态和原始案例仍需各自核验。</p><p><a href="https://doi.org/10.1039/D5CC04998A">R04</a> · <a href="https://doi.org/10.1016/j.sbi.2025.103025">R09</a></p></section>
+<section><h2>新增项目怎样进入同一张图</h2><ul><li><strong>Vilya-2 / Riptides：</strong>分别作为结构预测与外部评测，亮起构象/排序位置；不点亮合成结合。</li><li><strong>Latent-X / X2 / Y：</strong>补上第一代论文，模型版本和agent分开；宏环结果不与抗体结果混用。</li><li><strong>BoltzGen：</strong>继续作为开放基线；沿用已保存报告的Rag二硫键肽结果，不与CP-GFM引用的早期版数字混合。</li><li><strong>AlphaProteo / Chai-2：</strong>以淡色短虚线展示相邻分子模态的生成到实验路径；不标为已验证环肽路线。</li></ul><p>这些项目的新增来源核验沿用本次会话中的原始论文摘要、官方说明与仓库阅读；未把它们列为本次五份附件全文之一。完整来源见P13–P17及项目卡。</p></section></main></body></html>

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "R09_bicyclic_review.pdf",
+    "sha256": "11c27a658c8e453417ff7677deda0c274651524eff10fa7a3dccccb0733e1150",
+    "source": "user attachment",
+    "date": "2026-11-03",
+    "public_distribution": false
+  },
+  {
+    "file": "R04_generative_AI.pdf",
+    "sha256": "cfbccd90b8624d83ba61edd35536b303a4e2cb86ea25a532c79c180ae1855d59",
+    "source": "user attachment",
+    "date": "2026-11-03",
+    "public_distribution": false
+  },
+  {
+    "file": "P12_CycleDesigner_preprint.pdf",
+    "sha256": "78d601d1ecc16973c9757840e1e804df1cd0e77c03594d82b03d76cf94805981",
+    "source": "user attachment",
+    "date": "2026-11-03",
+    "public_distribution": false
+  },
+  {
+    "file": "P11_CP_GFM_v1.pdf",
+    "sha256": "ffab89a848d16836b4fd2e923ff58ce00adde0635e6719c9d8ca070a24dad8d3",
+    "source": "user attachment",
+    "date": "2026-11-03",
+    "public_distribution": false
+  },
+  {
+    "file": "P05_FlexRibbon.pdf",
+    "sha256": "40a4bb975d09ae4fa121133f22661576f0803d27a6ad6a159c67b3c835bfb971",
+    "source": "user attachment",
+    "date": "2026-11-03",
+    "public_distribution": false
+  }
+]

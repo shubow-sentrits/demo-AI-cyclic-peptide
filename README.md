@@ -1,32 +1,35 @@
 # 环肽 AI 设计路线图谱
 
-核验日期：2026-11-03。新建的独立研究目录；不替换之前的基础阅读手册。
+核验日期：2026-11-03；本轮补入五份用户全文附件及项目收录评估。
 
-## 打开
+## 打开与内容
 
-用浏览器打开 [index.html](index.html)。交互不依赖网络、安装或模型服务；外部引用需要联网。选取路线或项目，可在同一张图中高亮；可再选择一个项目对比，并保存当前 SVG。
+用浏览器打开 [index.html](index.html)。主交互无网络依赖；外部引用需要联网。
 
-## 内容
+- 5 条路线、19 个项目/工具；支持选取高亮、两项目比较、SVG 导出及打印。
+- 27 条资料：10 篇综述类、17 条研究/报告/评测资料；16 份全文已保存并重点阅读（7 份综述、9 份研究）。
+- [全文核验专题](literature/update-review.html)：CP-GFM 报告内部不一致、FlexRibbon 任务边界、CycleDesigner 版本差异及项目收录判断。
+- [独立阅读笔记](literature/notes/index.html)、[剩余四项全文需求](literature/fulltext-needed.html)、[CSV](literature/bibliography.csv)、[BibTeX](literature/bibliography.bib)。
+- 推荐核心阅读190分钟，加本次专题及一个案例约220–225分钟；不是所有全文逐字阅读时长。
 
-- 5 条发现/设计路线，14 个重点项目；说明输入、输出、化学范围、实验依据及获取方式。
-- 10 篇综述类资料，其中 5 篇全文已保存并阅读重点章节；10 篇原始研究/报告索引，其中 6 篇全文已保存并重点阅读。
-- [独立阅读笔记](literature/notes/index.html)、[手动补全文清单](literature/fulltext-needed.html)、[CSV 书目](literature/bibliography.csv)、[BibTeX](literature/bibliography.bib)。
-- `literature/fulltext/` 保存原始 PDF/HTML 及抽取文本。HTML 快照的图片可能需要网络，文本可离线阅读；不保证每份网页快照脱网排版完整。
-- `literature/manual-inbox/` 可放入后续手动获取的全文和补充材料。
-- `evidence/` 保存检索、下载、文件 SHA-256、资料快照及部分仓库文件 SHA。
+## 本次更新
 
-优先补充 R07（环肽 AI 综述）、P08（CycleDesigner 正文及 SI）、P05（FlexRibbon 正文及补充材料）。另有 4 篇可选补全文，不影响先读核心资料。
+新增 CP-GFM、Vilya-2、Riptides、AlphaProteo、Chai-2；补齐 Latent-X 第一代来源，更新 FlexRibbon、CycleDesigner 与 Bicycle 的证据描述。
 
-建议阅读约 190 分钟，按页面指定章节选择性阅读；可增加 20–25 分钟项目案例。这个时间不代表逐字读完全部文献。
+FlexRibbon、AlphaProteo、Chai-2 使用相邻任务/模态的淡色短虚线；Vilya-2 / Riptides 只标结构评估。CP-GFM 的计算轨道与 KRAS SAR 案例分别解释，不以其自定义比较矩阵宣布平台优劣，也暂不加绿色实验确认点。
 
-## 解释边界
+收到的 CycleDesigner 是2024-12-02预印本（P12），2025 JCIM版（P08）与SI仍待补；R04、R09、P05不再列为缺全文。CP-GFM后续需求是原始实验数据和作者澄清，不是重复索取正文。
 
-这是定向检索与技术路线综合，不是穷尽式系统综述。项目图示为编辑性映射，区别已确认论文实验、计算支持和公司自述。图中的 ADME/功能/lead 节点表达研发衔接，不意味着所列模型独立完成所有步骤。
+## 本地原文与发布
 
-下载的原文保留原版权和许可，仅作本地研究资料；图谱为独立整理，未转载论文图片。不应将全文文件夹直接用于公开发布。
+新增五份PDF及抽取文本保存在 `literature/fulltext/`，精确文件路径已加入 `.gitignore`；原文件校验值见 `evidence/attachment-manifest.json`。这些条目带 `localOnly: true`，仅 `file:` 浏览时显示本地全文链接，HTTP/HTTPS页面显示来源和笔记。
 
-本轮没有实际运行设计模型、复现论文实验、询价、采购或联系作者。许可信息为当前可查范围，不替代对实际安装依赖、权重及商业合同的逐项确认。
+历史原文已经受 Git 跟踪，本轮没有删除或改变其跟踪状态。新忽略规则不影响历史已跟踪文件，也不代表已有原文适合公开再分发。公开发布前仍需按原文条款处理历史 `literature/fulltext/` 内容。全文保留原版权，本页未转载论文图。
 
-## 维护
+本轮只更新本地工作树，没有提交、推送或部署，没有实际运行科学模型、复现实验、采购或联系作者。
 
-`data.js` 为文献、项目和路线的主数据；`app.js` 为统一图与交互；`styles.css` 为显示/打印样式。更新内容后，应同步独立笔记、书目和 `evidence/research-snapshot.json`。下载可更新的技术报告后用文件哈希区分版本。
+## 维护与证据
+
+`data.js` 为主数据；`app.js` 控制交互；`styles.css` 为显示与打印样式。更新条目时同步独立笔记、全文清单、书目及 `evidence/research-snapshot.json`。`evidence/verification.json` 记录本轮检查；旧下载日志和原始文件清单保持历史快照，新附件独立记录。
+
+绿色标记只代表本版已读资料中的对应实验终点，不代表独立复现。图示是编辑性映射；相邻任务、公司自述、计算证据与实验终点不可互换。价格、交付、权属及依赖许可未做交易级尽调。
