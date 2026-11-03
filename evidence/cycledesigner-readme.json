@@ -1,0 +1,8 @@
+{
+  "retrieved": "2026-11-03",
+  "content": "# CycleDesigner\n![image](https://github.com/user-attachments/assets/68a7e619-7e37-4f83-b780-7b80ebe14438)\nCycleDesigner is a novol workflow for de novo cyclic peptide design. The modified powerful RFdiffusion model(CycRFdiffusion) allows the generation of cyclic peptide backbone and integrated it with ProteinMPNN and HighFold to design binders for specific targets. \n\n## Instructions\n### Installation\nYou can install the [RFdiffusion](https://github.com/RosettaCommons/RFdiffusion) at first, and then copy the source codes of CycleDesigner into the installed RFdifusion preject.\n### Run inference\nTo run the generation, type\n```\n./rfd_zch_inference.sh /YOUR/PDB/PATH/pdb.pdb\n```\nThe inference adapt for the targets with binders only, if there is no binders in pdb file, please type follows to run the generation.\n```\n./scripts/run_inference.py 'contigmap.contigs=[A1-n/0 a-a]' 'ppi.hotspot_res=[A1,A2]' inference.deterministic=Ture inference.num_designs=5 inference.model_directory_path=/YOUR/MODEL/PATH inference.input_pdb=/YOUR/PDB/PATH/pdb.pdb inference.output_prefix=/YOUR/OUTPUT/CYCPEP/NAME > /PATH/NAME.log 2>&1\n```\n### MD traj files\nThe output trajectory files of molecular dynamics simulation prosess have uploaded at [Zenodo](https://zenodo.org/records/14955049).\n",
+  "encoding": "utf-8",
+  "sha": "aed1fb5975bde32c181fe243adaade3356944eb0",
+  "display_url": "https://github.com/hongliangduan/CycleDesigner/blob/main/README.md",
+  "display_title": "README.md"
+}

@@ -1,0 +1,2628 @@
+
+[PAGE 1]
+npj | drug discovery Review
+https://doi.org/10.1038/s44386-026-00090-1
+Physicochemical rule-embedded
+generative modeling for constrained
+peptide therapeutics
+Check for updates
+Yuzhou Wang1, Dongsheng Cao 2, Xiangzheng Fu3 , Xiangxiang Zeng 1 & Xiaojun Yao4
+Constrained peptides couple covalent topology, stereochemistry, three-dimensional structure,
+conformational dynamics and developability. We review physicochemical rule embedding across
+chemical-language, target-conditioned structural, geometric, atom-bond, ensemble and property-
+guided generative models, distinguishing generated molecular objects from downstream inference
+and predictions from prospective evidence. We identify limitations in chemical coverage, applicability,
+uncertainty and pipeline attribution, and routes towards identity-preserving, environment-aware and
+experimentally calibrated design.
+Constrained peptides occupy a productive region of chemical space between
+small molecules and large biologics1. Their size and conformational plasti-
+city can support recognition of broad, shallow, or discontinuous surfaces,
+including protein-protein interaction interfaces, enzyme exosites, and
+receptor surfaces that are often difﬁcult for conventional small molecules to
+address
+2.C y c l i z a t i o n ,s t a p l i n g ,d i s u lﬁde formation, backbone N-methyla-
+tion, D-amino acid incorporation, and related modi ﬁcations can reduce
+conformational entropy, improve proteolytic resistance, and tune the bal-
+ance between preorganization and adaptability. These features make mac-
+rocyclic and otherwise constrained peptides attractive modalities for targets
+that are incompletely served by either classical medicinal chemistry or large
+protein therapeutics
+3.
+This versatility also makes the design problem highly coupled. The
+object being proposed is not merely an amino acid sequence, but a che-
+mically speciﬁed scaffold with covalent connectivity, stereochemistry, one
+or more accessible conformations, and an environment-dependent physi-
+cochemical proﬁle
+4. Head-to-tail macrocycles, disulﬁde-rich peptides, sta-
+pled helices, 1,3,5-tris(bromomethy l)benzene (TBMB)-linked bicycles,
+side-chain lactams, and N-methylate d heterochiral macrocycles impose
+distinct requirements on connectivity,closure geometry, local strain, side-
+chain packing, synthesis, permeability, and target engagement5.C o n v e n -
+tional descriptors such as molecular weight, topological polar surface area,
+hydrogen-bond donors, lipophilicity, and rotatable-bond count remain
+useful, but their interpretation is scaffold- and assay-dependent
+6. Molecular
+chameleonicity denotes environme nt-dependent changes in exposed
+polarity and intramolecular hydrogen bonding 7; in cyclic peptides, this
+behavior can help reconcile aqueous handling with membrane-compatible
+conformations8. Experimentally characterized, computationally designed
+macrocycles further show that conformationally programmed polar
+shielding can coexist with membrane permeability and oral exposure 9.
+Figure 1 illustrates representative constrained-peptide architectures and
+their linkage chemistries.
+Generative modeling has expanded the scale at which peptide-like
+candidates can be proposed under sequence, topology, target, or property
+constraints10. Early rule-based generators emphasized enumerability and
+formal validity, whereas recent approaches increasingly place chemical or
+physicochemical constraints within molecular notation, topology-aware
+structural representations, geomet ric or atom-bond generation, con-
+formational sampling, and property-guided optimization. These studies
+broaden the accessible design space, but the claims they support depend on
+the chemical object represented, the stage at which a constraint acts, and the
+endpoint that is actually benchmarked or measured.
+Generic architecture labels are therefore less informative than the
+molecular object represented and the point at which a rule changes the
+generative distribution. Foundational work on Bayesian neural networks
+provides methodological context for predictive uncertainty
+11,w h i l ee a r l y
+stochastic treatments of reinforcement learning provide general context for
+reward-driven updating12; neither is treated here as constrained-peptide-
+speciﬁc evidence. Post hoc ﬁltering remains valuable for triage and valida-
+tion, but it is separated from constraints that directly shape sampling.
+Recent reviews and perspectives have surveyed therapeutic-peptide
+generative models13, computational and artiﬁcial intelligence-driven stra-
+tegies for cyclic-peptide discovery10, and generative AI in peptide-based
+drug design14. Broader work on large language models in drug discovery
+provides related architectural context 15. The present scope is narrower:
+absorption, distribution, metabolism, excretion, and toxicity (ADMET)-
+and developability-related models are discussed only when they shape
+constrained-peptide generation, guide candidate selection, deﬁne property
+1College of Computer Science and Electronic Engineering, Hunan University, Changsha, China. 2Xiangya School of Pharmaceutical Sciences, Central South
+University, Changsha, China. 3Faculty of Computer Science and Artiﬁcial Intelligence, Shenzhen University of Advanced Technology, Shenzhen, China.4Faculty of
+Applied Sciences, Macao Polytechnic University, Macao, China. e-mail: fuxiangzheng@suat-sz.edu.cn; xjyao@mpu.edu.mo
+npj Drug Discovery |            (2026) 3:54 1
+1234567890():,;
+1234567890():,;
+
+[PAGE 2]
+preferences, or provide validation endpoints. The comparison asks how
+representative methods encode modi ﬁed chemistry, topology, three-
+dimensional geometry, conformational ensembles, target context, and
+developability, and how strongly theiroutputs are substantiated. Sequence-
+level approaches are considered alongside residue- and atom-aware systems,
+while generation-time rule embedding is kept distinct from downstream
+scoring. The ﬁnal sections identify interfaces through which noncanonical
+chemistry, environment-aware ensembles, calibrated multi-objective opti-
+mization, synthetic tractability, a nd selective experiments could be
+connected.
+Generated objects and representation adequacy
+Meaningful comparison begins with the molecular object a method actually
+produces. We distinguish seven levels: a residue sequence; a covalent graph
+that speciﬁes monomers and inter-monomer bonds; a stereochemically
+resolved molecular identity; a single three-dimensional conformer; a
+population-weighted conformational ensemble; a set of environment-
+conditioned ensembles; and a targ et-bound complex. The levels are
+information-bearing rather than interchangeable. A parseable sequence
+does not establish linkage geometry, a valid graph does not establish low
+strain, a plausible conformer does not establish population weights, and an
+unbound ensemble does not establish a binding mode or afﬁnity.
+Representation adequacy is ther efore endpoint-dependent, not a
+monotonic function of detail. Serialized notations can support large-scale
+chemical enumeration when topology and stereochemistry are unambig-
+uous, whereas permeability, chameleonicity, intramolecular hydrogen
+bonding and recognition often dependon conformational populations and
+environment
+8.T h r o u g h o u tt h i sR e v i e w ,i n f o r m a t i o ni sc l a s s iﬁed as explicit
+in the generated object, inferred by the model, reconstructed by a down-
+stream physical or learned procedure, or absent. Information introduced
+during reconstruction is not creditedto the generator, and its uncertainty
+must accompany subsequent property or therapeutic claims.
+T h es a m ea c c o u n t i n gd eﬁnes the demonstrated chemical domain.
+Results for canonical head-to-tail macrocycles do not establish performance
+on disulﬁde-rich, stapled, side-chain-linked, heterochiral, N-methylated or
+multicyclic systems. Claims of modality-level generalization should be
+stratiﬁed by topology, ring size, linkage chemistry, stereochemical compo-
+sition, noncanonical-residue burden and assay context. Cross-class gen-
+eralization should be claimed only when performance is evaluated on pre-
+speciﬁed held-out topology or chemistry classes and reported per class with
+explicit denominators, uncertainty intervals and failure rates; otherwise,
+conclusions should remain within the demonstrated chemical scope.
+Design challenges and modelable rules
+Design variables rarely change independently in a constrained peptide16.A
+residue substitution can alter charge, hydrophobicity, hydrogen-bonding
+capacity, secondary-structure preference, and protease susceptibility; in a
+macrocycle, the same edit can also change ring strain, closure geometry,
+side-chain packing, intramolecular hydrogen-bond networks, and access to
+a target-compatible pose. A string ge nerator may preserve peptide-like
+composition while missing disul ﬁde registration, lactam spacing, staple
+geometry, stereochemistry, or multicyclic linker compatibility
+5. Conversely,
+a structure generator may produce a plausible bound conformation while
+remaining insensitive to permeability, solubility, puriﬁcation difﬁculty, or
+metabolic liability17. The relevant search space is therefore chemically het-
+erogeneous, topology-dependent, and environment-sensitive, rather than
+reducible to a single objective.
+Residue chemistry supplies the local physicochemical vocabulary for
+this search
+16. Charge distribution, hydrogen-bond donors and acceptors,
+hydrophobic and aromatic content, N-methylation, D-residue substitution,
+proline placement, and local amphipathicity can inﬂuence solubility, serum
+stability, protease resistance, cell p enetration, and target recognition 18.
+Orally absorbed cyclic peptides illustrate this context dependence: successful
+examples can exceed conventional Ru le of Five limits while reducing
+a) Head-to-tail
+macrocycle
+N-to-C amide
+CNH
+O NC
+b) Side-chain
+lactam
+CN H
+O
+Side-chain amide
+NC
+c) Thioether
+bridge
+CH₂
+S
+CH₂
+NC
+d) Hydrocarbon
+staple
+CH CH
+Alkene example
+e) Disulfide-rich peptide
+S S
+S S
+S S
+I
+II
+III
+IV
+V
+VI
+N
+C
+Cys I–VI shown; other residues omitted
+EETI-II connectivity (schematic) Backbone ring plus one crosslink
+f) Bicyclic peptide g) Lariat peptide
+N
+H
+C
+O
+H₂CC H ₂
+Glu
+C
+N-to-side-chain
+amide
+Glu side-chain example
+Fig. 1 | Architectures and linkage chemistries of constrained peptides. Panels
+show a a head-to-tail macrocycle with an N-to-C amide, b a side-chain lactam, c a
+thioether bridge, d a hydrocarbon staple illustrated by an alkene, e a disulﬁde-rich
+peptide, f a bicyclic peptide comprising a backbone ring and one crosslink, and g a
+lariat peptide. Gray circles denote residues; navy lines, the backbone; and teal seg-
+ments, cyclization or crosslinking. The dashed link in ( f) has unspeciﬁed chemistry.
+Navy N/C labels mark free termini. In ( e), Ecballium elaterium trypsin inhibitor II
+(EETI-II) has disul ﬁde connectivity I –IV, II–V and III –VI124; Roman numerals
+identify cysteines in sequence order, with intervening residues omitted. The lariat in
+(g) links the N terminus to a glutamate (Glu) side chain, leaving a C-terminal tail.
+Linkage atoms are shown explicitly, and side chains are abbreviated. Bond lengths,
+angles and backbone shapes are schematic, and categories can overlap.
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 2
+
+[PAGE 3]
+effective hydrogen-bonddonation or exposed polarity through N-methy-
+lation, D-residues, depsipeptide bonds, proline substitutions, and intra-
+molecular hydrogen bonding6. Nuclear magnetic resonance (NMR) amide
+temperature coefﬁcients have also been used to identify solvent-exposed
+amides for selective N-methylation in an orally bioavailable cyclic-peptide
+series19. Models can encode these tendencies through residue vocabularies,
+motif or composition constraints, descriptor targets, validity masks, che-
+mically deﬁned edits, or property-conditioned objectives. These rules are
+best treated as scaffold- and assay-dependent biases rather than universal
+cutoffs20.
+Topology adds a distinct set of rules once residues are connected into a
+constrained scaffold5. Head-to-tail amides, side-chain lactams, disulﬁdes,
+thioethers, hydrocarbon staples, backbone-to-side-chain bonds, and mul-
+ticyclic crosslinkers are generally not recoverable from sequence adjacency
+alone. Modelable variables include monomer identity, bond order, linkage
+atoms, anchor compatibility, ring size, stereochemistry, crosslink multi-
+plicity, and reaction feasibility. These variables can be represented through
+constrained vocabularies, graph anno tations, linkage masks, geometry
+restraints, chemically valid decoding operations, or topology-conditioned
+sampling. The important distinction is whether topology is merely
+expressible in the molecular representation, selected during generation, or
+enforced by the sampling and decoding process. A formally cyclic string or
+valid graph may still correspond to str ained closure geometry, incorrect
+stereochemistry, or an impractical synthetic route.
+Cyclization alone does not resolve the conformational problem
+21.
+Constrained peptides often populate multiple low-energy states, and the
+conformation that engages a target may differ from those favored in aqueous
+or membrane-like environments22. Intramolecular hydrogen bonds, cis-
+trans amide isomerization, side-chain rotamers, and polar exposure can
+shift with solvent and binding context
+23. Relevant modelable rules therefore
+include closure-compatible torsions, chirality, cis-trans state, intramolecular
+hydrogen-bond patterns, rotamer com patibility, solvent exposure, and
+ensemble populations. These features can be incorporated as internal-
+coordinate constraints, ensemble-conditioned objectives, solvent- or state-
+speciﬁc descriptors, or physical reﬁnement and validation steps. A single
+closed conformer can support a geometric plausibility claim, but it is limited
+evidence for aqueous, membrane-competent, and target-bound
+populations.
+Developability introduces another layer of coupled and assay-speciﬁc
+endpoints. Permeability, solubility, proteolytic stability, metabolic liability,
+hemolysis, toxicity, and synthetic t ractability are not independent of
+topology or conformation. Cyclic-peptide permeability models have been
+compared across scaffold and representation choices
+24, while applicability-
+domain analysis remains essential for judging when such predictions are
+meaningful
+20. Related endpoints include peptide half-life, which has been
+modeled from blood-stability data and from enzymatic-cleavage features
+transferred across species and organs25,26, and hemolytic propensity, which
+can be addressed with neural-network safety classiﬁers27. Models may use
+measured or predicted endpoints as rewards, preferences, posterior gui-
+dance, acquisition criteria, or ﬁlters. Docking energies, predicted perme-
+ability, half-life estimates, and safety scores remain surrogate outputs;
+improvements in these scores are co mputational changes rather than
+measured binding, permeability, stability, safety, pharmacokinetics, or
+therapeutic beneﬁt, particularly outside a deﬁned applicability domain
+20 or
+near activity cliffs28. Prospective absorption, distribution, metabolism, and
+excretion studies show why retro spective accuracy alone is insuf ﬁcient29.
+Assay identity is part of the endpoint: PAMPA and Caco-2 assays capture
+different aspects of transport
+30, MDCK-MDR1 adds an efﬂux-aware cellular
+context31, and bulk live-cell measurements provide another route to
+experimental permeability labels32.
+Rules can intervene at several points in a generative work ﬂow.
+Representation determines what can be expressed; conditioning speciﬁes
+target, topology, closure, property, or ensemble context; and decoding can
+restrict monomers, atoms, bonds, ster eochemistry, or ring size. During
+training or sampling, denoising, ﬂow matching, reward optimization,
+preference-aligned updating33, posterior guidance, or active learning can
+bias the proposed distribution before candidates are ﬁnalized. Evaluation
+tools generally act later through scoring,ﬁltering, relaxation, docking, ret-
+rospective benchmarking, uncertaintyestimation, or experimental valida-
+tion. Energy and design frameworks 34,c y c l i c - p e p t i d ed o c k i n g
+benchmarks35, peptide tertiary-structure benchmarks that include disulﬁde-
+cyclic examples36, force-ﬁeld assessments of cyclic-peptide ensembles37,a n d
+permeability-predictor comparisons24 illustrate how evaluation can reveal
+plausibility and limitations without necessarily changing the initial sampling
+distribution. Evidence is therefore interpreted at the level actually bench-
+marked or measured: computational generation, structural assessment,
+biochemical testing, cell-based activity, transport measurements, and pro-
+spective synthesis are treated as distinct endpoints.
+A practical distinction follows. Generation-time embedding includes
+rules in the molecular representatio n, conditioning va riables, decoding
+grammar, denoising or ﬂow trajectory, loss, reward, preference objective,
+posterior guidance, or optimization path. Evaluation-time use includes
+scoring, ﬁltering, relaxation, ranking, r etrospective benchmarking, and
+experimental validation. A third role is conceptual: medicinal-chemistry or
+biophysical principles may motivate interpretation without being imple-
+mented in the model. Reporting these roles separately clariﬁes whether a
+rule changes the sampling distributionor is applied after candidate proposal.
+Table 1 summarizes the rule categories and their modelable forms.
+Landscape of representative constrained peptide
+generative models
+Figure 2 summarizes the chronological and methodological landscape, and
+Table2 provides the corresponding model-level comparison. The taxonomy
+is organized by the molecular object principally generated and by the
+mechanism through which constraints act, rather than by broad labels such
+as Transformer, diffusion model, orﬂow model. Several systems span more
+than one capability; their placement re ﬂects the dominant contribution
+rather than an exclusive classiﬁcation. Throughout this Review, evidence is
+treated hierarchically rather than interchangeably: computational validity,
+retrospective benchmarking, predicted property optimization, structural
+validation, biochemical binding or cellular activity, permeability measure-
+ment, and prospective synthesis-and -assay validation s upport different
+levels of claim.
+Five recurrent families are useful for organizing the surveyed literature.
+Sequence, notation, and latent-space methods operate on serialized mole-
+cular descriptions or sequence-level latent variables. Topology-aware target-
+conditioned systems generate or op timize bound cyclic backbones and
+sequence-structure solutions. Constraint-conditioned geometric and atom-
+bond models place closure or covalent chemistry directly in residue- or
+atom-level generation. Ensemble methods sample distributions of accessible
+conformations. Developability-guided methods alter or select candidate
+populations according to property preferences.
+These categories are complementary rather than mutually exclusive. A
+notation model may also use reinforcement learning, a topology generator
+may include auxiliary property gui dance, and a permeability-focused
+workﬂow may combine prediction, selection, and limited generation.
+Therefore, the placement of each method in Fig.2 and Table 2 indicates its
+dominant contribution, not an exclusive capability boundary. CycloPs
+38 is
+retained as a historical precursor because it made residue and linkage rules
+explicit before learned generation became common.
+The detailed model-by-model discussion is reserved for the following
+subsections, which evaluate each family according to the generated object,
+the location of rule embedding, and the endpoint actually benchmarked or
+measured. Figure3 compares these ﬁve core methodological families. Fig-
+ure 2 additionally includes rule-based precursors and noncanonical-amino-
+acid structure-support methods.
+Pipeline role provides a second axis. We use the term generative model
+for a method that proposes new instances of a declared object, such as
+molecular identity, covalent topology, a sequence-structure solution or a
+conformer, through sampling or s earch. An editor explores local
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 3
+
+[PAGE 4]
+Table 1 | Physicochemical and developability rules as modelable constraints
+Rule category Medicinal chemistry meaning Measurable indicators Modelable form Possible embedding mode Cautions
+Size and ﬂexibility Macrocycles may exceed RO5 limits;
+excessive size and ﬂexibility can reduce
+exposure6
+MW, rotatable bonds, ring size,
+residue count
+Descriptor targets or hard
+ﬁlters
+Input conditioning, reward, Pareto
+constraint
+Scaffold- and assay-dependent
+thresholds
+Polarity and hydrogen
+bonding
+Solubility and binding bene ﬁts; exposed
+polarity can impair passive permeability
+TPSA, MPSA, HBD, HBA,
+exposed PSA
+Conformation-aware
+descriptor or geometry loss
+Reward, posterior guidance,
+ensemble ranking
+Static TPSA insufﬁcient for chameleonic
+macrocycles7
+Intramolecular hydrogen
+bonding
+NH satisfaction and polar shielding can
+enable membrane crossing 121
+IMHB counts, NH temperature
+coefﬁcients, HDX, amide exposure
+Graph/contact constraints or
+ensemble features
+Loss, reward, sampling guidance;
+validation reported separately
+Over-optimization may impair solubility
+or target binding
+Lipophilicity and solubility
+balance
+Hydrophobicity aids membrane
+partitioning but may impair solubility and
+increase toxicity
+16
+cLogP, logD, ChromlogD7.4, LPE,
+solubility assays
+Multi-objective trade-off Pareto ranking, DPO preferences,
+Bayesian acquisition
+Assay- and ionization-dependent
+interpretation
+Chameleonicity Solvent-dependent polar exposure
+reconciles solubility and permeability
+115
+DeltaPSA, solvent-dependent IMHB,
+conformer populations, Rg, SASA
+Multi-state conformer
+objective
+Ensemble generation,
+environment-conditioned scoring
+Costly measurement and simulation;
+force ﬁelds may bias populations
+Permeability Membrane crossing for cell entry and oral
+absorption; efﬂux and degradation
+liabilities
+PAMPA, Caco-2, MDCK-MDR1,
+CAPA, Papp, CP50
+Predictor, reward, acquisition
+target
+RL, DPO, posterior guidance,
+presynthesis ﬁlter
+Assays capture different mechanisms
+20
+Proteolytic and metabolic
+stability
+Resistance to enzymes in gut, serum, liver
+and cells supports exposure 26
+Half-life, cleavage propensity, serum
+stability, organ-speciﬁc predictors
+Sequence- and
+conformation-aware
+stability score
+Reward, ﬁlter, active-learning
+endpoint
+Species-, enzyme- and organ-
+dependent
+Safety and
+immunogenicity
+Therapeutic liabilities: hemolysis
+27, toxicity
+and immune recognition
+Hemolysis assays, cytotoxicity, MHC
+binding, cytokines
+Classiﬁer or conservative ﬁlter Reward, Pareto constraint,
+uncertainty-aware ﬁlter
+Sparse data; costly false negatives
+Synthetic feasibility Accessible, isolable and chemically
+tractable candidates
+Monomer availability, route length,
+coupling and cyclization yield, purity
+Peptide-speciﬁc synthetic
+grammar
+Constrained vocabulary, route-
+aware reward, experimental
+feedback
+Small-molecule SA scores such as
+SCScore
+118 miss SPPS and puri ﬁcation
+constraints
+RO5 rule of ﬁve, MW molecular weight, PSA polar surface area, TPSA topological PSA, MPSA molecular (three-dimensional) PSA, HBD/HBA hydrogen-bond donor/acceptor, IMHB intramolecular hydrogen bond, HDX hydrogen–deuterium exchange, LPE lipophilic
+permeability efﬁciency, DeltaPSA solvent-dependent change in PSA, Rg radius of gyration, SASA solvent-accessible surface area, PAMPA parallel artiﬁcial membrane permeability assay, MDCK-MDR1 Madin–Darby canine kidney cells expressing multidrug resistance
+protein 1, CAPA chloroalkane penetration assay, Papp apparent permeability coefﬁcient, CP50 concentration giving 50% HaloTag occupancy in CAPA, ChromlogD7.4 chromatographic logD at pH 7.4, MHC major histocompatibility complex, SA synthetic accessibility,
+SCScore synthetic complexity score, SPPS solid-phase peptide synthesis.
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 4
+
+[PAGE 5]
+transformations around an existing candidate; a predictor maps a ﬁxed
+candidate to an endpoint; a structure predictor or reﬁner assigns coordinates
+without necessarily changing molecular identity; and a selector ranks an
+already proposed set. When these components alter sampling or search
+through rewards, preferences or guidance, the overall workﬂow is a gen-
+erative hybrid, but its constituent co ntributions remain separable. For
+coordinate-sampling methods with aﬁxed molecular identity, classiﬁcation
+follows the declared target: sampling a conformational distribution is con-
+former or ensemble generation, whereasusing stochastic samples to infer or
+reﬁne a representative task-speciﬁc structure remains structure prediction
+or reﬁnement. Role assignments therefore follow the object and endpoint
+being explored, not the presence of a diffusion process, neural network or
+optimization loop.
+Sequence, notation, and latent-space generation
+Sequence and notation models gain scale by treating a constrained peptide
+as a writable chemical language. HELM-GPT
+39 p l a c e sr u l e si nab o u n d e d
+monomer vocabulary and explicit bond syntax, whereas PepINVENT40 uses
+a peptide-oriented chemical grammar derived from monomer simpliﬁed
+molecular-input line-entry system (SMILES) strings. SELFIES provides a
+useful small-molecule precedent forsyntax-robust molecular strings
+41,b u t
+robust serialization alone does no t supply peptide topology, monomer
+provenance, or three-dimensional cl osure. This compression supports
+large-library generation and medicinal-chemistry editing, while ring strain,
+target geometry, and environment-dependent conformations remain
+implicit unless connected to a structural model.
+HELM-GPT
+39 occupies the bounded-vocabulary end of this design
+space. HELM keeps monomer identityand inter-monomer bonds explicit,
+so predeﬁned noncanonical building blocks and macrocyclization remain
+visible to the autoregressive model; REINVENT-style reinforcement
+learning
+42 then shifts the generated distribution using permeability and
+KRAS-afﬁnity predictors. The monomer library acts as a practical chemical
+prior, but it also limits exploration to the available vocabulary. Within the
+demonstrated workﬂow, reported property gains are predictor outputs, and
+native three-dimensional structure generation or measured af ﬁnity and
+permeability were not reported. The method is therefore most useful as an
+auditable chemical-language layer.
+PepINVENT
+40 exposes more of each monomer ’s chemical structure
+through CHUCKLES. Masked in ﬁlling can edit canonical residues and
+noncanonical amino acids, including D-residues, N-methylation, and cyclic
+connectivity, while retaining a peptide-oriented grammar. Relative to aﬁxed
+monomer token, the SMILES-derived description permits ﬁner chemical
+edits but increases the burden of vale nce, stereochemical, and synthetic
+checks. Reinforcement-learning scores can guide the policy; based on the
+reported evidence, the principal advance is representationalﬂexibility rather
+than solved geometry or measured developability.
+The comparison is therefore not simply HELM versus CHUCKLES,
+but curated monomer semantics versus more exposed submonomer
+chemistry. HELM-GPT makes the available building blocks and con-
+nectivity readily auditable, whereas PepINVENT gives the generator greater
+freedom to modify molecular structure. Neither notation alone is sufﬁcient
+to establish stereochemical ﬁdelity after decoding , feasible three-
+dimensional closure, a low-energy ensemble, or a target-compatible pose.
+These boundaries reﬂect the generated object rather than a failure of che-
+mical notation.
+Latent-space methods inherit similar boundaries unless the latent
+variables are trained against topology, chemistry, and geometry that matter
+for constrained peptides. Smooth interpolation or sequence reconstruction
+does not ensure that distance in latent space corresponds to closure feasi-
+bility, conformational similar ity, or synthetic accessibility
+43. PepVAE
+demonstrated latent navigation and activity prediction for linear anti-
+microbial peptides
+44. A broad-spectrum antimicrobial-peptide foundation
+2011 2023 2024 2025 2026
+1. Rule-based enumeration
+2. Sequence/notation
+generation and editing
+3. Target-conditioned
+design pipelines
+4. Geometric and
+atom-bond generation
+5. Conformer generation
+and conditioning
+6. Developability:
+generation, editing
+and selection
+7. NCAA-aware structure
+and coordinate support
+Enumerate connections
+A
+A
+G
+G
+L
+F
+K
+K
+Edit residue tokens
+Condition on a target
+x
+y
+z
+Generate graphs / coordinates
+Sample conformations
+Stability
+Permeability
+Stability
+Permeability
+Stability
+PermeabilityCompare property profiles
+[NCAA]
+Represent noncanonical residues
+CycloPs
+HELM-GPT
+PepINVENT
+PepTune
+PepEVOLVE
+AfCycDesign*
+RFpeptides*
+CYC_BUILDER*
+CP-Composer
+CpSDE
+GeoCycler
+APCyc
+RINGER CycLOPS
+(conditioner)
+MuCO
+Bayaraa et al.
+CPGEN
+C2PO
+(editor)
+CycDiff-DPO
+PEGASUS*
+(generation + selection)
+RareFold*
+(prediction/design)
+NCFlow
+(coordinate generation)
+Wu-Zou model
+(structure prediction)
+Fig. 2 | Chronological landscape of constrained-peptide design methods. Meth-
+ods are grouped by their dominant contribution; categories can overlap, and par-
+enthetical labels specify supporting roles. Years follow the cited journal issue or,
+where unassigned, the cited preprint. The year columns are discrete and not time-
+scaled. Asterisks indicate selected, endpoint-speci ﬁc experimental evidence, not
+validation of every capability or candidate. Miniatures illustrate category-level
+concepts rather than individual implementations or measured performance. NCAA,
+noncanonical amino acid. Colors distinguish method categories. A, G, L, K and F
+denote alanine, glycine, leucine, lysine and phenylalanine, respectively.
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 5
+
+[PAGE 6]
+Table 2 | Representative generative, optimization and design-support models relevant to constrained-peptide therapeutics, classiﬁed by primary output object, chemical
+or design scope and pipeline role
+Model Primary output object and scope Explicit representation/
+reconstruction
+Pipeline role/mechanism Rule embedding/selection Evidence/applicability boundary
+CycloPs38 (2011) Cyclized or constrained virtual libraries;
+user-deﬁned residues and linkages,
+including NCAAs
+Residue and linkage rules; externally
+reconstructed 3D
+Generator: combinatorial
+enumeration
+User-speciﬁed residue/linkage
+constraints
+Computational libraries; no learned structure,
+target or developability model
+HELM-GPT39 (2024) Macrocycle strings with NCAAs; de novo
+generation and property optimization
+HELM monomers and bonds;
+SMILES derived downstream
+Generator/optimizer:
+decoder-only GPT with RL
+Constrained HELM vocabulary;
+predictor rewards
+Computational validity/property scores; no
+3D geometry or assays
+PepINVENT40 (2025) Linear or cyclic peptide strings with
+NCAAs; masked completion and
+optimization
+CHUCKLES monomers; atom graph
+reconstructed for scoring
+Generator/optimizer:
+Transformer inﬁlling with
+REINVENT RL
+CHUCKLES grammar; ring,
+solubility and permeability scores
+Computational scores; no conformation;
+novel NCAAs need synthesis checks
+PepTune92 (2025) Therapeutic peptide SMILES; multi-
+objective design with cyclic
+modiﬁcations and NCAAs
+Peptide SMILES; RDKit ETKDG
+conformer reconstruction; AutoDock
+Vina pose scoring
+Generator/optimizer: masked
+discrete diffusion with MCTG
+Bond-dependent masking; invalid
+loss; Pareto rewards
+Predictor and docking benchmarks; no
+assays; predictor and topology limits
+PepEVOLVE91 (2025) Position-edited peptide strings;
+macrocyclic/linear lead optimization
+CHUCKLES strings; externally
+predicted properties
+Editor/optimizer: Transformer,
+bandit routing and RL
+Position-aware masking; multi-
+objective reward
+PepINVENT comparison; no 3D or assays;
+collapse in some settings
+AfCycDesign56 (2025) Designed sequences with AF2-
+predicted structures and binding modes;
+head-to-tail 7–16-mers
+Sequence and cyclic offset; AF2-
+inferred coordinates
+Hybrid: AF2 design or
+hallucination plus structure
+prediction
+Cyclic offset in relative positional
+encoding
+X-ray structures and binding assays;
+canonical head-to-tail scope; no permeability
+RFpeptides57 (2025) Generated backbones and designed
+sequences; head-to-tail macrocyclic
+binders
+Backbone coordinates and cyclic
+RPE; ProteinMPNN-derived
+sequences
+Generative pipeline:
+RFdiffusion backbones plus
+sequence design
+Cyclic RPE; target/hotspot
+conditioning
+SPR, competition and X-ray evidence; no
+noncanonical chemistry or developability;
+post hoc af ﬁnity ﬁltering
+CYC_BUILDER
+60
+(2025)
+Assembled peptide-target complexes;
+canonical head-to-tail or disul ﬁde-
+cyclized binders
+Interface fragments and
+coordinates; closure reconstructed
+during assembly
+Generator: MCTS fragment
+assembly
+Binding, stability and cyclization
+rewards
+TNF-alpha binding and cellular functional
+assays; canonical residues; low-
+micromolar hits
+CP-Composer73 (2025) Target-conditioned sequence-structure
+graphs; stapled, head-to-tail, disul ﬁde
+and bicyclic peptides
+Residue graph and coordinates;
+atomistic chemistry reconstructed
+downstream
+Generator: geometric latent
+diffusion
+Type and distance
+constraints; CFG
+Closure metrics, selected MD; canonical
+residues; no assays
+GeoCycler74 (2026) Constraint-conditioned residue-level
+cyclic structures; several prescribed
+topologies
+Residue-level latent geometry;
+atomistic chemistry reconstructed
+downstream
+Generator: reward-aligned
+diffusion
+Type-gated stair reward; CFG Closure and pass@k ablations; bicyclic cases
+more challenging; no experiments
+APCyc75 (2026) Topology-conditioned sequences and
+residue-level 3D structures; amide,
+disulﬁde and isopeptide cyclization
+Residue tokens and linkage matrix;
+all-atom chemistry reconstructed
+downstream
+Generator: latent diffusion
+with topology heads
+Topology prediction, validity mask
+and Bayesian property guidance
+Large computational benchmark; limited
+chemistries; no synthesis; predictor-based
+properties
+CpSDE
+76 (2025) Atom-bond sequence-structure
+complexes; multiple cyclization types
+Atom-bond graph and coordinates;
+residue sequence routed
+Generator: harmonic SDE with
+residue router
+Graph-Laplacian harmonic prior;
+chemical graph
+Computational benchmark and MD cases;
+canonical router; no assays
+MuCO79 (2026) All-atom cyclic conformers; head-to-tail,
+disulﬁde and isopeptide peptides
+Backbone frames and torsions; side
+chains generated then re ﬁned
+Ensemble generator: SE(3)
+and torsional ﬂow matching
+Cyclic RPE; CPSea training; force-
+ﬁeld reﬁnement
+Energy and diversity metrics; noncanonical,
+target-binding and developability scope not
+demonstrated
+RINGER
+77 (2023) Conformer ensembles of homodetic
+4–6-mer macrocycles
+Internal coordinates; Cartesian
+reconstruction and closure post hoc
+Ensemble generator: diffusion
+Transformer
+Internal-coordinate bias; cyclic
+graph distances
+Metadynamics and simulation-derived
+ensemble benchmark; post hoc closure;
+limited chemistry
+Bayaraa et al. 83 (2026) Backbone ensembles; mixed-chirality
+cyclic 5–7-mers
+Backbone dihedrals and chirality; no
+side chains or atomistic closure
+Ensemble generator: DDPM
+with U-Net
+MD-trained dihedral distributions MD ensemble comparison; no side chains,
+explicit closure, target conditioning or
+property objectives
+CycLOPS82 (2025) Crosslinked-macrocycle ensembles
+conditioned from linear peptides
+All-atom ensembles; conditioned
+from a pretrained linear-peptide ﬂow
+Ensemble conditioner:
+conditioned normalizing ﬂows
+Cyclization loss from tetrahedral
+geometry
+Computational validity and loss analysis;
+validity and steric limitations; no explicit NCAA
+generation
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 6
+
+[PAGE 7]
+model supplies transferable sequence representations45, SQ-DiffuPep adds
+multimodal latent diffusion46, and Diff-AMP integrates generation, identi-
+ﬁcation, prediction, and optimization47. These studies provide useful algo-
+rithmic background, but their mainly linear, canonical peptide domains do
+not by themselves demonstrate const rained topology, noncanonical
+chemistry, macrocyclization geometry, or chameleonic ensemble design.
+For sequence-level models, the claim should match the test. A valid
+grammar shows that a string can be parsed under the chosen representation.
+A retrospective predictor benchmark describes performance on a deﬁned
+data split. A higher predicted reward shows that the generator found regions
+favored by that predictor. These outc omes provide limited evidence for
+measured binding, permeability, or therapeutic improvement when the
+generated chemistry extends beyond the predictor’s applicability domain
+20
+or when benchmark performance varies sharply across data splits and
+representations24.
+These approaches may be most useful as the chemical-language layer of
+a broader design stack. They provide s calable residue planning, explicit
+monomer identity, and a natural inter face for medicinal-chemistry edits.
+Their translational value would increase if symbol-level decisions were
+propagated without loss into atom-le vel connectivity, stereochemistry,
+closure-compatible geometry, conformational ensembles, and assay-aware
+selection.
+Topology-aware target-conditioned structure design
+Topology-aware target-conditioned design offers a comparatively direct
+route from a generated object to an experimentally testable binding
+hypothesis. Earlier structure-based pipelines established complementary
+precedents: exhaustive design of ordered macrocycles48, structure-guided
+anchor extension into enzyme active sites49, rapid template matching with
+cPEPmatch50, and fragment-based assembly with Des3PI51. Generic target-
+aware peptide generators such as PepFlow 52, PPFlow53, PepGLAD54,a n d
+DiffPepBuilder55 contribute transferable geometric priors, but cyclization is
+not uniformly native to their represe ntations. In the models emphasized
+here, cyclization enters the structure representation or the search over
+bound geometry rather than being checked only after a linear binder has
+been proposed. Their binding evidence is interpreted within that context
+and is not generalized to permeability, stability, or broader pharmacology.
+AfCycDesign
+56 modiﬁes AlphaFold2 relative positional encoding with
+a cyclic offset matrix so that the N- and C-terminal residues are treated as
+neighbors during structure prediction and sequence optimization. The
+generative contribution lies in ﬁxed-backbone design and hallucination
+under this topology-aware representation; the structure-prediction com-
+ponent is supporting technology rather than generation by itself. Experi-
+mentally solved structures of designedmacrocycles support fold accuracy,
+while binding assays on target-directed designs support target engagement.
+Within the demonstrated scope, the method provides a clear route to
+canonical head-to-tail cyclic structures, although ensemble and develop-
+ability optimization are outside the reported workﬂow.
+RFpeptides
+57 carries cyclic positional encoding into an RFdiffusion-
+based binder-design pipeline. RFdiffusion supplies the protein-structure
+denoising prior58, while ProteinMPNN performs sequence design on gen-
+erated backbones59. Target structures or hotspot residues condition mac-
+rocyclic backbone generation, followed by computationalﬁltering. Surface
+plasmon resonance and competition assays establish biochemical binding
+for selected designs, and several X-ray complex structures directly test the
+proposed bound geometries. This ev idence is strongest for target-
+conditioned structural competence within canonical head-to-tail macro-
+cycles, a dominant bound state, and post-generation interface selection.
+CYC_BUILDER
+60 reaches a related endpoint through fragment
+assembly and Monte Carlo tree search rather than global denoising.
+Binding, intramolecular stability, and cyclization propensity contribute
+to the search reward, so these criteria affect growth rather than appearing
+only as terminal ﬁlters. The framework supports head-to-tail and dis-
+ulﬁde closure in a canonical residue space. For selected TNF- α designs,
+biochemical binding and cellular reporter or transcriptional responses
+Table 2 (continued) | Representative generative, optimization and design-support models relevant to constrained-peptide therapeutics, classi ﬁed by primary output
+object, chemical or design scope and pipeline role
+Model Primary output object and scope Explicit representation/
+reconstruction
+Pipeline role/mechanism Rule embedding/selection Evidence/applicability boundary
+CycDiff-DPO95 (2026) Target-conditioned sequence-structure
+candidates; head-to-tail binders
+optimized for predicted permeability
+Residue graph and coordinates;
+surrogate-predicted properties
+Generator/optimizer: latent
+diffusion with DPO
+Predictor-derived permeability
+preferences
+Computational benchmark and MD; predicted
+permeability only; canonical head-to-
+tail scope
+C2PO96 (2025) Edited cyclic-peptide atom graphs;
+permeability optimization of existing
+candidates
+Atom graph editing and repair;
+stereochemistry not retained; no 3D
+Editor/optimizer: graph
+estimator, HotFlip and beam
+search
+In-loop permeability estimator;
+post hoc chemical-validity repair
+Computational only; predicted gains depend
+on estimator and repair; no prospective
+permeability assay
+PEGASUS31 (2026) VAE-sampled cyclic candidates; assay-
+informed permeability optimization of
+polar peptides
+Sequence, SMILES, graphs, QM
+features; predictor-derived
+endpoints
+Predictive/generative hybrid:
+VAE exploration plus predictor
+prescreening
+Physicochemical and
+chameleonicity criteria mainly in
+predictors, ﬁlters and selection
+Prospective synthesis, solubility and MDCK-
+MDR1 permeability assays on selected
+designs; limited target, topology-general or
+ensemble claims
+CPGEN
+78 (2026) Heterochiral cyclic ensembles and
+designed sequences; ensemble-based
+inverse design
+C-alpha coordinates, latents,
+sequence; reconstructed atomistic
+ensembles
+Ensemble generator/inverse
+design: partially latent ﬂow
+matching
+Chirality vocabulary;
+multimodal CFG
+Ensemble metrics versus Rosetta-sampled
+references; speed versus Rosetta GenKIC; no
+linkers, N-methylation, property optimization
+or experiments
+RareFold
+66/
+NCFlow67 (2025)
+RareFold: NCAA-containing structure
+prediction; NCFlow: atom-conditioned
+coordinates or complexes; NCAA-aware
+design support
+RareFold: NCAA tokens and
+predicted coordinates; NCFlow:
+atom graph and generated
+coordinates
+RareFold: prediction and
+design support; NCFlow:
+atom-conditioned generation
+NCAA vocabulary; atom-bond and
+pocket conditioning
+RareFold/EvoBindRare: SPR for selected
+NCAA binders; NCFlow: computational only;
+topology and stereochemical coverage
+method-dependent
+The Primary output object and scope column separates the object returned by each method from its declared chemical or design scope. Pipeline roles aredeﬁned by the object that changes. A generator creates a new molecular identity, topology, coordinate set or distribution; an
+editor or optimizer modiﬁes an existing object under an objective; a supporting method predicts, folds, reﬁnes or ranks without creating that object; and a hybrid combines these roles. The Evidence/applicability boundary column reports both validation level and principal scope limit.
+Computational validity, retrospective benchmarking, predicted property optimization, structural validation, binding or cellular assays, measured permeability, and prospective synthesis-and-assay validation support different claims and are not interchangeable.
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 7
+
+[PAGE 8]
+provide prospective functional evidence, whereas post-generation
+molecular dynamics and energy calculations remain computational
+support rather than structural validation of the designed complex.
+HighPlay
+61 provides an adjacent reinforcement-learning example for
+disulﬁde-constrained sequence design with a narrower reported chemical
+and evidentiary scope.
+Together, these systems show how protein-design priors can make
+cyclic target engagement experimentally testable. Cyclic positional encoding
+in AfCycDesign56 and RFpeptides57 is a compact inductive bias for head-to-
+tail closure, while fragment assembly in CYC_BUILDER can impose local
+closure geometry during growth. CycleDesigner
+62 adapts RFdiffusion and
+cyclic structure prediction in a computational binder-design workﬂow, and
+a)
+Sequence- and
+notation-based
+generation
+Input / representation Mechanism and constraints Output
+! Bottleneck: No explicit 3D geometry or conformational -ensemble control C Computational validation
+HELM
+Monomer IDs +
+connectivity
+CHUCKLES
+Residue-separated
+atom strings
+SMILES
+Atom/bond notation
+m₁ m₂ m₃ m₄···
+NCC(=O) | N(C)CC(=O)
+N C C ( = O ) N…
+HELM-GPT
+Autoregressive decoder-only
+next-token generation
+Monomer vocabulary +
+predictor-based RL
+PepINVENT
+Encoder–decoder
+residue-span infilling
+CHUCKLES + fixed edit sites
+REINVENT-style RL
+? ?
+PepEVOLVE
+Position-aware editing
+with bandit routing
+Group-relative advantage updates
+?
+PepTune
+Bond-dependent
+masked discrete diffusion
+Validity loss + Pareto selection
+Monte Carlo tree guidance
+T
+t
+0
+? ? ? ?
+? ?
+Encoded peptides,
+including
+macrocycles, and
+candidate strings
+Property guidance
+HELM
+m₁ m* m₃ …
+CHUCKLES
+NCC(=O) | N(C)…
+SMILES
+N C C ( = O ) …
+b)
+Topology-aware
+structure design
+Input / representation Mechanism and constraints Output
+! Bottleneck: Narrow chemistry, mostly canonical residues;
+limited developability integration C E Computational + selected experimental support
+Endpoints vary by method
+Target + binding site
+Specified cyclic
+topology
+Target Peptide
+Residue schematic
+Gold: hotspot or
+cyclization link
+Cyclic encoding: first/last residues are neighbors Fragment assembly and search
+AfCycDesign RFpeptides CYC_BUILDER
+Cyclic offsets in AlphaFold2
+Confidence + contact losses
+Signed offset example
+0 1 2 -2 -1
+-1 0 1 2 -2
+-2 -1 0 1 2
+2 -2 -1 0 1
+1 2 -2 -1 0
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+RFdiffusion
+with cyclic encoding
+ProteinMPNN
+sequence design
+Interface-derived fragments
+MCTS scores: binding,
+internal geometry + cyclization
+Geometry-matched closure
+Post hoc (method-dependent): structure/confidence rescoring + Rosetta interface filtering
+CYC_BUILDER: MD + MM/PBSA
+Target-conditioned
+cyclic peptide–
+protein complex
+candidates
+Head-to-tail or
+disulfide closure
+(method-dependent)
+c)
+Constraint-
+conditioned
+geometric /
+atom-bond
+generation
+Input / reference Mechanism and method-specific constraints Output / reference
+! Bottleneck: Closure does not ensure stereochemical,
+steric or energetic realism. C Computational validation
+Reference pocket
+PDB 1CWA
+Target context +
+method-specific inputs:
+residue types +
+distances;
+cyclization graph;
+property targets
+CP-Composer
+Geometric latent
+diffusion
+Types + distances;
+classifier-free guidance
+GeoCycler
+Reward-aligned
+latent diffusion
+Distance-based stair rewards for closure;
+anchor-type compatibility required, else zero reward.
+CpSDE
+All-atom coordinates
++ residue identities
+Routed sampling; chemical -graph harmonic prior;
+connectivity-correlated noise.
+APCyc
+Topology-predicting
+latent diffusion
+Chemical-validity masks + online topology injection;
+Bayesian property guidance.
+Cyclic sequence–
+structure candidates
+Reference backbone
+PDB 1CWA
+Illustration, not
+model output
+Side groups omitted
+d)
+Conformational
+ensemble
+generation
+Input / reference Mechanism and method-specific constraints Output / reference
+! Bottleneck: Weak coupling to target binding, developability
+and experimental ensemble data. C Computational comparisons with
+reference conformer distributions
+Cyclic sequence,
+topology + chirality
+L D
+Method-dependent
+conformational input
+φ
+ψ
+RINGER
+Redundant
+internal
+coordinates:
+diffusion
+θ
+Cyclic + chiral
+encoding;
+post-sampling
+ring closure
+Bayaraa
+et al.
+Backbone
+dihedrals:
+DDPM
+Chiral encoding;
+torsion restraints;
+force-field
+refinement
+MuCO
+Backbone +
+side-chain
+flow
+Cyclic encoding;
+force-field
+refinement
+CPGEN
+Partially latent
+flow matching
+Cα
+z
+Chiral encoding;
+CFG: sequence,
+Cα or φ/ψ
+Optional dihedral
+input
+CycLOPS
+Post-training
+conditioning:
+Boltzmann
+generators
+BG
+Lcyc
+Geometry-guided
+sampling
+One sequence,
+multiple conformers
+Colors identify
+conformers,
+not probabilities
+e)
+Developability-
+guided
+optimization
+Input / representation Mechanism and constraints Output
+Cyclic peptides
++ property data
+Permeability
+Solubility
+Lipophilicity
+Polar exposure
+Chemical validity
+Inputs vary by method
+Cyclic peptides
+ranked by predicted
+properties
+Residue-level
+schematics
+Endpoint-specific
+validation required
+CycDiff-DPO — preference alignment during training C
+Target-conditioned
+latent diffusion
+Predicted Caco-2
+permeability ranking
+DPO + reconstruction
+(fixed reference policy)
+C2PO — molecular editing; chirality is not retained C
+Molecular graph +
+permeability predictor
+HotFlip-style
+atom-feature edits
+RDKit validity checks
++ library correction
+PEGASUS — generation, prediction, selection and testing C E
+CycPepV AE
+generation
+Property prediction +
+physicochemical filters
+Synthesis + MDCK-MDR1
+permeability assays
+! Bottleneck: Proxy bias, reward hacking and chemical -validity errors;
+assay dependence and sparse experimental feedback. C E Computational support for all three methods;
+experiments for selected PEGASUS assays.
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 8
+
+[PAGE 9]
+CyclicMPNN63 ﬁne-tunes inverse folding for head-to-tail cyclic backbones.
+As currently implemented, neither mechanism class provides a general
+chemical-graph representation. Sid e-chain lactams, thioethers, hydro-
+carbon staples, multicyclic linkers, backbone N-methylation, D-residues,
+and broader peptidomimetic chemistry generally require additional repre-
+sentation and stereochemical control.
+T h ee v i d e n c ea l s or e mains modality-speciﬁc. A solved design structure
+supports fold accuracy, as demonstrated for AfCycDesign; a solved target
+complex additionally supports the proposed binding mode, as in RFpep-
+tides; and a cellular response adds functional context, as in CYC_BUILDER,
+but may re ﬂect uptake, stability, target engagement, and downstream
+biology simultaneously. Within the surveyed studies, these target-
+conditioned systems provide some of the clearest structural and binding
+validation, while solution ensembles,permeability, stability, and pharma-
+cokinetics require separate evidence.
+Noncanonical design-support me thods can broaden the chemical
+envelope without automatically becoming constrained-peptide generators.
+RoseTTAFold All-Atom
+64 and AlphaFold365 provide general all-atom bio-
+molecular priors, but cyclic topology and modiﬁed residue chemistry still
+require dedicated adaptation. RareFold66 extends residue-token prediction
+and design to selected noncanonical amino acids. NCFlow 67 predicts
+coordinates for chemically speci ﬁed noncanonical residues, whereas
+UNAAGI68 generates side-chain identities and coordinates at atom level.
+NCPepFold69,H i g h F o l d 370,C y c l i c B o l t z 171, and the stereogenic all-atom
+diffusion model of Wu and Zou72 address cyclic-peptide structure predic-
+tion with increasingly explicit chemistry. When cyclization is external to the
+representation or the generated scaffold is ﬁxed, these tools are better
+described as prediction, folding, or chemical-support technologies. These
+capabilities broaden design support but do not by themselves establish de
+novo generation of complete constrained-peptide scaffolds.
+This boundary exposes an interface problem between protein-design
+priors and medicinal chemistry. A target-conditioned model may propose a
+persuasive canonical binder without choosing among alternative closure
+chemistries, preserving noncanonical stereochemistry, or reasoning about
+solvent-dependent polar exposure. Conn e c t i n gt a r g e tg e o m e t r yt oe x p l i c i t
+covalent and ensemble models is therefore a key requirement for expanding
+beyond protein-like macrocycles.
+Within their demonstrated scope, AfCycDesign, RFpeptides, and
+CYC_BUILDER support target-conditioned structural or functional com-
+petence in experimentally tested cyclic peptides. Based on the surveyed
+evidence, broader claims across constrained-peptide chemistry, multi-state
+behavior, or developability would require additional representation and
+assay support. Each model’s contribution is best interpreted at the level of
+the representation and experiment actually used.
+Constraint-conditioned geometric and atom-bond
+generation
+A second line of work makes closure or covalent chemistry the principal
+control variable. CP-Composer73 uses composable type and distance con-
+straints, GeoCycler 74 aligns diffusion with topology-speci ﬁcr e w a r d s ,
+APCyc75 predicts cyclization variables jointly with sequence and structure,
+and CpSDE76 incorporates atom-bond connectivity through a harmonic
+stochastic differential equation. Their shared contribution is generation-
+time control of closure and connectiv ity; within the reported literature,
+validation is predominantly computational.
+CP-Composer decomposes stapled, head-to-tail, disulﬁde, and bicyclic
+designs into composable residue-typ e and pairwise-distance constraints
+within a geometric latent diffusion model. The underlying geometric design
+setting is related to PepGLAD
+54, while DiffPepBuilder55 serves as a specia-
+lized comparison for disulﬁde-constrained design. The constraints alter the
+denoising trajectory and can be combined at inference, enabling zero-shot
+application beyond the linear-peptidetraining distribution. Closure success
+and selected molecular dynamics analyses support geometric plausibility,
+while the outputs remain canonical and no synthesis, binding, or perme-
+ability assays are reported. Within this scope, the method provides a clear
+demonstration of composable geometric control.
+GeoCycler shifts the same class of closure signal from inference-time
+guidance toward training-time reward alignment. Its type-gated reward
+activates distance shaping only when compatible anchor identities are
+present, reducing misleading gradientsfrom chemically incompatible pairs.
+Improvements in pass@k closure metrics support stronger alignment of the
+learned distribution to prescribed topologies. Based on the reported evi-
+dence, difﬁcult multicyclic cases remain more challenging, and synthesis,
+binding, and developability were not evaluated experimentally; the main
+advance is reward-aligned topology control.
+APCyc treats cyclization type and linkage sites as variables predicted
+jointly with sequence and three-dimensional structure. Extended residue
+tokens, a linkage matrix, compatibilitymasks, and equivariant updates make
+topology an explicit part of denoising, while Bayesian posterior guidance can
+bias selected property surrogates. Th e central contribution is automated
+topology-sequence-structure generation. Property-guided results are best
+interpreted as an auxiliary comput ational demonstration because the
+objectives are proxies, experimenta l calibration of uncertainty was not
+reported, and no prospective synthesis or assay was included.
+CpSDE moves further toward chemical explicitness by representing
+cyclization with an atom-bond graph and incorporating that graph into a
+harmonic stochastic differential eq uation through a Laplacian-derived
+prior. Routed sampling alternates all-atom structural denoising with residue
+prediction and supports several backbone- and side-chain-linked closure
+patterns in one framework. Computational energy, afﬁnity, and molecular
+dynamics analyses suggest useful stru ctural behavior, while the residue
+router remains canonical and the demonstrated treatment of stereo-
+chemistry and clashes is limited. CpSDE is therefore best viewed as an atom-
+bond generative advance whose broader noncanonical and experimental
+scope remains to be demonstrated.
+Conformational ensemble generation
+A closed structure is not equivalent to a conformational model. Molecular
+dynamics studies show that cyclic peptides can populate multiple solution
+states21, while experimental and computational analyses link solvent-
+Fig. 3 | Mechanistic taxonomy of constrained-peptide modeling. Panels compare
+a notation-based generation, b topology-aware target-conditioned design,
+c constraint-conditioned geometric and atom-bond generation, d conformational
+ensemble generation and e developability-guided optimization. Routes are alter-
+natives, not one shared pipeline. C/E badges indicate computational/selected
+experimental support; evidence is endpoint-speci ﬁc and predictions are not mea-
+surements. C2PO edits candidates; CycLOPS conditions generators; PEGASUS
+couples generation, prediction, selection and assays. In ( a), blue, amber and dashed
+tokens denote retained, new/edited and masked content; m labels monomer iden-
+tiﬁers, question marks masks, and T/t/0 diffusion steps. In ( b), gold patches mark
+hotspots; matrix entries show signed cyclic offsets. The backbone and receptor-
+pocket illustrations in (c) use cyclophilin A–cyclosporin A coordinates (Protein Data
+Bank, PDB 1CWA)
+125; they are structural references, not generated outputs or
+validation results. Backbone side groups are omitted. In (c), gray, blue and red atoms
+denote carbon, nitrogen and oxygen; gold links indicate cyclization. Bead chains
+schematize residues. Conformers in ( d) share one sequence; their colors encode
+neither elements nor populations/energies. D/L denote residue con ﬁgurations, Cα
+alpha carbon, φ/ψ backbone dihedrals, θ a local angle, z latent variables, BG Boltz-
+mann generator, Lcyc cyclization guidance loss, HELM hierarchical editing language
+for macromolecules, CHUCKLES residue-separated chemical notation, SMILES
+simpliﬁed molecular-input line-entry system, RL reinforcement learning, MCTS
+Monte Carlo tree search, MD molecular dynamics, MM/PBSA molecular
+mechanics/Poisson–Boltzmann surface area, DDPM denoising diffusion probabil-
+istic model, CFG classiﬁer-free guidance, DPO direct preference optimization, VAE
+variational autoencoder, MDCK-MDR1 Madin –Darby canine kidney cells expres-
+sing MDR1/P-glycoprotein. Only selected PEGASUS peptides underwent solubility
+and MDCK-MDR1 permeability testing. Related property-guided methods include
+HELM-GPT, PepINVENT, PepEVOLVE, PepTune and APCyc.
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 9
+
+[PAGE 10]
+dependent conformations to chameleonic behavior 23 and membrane
+transit22. Ensemble methods therefore target a distribution of accessible
+states rather than a single bound or minimum-energy conformation. Their
+quality depends on population ﬁdelity and physical plausibility, not
+diversity alone.
+RINGER
+77 generates macrocyclic conformers from two-dimensional
+inputs by diffusing redundant internalc o o r d i n a t e sw i t hcyclic positional
+encoding. Internal coordinates provide a strong inductive bias for torsional
+coupling and chirality, and reported benchmarks show good agreement
+with simulation-derived conformer ensembles for small homodetic mac-
+rocycles. Ring closure is nevertheless completed through post-generation
+optimization, and the demonstrated chemical domain is limited. Within
+t h a td o m a i n ,R I N G E Ri sb e s tp o s i t i o n e da sa ne fﬁcient ensemble generator
+with partial, rather than fullynative, closure enforcement.
+CPGEN
+78 uses partially latent ﬂow matching to generate heterochiral
+cyclic-peptide ensembles and to infer sequences from C α geometry or
+backbone-dihedral distributions. Sequence, coordinate, and Ramachandran-
+distribution conditioning enter through multimodal classiﬁer-free guidance,
+and D-residues are represented explicitly. The method ’s distinctive con-
+tribution is ensemble-conditioned sequence design, not property optimiza-
+tion. Its current evidence is computational and based on Rosetta-derived
+reference ensembles; linkers, N-methylation, environment-speciﬁc popula-
+tions, and experimental observables remain outside the demonstrated scope.
+MuCO
+79 decomposes conformer gener ation into topology-aware
+backbone sampling, generative side-chain packing, and force-ﬁeld reﬁne-
+ment. Training on cyclic structures f rom CPSea supplies a topology-rich
+structural prior80,w h i l et h eﬁnal physics-based stage uses a protein force
+ﬁeld related to CHARMM36m81 to improve local packing and energetic
+plausibility. This modular design illustrates how learned and physical
+components can share the task, although the forceﬁeld remains an external
+reﬁnement layer. Based on the reported implementation, the method is best
+read as a computational conformer-generation work ﬂow rather than as
+target-speciﬁc binder generation or permeability optimization.
+Other approaches provide comple mentary ensemble primitives.
+CycLOPS
+82 introduces cyclization losses into Boltzmann generators without
+retraining, although sample validity and steric quality can remain limiting.
+The Bayaraa diffusion model 83 reproduces mixed-chirality backbone-
+dihedral distributions efﬁciently, while side-chain treatment and explicit
+closure remain limited. CyclicCAE84 learns a conformational latent space
+with terminal bond-geometry constraints. MacroConf85 provides a dataset
+and work ﬂow for evaluating macrocycle conformer generators against
+solution NMR data. These complementary approaches and resources
+support the feasibility of learning or steering ensemble distributions, while
+end-to-end constrained-peptide ther apeutic design requires additional
+coupling to chemistry, target, and assay evidence.
+For ensemble generation, comparison with simulation is a retro-
+spective computational benchmark rather than experimental validation.
+CREMP provides a large conformer-r otamer resource for macrocyclic-
+peptide machine learning
+86, but reference ensembles inherit force-ﬁeld and
+sampling assumptions. Direct force-ﬁeld assessment shows that population
+accuracy can vary substantially across cyclic peptides 37. Conformational
+sampling studies also show that selecting relevant macrocycle states is
+environment- and ﬂexibility-dependent
+87, and permeability ranking can
+require ensemble-derived three-dimensional descriptors when two-
+dimensional descriptors cannot distinguish stereoisomers
+88. More persua-
+sive evaluation would connect generated populations to independent NMR,
+crystallographic, hydrogen-exchange,or permeability-related observables;
+enhanced-sampling studies provide one computational bridge but not
+experimental proof
+89.
+Developability-guided optimization
+When generation is coupled to property scores, the central question
+becomes whether the estimator is reliable in the chemical and assay
+domain being optimized. Cyclic-peptide permeability models can fail
+outside a de ﬁned applicability domain
+20, and their relative rankings
+depend on data split, representation, and assay composition 24. Optimi-
+zation can also exploit activity cliffs28 or retrospective artifacts that do not
+survive prospective ADME testing 29. Accordingly, an increase in a pre-
+dicted objective is evidence of surrogate optimization, not experimentally
+validated therapeutic improvement, unless the corresponding endpoint is
+measured prospectively.
+Property guidance is mediated by a scoring engine whose repre-
+sentation, labels and interface can be as consequential as the generator.
+Predictors may enter generation as black-box rewards, differentiable gui-
+dance, preference labels or acquisition functions, whereas terminalﬁlters act
+downstream on already proposed can didates. Repeated queries during
+reinforcement learning, tree search or preference optimization exert
+stronger selection pressure than one-offﬁltering and can amplify calibration
+e r r o ro ra c t i v i t yc l i f f s
+90. Training labels, split strategy, assay provenance,
+applicability domain, uncertainty estimate and query budget should
+therefore be reported for any predictorused in the design pipeline, together
+with the point at which it intervenes.
+Available scoring engines encode different approximations to peptide
+chemistry. Descriptors andﬁngerprints are inexpensive and often effective
+within a restricted scaffold series, but they compress conformational het-
+erogeneity into static features. Sequence and SMILES encoders learn dis-
+tributed context, graph networks ret ain explicit connectivity, and three-
+dimensional or ensemble-derived models can capture geometry-dependent
+exposure at greater data and computational cost
+24. Hybrid systems combine
+these representations with assay metadata or physical descriptors31.A r c h i -
+tecture should be matched to the endpoint and chemical domain rather than
+treated as an interchangeable reward layer.
+PepEVOLVE91 and PepTune92 illustrate two sequence-level routes to
+property-guided search. PepEVOLVE directs edits through position-aware
+routing and relative-advantage updates, whereas PepTune combines
+peptide-aware discrete diffusion with tree-guided maintenance of a pre-
+dicted Pareto set. In both cases, multiple objectives alter generation rather
+than merely rank aﬁxed library. Their evidence remains computational and
+predictor-dependent; within the repor ted studies, constrained-peptide-
+speciﬁc three-dimensional topology, closure geometry, and ensemble
+competence are not established.
+For PepTune, this interface is explicit. Its MCTG scoring suite uses
+endpoint-speciﬁc models whose outputs guide tree search and shape the
+predicted Pareto set. Solubility, hemolysis and non-fouling are scored by
+XGBoost classi ﬁers trained on PeptideCLM peptide-SMILES embed-
+dings; membrane permeability is scored by an XGBoost regressor using
+PeptideCLM embeddings; and binding af ﬁnity is estimated by a cross-
+attention regressor that combines PeptideCLM peptide embeddings with
+ESM-2 target-protein embeddings. PeptideCLM provides a peptide-
+aware chemical representation for modi ﬁed and cyclic structures
+93.
+PeptideCLM-2 extends the family through scaled BERT-style SMILES
+encoders and pretraining objectives that combine masked-token learning
+with physicochemical-descriptor regression
+94. The later model broadens
+endpoint coverage but was not part of the reported PepTune pipeline.
+Neither encoder explicitly resolves three-dimensional or environment-
+dependent conformational ensembles, so improved endpoint prediction
+should not be read as evidence of a conformational mechanism.
+CycDiff-DPO
+95 applies preference alignment to a target-conditioned
+geometric macrocycle generator using rankings from a Caco-2 permeability
+predictor. The optimization follows the direct-preference principle intro-
+duced for language models 33, while reconstruction regularization helps
+preserve sequence-structure ﬁdelity and computational binding metrics.
+The reported gains concern predicted permeability and related docking,
+energy, and molecular dynamics analyses; permeability was not measured
+experimentally. Relative preference optimization may reduce sensitivity to
+absolute score scale, but it does not by itself correct calibration error, scaffold
+bias, applicability-domain limitations, or activity cliffs in the underlying
+predictor.
+APCyc
+75 is a boundary case between topology generation and devel-
+opability guidance. Its posterior guidance allows selected property
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 10
+
+[PAGE 11]
+surrogates to inﬂuence sampling, but the model ’s main advance is joint
+prediction of cyclization topology, sequence, and structure. The property
+results are best read as a computationaltest of auxiliary guidance rather than
+as evidence for a validated developability platform.
+C2PO96 is better characterized as an estimator-driven editor or prop-
+erty optimizer than as a de novo constra ined-peptide generator. It starts
+from a cyclic peptide and uses HotFlip-style gradients97 from a permeability
+estimator to propose atom-level chemical modiﬁcations. Gradient-guided
+edits may improve predicted permeability but can produce invalid struc-
+tures. The work ﬂow applies chemical-validity checks and library-based
+correction; however, its outputs do notretain stereochemical information.
+C2PO is informative as a case study in predictor-guided editing rather than
+evidence of measured permeability improvement or topology-aware
+generation.
+PEGASUS
+31 is best treated as an assay-rich, permeability-focused
+predictive/generative hybrid and de velopability case study. It combines
+large-scale proxy-assay data and Ca co-2-labeled sets with graph and
+quantum-mechanical features and a sequence variational autoencoder
+(VAE) for candidate exploration and prescreening. Its main value lies in
+assay-informed permeability modeling, candidate exploration, and mea-
+sured permeability evidence; physicochemical and chameleonicity criteria
+act mainly through prediction,ﬁltering, and selection rather than strongly
+rule-embedded generation. Prospective synthesis, solubility measurements,
+and MDCK-MDR1 permeability assays for selected designs provide
+stronger evidence than predicted scores alone. The study does not, however,
+establish a general solution to topol ogy-aware generation, target-speciﬁc
+binding, or conformational-ensemble design.
+These examples are revisited at the cross-model level below. Within the
+present family, the key distinction is whether a developability signal merely
+ranks a proposed library or actively changes editing, denoising, preference
+alignment, posterior guidance, orcandidate exploration. HELM-GPT
+39 and
+PepINVENT40 illustrate predicted property enrichment without measured
+developability, CycDiff-DPO95 and C2PO 96 illustrate estimator-driven
+optimization without prospective permeability assays, and PEGASUS 31
+provides the contrasting case in which selected designs were synthesized and
+assayed for solubility and MDCK-MDR1permeability. The strongest claim
+remains the one for which the generated chemical space,optimized objec-
+tive, and measured assay are aligned.
+Predictor applicability is therefore the controlling uncertainty across
+this category. CycPeptMPDB supplies a large curated source of cyclic-
+peptide permeability records
+98, but source and assay imbalance remain
+important. CycPeptMP99,M u l t i _ C y c G T100,M u C o C P101, the representation
+study of Cabezon and co-workers102,M u l t i C y c P e r m e a103, and PCPpred104
+illustrate different sequence, graph, multimodal, and multi-assay prediction
+strategies. A descriptor-based macrocycle model provides a further trans-
+ferable scoring baseline
+105. None should be treated as universally calibrated
+across new scaffolds, topologies, stereochemistries, and assay formats.
+Monte Carlo dropout offers a lightweight Bayesian approximation
+106,d e e p
+ensembles provide a scalable alternative107, and conformal prediction sup-
+plies coverage-oriented uncertainty estimates under exchangeability
+assumptions108.
+Developability beyond permeability is less mature for the models
+discussed here. PlifePred models blood half-life for natural and modiﬁed
+peptides25, a simple physicochemical regression estimates serum half-life for
+unmodiﬁed sequences109, and transfer learning with enzymatic-cleavage
+features extends half-life prediction across species and organs26. HAPPENN
+predicts hemolytic propensity27, while Hemolytik provides experimentally
+annotated hemolytic and non-hemolytic sequences110; these safety resources
+are dominated by linear or canonical peptides and therefore offer metho-
+dological transfer rather than validated constrained-peptide rewards. For
+multi-objective strategy, MOFormer
+111 uses Pareto-based feedback, whereas
+HMAMP112 uses a hypervolume-driven objective. Both show how trade-offs
+can be preserved without collapsing activity, hemolysis, and toxicity into one
+weighted score, while constrained topology and macrocycle developability
+remain outside their demonstrated scope.
+Pareto search, direct preference optimization, reinforcement-learning
+rewards, and Bayesian or conformal acquisition become more persuasive
+when chemical validity is enforced, u ncertainty and applicability are
+incorporated, and the optimized endpoint is tested prospectively. Within
+the surveyed literature, few constrained-peptide programs combine these
+elements in a single evidentiary frame. The strongest studies therefore report
+generation, predictor validation, domain analysis, and assay measurement
+together.
+Cross-model comparison and methodological
+limitations
+Across model families, representationcreates a persistent capability trade-
+off rather than a simple hierarchy of model quality. HELM-GPT39 preserves
+curated monomer semantics and explicit bonds, PepINVENT 40 exposes
+more submonomer chemistry, and SELFIES 41 demonstrates syntax
+robustness for general molecular strings. Residue-level structure models
+encode target and closure priors whil e compressing atomistic chemistry.
+CpSDE76 broadens explicit connectivity at atom level, whereas NCFlow67
+focuses on noncanonical side-chain p lacement. Within the surveyed lit-
+erature, few representations preserve residue semantics, broad covalent
+chemistry, stereochemical ﬁdelity, and ef ﬁcient multi-state geometry
+simultaneously.
+Topology is represented with similarly uneven ﬁdelity. Head-to-tail
+adjacency can be encoded compactly, whereas side-chain linkages, mixed
+crosslinks, and multicyclic scaffoldsrequire compatible chemistry, closure
+geometry, stereochemistry, and local strain to agree. GeoCycler shows that
+multicyclic constraint sat isfaction remains more dif ﬁcult than simple
+closure
+74. Stereogenic all-atom prediction can improve chemical ﬁdelity72,
+but a valid graph or satisﬁed distance restraint does not by itself establish a
+strain-free or synthetically accessible macrocycle. Force-ﬁeld benchmarks
+show why local energetic plausibility must be evaluated rather than
+assumed
+37.
+Structural realism also depends on the object a model was built to
+generate. Target-conditioned systems often emphasize one bound pose,
+conformer generators sample unbound or simulation-like states, and
+property optimizers commonly operate on two-dimensional descriptions.
+For chameleonic peptides, aqueous, membrane-competent, and target-
+bound populations may differ
+23. Membrane-transit studies emphasize
+solvent-dependent redistribution22, while conformational-sampling work
+shows that relevant macrocycle states can depend strongly on
+environment
+87 and molecular ﬂexibility113. Pipelines that combine these
+models are most informative when they preserve molecular identity and
+uncertainty across state changes rather than treating the outputs as inter-
+changeable structures.
+Evidence levels remain family-speciﬁc and should be compared as
+claims, not as interchangeable scores. RFpeptides reports solved target
+complexes and biochemical binding
+57, AfCycDesign reports solved designed
+structures and binding assays56, and CYC_BUILDER adds target-speciﬁc
+cellular functional assays60. PEGASUS reports prospective synthesis, solu-
+bility measurements, and MDCK-MDR1 permeability for selected designs,
+but with limited target context31. Most other claims in the surveyed literature
+rely on formal validity, closure, docki ng, energy, retrospective property
+prediction, or short molecular-dynamics trajectories. Designed membrane-
+traversing macrocycles provide a rare coherent program in which structure,
+permeability, and in vivo exposure were assessed together9. Scores or assays
+from separate studies should not be combined to imply that one molecule
+satisﬁes binding, permeability, stability, pharmacokinetics, and synthesis
+requirements. Even in experimentally tested studies, candidate numbers,
+scaffold breadth, prospective replication, and synthetic-feasibility reporting
+are often limited.
+Rule embedding also varies in strength and location. Representation-
+level topology, constrained decodi ng, denoising guidance, preference
+objectives, and posterior guidance c an directly shape the sampled dis-
+tribution; relaxation, ranking ﬁlters, docking, and external predictors
+usually evaluate or reorder candid ates after proposal. Rosetta-based
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 11
+
+[PAGE 12]
+relaxation and design are powerful but external unless coupled into the
+generative objective34. Docking remains program-dependent35, and generic
+generative benchmarks such as GuacaMol43 do not test peptide closure or
+stereochemistry. Model reports shouldtherefore state where each rule enters
+and which failure modes are left to evaluation.
+Surrogate optimization should be interpreted through validation
+design rather than score gain alone. Sparse and heterogeneous cyclic-
+peptide assays make applicability domains narrow
+20; activity cliffs can
+turn small edits into misleading score jumps 28; prospective ADME stu-
+dies show that transfer can fail29; and real-world molecular shifts may not
+resemble standard benchmark out-of-distribution settings 114. Leakage-
+resistant splits, scaffold or topology holdouts, uncertainty intervals,
+explicit out-of-domain analysis, and prospective synthesis or assay are
+therefore not optional additions. They de ﬁne the level of claim that an
+optimized score can support.
+Out-of-distribution failure depends on the represented object. String
+models may remain syntactically valid while combining rare modiﬁcations
+or linkages in unsupported chemical contexts
+114. Residue-level geometry can
+satisfy a coarse closure restraint yet imply atomistic clashes, strained bonds
+or incompatible stereochemistry; atom-bond generators may preserve local
+valence while missing global ring strain or accessible closure77.C o n f o r m e r
+models can collapse towards familiar ring sizes, omit low-population states
+or reproduce biases in simulation-derived training ensembles37. Property-
+guided search has a different pathology: optimization can populate regions
+favored by a surrogate even as calibration and assay relevance deteriorate.
+Applicability analysis should therefore be conditional on topology, ring
+size, linkage chemistry, stereochemical composition, modiﬁcation burden
+and assay format. Pre-speciﬁed family holdouts, distances to training data,
+calibration curves, ensemble disagreement and abstention rates should be
+reported globally and within these strata. Conformal intervals can make
+refusal or qualiﬁcation auditable, but marginal coverage under exchange-
+ability does not guarantee reliability under unrestricted chemical shift
+20.
+Unsupported classes are more accurately described as outside the demon-
+strated scope than absorbed into anaggregate performance estimate.
+Multidimensional evaluation and pipeline attribution
+Objective comparison req uires a capability pro ﬁle rather than a scalar
+ranking. Chemical identity, topology, stereochemistry, three-dimensional
+geometry, ensemble ﬁdelity, target engagement, developability, synthetic
+tractability, uncertainty and experimental evidence answer different ques-
+tions. A method should be assessed on the object and endpoints it claims to
+generate; an untested dimension is“not evaluated”, not an inferred success
+or a zero. Comparisons within a dimension require commensurate objects,
+endpoints, data provenance and splits, denominators and evaluation bud-
+gets; otherwise, evidence proﬁles should be presented separately.
+Table 3 converts these dimensions into minimum reporting require-
+ments. Object-level metrics should precede property or experimental end-
+points, and every rate should retain itsdenominator: validity before repair,
+closure by topology, stereochemicalerror, conformer coverage against an
+identiﬁed reference, and assay success among compounds actually syn-
+thesized and tested. Subgroup results require sample sizes and uncertainty,
+especially for small or chemically unusual classes. Reproducibility also
+requires disclosure of the data and a ssay source, preprocessing and split
+deﬁnition, metric implementation, numbers of generated samples and
+Table 3 | Multidimensional evaluation and reporting framework for constrained-peptide generative systems
+Dimension Operational question Minimum reporting Interpretive boundary
+Chemical identity, validity
+and stereochemical ﬁdelity
+Fully speciﬁed and valid
+before repair?
+Valid fractions before and after repair; valence, formal
+charge, residue-to-atom mapping and exact
+stereochemistry
+Parsing or repair does not establish
+synthesizability or three-dimensional plausibility.
+Topology compliance Intended covalent topology
+satisﬁed?
+Closure rates by topology; correct linkage atoms,
+bond order and ring count; failures by ring size;
+closure geometry or strain
+Distance compliance alone does not establish
+chemically valid, low-strain closure.
+Representation ﬁdelity Explicit, inferred,
+reconstructed or absent?
+Round-trip molecular identity; isomer,
+stereochemistry and topology preservation; losses at
+model handoffs
+Do not attribute downstream-reconstructed
+information to the generator.
+Three-dimensional
+plausibility
+Physically credible, task-
+compatible coordinates?
+Clashes, strain and bond geometry; independent
+structural comparisons; multiple seeds; con ﬁdence
+calibration
+Conﬁdence, docking scores or brief relaxation
+alone do not validate structures.
+Ensemble and environment
+ﬁdelity
+Relevant state populations
+reproduced across
+conditions?
+Conformer coverage and precision; distributional
+metrics; population uncertainty; environment labels;
+available independent observables
+Diversity or low energy does not establish
+Boltzmann or environment-dependent
+population ﬁdelity.
+Target-speciﬁc
+performance
+Intended target engagement
+and deﬁned mechanism?
+Target holdout; separate docking, biochemical and
+cellular results; af ﬁnity or function; negatives and
+replicates
+Predicted poses do not establish binding; cellular
+responses can con ﬂate binding, uptake, stability
+and downstream biology.
+Developability Assay-aligned endpoint and
+in-domain prediction?
+Endpoint and assay identity; split strategy; calibration
+and applicability domain; separate predicted and
+measured results
+Score gains are not measured developability;
+assays are not interchangeable.
+Generalization and
+uncertainty
+Claims supported across
+constrained-peptide
+classes?
+Results and sample sizes by topology, ring size,
+linkage, stereochemistry and noncanonical content;
+OOD holdouts; coverage and abstention
+Aggregate metrics can hide class-speciﬁc failure;
+uncertainty guarantees remain assumption-
+dependent.
+Synthetic tractability Candidates synthesizable
+and analytically con ﬁrmed?
+Monomer and reaction constraints; attempted and
+successful syntheses; yield, purity, identity and failure
+reasons
+Generic accessibility scores miss peptide
+coupling, macrocyclization, puri
+ﬁcation and
+monomer-supply constraints.
+Evidence level and pipeline
+attribution
+Endpoint-speciﬁc evidence
+and contributing pipeline
+components?
+Evidence level for each claimed endpoint; complete
+candidate funnel; ﬁxed budgets; prespeciﬁed criteria;
+matched ablations; generated, synthesized and
+tested counts; failures and success rates
+Evidence is endpoint-speci ﬁc; hits validate the
+composite workﬂow unless generator, selection
+and experimental contributions are separated.
+Dimensions are reported as a standardized evidence-and-reporting proﬁle rather than collapsed into a single score. “Not evaluated” should be used when a method does not claim or test a dimension. All
+rates require explicit denominators, and subgroup results should include sample sizes and uncertainty. Across applicable dimensions, reports should identify the data and assay source, preprocessing and
+split deﬁnition, metric implementation, numbers of generated samples and independent runs, random seeds, sampling or inference budget, model version or che ckpoint, and uncertainty estimates. For
+each claimed endpoint, specify the supporting evidence, distinguishing computational predictions from biochemical, cellular or in vivo measurem ents where applicable.
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 12
+
+[PAGE 13]
+independent runs, random seeds, sampling or inference budget, model
+version or checkpoint, and uncertainty estimates.
+End-to-end success must also be separated from generator perfor-
+mance. A peptide emerging from exte nsive sampling, predictor ranking,
+structural reﬁnement, expert inspection and experimental screening vali-
+dates the composite workﬂow, but does not identify the responsible com-
+ponent. Reports should retain the candidate funnel from raw proposals to
+tested compounds, including counts entering and leaving each stage, failure
+reasons, manual interventions and any reuse of experimental information
+during selection.
+Where feasible, matched-budget ablations provide a direct route to
+attribution. Generator-only output, generator plus property scoring,
+generator plus structural re ﬁnement and the complete work ﬂow can be
+compared under the same sampling and testing budget. When full
+prospective ablation is impractical, reports should at minimum provide
+the complete candidate funnel and computational ablations under aﬁxed
+sampling budget. Selection rules and acceptance thresholds should be
+ﬁxed before outcomes are known; blinded or externally held-out
+experiments provide a stronger test than post hoc enrichment of a
+favorable subset.
+Overall, each family contributes useful components, but cross-model
+comparison exposes how often molecular identity, uncertainty, and evi-
+dence level are weakened at handoffs between representation, geometry,
+property prediction, and validation. The next section therefore turns from
+diagnosis to a staged dependency roadmap for more coherent constrained-
+peptide design systems.
+Residual bottlenecks and model evolution roadmap
+The remaining bottlenecks form a dependency chain. Chemical identity and
+stereochemistry determine what can be built; topology and geometry
+determine what can close and bind; conformational populations determine
+which physicochemical properties are expressed; decision models negotiate
+competing objectives; and synthesis-assay feedback tests whether the
+computational hypothesis survives translation. Figure4 summarizes these
+proposed dependencies and the experimental feedback linking later stages
+to earlier design decisions. Improvements at later layers are unlikely to
+compensate for ambiguous chemistry or invalid topology inherited
+upstream.
+A next-generation representation would bene ﬁt from enforcing
+molecular identity wherever ambiguity is unacceptable. HELM-GPT
+39 and
+PepINVENT40 show complementary residue-level grammars; CpSDE 76
+provides atom-bond topology; NCFlow67 and UNAAGI68 illustrate local
+atom-level handling of noncanonical side chains. A hybrid residue-atom
+grammar could retain peptide-scale semantics and ef ﬁcient sequence
+planning while using local atom graphs to resolve N-methylation, D- andβ-
+amino acids, thioethers, lactams, staples, multicyclic linkers, and stereo-
+chemistry. The relevant benchmark is faithful decoding of identity and
+connectivity, not novelty alone.
+Once chemical identity is stable, g enerated geometry should remain
+compatible with both covalent topology and conformational multiplicity.
+RINGER
+77 provides internal-coordinate ensemble generation, the Bayaraa
+model83 learns mixed-chirality dihedral distributions, CPGEN78 conditions
+on ensemble-level backbone statistics, and CyclicCAE84 supplies a latent
+Translation
+layer
+Decision
+layer
+Mechanistic
+construction
+layer
+Foundation
+layer
+Transferable
+methods
+Protein design
+Molecular
+dynamics
+Graph
+generation
+Boltzmann
+generators
+Bayesian
+optimization
+Uncertainty
+quantification
+Synthesis-aware
+design
+Peptide-specific
+adaptation required
+Synthesis and assay validation
+Robust multiobjective optimization Conformation-aware developability
+Topology-general generation Multi-state conformational modeling
+Hybrid residue–atom grammar Stereochemically explicit chemistry
+Experimental
+feedback
+Peptide synthesis Cyclization yield
+Permeability assays
+Objective 2
+(maximize)
+Objective 1 (maximize)
+Applicability domain
+Pareto optimal
+Dominated
+Pareto trade-offs · Uncertainty · Applicability domain
+Exposed polarity
+Stability
+Intramolecular H-bonding Exposed polarity · Stability
+Head-to-tail cyclic Side-chain bridge Bicyclic (crosslink)
+Mixed cyclization · Validity masks · Linker grammar Aqueous Membrane-like Target-bound
+Ala D-Leu Xaa
+Residue tokens · Atom graphs · Linkers
+R
+H
+Noncanonical residues
+CO₂H
+NH₂ CH₃
+H
+D-residues
+O
+R N
+CH₃
+R′
+N-methylation
+Fig. 4 | Proposed dependencies and experimental feedback in constrained-
+peptide design. Chemical representations support topology generation and multi-
+state conformational modeling, which inform developability assessment, multi-
+objective optimization and experimental validation. Solid arrows indicate proposed
+dependencies; dashed purple arrows return experimental feedback to optimization
+and topology generation. The sidebar lists transferable methods requiring peptide-
+speciﬁc adaptation. In the Pareto plot, green and gray points denote nondominated
+and dominated candidates; error bars illustrate uncertainty, and the shaded region
+represents an applicability domain. Molecular depictions, membrane transport and
+optimization plots are schematic, not quantitative data. In the atomistic drawings in
+the hybrid residue –atom grammar and conformation-aware developability mod-
+ules, gray, blue, red and white spheres denote carbon, nitrogen, oxygen and
+hydrogen, respectively. In the residue tokens, Ala denotes alanine, D-Leu denotes D-
+leucine, and Xaa denotes an unspeci ﬁed residue. R and R ′ denote variable
+substituents.
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 13
+
+[PAGE 14]
+backbone representation. These methods are better viewed as building
+blocks for multi-state design than as complete therapeutic-design systems.
+Closure should emerge with bond-compatible coordinates, and aqueous,
+membrane-like, and target-bound states should be represented when
+mechanistically relevant. A single plausible structure would not, by itself,
+support an ensemble-level claim; topology should remain intact across
+sampled states and population estimat es should have a physically inter-
+pretable reference.
+Property optimization becomes more defensible when it consumes
+state-dependent features and reports the limits of the estimator. PEGASUS
+combines assay-derived and quan tum-mechanical descriptors
+31,
+applicability-domain analysis identiﬁes where permeability predictions are
+supported20, and systematic benchmarking exposes variation among cur-
+rent AI methods 24. Chameleonicity metrics provide a framework for
+quantifying environment-dependent polarity115,w h i l ed e s c r i p t o r - b a s e d
+macrocycle models illustrate the value and limits of simpler scoring
+functions105. Rather than returning one maximized score, a decision layer
+could provide calibrated trade-offs, uncertainty estimates, and the scaffold,
+topology, assay, and chemical domain in which each estimate is supported.
+The loop closes through peptide-speciﬁc synthesis and assays. Bulk
+live-cell permeability measurement can generate experimentally grounded
+labels at scale32. Self-driving-laboratory principles provide a general tem-
+plate for automated experiment selection 116, and self-play reinforcement
+learning in protein engineering illustrates how iterative experimental
+feedback can alter design policies
+117. Generic synthetic-complexity scores
+such as SCScore118 are useful comparators but do not capture monomer
+availability, coupling dif ﬁculty, macrocyclization outcome, puri ﬁcation
+burden, or analytical conﬁrmation in peptide synthesis. Small batches may
+be especially informative when chosen to distinguish competing model
+hypotheses, test an out-of-distribu tion region, or calibrate uncertainty
+rather than simply conﬁrm the top-ranked score.
+This ordering also clari ﬁes failure diagnosis. Chemical or stereo-
+chemical errors should remain distin guishable from topology failure;
+ensemble mismatch should not be relabeled as a property-prediction error;
+and unsuccessful synthesis should notbe used to infer that a binding model
+was wrong. Layer-speciﬁc attribution is importantif experimental feedback
+is to update the component that actually failed.
+Interoperability turns these layer s into a design system. Ideally, a
+monomer or bond edit would propagate without loss of identity into
+coordinates, ensemble populations, property features, and synthetic anno-
+tations. CPSea provides target-complex training data
+80,C R E M Pp r o v i d e s
+macrocyclic conformer-rotamer ensembles86, SPICE supplies diverse ato-
+mistic molecular and peptide conﬁgurations for learned potentials119,a n d
+CyclicPepedia organizes natural andsynthetic cyclic-peptide knowledge120.
+Because these resources differ in provenance and domain, transferred priors
+should carry explicit data-source and applicability labels.
+Staged integration is likely to be more tractable than an all-purpose
+monolith. Near-term systems could pair a chemical grammar with hard
+validity constraints, one geometric regime, and one well-de ﬁned assay
+domain, then add environment-co nditioned ensembles and broader
+objectives as lower-level performance stabilizes. Useful success criteria
+include retained rule compliance across interfaces and prospective evidence,
+rather than the number of modules assembled.
+Future directions
+The most tractable advances lie at identity-preserving interfaces where one
+capability hands off to another. Progress should therefore be judged not only
+by adding modules, but by whether chem ical identity, stereochemistry,
+topology, conformational state, assay context, and uncertainty remain
+traceable across the design work ﬂow. Useful next steps are those that
+broaden topology, connect conformational states to measured properties,
+and use experiments to challenge rather than merely con ﬁrm model
+rankings.
+Topology selection should move inside stereochemically explicit che-
+mical grammars rather than remain a short menu of predeﬁned closures.
+Existing stereogenic, reward-aligned, automated-linkage, and atom-bond
+generative approaches provide partial ingredients
+72,74–76, but the next step is
+to let target and property context choose among head-to-tail, side-chain,
+disulﬁde, thioether, stapled, and multicyclic solutions under shared validity
+rules. Residue-level planning should therefore be coupled to atom-level
+valence masks, chiral constraints, a nd reaction-compatible linkage tem-
+plates. Conservative validity gates would be essential, because a larger
+topology space is useful only if gener ated candidates remain chemically
+interpretable.
+Environment-conditioned ensembles provide a direct bridge between
+geometry and developability.Current internal-coordinate,ﬂow-matching,
+mixed-chirality diffusion, and autoencoder methods offer useful ensemble
+primitives
+77,78,83,84, but water, membrane-like media, and target-bound states
+are not yet commonly linked within one objective. Future models could
+preserve a shared molecular identity across condition-speci ﬁc ensemble
+heads, with population losses anchored by simulation, NMR, hydrogen-
+exchange, crystallographic, or permea bility-related observables. Because
+conformational sampling canm i s sr e l e v a n ts t a t e si nﬂexible macrocycles
+113,
+agreement among several independent physical signals would be more
+convincing than reliance on one energy model.
+Environment-conditioned ensembles also impose a throughput con-
+straint that is absent from single-state objectives. Cost scales with candidate
+count, environmental states, conformers per state and the physical eva-
+luations applied to each conformer; repeated relaxation or enhanced sam-
+pling is therefore dif ﬁcult to reconcile with unrestricted library-scale
+search
+83. Learned conformer generators and conditioned Boltzmann
+models82 can amortize part of this cost, but they inherit assumptions from
+the reference sampler, forceﬁeld and training domain37.
+A tiered design loop can allocateﬁdelity selectively. Two-dimensional
+or language-model predictors provide inexpensive triage, applicability and
+uncertainty gates determine when thos e estimates are credible, learned
+ensemble surrogates resolve the smaller set for which state dependence
+matters, and molecular simulation, quantum calculations or experiment are
+reserved for calibration andﬁnal discrimination. Wall-clock or accelerator
+cost, the number of generated states and conformers, and the fraction
+advanced at each tier are necessary to judge operational scalability.
+Developability models should increasingly distinguish static descrip-
+tors from state-dependent mechanisms. Physics-based permeability work
+shows that transfer free energy and polar shielding can outperform simple
+intramolecular-hydrogen-bond counts
+121, while PEGASUS illustrates the
+value of assay-derived and multisolvent quantum-mechanical features 31.
+Quantitative chameleonicity metr ics frame environment-dependent
+exposed polarity115, and bulk live-cell assays provide an experimental end-
+point for calibration32. Future ensemble encoders could combine exposed
+polar surface area, hydrogen-bond occupancy, conformer populations,
+assay metadata, and calibrated uncertainty. Outputs should remain assay-
+speciﬁc, because permeability, oral absorption, proteolysis, and cell entry
+reﬂect different mechanisms.
+Multi-objective search should preserve trade-offs without pre-
+ferentially rewarding unsupported extrapolation. Pareto maintenance and
+Pareto-based feedback
+92,111, preference optimization 95,h y p e r v o l u m e
+feedback112, and conformal scoring provide transferable strategies90,b u tt h e y
+become more persuasive only when coupled to chemical validity, topology
+validity, scaffold-aware uncertainty, and applicability constraints. Candi-
+date ranking should therefore consider both predicted utility and evidence
+quality, allowing a well-supported moderate proposal to outrank an extreme
+out-of-domain candidate while reserving part of the acquisition budget for
+informative exploration.
+Physics-based guidance is most usefula sac a l i b r a t e dp r i o rr a t h e rt h a n
+an oracle. A comparative study of ten docking programs documents sub-
+stantial method dependence for protein-cyclic-peptide complexes
+35,a n dt h e
+HADDOCK2.4 cyclic-peptide protocol shows that docking success depends
+on peptide ensemble quality and receptor state
+122. Rosetta supplies mature
+energy and design machinery 34, but standard force ﬁelds such as
+CHARMM36m81 were not parameterized speci ﬁcally for all macrocycle
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 14
+
+[PAGE 15]
+chemistries, and direct cyclic-peptide force-ﬁeld benchmarks reveal popu-
+lation errors37. Enhanced sampling can improve retrospective permeability
+correlations89, yet combining several partially independent physical signals
+with learned uncertainty may be less brittle than optimizing a single energy
+function.
+Synthesis-aware generation likewise requires peptide-speciﬁc process
+i n f o r m a t i o nr a t h e rt h a ng e n e r i cs m all-molecule accessibility scores.
+SCScore estimates synthetic complexity from reaction-corpus precedents118,
+but it does not encode solid-phase coupling ef ﬁciency, protecting-group
+orthogonality, aggregation, macrocyclization yield, puriﬁcation, or mono-
+mer supply. Reaction-compatible templates can exclude impossible bonds,
+while probabilistic yield and puriﬁcation models retain room for novel but
+uncertain chemistry. Historical biasshould be monitored so that a model
+trained on routine synthesis does n ot automatically exclude useful
+innovation.
+Prospective experiments are mos t informative when they reduce
+uncertainty rather than simply identify active compounds. Bulk live-cell
+permeability measurements
+32, self-driving-laboratory frameworks116,a n d
+self-play protein-engineering work ﬂows provide useful precedents for
+calibration117, experiment selection, and iterative policy updating. In
+constrained-peptide design, acquisition should balance predicted utility
+with scaffold diversity, mechanistic discrimination, replicate-aware assay
+metadata, and uncertainty reduction. This would keep experimental feed-
+back tied to the model component it is meant to update rather than col-
+lapsing results into a context-free label.
+Benchmarking should distinguish object validity, mechanisticﬁdelity,
+and translational evidence. GuacaMol provides a general framework for
+molecular-generation benchmarks
+43, but constrained peptides additionally
+require scaffold-, topology-, stereochemistry-, and modi ﬁcation-aware
+splits. Applicability-domain analysis 20 and systematic permeability
+benchmarking24 should be paired with target-complex holdouts from
+resources such as CPSea80 and ensemble holdouts from CREMP86.R e p o r t s
+should state which rules shape generation, which are applied afterward, and
+which endpoints are experimentally measured. Retrospective performance
+remains useful, but blinded synthesis and assay tests provide a stronger
+assessment of generalization.
+Decision support should expose the rule path for each candidate:
+chosen topology, chemical edits, dominant conformational states, property
+trade-offs, uncertainty, and synthetic concerns. PepExplainer provides an
+example of explainable macrocyclic-peptide bioactivity prediction and
+selection-based optimization
+123. Such a record can help medicinal chemists
+distinguish designs supported by chemistry and data from those driven
+mainly by a fragile predictor, while making expert overrides auditable.
+Interpretability is most informative when it reﬂects variables used by the
+model rather than a post hoc narrativedisconnected from the computation.
+Outlook
+Constrained-peptide generation is moving from valid-object construction
+toward coordinated models of chemical grammar, target geometry, covalent
+topology, conformational state, and therapeutic objective. The useful
+question is not which generic architecture is used, but where a physico-
+chemical rule changes the distribution : in representation, conditioning,
+denoising, ﬂow, decoding, preference opti mization, or experimental
+feedback.
+The ﬁve model families are complementary rather than interchange-
+able. Sequence, notation, and latent-space methods provide scalable che-
+mical language; target-conditioned design contributes structural and binding
+hypotheses; geometric and atom-bond models encode or guide closure and
+connectivity; ensemble methods r epresent state populations; and
+developability-guided systems negotiate predicted or measured property
+trade-offs. Convergence will be most meaningful when each component
+carries its validity conditions, evidence level, and uncertainty into the next.
+Translation calls for a stricter standard than computational plausibility.
+A generated constrained peptide becomes more therapeutically informative
+when its chemistry is unambiguous, its relevant states support the proposed
+mechanism, its property estimates are calibrated within domain, and
+synthesis and assays test the same claim. Selective prospective validation is
+therefore part of the design loop rather than an interchangeableﬁnal score.
+The central opportunity is to generate fewer candidates with stronger
+internal coherence. Topology, chemistry, conformational ensemble, target
+engagement, developability, and synthetic route are most useful when they
+form one testable hypothesis. Physicochemical rule embedding offers both a
+framework for building such system s and an audit trail for judging the
+claims they produce.
+Data availability
+No new research datasets were generated in this Review. Publicly available
+structural coordinates of the cyclophilin A–cyclosporin A complex (PDB
+ID: 1CWA; https://www.rcsb.org/structure/1CWA)were used solely to
+prepare the structural illustrations in Fig.3c, not to generate new research
+ﬁndings.
+Code availability
+Code availability is not applicable to this Review because no custom code
+was generated or used to support its main claims.
+R e c e i v e d :1 2J u l y2 0 2 6 ;A c c e p t e d :2 9S e p t e m b e r2 0 2 6 ;
+References
+1. Muttenthaler, M., King, G. F., Adams, D. J. & Alewood, P. F. Trends in
+peptide drug discovery. Nat. Rev. Drug Discov. 20, 309–325 (2021).
+2. Dougherty, P. G., Qian, Z. & Pei, D. Macrocycles as protein –protein
+interaction inhibitors. Biochem. J. 474, 1109–1125 (2017).
+3. Vinogradov, A. A., Yin, Y. & Suga, H. Macrocyclic peptides as drug
+candidates: recent progress and remaining challenges. J. Am.
+Chem. Soc. 141, 4167–4181 (2019).
+4. Garcia Jimenez, D., Poongavanam, V. & Kihlberg, J. Macrocycles in
+drug discovery─ learning from the past for the future. J. Med. Chem.
+66, 5377–5396 (2023).
+5. McHugh, S. M., Rogers, J. R., Solomon, S. A., Yu, H. & Lin, Y.-S.
+Computational methods to design cyclic peptides. Curr. Opin.
+Chem. Biol. 34,9 5–102 (2016).
+6. Nielsen, D. S. et al. Orally absorbed cyclic peptides. Chem. Rev. 117,
+8094–8128 (2017).
+7. Poongavanam, V., Wieske, L. H., Peintner, S., Erdélyi, M. & Kihlberg,
+J. Molecular chameleons in drug discovery. Nat. Rev. Chem. 8,
+45–60 (2024).
+8. Ramelot, T. A., Palmer, J., Montelione, G. T. & Bhardwaj, G. Cell-
+permeable chameleonic peptides: Exploiting conformational
+dynamics in de novo cyclic peptide design. Curr. Opin. Struct. Biol.
+80, 102603 (2023).
+9. Bhardwaj, G. et al. Accurate de novo design of membrane-traversing
+macrocycles. Cell 185, 3520–3532. e3526 (2022).
+10. Lin, K., Zhang, C., Bai, R. & Duan, H. Cyclic peptide therapeutic
+agents discovery: computational and arti ﬁcial intelligence-driven
+strategies. J. Med. Chem. 68, 10577–10598 (2025).
+11. MacKay, D. J. Probable networks and plausible predictions-a review
+of practical Bayesian methods for supervised neural networks.
+Netw. Comput. neural Syst. 6, 469–505 (1995).
+12. Bressloff, P. Stochastic dynamics of reinforcement learning. Netw.
+Comput. Neural Syst. 6, 289–307 (1995).
+13. Lai, L., Liu, Y., Song, B., Li, K. & Zeng, X. Deep generative models for
+therapeutic peptide discovery: a comprehensive review. ACM
+Comput. Surv. 57,1 –29 (2025).
+14. Ekambaram, S. & Dokholyan, N. V. Peptide-based drug design using
+generative AI.
+Chem. Commun. 62, 672–691 (2026).
+15. Song, B. et al. Advancements in Large Language Models (LLMs):
+empowering drug discovery. Wiley Interdiscip. Rev. 15, e70054
+(2025).
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 15
+
+[PAGE 16]
+16. Lee, M. F. & Poh, C. L. Strategies to improve the physicochemical
+properties of peptide-based drugs. Pharm. Res. 40, 617–632 (2023).
+17. Ma, B. et al. Overcoming challenges in the metabolism of peptide
+therapeutics: strategies and case studies for clinical success. J.
+Med. Chem. 68, 25689–25707 (2025).
+18. Dougherty, P. G., Sahni, A. & Pei, D. Understanding cell penetration
+of cyclic peptides. Chem. Rev. 119, 10241–10287 (2019).
+19. Wang, C. K. et al. Rational design and synthesis of an orally
+bioavailable peptide guided by NMR amide temperature
+coefﬁcients. Proc. Natl. Acad. Sci. USA 111, 17504–17509 (2014).
+20. Geylan, G., De Maria, L., Engkvist, O., David, F. & Norinder, U. A
+methodology to correctly assess the applicability domain of cell
+membrane permeability predictors for cyclic peptides. Digital
+Discov. 3, 1761–1775 (2024).
+21. Damjanovic, J., Miao, J., Huang, H. & Lin, Y.-S. Elucidating solution
+structures of cyclic peptides using molecular dynamics simulations.
+Chem. Rev. 121, 2292–2324 (2021).
+22. Linker, S. M. et al. Lessons for oral bioavailability: how
+conformationally ﬂexible cyclic peptides enter and cross lipid
+membranes. J. Med. Chem. 66, 2773–2788 (2023).
+23. Danelius, E. et al. Solution conformations explain the chameleonic
+behaviour of macrocyclic drugs. Chem. A Eur. J. 26, 5231–5244
+(2020).
+24. Liu, W., Li, J., Verma, C. S. & Lee, H. K. Systematic benchmarking of
+13 AI methods for predicting cyclic peptide membrane permeability.
+J. Cheminf. 17, 129 (2025).
+25. Mathur, D., Singh, S., Mehta, A., Agrawal, P. & Raghava, G. P. In
+silico approaches for predicting the half-life of natural and modi ﬁed
+peptides in blood. PloS One 13, e0196829 (2018).
+26. Tan, X. et al. Introducing enzymatic cleavage features and transfer
+learning realizes accurate peptide half-life prediction across species
+and organs. Brief. Bioinforma. 25, bbae350 (2024).
+27. Timmons, P. B. & Hewage, C. M. HAPPENN is a novel tool for
+hemolytic activity prediction for therapeutic peptides which employs
+neural networks. Sci. Rep. 10, 10869 (2020).
+28. Van Tilborg, D., Alenicheva, A. & Grisoni, F. Exposing the limitations
+of molecular machine learning with activity cliffs.J. Chem. Inf. Model.
+62, 5938–5951 (2022).
+29. Fang, C. et al. Prospective validation of machine learning algorithms
+for absorption, distribution, metabolism, and excretion prediction:
+an industrial perspective.J. Chem. Inf. Model.63, 3263–3274 (2023).
+30. Hewitt, W. M. et al. Cell-permeable cyclic peptides from synthetic
+libraries inspired by natural products. J. Am. Chem. Soc. 137,
+715–721 (2015).
+31. Baker, C. et al. PEGASUS: unlocking polarity in cell-permeable
+cyclic peptides using AI models built on massively parallel biological
+assays. J. Med. Chem. 69, 5175–5198 (2026).
+32. Nielsen, A. L. et al. Bulk measurement of membrane permeability for
+random cyclic peptides in living cells to guide drug development.
+Angew. Chem. Int. Ed. 64, e202500493 (2025).
+33. Rafailov, R. et al. Direct preference optimization: your language
+model is secretly a reward model. Adv. Neural Inf. Process. Syst. 36,
+53728–53741 (2023).
+34. Leman, J. K. et al. Macromolecular modeling and design in Rosetta:
+recent methods and frameworks. Nat. Methods 17, 665–680 (2020).
+35. Zhao, H. et al. Comprehensive evaluation of 10 docking programs on
+a diverse set of protein –cyclic peptide complexes. J. Chem. Inf.
+Model. 64, 2112–2124 (2024).
+36. Timmons, P. B. & Hewage, C. M. APPTEST is a novel protocol for the
+automatic prediction of peptide tertiary structures.Brief. Bioinforma.
+22, bbab308 (2021).
+37. Miao, J. et al. Assessing the performance of peptide force ﬁelds for
+modeling the solution structural ensembles of cyclic peptides. J.
+Phys. Chem. B 128, 5281–5292 (2024).
+38. Duffy, F. J. et al. CycloPs: generating virtual libraries of cyclized and
+constrained peptides including nonnatural amino acids. J. Chem.
+Inf. Model. 51, 829–836 (2011).
+39. Xu, X. et al. HELM-GPT: de novo macrocyclic peptide design using
+generative pre-trained transformer. Bioinformatics 40, btae364
+(2024).
+40. Geylan, G. et al. PepINVENT: generative peptide design beyond
+natural amino acids. Chem. Sci. 16, 8682–8696 (2025).
+41. Krenn, M., Häse, F., Nigam, A., Friederich, P. & Aspuru-Guzik, A.
+Self-referencing embedded strings (SELFIES): A 100% robust
+molecular string representation. Mach. Learn. 1, 045024 (2020).
+42. Olivecrona, M., Blaschke, T., Engkvist, O. & Chen, H. Molecular de-
+novo design through deep reinforcement learning. J. Cheminf. 9,4 8
+(2017).
+43. Brown, N., Fiscato, M., Segler, M. H. & Vaucher, A. C. GuacaMol:
+benchmarking models for de novo molecular design. J. Chem. Inf.
+Model. 59, 1096–1108 (2019).
+44. Dean, S. N., Alvarez, J. A. E., Zabetakis, D., Walper, S. A. &
+Malanoski, A. P. PepVAE: variational autoencoder framework for
+antimicrobial peptide generation and activity prediction. Front.
+Microbiol. 12, 725727 (2021).
+45. Li, T. et al. A foundation model identi ﬁes broad-spectrum
+antimicrobial peptides against drug-resistant bacterial infection.
+Nat. Commun. 15, 7538 (2024).
+46. Tan, L. et al. SQ-DiffuPep: a multimodal information-guided
+quantitative latent diffusion model for antimicrobial peptide
+discovery. Inf. Fusion 121, 103119 (2025).
+47. Wang, R. et al. Diff-AMP: tailored designed antimicrobial peptide
+framework with all-in-one generation, identi ﬁcation, prediction and
+optimization. Brief. Bioinforma. 25, bbae078 (2024).
+48. Hosseinzadeh, P. et al. Comprehensive computational design of
+ordered peptide macrocycles. Science 358, 1461–1466 (2017).
+49. Hosseinzadeh, P. et al. Anchor extension: a structure-guided
+approach to design cyclic peptides targeting enzyme active sites.
+Nat. Commun. 12, 3384 (2021).
+50. Santini, B. L. & Zacharias, M. Rapid in silico design of potential cyclic
+peptide binders targeting protein-protein interfaces.Front. Chem. 8,
+573259 (2020).
+51. Delaunay, M. & Ha-Duong, T. Des3PI: a fragment-based approach to
+design cyclic peptides targeting protein –protein interactions. J.
+Comput. Aided Mol. Des. 36, 605–621 (2022).
+52. Li, J. et al. Full-atom peptide design based on multi-modal ﬂow
+matching. In Proceedings of the 41st International Conference on
+Machine Learning (eds Salakhutdinov, R. et al.) 27615 –27640
+(PMLR, 2024).
+53. Lin, H. et al. PPFLOW: Target-Aware Peptide Design with Torsional
+Flow Matching. In Proceedings of the 41st International Conference
+on Machine Learning (eds Salakhutdinov, R. et al.) 30510 –30528
+(PMLR, 2024).
+54. Kong, X., Jia, Y., Huang, W. & Liu, Y. Full-atom peptide design with
+geometric latent diffusion. Adv. Neural Inf. Process. Syst. 37,
+74808–74839 (2024).
+55. Wang, F., Wang, Y., Feng, L., Zhang, C. & Lai, L. Target-speci ﬁcd e
+novo peptide binder design with diffpepbuilder. J. Chem. Inf. Model.
+64, 9135–9149 (2024).
+56. Rettie, S. A. et al. Cyclic peptide structure prediction and design
+using AlphaFold2. Nat. Commun. 16, 4730 (2025).
+57. Rettie, S. A. et al. Accurate de novo design of high-af ﬁnity protein-
+binding macrocycles using deep learning. Nat. Chem. Biol. 21,
+1948–
+1956 (2025).
+58. Watson, J. L. et al. De novo design of protein structure and function
+with RFdiffusion. Nature 620, 1089–1100 (2023).
+59. Dauparas, J. et al. Robust deep learning –based protein sequence
+design using ProteinMPNN. Science 378,4 9–56 (2022).
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 16
+
+[PAGE 17]
+60. Wang, F. et al. Reinforcement learning-based target-speci ﬁcd e
+novo design of cyclic peptide binders. J. Med. Chem. 68,
+17287–17302 (2025).
+61. Lin, H. et al. Highplay: cyclic peptide sequence design based on
+reinforcement learning and protein structure prediction. J. Med.
+Chem. 68, 12047–12057 (2025).
+62. Zhang, C. et al. CycleDesigner: leveraging CycRFdiffusion and
+highfold to design cyclic peptide binders for speci ﬁc targets. J.
+Chem. Inf. Model. 65, 6155–6165 (2025).
+63. Powers, A. C., Janthana, Y. & Hosseinzadeh, P. CyclicMPNN: stable
+cyclic peptide sequence generation. Digital Discov. https://doi.org/
+10.1039/d6dd00083e (2026).
+64. Krishna, R. et al. Generalized biomolecular modeling and design with
+RoseTTAFold All-Atom. Science 384, eadl2528 (2024).
+65. Abramson, J. et al. Accurate structure prediction of biomolecular
+interactions with AlphaFold 3. Nature 630, 493–500 (2024).
+66. Li, Q. et al. RareFold: Structure prediction and design of proteins with
+noncanonical amino acids. Preprint at https://www.biorxiv.org/
+content/10.1101/2025.05.19.654846v1 (2025).
+67. Lee, J. S. & Kim, P. M. Design of peptides with non-canonical amino
+acids using ﬂow matching. Bioinformatics 42, btag654 (2026).
+68. Tang, H. & Boomsma, W. UNAAGI: Atom-Level Diffusion for
+Generating Non-Canonical Amino Acid Substitutions. Preprint at
+https://arxiv.org/abs/2512.10515 (2025).
+69. Mao, Q. et al. NCPepFold: accurate prediction of noncanonical
+cyclic peptide structures via cyclization optimization with
+multigranular representation. J. Chem. Theory Comput. 21,
+4979–4991 (2025).
+70. Cao, S. et al. Accurate structure prediction of cyclic peptides
+containing unnatural amino acids using HighFold3. Brief.
+Bioinforma. 26, bbaf488 (2025).
+7 1 . X i e ,X . ,L i ,C .Z . ,L e e ,J .S .&K i m ,P .M .C y c l i c B o l t z 1 ,f a s ta n d
+accurately predicting structures of cyclic peptides and complexes
+containing non-canonical amino acids using AlphaFold 3 Framework.
+Preprint at https://www.biorxiv.org/content/10.1101/2025.02.11.
+637752v1 (2025).
+72. Wu, D. & Zou, Y. Accurate 3D structure prediction of small cyclic
+peptides containing non-canonical amino acid residues using an all-
+atom diffusion model with stereogenic implementation.J. Chem. Inf.
+Model. 66, 4398–4408 (2026).
+73. Jiang, D. et al. Zero-Shot Cyclic Peptide Design via Composable
+Geometric Constraints. In Proceedings of the 42nd International
+Conference on Machine Learning , 27553–27568 (PMLR, 2025).
+74. Zhang, J. et al. GeoCycler: reward-aligned 3D diffusion for
+constraint-conditioned cyclic peptide design. Preprint at
+https://
+arxiv.org/abs/2605.23407 (2026).
+75. Zhao, Y., Qin, L. & Chen, J. APCyc: Property-informed design of
+cyclic peptides via automated cyclization. In Proceedings of the
+32nd ACM SIGKDD Conference on Knowledge Discovery and Data
+Mining V.2 (Association for Computing Machinery, 2026).
+76. Zhou, X. et al. Designing cyclic peptides via harmonic SDE with
+atom-bond modeling. In Proceedings of the 42nd International
+Conference on Machine Learning , 78827–78858 (PMLR, 2025).
+77. Grambow, C. A. et al. Accurate and ef ﬁcient structural ensemble
+generation of macrocyclic peptides using internal coordinate
+diffusion. Preprint at https://arxiv.org/abs/2305.19800 (2023).
+78. Secor, M. et al. CPgen: heterochiral cyclic peptide ensemble generation
+and ensemble-based sequence design. InThe 2026 Workshop on
+Generative and Agentic AI for Biology(OpenReview, 2026).
+79. Wang, Y. et al. MuCO: generative peptide cyclization empowered by
+multi-stage conformation optimization. In Proceedings of the 43rd
+International Conference on Machine Learning (PMLR, 2026).
+80. Yang, Z. et al. CPSea: large-scale cyclic peptide-protein complex
+dataset for machine learning in cyclic peptide design. Adv. Neural
+Inf. Proces. Syst. 38, 144229–144258 (2025).
+81. Huang, J. et al. CHARMM36m: an improved force ﬁeld for folded and
+intrinsically disordered proteins. Nat. methods 14,7 1–73 (2017).
+82. du Pont, B. et al. Model agnostic conditioning of boltzmann
+generators for peptide cyclization. Preprint at https://www.biorxiv.
+org/content/10.1101/2025.08.15.670426v1 (2025).
+83. Bayaraa, N., Secor, M., Descoteaux, M. L. & Lin, Y.-S. Fast
+generation of simulation-quality structural ensembles of mixed-
+chirality cyclic peptides via diffusion models. J. Chem. Theory
+Comput. 22, 3103–3113 (2026).
+84. Powers, A. C., Renfrew, P. D., Hosseinzadeh, P. & Mulligan, V. K.
+CyclicCAE: a conformational autoencoder for ef ﬁcient heterochiral
+macrocyclic backbone sampling. Preprint at https://www.biorxiv.
+org/content/10.1101/2025.02.21.639569v1 (2025).
+85. Crusius, D., Schnell, J. R., Cipcigan, F. & Biggin, P. C.
+MacroConf–dataset & workﬂows to assess cyclic peptide solution
+structures. Digital Discov. 2, 1163–1177 (2023).
+86. Grambow, C. A., Weir, H., Cunningham, C. N., Biancalani, T. &
+Chuang, K. V. CREMP: conformer-rotamer ensembles of
+macrocyclic peptides for machine learning. Sci. Data 11, 859 (2024).
+87. Poongavanam, V. et al. Conformational sampling of macrocyclic
+drugs in different environments: can we ﬁnd the relevant
+conformations? ACS omega 3, 11742–11757 (2018).
+88. Begnini, F. et al. Cell permeability of isomeric macrocycles:
+predictions and NMR studies. ACS Med. Chem. Lett. 12
+, 983–990
+(2021).
+89. Frazee, N., Billlings, K. R. & Mertz, B. Gaussian accelerated
+molecular dynamics simulations facilitate prediction of the
+permeability of cyclic peptides. PLOS One 19, e0300688 (2024).
+90. van Weesep, L. et al. Con ﬁdence is the key: how conformal
+prediction enhances the generative design of permeable peptides.
+Preprint at https://arxiv.org/abs/2605.05770 (2026).
+91. Nguyen, T., Pang, H.-W. & Feng, S. PepEVOLVE: position-aware
+dynamic peptide optimization via group-relative advantage. Preprint
+at https://arxiv.org/abs/2511.16912 (2025).
+92. Tang, S., Zhang, Y. & Chatterjee, P. PepTune: de novo generation of
+therapeutic peptides with multi-objective-guided discrete diffusion.
+In Proceedings of the 42nd International Conference on Machine
+Learning. 59017–59065 (PMLR, 2025).
+93. Feller, A. L. & Wilke, C. O. Peptide-aware chemical language model
+successfully predicts membrane diffusion of cyclic peptides. J.
+Chem. Inf. Model. 65, 571–579 (2025).
+94. Feller, A. L., Secor, M., Swanson, S., Wilke, C. O. & Deibler, K.
+Scaling SMILES-based chemical language models for therapeutic
+peptide engineering. J. Chem. Inf. Model. 66, 8110–8112 (2026).
+95. Sun, H. et al. Design of permeability-optimized target-binding
+macrocycles via direct preference optimization. Chem. Sci. 17,
+10223–10236 (2026).
+96. Aerts, R. et al. C2PO: an ML-powered optimizer of the membrane
+permeability of cyclic peptides through chemical modi ﬁcation. J.
+Cheminf. 17, 168 (2025).
+97. Ebrahimi, J., Rao, A., Lowd, D. & Dou, D. HotFlip: white-box
+adversarial examples for text classi ﬁcation. In Proceedings of the
+56th Annual Meeting of the Association for Computational
+Linguistics (2 Short Papers) (eds Gurevych, I. & Miyao, Y.) 31 –36
+(Association for Computational Linguistics, 2018).
+98. Li, J. et al. CycPeptMPDB: a comprehensive database of membrane
+permeability of cyclic peptides. J. Chem. Inf. Model. 63, 2240–2250
+(2023).
+99. Li, J., Yanagisawa, K. & Akiyama, Y. CycPeptMP: enhancing
+membrane permeability prediction of cyclic peptides with multi-level
+molecular features and data augmentation. Brief. Bioinforma. 25,
+bbae417 (2024).
+100. Cao, L. et al. Multi_CycGT: a deep learning-based multimodal model
+for predicting the membrane permeability of cyclic peptides.J. Med.
+Chem. 67, 1888–1899 (2024).
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 17
+
+[PAGE 18]
+101. Yu, Y. et al. MuCoCP: a priori chemical knowledge-based
+multimodal contrastive learning pre-trained neural network for the
+prediction of cyclic peptide membrane penetration ability.
+Bioinformatics 40, btae473 (2024).
+102. Cabezón, A. et al. Unravelling cyclic peptide membrane permeability
+prediction: a study on data augmentation, architecture choices, and
+representation schemes. Digital Discov. 4, 1259–1275 (2025).
+103. Wang, Z. et al. MultiCycPermea: accurate and interpretable
+prediction of cyclic peptide permeability using a multimodal image-
+sequence model. BMC Biol. 23, 63 (2025).
+104. Shendre, A., Gahlot, P. S. & Raghava, G. P. S. PCPpred: prediction of
+chemically modiﬁed peptide permeability across multiple assays for
+oral delivery. Preprint at https://www.biorxiv.org/content/10.64898/
+2026.01.19.700485v1 (2026).
+105. Williams-Noonan, B. J. et al. Membrane permeating macrocycles:
+design guidelines from machine learning. J. Chem. Inf. Model. 62,
+4605–4619 (2022).
+106. Gal, Y. & Ghahramani, Z. Dropout as a Bayesian approximation:
+representing model uncertainty in deep learning. In Proceedings of
+The 33rd International Conference on Machine Learning(eds Balcan,
+M. F. & Weinberger, K. Q.) 1050 –1059 (PMLR, 2016).
+107. Lakshminarayanan, B., Pritzel, A. & Blundell, C. Simple and scalable
+predictive uncertainty estimation using deep ensembles. Adv.
+Neural Inf. Proces. Syst. 30, 6402–6413 (2017).
+108. Cortés-Ciriano, I. & Bender, A. Concepts and applications of
+conformal prediction in computational drug discovery. In Artiﬁcial
+Intelligence in Drug Discovery Drug Discovery Series (ed Brown, N.)
+63–101 (Royal Society of Chemistry, 2020).
+109. Cavaco, M., Valle, J., Flores, I., Andreu, D. & Castanho, A. R. B. M.
+Estimating peptide half-life in serum from tunable, sequence-related
+physicochemical properties. Clin. Transl. Sci. 14, 1349–1358 (2021).
+110. Gautam, A. et al. Hemolytik: a database of experimentally
+determined hemolytic and non-hemolytic peptides. Nucleic Acids
+Res. 42, D444–D449 (2014).
+111. Wang, L. et al. MOFormer: navigating the antimicrobial peptide
+design space with Pareto-based multi-objective transformer. Brief.
+Bioinforma. 26, bbaf376 (2025).
+112. Wang, L. et al. HMAMP: designing highly potent antimicrobial
+peptides using a hypervolume-driven multiobjective deep
+generative model. J. Med. Chem. 68, 8346–8360 (2025).
+113. Poongavanam, V. et al. Predicting the permeability of macrocycles
+from conformational sampling–limitations of molecular ﬂexibility. J.
+Pharm. Sci. 110, 301–313 (2021).
+114. Tossou, P., Wognum, C., Craig, M., Mary, H. & Noutahi, E. Real-
+world molecular out-of-distribution: speciﬁ
+cation and investigation.
+J. Chem. Inf. Model. 64, 697–711 (2024).
+115. Whitty, A. et al. Quantifying the chameleonic properties of
+macrocycles and other high-molecular-weight drugs. Drug Discov.
+Today 21, 712–717 (2016).
+116. Tom, G. et al. Self-driving laboratories for chemistry and materials
+science. Chem. Rev. 124, 9633–9732 (2024).
+117. Wang, Y. et al. Self-play reinforcement learning guides protein
+engineering. Nat. Mach. Intell. 5, 845–860 (2023).
+118. Coley, C. W., Rogers, L., Green, W. H. & Jensen, K. F. SCScore:
+synthetic complexity learned from a reaction corpus. J. Chem. Inf.
+Model. 58, 252–261 (2018).
+119. Eastman, P. et al. SPICE, a dataset of drug-like molecules and peptides
+for training machine learning potentials.Sci. Data 10, 11 (2023).
+120. Liu, L. et al. CyclicPepedia: a knowledge base of natural and
+synthetic cyclic peptides. Brief. Bioinforma. 25, bbae190 (2024).
+121. Rezai, T. et al. Conformational ﬂexibility, internal hydrogen bonding,
+and passive membrane permeability: successful in silico prediction
+of the relative permeabilities of cyclic peptides. J. Am. Chem. Soc.
+128, 14073–14080 (2006).
+122. Charitou, V., Van Keulen, S. C. & Bonvin, A. M. Cyclization and
+docking protocol for cyclic peptide –protein modeling using
+HADDOCK2.4. J. Chem. Theory Comput. 18, 4027–4040 (2022).
+123. Zhai, S. et al. PepExplainer: an explainable deep learning model for
+selection-based macrocyclic peptide bioactivity prediction and
+optimization. Eur. J. Med. Chem. 275, 116628 (2024).
+124. Krätzner, R. et al. Structure of Ecballium elaterium trypsin inhibitor II
+(EETI-II): a rigid molecular scaffold. Acta Crystallogr. Sect. D 61,
+1255–1262 (2005).
+125. Mikol, V., Kallen, J., P ﬂügl, G. & Walkinshaw, M. D. X-ray structure of
+a monomeric cyclophilin A-cyclosporin A crystal complex at 2· 1 Å
+resolution. J. Mol. Biol. 234, 1119–1130 (1993).
+Acknowledgements
+Not applicable.
+Author contributions
+Y.W. conceived the review, curated the literature, prepared theﬁgures and
+tables, and drafted the manuscript. D.C. provided critical input on the
+pharmaceutical and developability aspects of constrained peptide
+therapeutics. X.Z. contributed to the interpretation of generative modeling
+methods. X.F. and X.Y. supervised the work, guided the conceptual
+framework, and revised the manuscript. All authors reviewed and approved
+the ﬁnal version.
+Funding
+This work was supported in part by the National Science and Technology
+Major Project for Innovative Drug Research and Development (No.
+2025ZD1802302 to D.C.) and the National Natural Science Foundation of
+China (Nos. 62572178 and 62372158 to X.F.). The funder had no role in the
+selection of the review topic, literature review, manuscript preparation, or the
+decision to submit the manuscript for publication.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondenceand requests for materials should be addressed to
+Xiangzheng Fu or Xiaojun Yao.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s noteSpringer Nature remains neutral with regard to jurisdictional
+claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modi ﬁed the licensed material. You
+do not have permission under this licence to share adapted material
+derived from this article or parts of it. The images or other third party
+material in this article are included in the article ’s Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material
+is not included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted use,
+you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-
+nc-nd/4.0/
+.
+© The Author(s) 2026
+https://doi.org/10.1038/s44386-026-00090-1 Review
+npj Drug Discovery |            (2026) 3:54 18

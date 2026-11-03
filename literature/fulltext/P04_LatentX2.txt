@@ -1,0 +1,956 @@
+[PAGE 1]
+Drug-like antibodies with low immunogenicity in human
+panels designed with Latent-X2
+Latent Labs Team
+London, UK & San Francisco, USA
+16 December 2025
+KD = 1.54 nMKD = 26.2 pMKD = 45.0 nM
+KD = 5.43 μMKD = 4.27 nMKD = 77 .0 nM
+LX2_CYC_PHD2_1
+LX2_CYC_K-Ras-G12D_6LX2_scFv_1433B_6
+LX2_scFv_HDAC8_10
+LX2_VHH_MMP2_7
+LX2_VHH_TNFL9_20
+Macrocycles
+scFvs
+VHHs
+Zero-shot designs from Latent-X2: VHHs (purple), scFvs (red), and macrocyclic peptides (orange) with measured affinities.
+Abstract
+Drug discovery has long sought computational systems capable of designing drug-like molecules directly: developable and non-
+immunogenic from the start. Here we introduce Latent-X2, a frontier generative model that achieves this goal through zero-shot
+designofantibodieswithstrongbindingaffinities,drug-likeproperties,and,forthefirsttimeforanydenovogeneratedantibody,
+confirmed low immunogenicity in human donor panels. Latent-X2 is an all-atom model conditioned on target structure, epitope
+specification,andoptionalantibodyframework,jointlygeneratingsequencesandstructureswhilemodellingtheboundcomplex.
+Testingonly4to24designspertargetineachmodality,wesuccessfullygeneratedVHHandscFvantibodiesagainst9of18evalu-
+atedtargets,achievinga50 %target-levelsuccessratewithpicomolartonanomolarbindingaffinities.Designedmoleculesexhibit
+developability profiles that match or exceed those of approved antibody therapeutics, including expression yield, aggregation
+propensity,polyreactivity,hydrophobicity,andthermalstability,withoutoptimization,filtering,orselection.Inthefirstimmuno-
+genicity assessment of any AI-generated antibody, representativede novoVHH binders targeting TNFL9 exhibit both potent
+targetengagementandlowimmunogenicityacrossT-cellproliferationandcytokinereleaseassays.Themodelgeneralizesbeyond
+antibodies:againstK-Ras,longconsideredundruggable,wegeneratedmacrocyclicpeptidebinderscompetitivewithtrillion-scale
+mRNA display screens. These properties emerge directly from the model, demonstrating the therapeutic viability of zero-shot
+molecular design, now available without AI infrastructure or coding expertise athttps://platform.latentlabs.com.
+arXiv:2512.20263v1  [q-bio.BM]  23 Dec 2025
+[PAGE 2]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X22
+1. Introduction
+Drugdiscoveryhaslongpursuedcomputationalsystemsthatdirectlydesignleadcandidates,generatingmolecules
+that clear developability hurdles and do not trigger immune responses, while avoiding lengthy optimization. We
+reportthatthisgoalisnowwithinreach.Latent-X2cangenerateantibodiesthatbindwithpicomolartonanomolar
+affinity, exhibit drug-like developability, and, in the first demonstration for any AI-generated antibody, show low
+immunogenicity in human donor panels, all without post-generation optimization.
+Current approaches are costly both in development and clinical failure. Molecules often fail not because they
+lack binding, but because binding alone is insufficient when clinical success demands developability and low
+immunogenicity. Optimization to address these liabilities frequently fails or produces zero-sum trade-offs, with
+somepropertiesimprovingattheexpenseofothers[1].Thischallengeconsumeslargebudgetsperclinicalprogram
+and leaves critical targets difficult or impossible to address [2].
+Recent AI methods demonstrated the tractability of zero-shot binder generation [3–9], and concurrent work has
+shown that AI-generated antibodies can clear key developability thresholds [10, 11]. Building on the success of
+Latent-X1 [7] for mini-binder and macrocycle design, Latent-X2 advances further: the first low immunogenicity
+demonstration for any AI-generated antibody, and generalization across antibodies, macrocyclic peptides, and
+mini-binders in a single system. Computational benchmarking shows improved success rates over Latent-X1 for
+mini-binders and macrocycles, see Sec. C.
+Latent-X2
+VHHs scFvs Macrocycles
+Low
+polyreactivity
+Low
+hydrophobicity
+High 
+yield
+High
+monomericity
+High thermal
+stability
+Low ex-vivo
+Immunogenicity
+T arget
++
+Epitope
++
+Optional framework
+Fig. 1 | Latent-X2 generates drug-like binders from target structure and epitope specification.The multi-
+modalpromptcomprisestargetstructure(grey)withepitopehotspots(yellow)andanoptionalantibodyframework.
+The model outputs binder sequence and structure in complex with the target across multiple modalities, including
+VHH, scFv and macrocyclic peptides. Designs exhibit favourable developability and low immunogenicity.
+[PAGE 3]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X23
+Toachievethis,themodeljointlygeneratesall-atomstructuresandsequencesconditionedonmulti-modalprompts
+thatcomprisetargetstructure,epitopespecification,andoptionalantibodyframework.Anoverviewofthisworkflow
+isgiveninFig.1.Bydirectlymodellingnon-covalentinteractionsintheboundcomplex,itproducesbindersacross
+variable heavy-chain-only (VHH) and single-chain variable fragment (scFv) antibodies, as well as macrocyclic
+peptides, without task-specific fine-tuning.
+We evaluated Latent-X2 against 18 targets, testing only 4 to 24 antibody designs in each modality per target,
+achieving a50 %target-level success rate with high binding affinities. Separately, for K-Ras(G12D) and prolyl
+hydroxylase domain-containing protein 2 (PHD2), two challenging protein targets with relevance to oncology and
+hypoxia biology, we tested 10 macrocyclic peptides designed with Latent-X2 that matched or exceeded hits from
+state-of-the-art mRNA display screens [12].
+Drug-likepropertiesemergeddirectlyfromthemodel.Designedantibodiesexhibithighexpressionyield,favorable
+biophysical characteristics, and low polyreactivity, with developability profiles meeting or surpassing approved
+therapeutic benchmarks.
+Notably,wepresentimmunogenicitydataforAI-generatedantibodies.DenovoVHHbinderstargetingTNFL9were
+assessed across a ten-donor human panel, confirming both potent target engagement and low immunogenicityex
+vivo. While animal studies and clinical trials remain ahead, these results demonstrate that AI-generated molecules
+can now clear preclinical hurdles that previously required lengthy optimization.
+Our main contributions are:
+1. Firstde novodesigned antibodies with demonstrated low immunogenicity in human donor panels.
+2. Zero-shot design with50 %target-level success across 18 targets, testing only 4 to 24 designs per modality.
+3. Picomolar to nanomolar binding affinities with developability matching or exceeding approved therapeutics.
+4. A single architecture spanning VHHs, scFvs, macrocyclic peptides, and mini-binders.
+5. Macrocyclic peptide binders matching or exceeding trillion-scale mRNA display screens.
+Below we introduce the workflow and provide detailed wet lab validation. Apply for access to Latent-X2 on
+https://platform.latentlabs.com.
+2. Results
+Across antibody and macrocycle design, we demonstrated that Latent-X2 produces high-affinity binders in a zero-
+shot regime. Testing only 4 to 24 designs in each modality-target pair, we experimentally characterized designs
+against structurally diverse targets. For antibodies, the model generates potent VHHs and scFvs with drug-like
+biophysical, expression, and polyreactivity profiles from the first generation. For the target TNFL9, representative
+VHH binders showed no detectable immunogenic response inex vivoT-cell proliferation and cytokine release
+assays. For macrocyclic peptides, Latent-X2 designs high-affinity binders against K-Ras(G12D) and PHD2 with
+performance competitive with state-of-the-art experimental discovery platforms, achieving single-digit nanomolar
+affinity against PHD2. Together, these results establish that a single all-atom generative system can achieve drug-
+like antibody design and high-affinity macrocycle generation across multiple target profiles and critical preclinical
+development hurdles.
+2.1. High-affinity VHH and scFv binders with drug-like developability
+Totestgeneralization,weusedLatent-X2togenerateVHHandscFvantibodydesignsfor18solubleproteintargets.
+We selected this panel for its diverse biological functions, biophysical challenges, and therapeutic relevance.
+[PAGE 4]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X24
+LX2_VHH_MMP2_7
+LX2_VHH_TNFL9_11
+LX2_VHH_1433B_1
+LX2_VHH_AHSP_9
+LX2_scFv_HDAC8_10
+LX2_scFv_1433B_6
+LX2_VHH_LEP_6
+LX2_VHH_TNFL9_10
+LX2_VHH_1433B_10
+LX2_VHH_MMP2_3
+LX2_scFv_HDAC8_6
+LX2_VHH_ONCM_3
+a
+b
+c
+Fig. 2 | High-affinity VHH and scFv binders with drug-like developability.a) Best binding affinity (KD) per
+targetforscFvs(red)andVHHs(purple).Asterisksdenoteaffinitiesinfluencedbyavidityeffects.b)Developability
+profilescomparedtotherapeuticbenchmarks;greyshadingindicatesunfavorableregions.Therightmostpanelshows
+thedistributionofbindersbynumberofdevelopabilitycriteriamet.c)DesignedstructureswithcorrespondingBLI
+or SPR response curves.
+[PAGE 5]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X25
+Latent-X2generatedvalidatedbindersfor9of18targets,evaluatingnomorethan24designsperantibodymodality
+pertargetinasingleroundofzero-shotdesign.Inthebest-performingexperiments,upto25 %ofdesignsproduced
+confirmed binders. Successful binders spanned a range of antibody scaffolds and Complementarity-Determining
+Region (CDR) lengths. Binding affinities were measured by 5-point bio-layer interferometry (BLI) or surface
+plasmonresonance(SPR),yieldingaffinitiesasstrongaslowpicomolar.Thehighest-affinitybinderforeachtarget
+is shown in Fig. 2a, with representative structures and response curves in Fig. 2c. The strongest binder achieved a
+KD of26.2 pMagainst HDAC8, a class I histone deacetylase and emerging oncology target [13]. For each target,
+weprovidealab-validatedLatent-X2generatedsequenceinTab.S1toallowforexternalreproduction.Wepublish
+the corresponding designed structures onhttps://platform.latentlabs.com, accessible without sign-in.
+Beyond binding affinity, we subjected all candidates to comprehensive developability profiling: expression yield,
+monomericity, hydrophobicity, thermostability, and polyreactivity. These properties govern manufacturability, sta-
+bility,pharmacokinetics,andimmunogenicityrisk[1,14].Thedistributionofconfirmedbindersacrosseachmetric
+is shown in Fig. 2b. Assay details are provided in Sec. 3.
+Across all targets for which binders were obtained,47 %matched or exceeded thresholds derived from therapeutic
+antibodies on all four metrics (monomericity, hydrophobicity, thermostability, polyreactivity), with80 %doing so
+on three of four, demonstrating that drug-like properties emerged directly from zero-shot design Fig. 2b.
+Beyondthecontrolsweusedtoestablishthresholds,weassessedtenVHHandscFvdomainsderivedfromapproved
+and clinical-stage therapeutics to contextualise the developability profiles of our designs. These comparison anti-
+bodies are detailed in Sec. B.2. Because these antibodies are not natively expressed as isolated VHH or scFv, we
+reconstructed their relevant domains as Fc-VHH and Fc-scFv fusion constructs. Across all metrics, distributions
+forLatent-X2designswerecomparableto,orinsomecasesbetterthan,thoseofthebenchmarkantibodies,further
+demonstrating that zero-shot designs achieve developability on par with therapeutic antibodies.
+2.2. De novo antibodies with no detectable immunogenicity in human donor panels
+The highest-risk stage of drug development is clinical translation, where the majority of candidates fail [2, 15]. A
+major contributor to late-stage attrition is immunogenicity, where a therapeutic candidate provokes an unwanted
+immune response in a patient. For antibody-format therapeutics, immunogenicity can lead to anti-drug antibody
+formation, which may neutralize efficacy, accelerate drug clearance, alter pharmacokinetics, or trigger serious
+immune reactions [16]. Immunogenicity represents a critical liability in biologic drug design and has directly
+contributed to the failure of otherwise promising clinical candidates [17].
+To determine whether designs from Latent-X2 extend beyond binding hits toward viable lead candidates, TNFL9
+was selected as a representative target for deeper experimental characterization. TNFL9 is an immunomodulatory
+targetimplicatedininflammatoryandimmunesignalingpathways,makingitarepresentativeandchallengingtarget
+for therapeutic antibody development [18].
+From24designsagainstTNFL9,fiveVHHbinderswereidentified,ofwhichfourwereselectedforfurtheranalysisof
+bindingspecificityandimmunogenicity.ThefourVHHbinderswereexperimentallyconfirmedtobelownanomolar
+affinity.Thesebinderswerenextevaluatedfordevelopability:threepassedthreeoffourdevelopabilitycriteria,and
+twometallbindinganddevelopabilitycriteria,seeFig.3b.Bindingspecificitywasassessedbyalaninemutagenesis
+ofkeyCDRH3residues;independentsubstitutionsatthreepositionsabolishedbindinginallfourVHHs,consistent
+with target recognition being driven by the designed epitope interactions, an example is shown in Fig. 3a.
+To assess whether drug-like properties emerge from zero-shot design, we evaluated immunogenicity risk using
+primary immune cells isolated from the blood of 10 healthy human donors, see Tab. S6 for anonymized donor
+characteristics.TheseexvivocellulartestsdirectlymeasurewhetheracandidateinduceshumanT-cellproliferation
+or triggers cytokine release—two of the most common readouts of immunogenic response used in therapeutic
+development. In T-cell proliferation assays measured at 48 and 120 hours, no increase was observed for any of
+the four VHHs relative to background across all donors and time-points, see Fig. 3d. In cytokine release assays
+[PAGE 6]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X26
+W99
+F116
+D113
+D57
+T -cell 
+proliferation
+Cytokine release
+IL-10
+IL-8
+IL-16
+IFN-γ
+TNF-α10 healthy donors
+IL-6
+a b
+c
+d e
+Fig.3|Latent-X2VHHbinderstoTNFL9withdrug-likedevelopabilityandlowimmunogenicity.a)Designed
+VHH (purple) bound to TNFL9 (grey), with epitope interactions (pink) in close-up. Mutating any of F116, W99
+or D113 to alanine eliminated binding. b) Binding affinities and developability metrics for four confirmed binders;
+in the developability heatmap, purple indicates metrics meeting criteria, while white indicates those that do not. c)
+Ex vivoimmunogenicity workflow across 10 healthy donors. d) T-cell proliferation at 48 and 120 hours; untreated
+control is shown alongside positive controls (ImmunoCult and PHA), with no increase observed for designed
+binders or caplacizumab (approved VHH-based therapeutic). e) Cytokine release at 120 hours; untreated control
+andImmunoCultpositivecontrolareshown,withnoelevationdetectedfordesignedbindersorcaplacizumab.IL-8
+measurements occasionally exceeded the assay’s upper detection limit across conditions, including ImmunoCult,
+caplacizumab, and designed binders, and are shown as “above range” on the axis. For panels d and e, increasing
+concentrations are denoted by corresponding to 1.11, 3.33, 10, and30𝜇g/mL. Each point represents an
+individual donor; two replicates were performed per condition, with the mean shown where applicable.
+[PAGE 7]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X27
+at 120 hours, no elevation was detected for any VHH across all donors, see Fig. 3e. The approved VHH-based
+caplacizumab exhibited a comparable profile. For assay details, see Sec. D.6.
+Together, these results indicate that VHHs designed by Latent-X2 display not only high-affinity binding but also
+emergent drug-like properties, including favorable developability profiles and absence of detectable immunogenic
+responses in human primary-cell assays. The convergence of binding, developability, and low immunogenicity
+within the same candidates supports progression beyond hit discovery toward lead candidate selection. To our
+knowledge,thisisthefirstreportedevaluationofadenovo–designedantibodyusinghumancellularimmunogenicity
+assays, and no measurable immunogenic signal was detected.
+2.3. Macrocyclic peptides outperforming trillion-scale mRNA display
+Macrocyclic peptide discovery conventionally requires screening vast molecular libraries to identify initial hits.
+mRNA display has emerged as a leading platform, enabling screens exceeding1012 compounds, and has yielded
+several late-stage therapeutics including enlicitide; Merck’s oral PCSK9 inhibitor currently in phase 3 trials [19].
+We benchmarked Latent-X2 against RaPID (random nonstandard peptides integrated discovery) [12], a widely
+adoptedmRNAdisplayplatformthatend-to-endrequiresmonthspertargettoachieveavalidatedhit.Wecompared
+Latent-X2 against mRNA display on two oncology targets for which RaPID-derived macrocyclic campaigns have
+beenreported:PHD2[20,21],acentralregulatorofthehypoxicresponse,andK-Ras(G12D)[22],oneofthemost
+prevalentoncogenicK-Rasmutations.Forbothtargets,thestrongestreportedmacrocyclesfromtheliteraturewere
+resynthesized and their binding affinities measured under identical assay conditions. Ten Latent-X2 designs per
+target were selected for synthesis and evaluated experimentally within four weeks.
+UsingLatent-X2,high-affinitybinderswereobtainedforbothtargetswithsubstantiallyhigherhitratesthanRaPID,
+seeFig.4b,c.ForPHD2,9of10designsbound,withthestrongestachieving1.54 nMaffinitycomparedto729 nM
+forthebest-reportedRaPIDhit.ForK-Ras(G12D),8of10designsbound,withabestaffinityof5.43µM,matching
+the leading mRNA display hit (5.53µM). The Latent-X2 macrocycles exhibit diverse secondary structure, with K-
+Ras(G12D) designs spanning𝛽-sheet and𝛼-helical conformations. Successful designs ranged from 12–18 amino
+acidsforK-Ras(G12D)and13–16forPHD2,withthestrongestK-Ras(G12D)bindercomprisingonly12residues,
+see Fig. 4a.
+Prior mRNA display campaigns reported only 5 and 16 validated hits, respectively, from libraries exceeding one
+trillion members. Latent-X2 achieved hit rates of80 %to90 %from only 10 designs per target — a reduction in
+experimental search space of over 11 orders of magnitude while matching or exceeding binding affinity.
+These results demonstrate, to our knowledge, the first instance of AI-driven peptide design matching or exceeding
+exhaustive experimental screening in head-to-head comparison. Latent-X2 establishes a precision-first paradigm
+for macrocycle discovery: replacing brute-force library screening with generative design that yields lab-validated
+hits in weeks rather than months.
+3. Methods
+Latent-X2isanall-atomfrontiermodelthatjointlydesignsbinderstructureandsequence,withoutrefinementsteps
+likeresequencingofthegeneratedstructure.Themodeltakesasinputapromptspecifying:atargetstructure(which
+may span multiple chains), hotspot residues defining the epitope, and a binder modality. Supported modalities
+include antibodies, macrocyclic peptides, and mini-binders. For antibodies, a framework structure and desired
+CDR lengths are additionally provided as input, allowing specification of different antibody formats like VHH and
+scFv. Given these inputs, the model generates a full binder–target complex with the binder engaging the specified
+epitope. Further details are provided in Sec. A.
+[PAGE 8]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X28
+LX2_CYC_PHD2_8
+LX2_CYC_PHD2_1
+ LX2_CYC_K-Ras-G12D_6
+ LX2_CYC_K-Ras-G12D_3
+PHD2 K-Ras(G12D)
+a b
+c
+d
+Fig.4|Macrocyclicpeptidesoutperformingtrillion-scalemRNAdisplay.a)Comparisonofexperimentalscale:
+Latent-X2 tested 10 designs per target versus>1012 compounds screened by mRNA display, with comparable or
+higher hit counts. b) Hit rates and binding affinities for PHD2 and K-Ras(G12D). Latent-X2 achieved 9/10 and
+8/10 hit rates respectively. Black points indicate best replicated mRNA display affinities. c) Designed macrocycle
+structures (orange) bound to PHD2 and K-Ras(G12D) (grey), with epitope interactions (pink) shown in close-up.
+d) SPR response curves for top binders against each target.
+To select viable designs, we apply anin silicofilter based on structure prediction models [23–25]. For antibody
+binders,wefilterbasedonstructurepredictionconfidencemetricsandaself-consistencyscorecomparingtheLatent-
+X2-generated complex to the predicted complex structure via DockQ [26]. For mini-binders and macrocycles, we
+use the scoring approach described in our previous work [7].
+In silicopass rates for antibody designs vary by target, epitope, and framework: benchmarking on a held-out set of
+200 target proteins with randomly sampled epitopes yielded an average pass rate of approximately1 %, with some
+configurations exceeding20 %. The distribution of pass rates is shown in Fig. S2, see Sec. C. Some configurations
+are difficult to achieve favorable computational metrics for, and can require∼103 samples. For mini-binders and
+macrocycles, Latent-X2 shows improvedin silicohit rates over Latent-X1 on the same test set, see Fig. S3.
+Owing to continued research progress, we used two variants of the same foundational model architecture.
+•Latent-X2:used to generate binders for experimental validation.
+•Latent-X2.1:a slightly improved version used in studies of expectedin silicohit rates, see Fig. S2. This is the
+Latent-X2 model available throughhttps://platform.latentlabs.com.
+[PAGE 9]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X29
+3.1. VHH and scFv binder design
+Epitopes were specified by defining hotspot residues on the target surface. Hotspot selection was informed by
+available structural data: for some targets, we used previously validated epitopes from prior work [7]. For others,
+hotspots were derived from analysis of known binding interfaces or co-crystal structures. All targets are specified
+in Tab. S2. For each target, we sampled one to four interface residues as hotspots.
+We generated VHH and scFv designs using five frameworks each, see Tab. S3 and Tab. S4, selected based on
+reported use in clinical trials or prior research. For scFvs, we computationally modelled the binder as an Fv and
+subsequently appended a flexible peptide linker to construct the full scFv. All CDR loops were generatedde novo,
+three for VHHs and six for scFvs, with no grafted or fixed regions. Given the dominant contribution of CDRH3
+to antigen recognition [27], we varied CDRH3 length by up to±2residues relative to the native loop for each
+framework, while keeping all other CDR lengths fixed.
+Toensuresequencenovelty,wecomparedgeneratedantibodysequencesagainstTheStructuralAntibodyDatabase
+(SAbDab) [28] by computing edit distance over concatenated CDR loops; for scFvs, computed individually for
+light and heavy chains. We performed sequence similarity searches using MMseqs2 [29]. The maximum number
+of reported matches was set to exceed the size of the target database, and E-value filtering was disabled, so that all
+matches passing MMseqs2’s prefiltering and alignment stages were retained (see Sec. B.1 for details). All designs
+advanced to experimental testing have a CDR edit distance of at least 11 to the closest match in SAbDab, with
+mostexceeding20.TheclosestconfirmedbinderhasaCDReditdistanceof18residues,indicatingthatsuccessful
+designs are not a result of memorization. We performed an additional novelty check using BLASTP [30] against
+the non-redundant database (ClusteredNR) [31] using full sequences: all were at least 16 residues distant from the
+nearest neighbour, with most exceeding 20. Edit-distance distributions are shown in Fig. S1.
+To avoid selecting closely related variants, we clustered designs by concatenated CDR sequences at80 %identity
+using MMseqs2 clustering with default parameters [29]. We advanced a single representative per cluster. A large
+fraction formed singleton clusters, indicating substantial sequence diversity among candidates.
+To increase the likelihood of obtaining biophysically well-behaved, monomeric antibodies, we applied sequence
+filters excluding designs with cysteines or N-linked glycosylation motifs within designed CDR loops.
+Experimental methods
+Binder screening and characterization followed a tiered workflow. Initial screening was performed using a single-
+point BLI assay to identify candidates with measurable target binding. Designs exceeding a predefined binding
+response threshold defined in Sec. D.4 were designated as hits and advanced to determineKD.
+Preliminary hits were evaluated by 5-point BLI or SPR, with final affinities reported only for binders meeting
+predefined criteria described in Sec. D.4 and Sec. D.3. Candidates from the initial screen that failed to reproduce
+binding or yielded poor-quality fits upon follow-up characterization were not considered validated hits.
+To investigate binding specificity, targeted point mutations were introduced at selected interface residues across
+four TNFL9-binding VHH designs. Residues within the CDRH3 loop that engage the same region of the target
+epitope were identified from the generated all-atom complex and individually mutated to alanine to disrupt key
+intermolecular contacts.
+Developabilitywasassessedusingastandardpanelofbiophysicalassaysdesignedtocapturekeypropertiesrelevant
+to antibody developability, including aggregation propensity, polyreactivity, hydrophobicity, and thermostability.
+These assays provide complementary measures of protein stability and nonspecific interactions that are commonly
+associated with clinical attrition risk. All assays were performed alongside therapeutic antibody controls to enable
+relative benchmarking; full experimental protocols are provided in Sec. D.5.
+We assessed aggregation propensity by SEC-HPLC and considered a sample to meet the aggregation criterion
+if it was at least90 %monomeric. For the remaining developability assays, we defined pass criterion relative to
+[PAGE 10]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X210
+therapeuticIgGcontrolsmeasuredalongsideoursamples.Forpolyreactivity,weplate-normalizedtheBVPELISA
+signal such that bococizumab was set to1and panitumumab to0; samples with a normalized score≤1were
+considered non-polyreactive. For hydrophobicity, we normalized HIC-HPLC retention times so that lirilumab had
+a value of1, and required samples had a normalized value≤1to meet the criterion. For thermostability, we used
+thefirstmeltingtransition(𝑇 m1)andclassifiedsamplesasthermostableif𝑇 m1 exceededthatofbococizumabwhich
+was measured to have a thermostability of61◦C.
+These therapeutic controls were selected to calibrate each assay against empirically observed ranges for clinical-
+stageandapprovedantibodies[1].Bococizumabandpanitumumabserveashighandlowpolyreactivityreferencesto
+supportplate-normalizedBVPscoring.Lirilumabprovidesahigh-retentionHICreference,defininganupperbound
+for acceptable hydrophobicity on our normalized scale. Bococizumab measures on the lower end of permissible
+thermostability as measured by DSF, making it a permissive reference for classifying variants as thermostable.
+3.2. Immunogenicity assessment
+Four VHH binders targeting TNFL9 were selected from the set of validated hits described in Sec. 3.1 as a
+representative subset forex vivoimmunogenicity assessment.
+Experimental methods
+Ex vivoimmunogenicity was assessed using primary human peripheral blood mononuclear cells (PBMC) from 10
+donorstocapturedonor-to-donorvariabilityinimmuneresponses.Cytokinereleaseandcellularimmuneresponses
+wereevaluatedfollowingexposuretotheselectedVHHbindersacrossaconcentrationseries,alongsideestablished
+positive and negative controls. The clinically approved VHH therapeutic caplacizumab was tested at equivalent
+concentrations as a reference.
+Cytokine secretion was quantified from culture supernatants using multiplex Luminex assays, providing a sen-
+sitive readout of innate and early adaptive immune signaling. Cellular responses were further assessed using a
+luminescence-based CellTiter-Glo assay measuring PBMC metabolic activity as a surrogate for sustained immune
+cell viability and expansion. Together, these complementary assays enable detection of both acute inflammatory
+signaling and longer-term cellular immune responses. Full experimental protocols and assay details are provided
+in Sec. D.6.
+3.3. Macrocycle design
+Macrocycle design and filtering followed the computational pipeline described in our prior work [7]. Macrocycles
+weresampledacrossalengthrangeof6–18residuestomatchthetypicallengthrangesoftheRaPIDmRNAdisplay
+system, enabling direct comparison [12].
+Unlike our earlier campaign [7], no synthesis feasibility filter was applied. This decision reflected the absence of
+published evidence that vendor-recommended synthesis rules improved experimental success, and a preference for
+maximizingsequencediversityandminimizingbias.Designspassingallfiltersandnoveltyassessmentwereranked
+by computing the average across all interchain terms in the predicted alignment error matrix (ipae) with the top
+10 designs per target selected for experimental characterization.
+Experimental methods
+Macrocycle designs were synthesized and cyclized via head-to-tail lactam chemistry to form the peptide bond
+between the peptide termini. mRNA display control macrocycles were synthesized using an alternative thioether-
+based cyclization strategy. Details of macrocycle synthesis and cyclization are provided in Sec. D.2. Binding
+[PAGE 11]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X211
+affinities were measured using an 8-point SPR assay for high-precisionKD determination, see Sec. D.3 for more
+details.
+4. Discussion
+WehavepresentedLatent-X2,anall-atomgenerativemodelthatdesignsantibodieswithdrug-likepropertiesfrom
+the first generation. The model achieves a50 %target-level success rate across 18 targets, produces developability
+profilesmatchingapprovedtherapeutics,anddemonstrateslowimmunogenicityinhumandonorpanels—addressing
+a critical gap, given that immunogenicity is a leading cause of clinical failure.
+Latent-X2 generates antibodies and macrocyclic peptides from a single architecture without task-specific fine-
+tuning, suggesting the model has learned the biochemistry of specific binding interactions at the atomistic level.
+Themacrocycleresults,outperformingexhaustivelibraryscreenswithonly10designs,demonstratethatgenerative
+precision can replace brute-force screening.
+Theefficiencygainsextendbeyondhitfinding.Bygeneratingmoleculeswithfavourablepropertiesfromtheoutset,
+themodelproducescandidatesclosertoclinicalleadsthanconventionalstartingpoints.Moleculesthatclearbinding
+thresholdsbutfailondevelopabilityorimmunogenicityoftencannotberescueddespiteextensiveoptimization.At
+the scale of 4 to 24 designs tested, antibody design becomes accessible to individual researchers, and applications
+such as personalized therapeutics and rapid pandemic response become more feasible.
+Drug-like properties emerging without explicit optimization suggests the model has learned principles beyond
+loop generation. Favorable scaffolds alone do not guarantee success: traditional CDR grafting frequently causes
+destabilization, aggregation, or loss of binding [32–34]. Latent-X2 appears to avoid these failure modes while also
+producing low polyreactivity and low immunogenicity, suggesting it has learned to generate not only structurally
+compatible CDRs, but also sequences that avoid promiscuous or immunogenic motifs.
+Allresultsarepreclinical,withanimalstudiesandclinicaltrialsremainingahead.Immunogenicityassessmentwas
+conductedexvivousinghumandonorpanels—awellestablishedproxythatdoesnotsubstituteforinvivoassessment.
+Keydirectionsincludeextendingimmunogenicityassessmentacrossadditionaltargets,exploringfunctionalassays
+such as agonism and T-cell engagement, and understanding failure modes on remaining targets. For macrocyclic
+peptides, future directions include optimizing for cell penetration and oral bioavailability—properties that would
+unlockintracellulartargetscurrentlyinaccessibletoantibody-formattherapeutics.Furtherworkwillexpandtofull
+IgG and other antibody formats.
+Latent-X2 is available to selected partners through the Latent Labs Platform atplatform.latentlabs.com.
+Contributors
+HenryKenlay*,DaniellaPretorius *,JonathanCrabbé,AlexBridgland,SebastianM.Schmon,AgrinHilmkil,James
+Vuckovic, Simon Mathis, Tomas Matteson, Rebecca Bartke-Croughan, Amir Motmaen, Robin Rombach**, Mária
+Vlachynská, Alexander W. R. Nelson**, David Yuan, Annette Obika, Simon A. A. Kohl***
+*** Corresponding author. E-mail:simon@latentlabs.com.
+** Work performed as an advisor to Latent Labs.
+* Equal contributions.
+[PAGE 12]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X212
+Author contributions
+Conceptualization and team leadership:S.K. conceived the research direction and priorities for applications,
+and led the team. D.Y., D.P., led the experimental design with contributions from A.M. A.O., A.N. contributed to
+project delivery and narrative.
+Machine learning development:J.C., S.K developed the model, with contributions from H.K., S.M, S.S. A.B.
+maintained computational infrastructure for model training. R.R. provided guidance on ML techniques.
+Computational design and evaluation:H.K., D.P., S.K. led computational protein design workflows. H.K. con-
+structedcomputationalfilters,withcontributionsfromJ.C.andT.M.H.K.,D.P.,A.M.analyzedexperimentaldata.
+S.S., J.C., H.K. performed computational benchmarking.
+Experimental validation:D.Y. oversaw internal and external validation. R.B.C., A.M. conducted internal
+experiments and contributed to experimental design. D.Y., A.O., D.P. managed external laboratory partnerships.
+Modelservingviawebplatform:A.H.ledtheplatformandinferencework.S.K,H.K.,A.H.designedtheantibody
+userinterface.A.H.,J.V.,T.M.,andS.M.contributedtotheLatent-XAPIandA.H.,J.V.,S.S.,andS.M.contributed
+to the platform development.
+Writing and figures:S.K. oversaw manuscript delivery. S.K., H.K., D.P. wrote the manuscript. H.K., D.P., M.V.,
+A.B., S.M., S.S. made figures. R.B.C., D.Y. contributed to data analysis and manuscript writing.
+All authors contributed to the work and approved the final manuscript.
+Competing interests
+AllauthorshavecontributedasemployeesoforadvisorstoLatentLabsTechnologiesInc.orLatentLabsLimited.
+Acknowledgments
+We thank Krishan Bhatt for his help with the organization of our research offsite where key aspects of this work
+were developed.
+References
+[1] Tushar Jain, Tao Sun, Shane Durand, et al. Biophysical properties of the clinical-stage antibody repertoire.
+Proceedings of the National Academy of Sciences, 114(5):944–949, 2017.
+[2] Paul J Carter and Valerie Quarmby. Immunogenicity risk assessment and mitigation for engineered antibody
+and protein therapeutics.Nature Reviews Drug Discovery, 23(12):898–913, 2024.
+[3] JosephLWatson,DavidJuergens,NathanielRBennett,BrianLTrippe,JasonYim,HelenEEisenach,Woody
+Ahern, Andrew J Borst, Robert J Ragotte, Lukas F Milles, et al. De novo design of protein structure and
+function with RFdiffusion.Nature, 620(7976):1089–1100, 2023.
+[4] ViniciusZambaldi,DavidLa,AlexanderEChu,HarshniraPatani,AmyEDanson,TristanOCKwan,Thomas
+Frerix, Rosalia G Schneider, David Saxton, Ashok Thillaisundaram, et al. De novo design of high-affinity
+protein binders with AlphaProteo.arXiv, 2024. arXiv:2409.08022.
+[5] Martin Pacesa, Lennart Nickel, Christian Schellhaas, Joseph Schmidt, Ekaterina Pyatova, Lucas Kissling,
+Patrick Barendse, Jagrity Choudhury, Srajan Kapoor, Ana Alcaraz-Serna, et al. BindCraft: one-shot design
+of functional protein binders.bioRxiv, 2024. bioRxiv preprint.
+[6] Chai Discovery Team, Jacques Boitreaud, Jack Dent, Danny Geisz, Matthew McPartlon, Joshua Meier,
+Zhuoran Qiao, Alex Rogozhnikov, Nathan Rollins, Paul Wollenhaupt, and Kevin Wu. Zero-shot antibody
+design in a 24-well plate.bioRxiv, 2025.
+[PAGE 13]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X213
+[7] LatentLabsTeam,AlexBridgland,JonathanCrabbé,HenryKenlay,DaniellaPretorius,SebastianMSchmon,
+AgrinHilmkil,RebeccaBartke-Croughan,RobinRombach,MichaelFlashman,etal. Latent-X:Anatom-level
+frontier model for de novo protein binder design.arXiv, 2025. arXiv:2507.19375.
+[8] LuisSMille-Fragoso,JohnNWang,ClaudiaLDriscoll,HaoyuDai,TalalWidatalla,XiaoweiZhang,BrianL
+Hie,andXiaojingJGao. Efficientgenerationofepitope-targeteddenovoantibodieswithGerminal.bioRxiv,
+2025. bioRxiv preprint.
+[9] HannesStark,FelixFaltings,MinGyuChoi,YuxinXie,EunsuHur,TimothyJohnO’Donnell,AntonBushuiev,
+TalipUçar,SaroPassaro,WeianMao,etal.BoltzGen:Towarduniversalbinderdesign.bioRxiv,2025.bioRxiv
+preprint.
+[10] Nabla Bio and Surojit Biswas. De novo design of epitope-specific antibodies against soluble and multipass
+membrane proteins with high specificity, developability, and function.bioRxiv, 2025.
+[11] ChaiDiscoveryTeam,JacquesBoitreaud,RobertChen,JackDent,LucyFairweather,DannyGeisz,Matthew
+Greenig, Nate Boyd, Jinay Jain, Brady Johnston, et al. Drug-like antibody design against challenging targets
+with atomic precision.bioRxiv, 2025.
+[12] Yuki Goto and Hiroaki Suga. The RaPID platform for the discovery of pseudo-natural macrocyclic peptides.
+Accounts of Chemical Research, 54(18):3604–3617, 2021.
+[13] Alokta Chakrabarti, Jelena Melesina, Fiona R Kolbinger, Ina Oehme, Johanna Senger, Olaf Witt, Wolf-
+gang Sippl, and Manfred Jung. Targeting histone deacetylase 8 as a therapeutic approach to cancer and
+neurodegenerative diseases.Future Medicinal Chemistry, 8(13):1609–1634, 2016.
+[14] Tushar Jain, Todd Boland, and Mauricio Vásquez. Identifying developability risks for clinical progression of
+antibodies using high-throughput in vitro and in silico approaches.mAbs, 15(1):2200540, 2023.
+[15] Michael Hay, David W Thomas, John L Craighead, Celia Economides, and Jesse Rosenthal. Clinical
+development success rates for investigational drugs.Nature Biotechnology, 32(1):40–51, 2014.
+[16] Anna Vaisman-Mentesh, Matias Gutierrez-Gonzalez, Brandon J DeKosky, and Yariv Wine. The molecular
+mechanisms that underlie the immune biology of anti-drug antibody formation following treatment with
+monoclonal antibodies.Frontiers in Immunology, 11:1951, 2020.
+[17] Paul M Ridker, James Revkin, Pierre Amarenco, Robert Brunell, Madelyn Curto, Fernando Civeira, Marcus
+Flather, Robert J Glynn, Jean Gregoire, J Wouter Jukema, et al. Cardiovascular efficacy and safety of
+bococizumab in high-risk patients.New England Journal of Medicine, 376(16):1527–1539, 2017.
+[18] Chao Wang, Gloria H Y Lin, Ann J McPherson, and Tania H Watts. Immune regulation by 4-1BB and
+4-1BBL: complexities and challenges.Immunological Reviews, 229(1):192–215, 2009.
+[19] Douglas G Johns, Louis-Charles Campeau, Puja Banka, An Bautmans, Tjerk Bueters, Elisabetta Bianchi,
+DanilaBranca,PaulGBulger,InneCrevecoeur,Fa-XiangDing,etal. Orallybioavailablemacrocyclicpeptide
+that inhibits binding of PCSK9 to the low density lipoprotein receptor.Circulation, 148(2):144–158, 2023.
+[20] TE McAllister, T-L Yeh, MI Abboud, IKH Leung, ES Hookway, ONF King, B Bhushan, ST Williams,
+RJ Hopkinson, M Münzel, et al. Non-competitive cyclic peptides for targeting enzyme–substrate complexes.
+Chemical Science, 9(20):4569–4578, 2018.
+[21] Rasheduzzaman Chowdhury, Martine I Abboud, Tom E McAllister, Biswadip Banerji, Bhaskar Bhushan,
+John L Sorensen, Akane Kawamura, and Christopher J Schofield. Use of cyclic peptides to induce
+crystallization: case study with prolyl hydroxylase domain 2.Scientific Reports, 10(1):21964, 2020.
+[22] Ziyang Zhang, Rong Gao, Qi Hu, Hayden Peacock, D Matthew Peacock, Shizhong Dai, Kevan M Shokat,
+andHiroakiSuga. GTP-state-selectivecyclicpeptideligandsofK-Ras(G12D)blockitsinteractionwithRaf.
+ACS Central Science, 6(10):1753–1761, 2020.
+[23] Josh Abramson, Jonas Adler, Jack Dunger, Richard Evans, Tim Green, Alexander Pritzel, Olaf Ronneberger,
+Lindsay Willmore, Andrew J Ballard, Joshua Bambrick, et al. Accurate structure prediction of biomolecular
+interactions with AlphaFold 3.Nature, 630(8016):493–500, 2024.
+[24] Jacques Boitreaud, Jack Dent, Matthew McPartlon, Joshua Meier, Vinicius Reis, Alex Rogozhnikov, and
+Kevin Wu. Chai-1: Decoding the molecular interactions of life.bioRxiv, 2024.
+[25] Saro Passaro, Gabriele Corso, Jeremy Wohlwend, Mateo Reveiz, Stephan Thaler, Vignesh Ram Somnath,
+Noah Getz, Tally Portnoi, Julien Roy, Hannes Stark, et al. Boltz-2: Towards accurate and efficient binding
+affinity prediction.bioRxiv, 2025.
+[26] ClaudioMirabelloandBjörnWallner. DockQv2:improvedautomaticqualitymeasureforproteinmultimers,
+nucleic acids, and small molecules.Bioinformatics, 40(10):btae586, 2024.
+[27] YukoTsuchiyaandKenjiMizuguchi. ThediversityofH3loopsdeterminestheantigen-bindingtendenciesof
+antibody CDR loops.Protein Science, 25(4):815–825, 2016.
+[PAGE 14]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X214
+[28] James Dunbar, Konrad Krawczyk, Jinwoo Leem, Terry Baker, Angelika Fuchs, Guy Georges, Jiye Shi, and
+Charlotte M Deane. SAbDab: the structural antibody database.Nucleic Acids Research, 42(D1):D1140–
+D1146, 2014.
+[29] Martin Steinegger and Johannes Söding. MMseqs2 enables sensitive protein sequence searching for the
+analysis of massive data sets.Nature Biotechnology, 35(11):1026–1028, 2017.
+[30] StephenFAltschul,WarrenGish,WebbMiller,EugeneWMyers,andDavidJLipman. Basiclocalalignment
+search tool.Journal of Molecular Biology, 215(3):403–410, 1990.
+[31] NCBIStaff. NewClusteredNRdatabase:fastersearchesandmoreinformativeBLASTresults. NCBIInsights,
+2022. URL https://ncbiinsights.ncbi.nlm.nih.gov/2022/05/02/clusterednr_1/.
+[32] Peter T Jones, Paul H Dear, Jefferson Foote, Michael S Neuberger, and Greg Winter. Replacing the
+complementarity-determining regions in a human antibody with those from a mouse.Nature, 321(6069):
+522–525, 1986.
+[33] Cary Queen, William P Schneider, Harold E Selick, Philip W Payne, Nicholas F Landolfi, James F Duncan,
+Nevenka M Avdalovic, Michael Levitt, Richard P Junghans, and Thomas A Waldmann. A humanized
+antibody that binds to the interleukin 2 receptor.Proceedings of the National Academy of Sciences, 86(24):
+10029–10033, 1989.
+[34] Kip Dudgeon, Romain Rouet, Iris Kokmeijer, Peter Schofield, Jessica Stolp, David Langley, Daniela Stock,
+and Daniel Christ. General strategy for the generation of human antibody variable domains with increased
+aggregation resistance.Proceedings of the National Academy of Sciences, 109(27):10879–10884, 2012.
+[35] James Dunbar and Charlotte M Deane. ANARCI: antigen receptor numbering and receptor classification.
+Bioinformatics, 32(2):298–300, 2016.
+[36] Helen M Berman, John Westbrook, Zukang Feng, Gary Gilliland, Talapady N Bhat, Helge Weissig, Ilya N
+Shindyalov, and Philip E Bourne. The protein data bank.Nucleic Acids Research, 28(1):235–242, 2000.
+[37] Matthew IJ Raybould, Claire Marks, Alan P Lewis, Jiye Shi, Alexander Bujotzek, Bruck Taddese, and
+Charlotte M Deane. Thera-sabdab: the therapeutic structural antibody database.Nucleic Acids Research, 48
+(D1):D383–D388, 2020.
+[38] IsoldeHötzel,PieterMeijer,HermanWTvanVlijmen,etal. Astrategyforriskmitigationofantibodieswith
+fast clearance.mAbs, 4(6):753–760, 2012.
+[39] MichaelRDyson,EdwardMasters,DeividasPazeraitis,RajikaLPerera,JohannaLSyrjanen,SachinSurade,
+NelsThorsteinson,KothaiParthiban,PhilipCJones,MaheenSattar,GordanaWozniak-Knopp,FlorianRueker,
+Rachael Leah, and John McCafferty. Beyond affinity: selection of antibody variants with optimal biophysical
+properties and reduced immunogenicity from mammalian display libraries.mAbs, 12(1):1829335, 2020.
+[40] Michael Cohenuram and Muhammad Wasif Saif. Panitumumab the first fully human monoclonal antibody:
+from the bench to the clinic.Anti-Cancer Drugs, 18(1):7–15, 2007.
+[41] O Huhtinen, R Salbo, U Lamminmäki, and S Prince. Selection of biophysically favorable antibody variants
+using a modified Flp-In CHO mammalian display platform.Frontiers in Bioengineering and Biotechnology,
+11:1170081, 2023.
+[42] Tushar Jain, Todd Boland, Asparouh Lilov, Irina Burnina, Michael Brown, Yingda Xu, and Maximiliano
+Vásquez. Prediction of delayed retention of antibodies in hydrophobic interaction chromatography from
+sequence using machine learning.Bioinformatics, 33(23):3758–3766, December 2017.
+[PAGE 15]
+Supplementary information
+A. Model usage
+Latent-X2 is available athttps://platform.latentlabs.com. Latent-X2 requires both a target specification
+and a binder specification. The target specification consists of the following:
+1.Target structure:The mmCIF file that describes the structure and sequence of the target protein(s) for which
+binders are designed. The target can consist of multiple protein chains.
+2.Hotspot residues:The sequence location of the subset of target residues that constitute the target’s binding
+hotspots. At least one hotspot needs to be provided. In practice, a small number of surface-accessible, spatially
+close hotspots suffices, and they can be effectively used to steer the model.
+3.Target cropping:Latent-X2 can be conditioned on cropped targets, for example in order to fit the context
+window.
+Binder specification depends on the design modality (e.g., macrocycles, mini-binders, or antibody-based binders),
+as detailed below. For macrocycles and mini-binders, a user must specify the binder length. For antibody designs,
+the user should specify:
+1.Framework structure:The mmCIF file that describes the structure and sequence of an antibody scaffold. The
+scaffold can be specified by a pre-existing antibody, such as a therapeutic Fv or VHH.
+2.CDR lengths:Between each framework region, a CDR loop will be designed by Latent-X2. A user must
+specify the length of each CDR loop.
+The user should be aware of the following details on input representations:
+•Context length:The context length for inputs and outputs is 512 residues, counting jointly residues in the target
+and the binder.
+•Structurally unresolved residues:Structurally unresolved residues in the target are dropped, which means that
+the amino acid identities of unresolved residues are not represented in the model’s input either.
+•Target backbone only:Only the backbone atoms of the target structure are provided to the model.
+B. Computational design
+Tab. S2 provides details on the target structures we used for computational design. To fit the model’s 512 residue
+context window, we cropped larger targets by removing residues distal to the binding interface.
+InTab.S3andTab.S4wedetailtheVHHandscFvframeworksused,respectively,alongwiththesampledCDRH3
+lengthranges.FrameworkswereannotatedusingANARCIwithIMGTframeworknumberinganddefinitions[35].
+Note that3eakand7ssccontain an unresolved C-terminal serine at the end of the FW4 region; for wet-lab
+characterization, we append this residue to the designed sequence. For scFv designs, we modelled binders as Fv
+fragments during computational design and then added a (G4S)4 linker in the heavy–light orientation after the
+design step.
+[PAGE 16]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X216
+Tab. S1 | Sequences and binding affinities of confirmed binders.Selected binders per target, including VHH,
+scFv, and macrocycles.KD values were obtained by SPR or BLI (see Sec. D). ReportedKD values for controls are
+replicate values. Macrocycle sequences are denoted bycyclo(·).
+BinderK D (M)Amino acid sequence
+LX2_scFv_HDAC8_102.62×10 −11 QVQLQESGPGLVKPSETLSLTCAVSGLSYFKSYGWGWIRQPPGKGLEW
+IGSITRYGSTYYNPSLKSRVTISVDTSKNQFSLKLSSVTAADTAVYYC
+ARQPIVWSTSDLKGFDVWGQGTLVTVSSGGGGSGGGGSGGGGSGGGGS
+DIQMTQSPSSLSASVGDRVTITCRASQSVYDYLNWYQQKPGKAPKLLI
+YRASSLQSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQFNEYPY
+TFGGGTKVEIK
+LX2_scFv_SAE1_121.65×10 −7 EVQLVESGGGLVQPGGSLRLSCAASGSAFSSYYIHWVRQAPGKGLEWV
+ARIFPYNSSTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYC
+VREEILLDTSTFNLDTAMAYWGQGTLVTVSSGGGGSGGGGSGGGGSGG
+GGSDIQMTQSPSSLSASVGDRVTITCRASQGVSTSVAWYQQKPGKAPK
+LLIYSTSFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCLQYNE
+YPLTFGQGTKVEIK
+LX2_VHH_1433B_102.75×10 −9 EVQLVESGGGLVQPGGSLRLSCAASQPLSSFYYMGWFRQAPGKGRELV
+AAISPLTGKTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYC
+HASAATPGARTYPASTSDYWGQGTQVTVSS
+LX2_VHH_BHRF1_32.70×10 −8 EVQLVESGGGLVQPGGSLRLSCAASGAWGNIVTMGWFRQAPGKGRELV
+AAIRMDDGATYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYC
+MARYAPDRSATVAGVPVVVNKWGQGTQVTVSS
+LX2_VHH_TNFL9_103.11×10 −8 EVQLVESGGGLVQPGGSLRLSCAASLGSSYLAGMGWFRQAPGKGRELV
+AAIDWATGDTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYC
+GAWTTTAAPGTLDPAAVNGFAWGQGTQVTVSS
+LX2_VHH_LEP_64.48×10 −8 QVQLQESGGGLVQPGGSLRLSCAASPSAGDLYSMAWFRQAPGKERERV
+AKIYPSSGTTYLADSVKGRFTISQNNAKSTVYLQMNSLKPEDTAMYYC
+SGLASGSVTVGSTTYNAPKKYWGQGTQVTVSS
+LX2_VHH_MMP2_77.70×10 −8 QVQLQESGGGLVQPGGSLRLSCAASLDWDTVDYMAWFRQAPGKERERV
+AKIYPSTGKTYLADSVKGRFTISQNNAKSTVYLQMNSLKPEDTAMYYC
+MANVISVEEVDGKRDFVTKDYWGQGTQVTVSS
+LX2_VHH_AHSP_97.97×10 −7 QVQLQESGGGLVQPGGSLRLSCAASASGYDFVWMAWFRQAPGKERERV
+AKIFPSDGSTYLADSVKGRFTISQNNAKSTVYLQMNSLKPEDTAMYYC
+HAVVAKKFEDIKSGDKPPFMFDGWGQGTQVTVSS
+LX2_VHH_ONCM_33.26×10 −6 QVQLQESGGGLVQPGGSLRLSCAASLSGADLLAMAWFRQAPGKERERV
+AKIYPSFGTTYLADSVKGRFTISQNNAKSTVYLQMNSLKPEDTAMYYC
+HADALGTQTNEFGFTGFTGLLDGWGQGTQVTVSS
+LX2_CYC_PHD2_11.54×10 −9 cyclo(VDHGVYASVNAVTGEY)
+RAPID_mRNA_PHD27.29×10 −7 See [20]
+LX2_CYC_K-Ras-G12D_65.43×10 −6 cyclo(FYIPEIDQYLCS)
+RAPID_mRNA_K-Ras-G12D5.53×10 −6 See [22]
+[PAGE 17]
+Tab. S2 | Protein targets used in experimental validation.PDB structures [36], disease relevance, and reagent sources are provided.
+TargetPDB ID ResiduesDisease areas VendorCatalogueValency
+1433B6a5q B3-B234Oncology Sino Biological10843-H09E-BBivalent
+1433E8dgm A33-A232Developmental Neurology Sino Biological50691-M09EBivalent
+AHSP3ia3 A2-A91Haematology Sino Biological14391-HNAEMonovalent
+BHRF12wh6 A2-A158Infectious Disease; Oncology CusabioCSB-EP314488EFCMonovalent
+CD988kdd A382-A630Oncology Sino Biological12206-H07HMonovalent
+HDAC83rqd A14-A40, A71-A84, A95-A116,
+A136-A245, A260-A287,
+A300-A314, A328-A366
+Oncology Sino Biological10864-H09BBivalent
+IL-204doh A24-A176Autoimmune Disease; Inflam-
+matory Disease
+Sino Biological13060-HNAEMonovalent
+IL-35uv8 B15-B30, B33-B121Haematology; Oncology Sino Biological11858-HNAEMonovalent
+LEP7z3q A22-A46, A71-A115, A141-A164Metabolic Disease Sino Biological10221-HNAEMonovalent
+MMP21gxd A447-A631Oncology Sino Biological10082-HNAHMonovalent
+ONCM8v2c A33-A144, A170-A202Oncology Sino Biological50112-MNAEMonovalent
+PD-L15o45 A17-A132Oncology BioTechne9049-B7-100Monovalent
+PRL3npz A14-A142, A147-A156, A159-A194Endocrinology Sino Biological10275-HNAE-BMonovalent
+SAE11y8q A10-A110, A128-A167, A226-A345Oncology Sino Biological13921-HNCBMonovalent
+SC2RBD6m0j E333-E526Infectious Disease Sino Biological40592-V08BMonovalent
+SOMA1hwg A1-A147, A154-A190Endocrinology Sino Biological16122-HNCEMonovalent
+TNFL96a3v A90-A170, A176-A243Immuno-Oncology Sino Biological15693-H07H2Trivalent
+UBE2B2ybf A3-A152Oncology Sino Biological51243-MNCEMonovalent
+K-Ras(G12D)6wgn A1-A34, A38-A169Oncology Sino BiologicalR06-32BHMonovalent
+PHD26yw1 A186-A239, A250-A404Haematology CusabioCSB-EP863932HU1b1Monovalent
+[PAGE 18]
+Tab. S3 | VHH frameworks and CDRH3 sampling ranges used for computational design.
+PDB IDCDRH3 lengthsFWH1 FWH2 FWH3 FWH4
+3eak16 - 20A1-A25 A37-A53 A62-A99 A118-A127
+5jds19 - 23B1-B25 B34-B50 B59-B96 B118-B127
+7eow19 - 23B2-B26 B35-B51 B60-B97 B119-B129
+8hxq10 - 14A1-A25 A34-A50 A59-A96 A109-A119
+8z8m6 - 10B1-B25 B34-B50 B59-B96 B105-B115
+Tab. S4 | Fv framework sequences used for scFv designs and CDRH3 length ranges.
+PDB IDCDRH3 lengthsFWH1 FWH2 FWH3 FWH4 FWL1 FWL2 FWL3 FWL4
+6zqk13 - 17A1-A25 A34-A50 A59-A96 A110-A120 A148-A173 A180-A196 A200-A235 A245-A254
+7kql15 - 19H1-H25 H36-H52 H60-H97 H113-H123 L1-L26 L34-L50 L54-L89 L99-L108
+7ssc16 - 20H1-H25 H34-H50 H58-H92 H103-H127 L1-L26 L33-L49 L53-L88 L98-L107
+7urx15 - 19H20-H44 H53-H69 H78-H115 H131-H141 L20-L45 L52-L68 L72-L107 L117-L126
+7yv113 - 17H1-H25 H35-H51 H59-H96 H110-H120 L1-L26 L33-L49 L53-L88 L98-L107
+[PAGE 19]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X219
+B.1. Sequence novelty of designed antibodies
+Tocomputesequencenovelty,wecomparedgeneratedantibodysequencesagainstSAbDab[28]usingconcatenated
+CDR sequences. For each antibody chain (VH or VL) in SAbDab, we concatenated all corresponding CDR
+sequences to construct a target database. Sequences generated by Latent-X2 were queried against this database
+usingMMseqs2withdefaultproteinsettingsandthefollowingparameters:mmseqs search queryDB targetDB
+resultDB tmp -s 7.5 –num-iterations 3 -e inf –max-seqs 100000.Foreachmatch,wecomputedthe
+Levenshtein edit distance over the concatenated CDR sequence, and defined novelty with respect to the minimum
+edit distance to any database entry.
+In addition, sequence similarity searches using the full heavy and light chain sequences were performed with
+BLASTP [30] against the ClusteredNR database [31].
+Fig. S1 shows the distributions of nearest-neighbour distances from both analyses: minimum edit distance over
+concatenated CDRs to SAbDab entries and full-length heavy/light-chain similarity to the nearest BLASTP hit in
+ClusteredNR.
+0 10 20 30 40
+CDR edit distance against closest SAbDab hits
+0.00
+0.02
+0.04
+0.06
+0.08
+0.10
+Density
+0 10 20 30 40
+Sequence edit distance against closest ClusteredNR hits
+Fig. S1 | Sequence novelty of generated antibodies.Distributions of distances to the closest known antibody
+sequences, measured as minimum edit distance over concatenated CDR sequences to the nearest SAbDab entry
+(left) and full-length sequence edit distance to the closest ClusteredNR hit identified by BLASTP (right).
+B.2. Developability benchmark
+We evaluated the developability profile of ten VHH and scFv domains derived from approved and clinical-stage
+therapeutics as comparison data points. These domains were extracted from entries in Thera-SAbDab [37] and
+were taken from entries for rimteravimab, sonelokimab, tarperprumig, brolucizumab, cemavafusp, crefmirlimab,
+tebentafusp, tarlatamab, and licaminlimab.
+C. Expectedin silicohit rates for VHHs, mini-binders and macrocycles
+In previous work [7], we benchmarked Latent-X1 on 200 held-out target proteins. For each target, we generated
+threesetsofhotspotsandusedthemtomeasurethedistributionofinsilicohitrates.Toevaluatetheinsilicohitrate
+ofLatent-X2forantibodydesign,webenchmarkedthemodelonthesamesetoftargetsandhotspotcombinations.
+We used the five VHH frameworks detailed in Tab. S3, sampling 100 designs per combination of framework,
+epitope, and target, resulting in1500designs per target. For simplicity, generated CDRs match the length of the
+original VHH from which the framework is extracted.
+The distribution ofin silicohit rates is shown in Fig. S2. Across the held-out benchmark, most targets yielded at
+least one passing design, with approximately85 %exhibiting a non-zeroin silicohit rate. The meanin silicohit
+rate across targets was1.15 %.
+[PAGE 20]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X220
+VHHs
+Fig. S2 |In silicohit rates for Latent-X2 when designing VHHs.Distribution ofin silicohit rates across the
+held-out benchmark of 200 targets. Distributions show the binned relative frequency against the y-axis on the left;
+curves show the cumulative distribution functions against the y-axis on the right.
+We compared thein silicohit rate of Latent-X2 with Latent-X1, using identical experimental conditions: binder
+lengths,scoringmethodology,600samplespertarget,andhotspotselection(randombutfixedacrossbothmodels).
+Both models share the same training data cutoff, ensuring a fair comparison.
+Thedistributionofinsilicohitratesformini-bindersandmacrocyclesisshowninFig.S3.Quantitatively,themean
+success rate for mini-binders increases from3.92 %with Latent-X1 to6.17 %with Latent-X2, while macrocycles
+increasefrom5.33 %to8.94 %.Notably,Latent-X2producespassingdesignsforalargernumberoftargets,overall
+reducingthefractionoftargetswithzerohits.Beyondunlockingnewantibodymodalities,Latent-X2demonstrates
+improvedin silicoperformance across mini-binders and macrocycles.
+D. Experimental methods
+D.1. Antibody synthesis and purification
+Antibody binders were produced using either mammalian expression in CHO cells or cell-freein vitrotranscrip-
+tion–translation.Binderstargeting1433B,1433E,AHSP,CD98,HDAC8,IL-20,IL-3,LEP,MMP2,ONCM,PRL,
+SOMA, TNFL9, and UBE2B, as well as the developability benchmark binders, were expressed in CHO cells.
+Binders targeting BHRF1, PD-L1, SAE1, and SC2RBD were produced using cell-free expression. The ten VHH
+and scFv benchmark binders were expressed in CHO cells.
+For mammalian expression, DNA sequences encoding antibody designs were codon-optimized and synthesized.
+Sequences were cloned into pcDNA3.4 vectors with a human IgG1 Fc (hinge-CH2-CH3) tag, and plasmids were
+prepared for transfection into CHO cells. TurboCHO cells were maintained at37◦Cwith5 %𝐶𝑂 2 on an orbital
+shaker. Cells were seeded one day prior to transfection. On the day of transfection, DNA and transfection reagent
+were mixed and added to cells, which were supplemented with feed approximately 24 hours post-transfection.
+Antibodies were purified using AmMag™Protein A Magnetic Beads. After washing, bound antibody was eluted,
+pooled, and buffer-exchanged into the final formulation buffer. Purified antibodies were analyzed by SDS-PAGE
+for integrity, SEC-HPLC for molecular weight and purity, and A280 for concentration.
+For cell-free expression, antibody designs were codon-optimized and synthesized as full-length double-stranded
+linearDNA.DNAisthenusedforcell-freeproteinexpressionwithafullyreconstitutedcell-freesystemmadefrom
+individuallypurifiedcomponentsoftheE.colitranscription–translationmachinery.Expressedproteins(containing
+[PAGE 21]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X221
+MacrocyclesMini-binders
+Fig.S3|InsilicohitratesforLatent-X2vsLatent-X1acrossmini-binderandmacrocyclemodalities.Latent-
+X2hitratesareshowninpurpleandthoseofLatent-X1ingrey.a)Distributionofinsilicohitratesformini-binders
+on 200 held-out targets.b)Distribution ofin silicohit rates for macrocycles on 200 held-out targets. Distributions
+showthebinnedrelativefrequencyagainstthey-axisontheleft;curvesshowthecumulativedistributionfunctions
+against the y-axis on the right.
+a linker, twin-Strep-tag, and a fused split GFP tag) are quantified by the amount of loading detected on the sensors
+during the BLI/SPR loading cycles as well as a split GFP system using a fused tag.
+D.2. Macrocycle synthesis and cyclization
+Peptidesweresynthesizedasfollows,usingstandardFmoc-basedsolid-phasepeptidesynthesisonmodifiedchloride
+resin.AminoacidsweresequentiallycoupledtotheresinwithFmocdeprotectionstepsusingpiperidine/DMF.The
+coupling and deprotection cycle was repeated until the full linear sequence was assembled, with reaction progress
+monitored by colorimetric resin tests. Once the linear peptide was fully assembled, it was cleaved from the resin
+using a 1:3 (v/v) trifluoroethanol/dichloromethane solution, maintaining side-chain protection.
+Head-to-tail lactam cyclization was carried out in solution using PyBOP and DIPEA in DMF or DMF/DMSO
+(2:1 v/v) for two to ten hours, followed by solvent removal via rotary evaporation. For mono thioether–linked
+cyclization,sequenceswithachloroacetylatedN-terminuswerecyclizedfollowingcleavagefromtheresintoform
+athioetherlinkage.GlobaldeprotectionandfinalcleavagewereachievedusingTFA-basedcocktailsfor2–3hours.
+The reaction mixture was precipitated into cold tert-butyl methyl ether, centrifuged, and the supernatant decanted
+[PAGE 22]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X222
+toyieldthecrudemacrocycle.ThecrudeproductwaspurifiedbypreparativeHPLCwithamobilephasecontaining
+0.1 %TFA. Collected fractions were analyzed by ESI-MS and analytical HPLC to confirm identity and purity.
+Fractions with>90 %purity were pooled and lyophilized to obtain final peptide powders.
+D.3. Experimental characterization of binding affinity via SPR
+For all macrocycles and antibodies produced in CHO cells SPR assays were performed using a Biacore 8K system
+(Cytiva) at25 ◦C. Series S CM5 sensor chips were used for all assays. Target proteins were immobilized by amide
+coupling using the Amine coupling Kit (Cytiva). Binding measurements were conducted using either multi-cycle
+kineticsorsingle-cyclekinetics,dependingonthespecificinteractioncharacteristicsoftheanalyteandligand.For
+each target, either a commercially available IgG or the corresponding natural ligand was included as a target-level
+positive control to verify assay performance.
+Analyteswereinjectedas8-pointor5-pointconcentrationseries,withstartingconcentrationsrangingfrom25 nM
+to250µMdepending on the sample. Injections were performed at a flow rate of30µL/min. For K-Ras(G12D)
+measurements, the association and dissociation times were both60 s. For PHD2 and TNFL9 measurements, the
+association and dissociation times were120 sand180 s, respectively. Running buffers were selected based on
+peptide/protein solubility and formulation requirements, these included ultrapure water, DMSO, and PBS buffer.
+DatawasprocessedusingBiacore8KEvaluationSoftware(version5.0).Sensorgramsweredouble-referencedusing
+a blank reference surface and buffer-only injections to correct for nonspecific binding and bulk refractive index
+effects. We used two fitting approaches to determine binding affinity: kinetic fitting and steady-state fitting. The
+choice of method depended on the interaction characteristics between the analyte and ligand. For interactions with
+clearly measurable association and dissociation phases, kinetic analysis was performed using multi-cycle kinetics.
+For fast-on/fast-off interactions, steady-state fitting was used instead, based on equilibrium binding responses. For
+kinetic measurements, fits were accepted based on a𝜒2 value of less than10 %of𝑅max.
+For SPR measurements using antibodies produced by cell-free expression, SPR was carried out on a Carterra LSA
+XT. Cell-free expression products containing intended antibodies were immobilized on the sensor chip surface
+using fused tags. Target proteins were then injected at 5 concentrations (ranging from3.2 nMto1000 nM). Global
+fitting of data to a 1:1 model across the whole concentration series was used to determinekon,k off, andK D.
+Measurements were performed in at least triplicate and included positive controls with expected binding affinities
+to ensure consistency.
+D.4. Experimental characterization of binding affinity via BLI
+For BLI measurements using antibodies produced in CHO cells, assays were performed using a Sartorius Octet
+RED384systemwithcorrespondingbiosensorsat30 ◦Cand1000 rpm.Assayswereconductedinblackpolypropy-
+leneflat-bottomassayplates(Greiner,cat.no.5085651)usingPBSTbuffer(0.03 %Tween-20inPBS,pH7.2).For
+each target, either a commercially available IgG or the corresponding natural ligand was included as a target-level
+positive control to verify assay performance.
+Prior to running BLI, biosensors were hydrated and conditioned as described above. Antibodies were diluted
+to appropriate concentrations in PBST for immobilization. Sensors were immersed in the antibody solution and
+loaded to an approximate1 nmshift, followed by equilibration in PBST for300 s. Antigen was serially diluted
+in PBST to suitable concentrations (one or five concentrations). Association was measured by immersing sensors
+in each antigen concentration solution, and dissociation was monitored by transferring sensors back to PBST. A
+zero-concentration analyte (PBST buffer alone) was included as a reference.
+Single-point BLI assays were used for initial screening, with reference-subtracted binding responses greater than
+0.1 nmclassified as hits and advanced for kinetic characterization.
+[PAGE 23]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X223
+Data was processed using Octet RED BLI Discovery software version 12.2.2.26. In preliminary experiments,
+non-specific binding was tested to determine appropriate experimental conditions for subsequent analyses. For
+multi-point BLI measurements, kinetic parameters were obtained by global fitting across all tested concentrations.
+Fitqualitywasassessedusingthecoefficientofdetermination(𝑅 2),calculatedovertheassociationanddissociation
+phases.Kineticdataarereportedforfitswith𝑅 2 >0.95.Forasingletarget(AHSP)wherenointeractionsmetthis
+criterion, fits with𝑅2 >0.90were included provided they also passed visual quality assessment. For ONCM and
+LEP, rapid dissociation required shortened dissociation windows (approximately200 s) to enable robust kinetic
+fitting.
+For BLI measurements using antibodies produced by cell-free expression, assays were performed using a Gator
+Bio Pro. Antibody constructs were immobilized on the sensor surface via fused affinity tags. Target proteins were
+injectedatfourconcentrations(31.6 nMto1000 nM),alongwithazero-analytecontrol,andwavelengthshiftswere
+recorded at5 Hz. Global fitting of data to a 1:1 model across the whole concentration series was used to determine
+kon,k off, andKD. Measurements were performed in at least triplicate and included positive controls with expected
+binding affinities to ensure consistency.
+D.5. Experimental characterization of antibody developability
+BVP ELISA
+Baculovirus particles (BVP) contain diverse surface components, including viral proteins, lipids, and host-derived
+contaminants and were used as antigens in incubation with antibodies in ELISA to evaluate their polyreactivity
+[1, 38]. BVPs were coated onto ELISA plates and incubated at low temperature. Subsequent steps, including
+washing, blocking, sample incubation, secondary antibody binding, and color development, were carried out at
+room temperature. After stopping the reaction, absorbance was measured at450 nm. The BVP ELISA Score was
+calculated as the ratio of the sample to blank absorbance to evaluate the tendency of nonspecific binding. Low
+binding indicates high specificity, while strong binding suggests potential polyreactivity. Bococizumab was used
+as the positive control sample and panitumumab as the negative control sample in each experiment [1, 39–41].
+NanoDSF
+Differential scanning fluorimetry (DSF) measures changes in fluorescence as a protein’s conformation changes,
+fromwhichproteinthermostabilitycanbeestimatedasmeltingtemperature(Tm).Thefluorescencecancomefrom
+a protein’s own tryptophan, tyrosine, and phenylalanine residues (intrinsic fluorescence). The assessment here was
+performed using dye-free nanoDSF on the UNcle instrument. Samples were dispensed into UNi tubes and loaded
+into the instrument for analysis. The instrument applied a controlled temperature ramp while monitoring changes
+in intrinsic protein fluorescence to determine the antibody’s Tm. Bococizumab was used as the positive control
+sample and sample buffer as the negative control sample in each experiment [1].
+HIC-HPLC
+Hydrophobic interaction chromatography separates proteins based on their hydrophobic properties. During the
+separation process, the high salt concentration in the mobile phase enhances the binding of the protein to the
+stationary phase through the salting-out effect, and then the salt concentration is reduced to separate proteins with
+different hydrophobic properties. Lirilumab was used as the positive control sample and tremelimumab as the
+negative control sample in each experiment [1, 42].
+SEC-HPLC
+SEC-HPLCwasruninanAgilent1290UPLCusingPhenomenexBiozen200Åcolumns(4.6 mm×150 mm)with
+particle size of1.8µm. Samples were first filtered using0.22µmmembranes prior to injection.3µgof filtered
+[PAGE 24]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X224
+samples were injected and run using flow rate of3.5 mL/min, with UV detection (VWD) at280 nmand mobile
+phase of0.1 mol/LNa2SO4 in0.118 mol/LPhosphate Buffer (pH6.7±0.3).
+D.6. Ex Vivo Immunogenicity Characterization
+PBMC cell thawing and seeding
+PBMCs (StemCell Technologies, cat. no. 70025.3; Hu PBMNC, Cryo,5×107 cells/vial) were thawed quickly in
+a37 ◦Cwater bath by swirling each vial. Characteristics of donors can be found in Tab. S5. Vials were removed
+when a small amount of ice remained. The entire vial content was then transferred by pipette to a50 mLconical
+tube.Thevialwasrinsedwith1 mLofpre-warmedmediaandaddeddropwisetothecellswhileswirlingthe50 mL
+conical tube. Cells were washed by adding15 mLto20 mLmedia dropwise while swirling the tube. Then, cells
+werecentrifugedat300×gfor10 minatroomtemperature.Thesupernatantwascarefullyremovedwithapipette,
+leaving a small amount of medium to ensure the cell pellet was not disturbed. The cell pellet was resuspended by
+flickingthetube,afterwhich15 mLto20 mLmediawasaddedtothetube.Cellsuspensionwascentrifugedagainat
+300×gfor10 minatroomtemperature.Supernatantwascarefullyremovedwithapipette,leavingasmallamount
+of medium to ensure the cell pellet is not disturbed. The cell pellet was resuspended, the suspended cells were
+then counted using a ViCell automated cell counter. Cells were then seeded in 96-well plates at150 000cells/well
+in180µLImmunoCult media (StemCell Technologies, cat. no. 10971) +10 %HI FBS. Two 96-well plates were
+seeded per PBMC donor, one plate for48 hsupernatant harvest followed by CellTiter-Glo and another plate for
+120 hsupernatant harvest followed by CellTiter-Glo.
+[PAGE 25]
+Tab. S5 | Characteristics of PBMC donors used inex vivoimmunogenicity assays.
+GenderAgeEthnicity SmokerWeight
+(kg)
+Height
+(cm)
+Viability
+(%)
+Blood
+Type
+CMV
+Status
+HLA-A HLA-B HLA-C
+M57WHT Y90 176 96A+ UNK A*01:01, A*25:01 B*08:01, B*18:01 C*07:01, C*12:03
+M29CAU N83 172 99O+ NEG A*01:01, A*02:01 B*08:01, B*40:01 C*03:04, C*07:01
+M42BLK N96 183 96A+ NEG A*30:02, A*30:01 B*18:01, B*42:01 C*07:01, C*17:01
+M24MIX N88 181 95O+ POS A*11:01, A*24:02 B*15:02, B*51:01 C*08:01, C*15:02
+F50BLK N100 155 97O+ NEG A*02:03, A*25:01 B*08:01, B*13:01 C*04:03, C*07:01
+M57WHT Y90 185 98A+ NEG A*02:01, A*02:01 B*08:01, B*27:05 C*02:02, C*07:01
+F21HSP N57 168 99O+ POS A*02:01, A*24:02 B*39:06, B*50:01 C*04:01, C*07:02
+F43AFA N73 163 99.9A+ POS A*03:01, A*68:01 B*41:02, B*58:02 C*06:02, C*17:01
+M20ASN N59 163 99B+ POS A*33:03, A*68:01 B*07:02, B*58:01 C*03:02, C*07:02
+F32CAU N56 170 99.8A+ POS A*03:01, A*25:01 B*40:01, B*57:01 C*03:04, C*03:04
+[PAGE 26]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X226
+Treatment
+Fivetreatmentantibodieswereaddedat10×toeachdonorsetofPBMCplates(20µLof10×antibodyto180µLof
+seeded cells) in a four-point, three-fold dilution series run in duplicate, with a top concentration of30µg/mL. The
+controls were: 1) Untreated; 2) Positive Control 1: ImmunoCult Human CD3/CD28 T-cell Activator (25µL/mL
+treatment) + IL-2 (10 ng/mL); and 3) Positive Control 2: Invitrogen™eBioscience™Phytohemagglutinin-L
+(PHA-L) Solution (500×,1.25 mg/mL), final treatment concentration10µg/mL.
+Tab. S6 | Positive controls used inex vivoimmunogenicity assays.
+ItemCatalogueSupplier
+ImmunoCult Human CD3/CD28 T-cell Activator10971StemCell Technologies
+Human Recombinant IL-2, ACF78145StemCell Technologies
+Phytohemagglutinin-L (PHA-L) Solution50-112-9264Invitrogen™eBioscience™
+Supernatant harvest for Luminex and CellTiter-Glo assays at 48 hours and 120 hours
+Thirty minutes prior to timepoint, plates were pulled from incubator and placed on bench at RT. Plates were
+centrifuged at 300×g for1 min. Using a 12 channel P200,100µLof media were pipetted from the top of the well
+without disturbing cells at the bottom and transferred to a clear U bottom polypropylene 96 well plate (Corning,
+cat. no. 3359). Plate was sealed with foil sticker and transferred to−80◦Cfor Luminex assay. Equal volume of
+CTG was added to each assay well. Plate was then gently shaken for2 minat300 rpm(covered with foil) then let
+sit at RT covered for10 min. Luminescence was then read on SpectraMAX.
+Luminex assay 120-hour supernatant timepoint
+Supernatant plates were thawed on ice. Six ProcartaPlex Assay plates were run according to the ProcartaPlex
+Human Mix and Match Panels User Guide Publication Number MAN0024966. Kit components are listed in
+Tab. S7. Supernatant120 hsample was diluted 1:2 using assay medium (ImmunoCult-XF T Cell Exp Medium;
+StemCellTechnologies,cat.no.10981)+10 %HIFBSasdiluent.Thecontrolswere:1)Untreated;and2)Positive
+control: ImmunoCult Human CD3/CD28 T-cell Activator + IL-2. Plates were read on Luminex FLEXMAP 3D
+instrument for the following targets: IFN-𝛾, IL-10, IL-16, IL-6, IL-8 (CXCL8), and TNF-𝛼; see Tab. S8 for target
+details and standard concentrations.
+Raw data files were exported from Luminex FLEXMAP 3D and then uploaded to ThermoFisher’s ProcartaPlex
+Analysis App, where data was analyzed and quantified intopg/mLper analyte according to the standard curve.
+When both technical replicates yielded valid measurements, values were averaged prior to downstream analysis.
+Measurements falling outside the quantifiable range of the standard curve were flagged as out-of-range (OOR).
+If one replicate yielded a quantifiable value within the standard curve while the other was OOR, the quantifiable
+value was used for downstream analysis. If both replicates were below the lower limit of quantification (LLOQ),
+the reported concentration was set to 0. If both replicates exceeded the upper limit of quantification (ULOQ), the
+reported concentration was designated as above range. This approach allowed retention of samples with partial
+quantifiability while avoiding extrapolation beyond the validated assay range.
+[PAGE 27]
+Drug-like antibodies with low immunogenicity in human panels designed with Latent-X227
+Tab. S7 | Luminex kit components used in cytokine release assays.
+ItemCatalogue Lot
+ProcartaPlex Human Mix & Match PanelPPX-06-MXPRNXR 470023-000
+Standard Mix AS10007EX 445156-000
+Standard Mix BS10011EX 420280-000
+Standard Mix ES10014EX 397396-000
+6-Plex Capture BeadsB-06-MXPRNXR-EX 469917-000
+6-Plex Detection ABBK-06-MXPRNXR-EX 469918-000
+Streptavidin-PE (SA-PE)SA-PE 428706-000
+Wash Buffer (10X)WBEX/28 25097135
+Tab. S8 | Cytokine analytes and standard concentrations for Luminex 6-plex assay.
+Target Name Bead Number Concentration (pg/mL) Standard Mix
+IFN-𝛾43 44200 Standard Mix A
+IL-10 28 4700 Standard Mix A
+IL-16 47 29600 Standard Mix E
+IL-6 25 46800 Standard Mix A
+IL-8 (CXCL8) 27 9600 Standard Mix B
+TNF-𝛼45 29500 Standard Mix A

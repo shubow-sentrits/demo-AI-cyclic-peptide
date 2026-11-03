@@ -1,0 +1,115 @@
+{
+  "retrieved": "2026-11-03",
+  "files": [
+    {
+      "path": "literature/fulltext/P01_RFpeptides.html",
+      "bytes": 261885,
+      "sha256": "32a57259a538ffad91fd17a9689416f7b5cb44d7e115615bb7d7ba43d80bd254"
+    },
+    {
+      "path": "literature/fulltext/P01_RFpeptides.txt",
+      "bytes": 92973,
+      "sha256": "a020a421d3c62b633343538e533d76bc30f733239c89fc150ba675247772ea27"
+    },
+    {
+      "path": "literature/fulltext/P02_BoltzGen.pdf",
+      "bytes": 9559814,
+      "sha256": "42e77c92c5d24f0101ee58e2864ee879b8b572b8c73947035809942512e95149"
+    },
+    {
+      "path": "literature/fulltext/P02_BoltzGen.txt",
+      "bytes": 210445,
+      "sha256": "614c194aa125add9bdacbb6356a727211c29047b5bde6f142feff9d43efeeee0"
+    },
+    {
+      "path": "literature/fulltext/P03_AfCycDesign.pdf",
+      "bytes": 3409554,
+      "sha256": "fc95ff5a25c396ca3a6f6f5d7ae188e76674c56305aa9e8b0ce1944a5cf0c496"
+    },
+    {
+      "path": "literature/fulltext/P03_AfCycDesign.txt",
+      "bytes": 87990,
+      "sha256": "116bb579fc484b4f34585dc835600b213d6d9fecd60112898b27164aea123dee"
+    },
+    {
+      "path": "literature/fulltext/P04_LatentX2.pdf",
+      "bytes": 11255503,
+      "sha256": "e01e5ae31daea9c3d6e82d8823d0086d1bdb473936cb98ade2f7f903299b2371"
+    },
+    {
+      "path": "literature/fulltext/P04_LatentX2.txt",
+      "bytes": 74545,
+      "sha256": "c886de4aa21abb9a94b88bb5375722e6f1a30abd110480fe93184959f176b278"
+    },
+    {
+      "path": "literature/fulltext/P06_CycDiffDPO.html",
+      "bytes": 235421,
+      "sha256": "292d29273becee82c4dc3ceb50d1dbe7a07945c39066eb8ba6897952913a8f3e"
+    },
+    {
+      "path": "literature/fulltext/P06_CycDiffDPO.txt",
+      "bytes": 88996,
+      "sha256": "007ac2320e79502d01dc6f12b9bf00662d5078348942e091c414d301dd2b2ba6"
+    },
+    {
+      "path": "literature/fulltext/P07_CycloPepper.pdf",
+      "bytes": 1025638,
+      "sha256": "def3953b2a0d0e15ff678912caed0aa8fdc6945ad630e4f1f319bea19555394f"
+    },
+    {
+      "path": "literature/fulltext/P07_CycloPepper.txt",
+      "bytes": 43276,
+      "sha256": "20138082389c64dad3b3897f604d0ba125053afbf1f90be174ab005dc373ad4a"
+    },
+    {
+      "path": "literature/fulltext/R01_rules_2026.pdf",
+      "bytes": 1285833,
+      "sha256": "322e17782a32e65ede6d13990f9f4d6aaa148a69a493b449f570464323b6c2ff"
+    },
+    {
+      "path": "literature/fulltext/R01_rules_2026.txt",
+      "bytes": 130141,
+      "sha256": "920af06dd76c9db9474b64f9b8f5b6bfc152a52a66f8af245f67e4eeb88d98c7"
+    },
+    {
+      "path": "literature/fulltext/R02_cell_penetration_2019.html",
+      "bytes": 760104,
+      "sha256": "23ad538dcaa5d48a72d6d00a9c6d1f900988c8e387553183a3b3cfcc6657cd39"
+    },
+    {
+      "path": "literature/fulltext/R02_cell_penetration_2019.txt",
+      "bytes": 285723,
+      "sha256": "7f91a483483efd57fa382ecab13309bfe5123d1b997ec98972e436ba3cac6542"
+    },
+    {
+      "path": "literature/fulltext/R03_display_2024.html",
+      "bytes": 375299,
+      "sha256": "f19bc6c11922aaab594b2dab53ddb2b2137d588e34d861d7c2870b4cf369b4b7"
+    },
+    {
+      "path": "literature/fulltext/R03_display_2024.txt",
+      "bytes": 116860,
+      "sha256": "290b16c026b7363a755800b742b5c0b043a657623149fceb3d7dcf011b9790ea"
+    },
+    {
+      "path": "literature/fulltext/R05_MMPBSA_2015.html",
+      "bytes": 263645,
+      "sha256": "da81520b6b2489ee1830ed0e86eedfbdee4827da99875d21a128f9fc694a5ba5"
+    },
+    {
+      "path": "literature/fulltext/R05_MMPBSA_2015.txt",
+      "bytes": 72835,
+      "sha256": "866a3700fedc68b41105b0c7a3cb04b5d88c47190fa1233efff636aa61d0f60f"
+    },
+    {
+      "path": "literature/fulltext/R06_trends_2026.html",
+      "bytes": 480437,
+      "sha256": "ee4b77992574d9122d72a13d4dab3fc090ac8734f255bfce7f96c85acffd0b37"
+    },
+    {
+      "path": "literature/fulltext/R06_trends_2026.txt",
+      "bytes": 173981,
+      "sha256": "a874bf3a14f54f5ab40afba9c5d3e6da4ee642d474d4b41efdee73b5dd3fb137"
+    }
+  ]
+}

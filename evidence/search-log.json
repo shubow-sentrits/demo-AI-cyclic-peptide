@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-03",
+  "scope": "Targeted literature and route review; not an exhaustive systematic review",
+  "queries": [
+    "cyclic peptide artificial intelligence computational design review 2025 2026 review",
+    "cyclic peptide drug discovery mRNA display permeability review 2024 2025",
+    "Cyclic Peptide Therapeutic Agents Discovery review",
+    "cyclic peptides review mRNA display 2025 PMC drug discovery",
+    "site:github.com RFpeptides",
+    "site:github.com AfCycDesign",
+    "site:github.com CycleDesigner",
+    "PepINVENT github",
+    "RINGER cyclic peptide github",
+    "CycDiff-DPO github",
+    "Insamo platform peptides",
+    "site:latentlabs.com Latent-X2 macrocyclic",
+    "site:schrodinger.com cyclic peptide permeability FEP",
+    "site:bicycletherapeutics.com phage display platform"
+  ],
+  "selection": "Prioritize cyclic-peptide discovery/design, experimental screening, permeability and method errors. Primary papers and official repositories validate project claims. Reviews/Perspective/Highlight differentiated in catalog.",
+  "limits": "No citation-count ranking. No exhaustive company census, procurement quote, full license dependency audit or clinical-status audit.",
+  "fulltext_reading": "5 reviews + 6 original research/report full texts saved; selected relevant sections read. Remaining records show abstract/repository-only or access limitations."
+}

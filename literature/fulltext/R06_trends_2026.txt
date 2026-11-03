@@ -1,0 +1,3665 @@
+
+ Cyclic Peptides in Modern Drug Discovery: Trends and Therapeutic Directions - PMC
+ Skip to main content
+ An official website of the United States government
+ Here's how you know
+ Here's how you know
+ Official websites use .gov
+ A
+ .gov website belongs to an official
+ government organization in the United States.
+ Secure .gov websites use HTTPS
+ A lock (
+ Lock
+ Locked padlock icon
+) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites.
+ Search
+ Log in
+ Dashboard
+ Publications
+ Account settings
+ Log out
+ Search…
+ Search NCBI
+ Primary site navigation
+ Search
+ Logged in as:
+ Dashboard
+ Publications
+ Account settings
+ Log in
+Search PMC Full-Text Archive
+Search in PMC
+ Journal List
+ User Guide
+PERMALINK
+ Copy
+ As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health.
+ Learn more:
+ PMC Disclaimer
+ |
+ PMC Copyright Notice
+J Med Chem. 2026 Jul 21;69(15):17770–17799. doi: 10.1021/acs.jmedchem.6c01522
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Cyclic Peptides
+in Modern Drug Discovery: Trends and
+Therapeutic Directions
+Trupti Thite
+Trupti Thite
+†
+ACS
+International Pvt. Ltd., Pune
+411044, India
+Find articles by Trupti Thite
+†, Kavita A Iyer
+Kavita A Iyer
+‡
+CAS,
+A Division of the American Chemical Society, Columbus, Ohio
+43210, United States
+Find articles by Kavita A Iyer
+‡, Preeti Jain
+Preeti Jain
+†
+ACS
+International Pvt. Ltd., Pune
+411044, India
+Find articles by Preeti Jain
+†, Janet M Sasso
+Janet M Sasso
+‡
+CAS,
+A Division of the American Chemical Society, Columbus, Ohio
+43210, United States
+Find articles by Janet M Sasso
+‡, Rumiana Tenchov
+Rumiana Tenchov
+‡
+CAS,
+A Division of the American Chemical Society, Columbus, Ohio
+43210, United States
+Find articles by Rumiana Tenchov
+‡, Sudarshan Murmu
+Sudarshan Murmu
+†
+ACS
+International Pvt. Ltd., Pune
+411044, India
+Find articles by Sudarshan Murmu
+†, Mahaveer Surendranath
+Mahaveer Surendranath
+†
+ACS
+International Pvt. Ltd., Pune
+411044, India
+Find articles by Mahaveer Surendranath
+†, Ankush Maind
+Ankush Maind
+†
+ACS
+International Pvt. Ltd., Pune
+411044, India
+Find articles by Ankush Maind
+†, Umesh T Balande
+Umesh T Balande
+†
+ACS
+International Pvt. Ltd., Pune
+411044, India
+Find articles by Umesh T Balande
+†, Qiongqiong Angela Zhou
+Qiongqiong Angela Zhou
+‡
+CAS,
+A Division of the American Chemical Society, Columbus, Ohio
+43210, United States
+Find articles by Qiongqiong Angela Zhou
+‡,*
+Author information
+Article notes
+Copyright and License information
+†
+ACS
+International Pvt. Ltd., Pune
+411044, India
+‡
+CAS,
+A Division of the American Chemical Society, Columbus, Ohio
+43210, United States
+*
+Email: qzhou@cas.org.
+Received 2026 May 11; Accepted 2026 Jul 8; Revised 2026 Jun 29; Collection date 2026 Aug 13.
+© 2026 The Authors. Published by American Chemical Society
+This article is licensed under CC-BY 4.0
+PMC Copyright notice
+PMCID: PMC13492385  PMID: 42480222
+Abstract
+Peptide therapeutics are an important drug modality due
+to their
+high specificity, favorable safety, and expanding design potential.
+Among them, cyclic peptides occupy a space between small molecules
+and biologics, offering improved rigidity, stability, and target engagement.
+This report analyzes trends in cyclic peptide research using data
+from the CAS Content Collection over the past two decades. Results
+show a steady rise in academic publications and patents, reflecting
+growing interest across discovery and development. Notably, oral administration
+is gaining attention, indicating progress toward addressing long-standing
+bioavailability challenges. Beyond delivery, we examine how peptide
+and cyclization types, along with specific chemical modifications,
+relate to administration routes, therapeutic indications, and molecular
+targets. We also assess physicochemical properties to understand how
+molecular features influence developability. Together, these insights
+provide a comprehensive view of the evolving cyclic peptide landscape
+and emerging principles guiding their future development.
+1. Introduction
+Peptide therapeutics have
+emerged as a promising modality in human
+medicine over the past several decades, owing to their high specificity,
+favorable safety profiles, and expanding chemical design space.
+,
+ As reflected by the increase in the number of publications (Supplementary Figure S1), their impact has become
+increasingly evident exemplified by the success of semaglutide, which
+has achieved unprecedented global sales and has reshaped the landscape
+of metabolic disease therapeutics. Among
+all U.S. FDA-approved peptide therapeutics, about 25% belong to the
+category of cyclic peptides. Cyclic peptides
+are a class of polypeptides in which the amino acid chain is covalently
+closed to form a ring structure, through various cyclization strategies.
+This topology distinguishes them from linear peptides and generally
+imparts enhanced conformational rigidity, proteolytic stability, and
+better binding affinity. Typically, cyclic peptides occupy an intermediate
+molecular weight (MW) range of ∼500–3000 Da, situating
+them between small molecules and large biologics in size and complexity. Their cyclic architecture imparts several advantages,
+including enhanced resistance to enzymatic degradation, improved target
+binding, and, crucially, the potential for oral bioavailability, a
+long-standing hurdle in peptide-based therapeutics. These structurally constrained compounds occupy a unique
+chemical space, combining the high specificity and affinity of large
+biologics with the favorable pharmacokinetic properties of smaller
+molecules.
+The global cyclic peptide
+market is experiencing steady growth,
+driven by their unique structural advantages compared to linear peptides.
+According to recent reports,
+,,
+ the market was valued at approximately USD 3.16 billion in 2024
+and was projected to reach USD 3.35 billion in 2025, with a compound
+annual growth rate (CAGR) of 6.5–6.7%, ultimately surpassing
+USD 5.3 billion by 2032. Biopharmaceutical applications dominate,
+particularly in oncology, autoimmune disorders, and infectious diseases,
+supported by advancements in solid-phase synthesis, display screening
+platforms (like mRNA display and phage display), and computational
+design. Key players include Bicycle Therapeutics, Merck, Bachem, and
+Apellis Pharmaceuticals, while emerging uses in diagnostics, environmental
+protection, and biosensing are expanding the market footprint. This
+growth reflects cyclic peptides’ role as a cornerstone modality
+in next-generation biologics development.
+In this paper, we
+explore data from the CAS Content Collection, the largest human-curated collection of published
+scientific information, in an effort to provide a comprehensive overview
+of cyclic peptides with a focus on their therapeutic potential. In
+parallel with cyclic peptides, other constrained modalities such as
+macrocyclic small molecules, miniproteins, and peptidomimetics have
+also been developed to address challenging biological targets through
+complementary structural strategies. In the current report, our analysis
+focuses on cyclic peptides, and our findings indicate that the oral
+route of delivery is gaining increasing attention, as reflected by
+a steady rise in publications over the past several years. Beyond
+delivery, we further examine how specific peptide properties like
+peptide types, cyclization types, and certain peptide modifications
+co-occur with therapeutic areas, potential molecular targets, and
+administration routes. Beyond structural analyses, this manuscript
+also examines the physicochemical properties of cyclic peptides, followed
+by an overview of the current clinical landscape and emerging developmental
+trends. Together, it is our hope that these insights offer a comprehensive
+view that can be helpful to medicinal chemists in the rational design
+and prioritization of cyclic peptides by linking structural, physicochemical,
+and therapeutic trends observed across current development efforts.
+2. Trends in Cyclic Peptide ResearchInsights
+from CAS Data
+Our analysis of cyclic peptide-related publications
+(2006–2025)
+shows steady growth with journal articles comprising 66% (15,429)
+and patents 34% (8,042) of the total output (Figure 
+A). Activity accelerated from 2015, peaking
+in 2021–2024. Notably, patents surpassed journal articles in
+2023–2024, indicating increased commercialization focus continuing
+into 2025. Geographically, China dominates research output, followed
+by the United States, Japan, Germany, India, and the United Kingdom
+(Figure 
+B). China’s
+patent-heavy profile reflects strategic emphasis on commercial applications.
+2.
+Open in a new tab
+Schematic representation of the types of cyclic peptides,
+their
+cyclization types, and a few common modifications. Figure created
+partially using www.BioRender.com.
+CAS section analysis, resulting from robust indexing efforts by
+CAS analysts (Figure 
+C), shows pharmaceuticals dominate with a >2-fold increase from
+2022
+to 2024. Significant growth in immunochemistry, biochemical genetics,
+pharmacology, and biochemical methods indicates expanding applications
+beyond therapeutics into biochemical tools and industrial biotechnology.
+Supplementary Figures S2A and S2B show
+the leading commercial and noncommercial patent assignees, with notable
+innovations in cyclic peptide-based drug delivery systems, macrocyclic scaffolds for improved oral bioavailability, and peptide conjugates for targeted cancer therapy,
+,,
+ reflecting the translational
+potential of cyclic peptide research.
+Publication output and
+citation analysis (Figures S3 and S4) reveal leading organizations engaged in cyclic peptides-related
+research. While University of Queensland and University of California
+lead in research output (number of journal publications), University
+of California leads in terms of research impact (number of citations).
+When viewed from the lens of both output and impact, Scripps Research
+Institute, Technische Universität München, and Ohio
+State University achieve highest citation rates despite lower output
+(Figure S4A) with institutions in the US
+seemingly dominating this metric. Similar analysis of scientific journals
+(Figure S5) indicates that Nature Chemical
+Biology, PNAS, and Journal of the American Chemical Society achieve
+highest per-article citation rates (Figure S4B). These insights can help researchers identify journals that combine
+visibility with influence, guiding strategic decisions for disseminating
+impactful work.
+3. Cyclic Peptides as TherapeuticsAnalysis
+Based on CAS Data
+To investigate emerging trends in cyclic
+peptide therapeutics,
+we conducted a detailed analysis of substance data (2020–2025)
+from the CAS REGISTRY. Our analysis was restricted to the 2020–2025
+period to capture recent and translationally relevant trends in cyclic
+peptide research. As is evident in Figure 
+A, patent activity increased markedly from
+2020 onward and started outpacing journal articles starting in 2023,
+indicating an acceleration in innovation. Importantly, patents filed
+during this period are increasingly concentrated in pharmaceutically
+relevant areas as seen from the CAS section data (Figure 
+C), reflecting a shift toward
+therapeutic development. Substances from our data set indexed with
+CAS roles therapeutic (THU), pharmacological (PAC), or pharmacokinetic
+(PKT) were considered for analysis. Their corresponding SMILES representations
+were processed using RDKit for structural
+evaluation. By applying this workflow (detailed in the Methods section in Supporting Information), we
+identified 46,574 cyclic peptides. Classification was based on the
+following criteria: (1) The molecule contains at least one ring (has_any_ring
+= True), (2) the molecule possesses ≥2 amide bonds overall
+(len­(amide_bidx) ≥ 2), and (3) at least one ring incorporates
+≥2 backbone-like amide bonds, with both termini adjacent to
+α-carbons. A peptide was considered cyclic peptide only if all
+these three conditions were satisfied.
+1.
+Open in a new tab
+(A) Year-wise and (B) country/region-wise distribution of journal
+and patent publications related to cyclic peptides. (C) Year-wise
+trend of patents related to cyclic peptides based on their respective
+CAS sections. (D) Major therapeutic areas in cyclic peptide research.
+Each bar shows number of cyclic peptides associated with a particular
+therapeutic area (data from 2020 to 2025). Source: CAS Content Collection,
+*Data until August 2025.
+We then analyzed the
+major therapeutic areas mentioned in our data
+set and looked at the distribution of these cyclic peptides across
+them. The analysis shows a clear dominance in the field of oncology
+(Figure 
+D). Infectious and inflammatory diseases represent
+the next major clusters. Autoimmune and cardiovascular diseases also
+feature prominently, though with substantially fewer publications
+compared to cancer. Metabolic and neurodegenerative disorders represent
+smaller but emerging areas of exploration. Supplementary Figure S6A shows their distribution across journal articles
+versus patent families. Overall, these trends highlight that while
+cyclic peptides are being investigated across a broad therapeutic
+landscape, cancer and infectious diseases remain the primary drivers
+of research activity (based on volume of documents).
+Having identified nearly 46,000 cyclic peptides,
+our next step
+was to analyze these identified peptides using RDKit to identify the types of cyclic peptides (based on the
+number of amino acids they contain), the type of cyclization present
+in a given peptide, and which if any modifications are present on
+these peptides.
+3.1. Types of Cyclic Peptides
+Cyclic peptides
+represent a structurally diverse class of biomolecules that can be
+categorized according to their source, the nature of the bonds forming
+the ring, and the number of amino acid residues involved. From a source
+perspective, they may be either naturally occurring, produced by microorganisms,
+plants, or marine organisms, or synthetically
+generated through chemical synthesis for tailored pharmacological
+applications. Based on the type of bond,
+cyclic peptides can be divided into homodetic, isopeptide, and depsipeptide
+classes. Homodetic cyclic peptides, such as cyclosporine A, are characterized by rings composed exclusively
+of standard peptide bonds between the α-carboxyl group of one
+residue and the α-amino group of another. Isopeptidic cyclic
+peptides, exemplified by microcystin and
+bacitracin, contain at least one non-α
+amide linkage, often involving side chains, which impart structural
+diversity and unique biological activity. Depsipeptides, including
+aureobasidin A, kahalalide F, and didemnin B, feature at least one ester (lactone) linkage in place of an amide
+bond, frequently formed between the C-terminal carboxyl group and
+the hydroxyl side chain of serine or threonine residues, and are notable
+for their potent pharmacological properties.
+Classification
+by ring size further highlights the functional diversity of cyclic
+peptides. Cyclic dipeptides, or diketopiperazines, are the simplest
+members, typically rigid and resistant to proteolysis. Tripeptides, slightly larger and more conformationally
+flexible, have been reported to exhibit antioxidant and anti-inflammatory
+properties. Tetrapeptides, with reduced
+ring strain, display enhanced stability and are widely studied for
+receptor modulation and pharmacological activity. Pentapeptides strike a balance between conformational diversity
+and stability, making them attractive scaffolds for drug design with
+improved bioavailability. In general,
+tetra- and pentapeptides are considered the threshold for reliable
+stabilization, as smaller rings such as di- and tripeptides may suffer
+from ring strain, while larger macrocyclic structures gain conformational
+stability and functional versatility. Macrocyclic peptides, as well as bicyclic and polycyclic architectures,
+exhibit exceptional stability and highly specific binding properties,
+exemplified by molecules such as vancomycin, daptomycin, and defensins. The term “macrocyclic peptide”
+has been vaguely defined in the literature, and there is no known
+stringent cutoff on the number of amino acids in a macrocyclic peptide.
+Here, based on previously published reports
+,,
+ and opinions of experts in the field, we have considered any cyclic peptide with six
+or more amino acids as a macrocyclic peptide. Bicyclic or polycyclic
+peptides have complex structures with two (bi-) or more (poly-) cyclic
+rings (Figure 
+). Collectively, these classifications underscore
+the structural and functional richness of cyclic peptides, which continue
+to serve as valuable templates in drug discovery, chemical biology,
+and therapeutic development.
+3.2. Types of Cyclization
+Cyclic peptides
+exhibit remarkable structural diversity, and the mode of cyclization
+strongly influences their stability and biological properties. Head-to-tail
+cyclization is the most prevalent, forming a closed ring between the
+N-terminal amine and C-terminal carboxyl group (Figure 
+). This orientation eliminates free termini,
+conferring resistance to exopeptidase degradation and often enhancing
+membrane permeability and intracellular delivery. Head-to-side and side-to-tail cyclizations introduce alternative
+ring closures by linking termini to reactive side chains (Figure 
+), which can fine-tune
+conformational rigidity and surface exposure of functional groups. Side-to-side cyclization, such as disulfide
+bond formation between cysteine residues, stabilizes secondary structures
+and allows reversible redox control, making it particularly useful
+in mimicking natural peptide hormones and toxins.
+Beyond these canonical strategies, mixed-mode cyclization
+combines multiple linkages to create hybrid architecture with enhanced
+complexity. Such designs can lock peptides into highly defined conformations,
+improving receptor selectivity, bioavailability, and thermal stability.
+By carefully choosing the cyclization orientation, chemists can modulate
+peptide solubility, resistance to enzymatic breakdown, and overall
+pharmacokinetic behavior. A more critical comparison of these strategies
+is summarized in Table 
+.
+1. Comparative Overview of Major Cyclic
+Peptide Cyclization Strategies, Information Summarized from Published
+Literature
+,,,,,,
+Cyclization strategy
+Conformational rigidity vs flexibility
+Metabolic soft spots introduced or mitigated
+Overall metabolic stability
+Synthetic complexity
+Scalability
+and manufacturability
+Head-to-tail
+Highest global rigidity due to
+full backbone closure
+Removes N- and C-terminal exopeptidase
+sites; internal amide
+cleavage still possible
+Very high
+Moderate
+(risk of oligomerization)
+Excellent; SPPS-compatible;
+clinically proven
+Side-to-tail
+Intermediate rigidity; local constraint with retained
+backbone
+flexibility
+N-terminus remains vulnerable; ester linkages
+are metabolic
+soft spots
+Medium–high (linkage-dependent)
+Moderate (orthogonal protection required)
+Good;
+routinely scalable for lead optimization
+Head-to-side
+Intermediate rigidity; directionally
+biased constraint
+C-terminus exposed to carboxypeptidases;
+stable if amide linkage
+used
+Medium
+Moderate
+Moderate
+Side-to-side
+Localized
+rigidity only; high global flexibility
+Both termini
+exposed; disulfides redox-labile; thioethers/lactams
+more stable
+Low-medium
+Variable (depends
+on linkage)
+Variable
+Mixed strategies
+Maximal preorganization; risk
+of over-rigidification
+Multiple liabilities masked;
+novel linkages may introduce new
+metabolic routes
+Very high
+High (usually
+multistep synthesis)
+Poor-moderate
+Open in a new tab
+We analyzed cyclic peptides with CAS rolesTHU,
+PAC, and
+PKTfrom the CAS Content Collection using RDKit to classify them based on the number of amino
+acids they contain and cyclization type (Figure 
+). For this, we selected the ring with the
+highest number of amide bonds (most likely the main macrocycle) followed
+by counting all amide bonds in that ring (ignoring the α-carbon
+filter for size naming). Lastly, we applied the following classification
+scheme: if the peptide contains 2 amides → cyclic dipeptide;
+3 amides → cyclic tripeptide; 4 amides → cyclic tetrapeptide,
+5 amides → cyclic pentapeptide; and ≥6 amides →
+macrocyclic peptide. If there were more than one amide-containing
+rings, then the peptides were classified as bicyclic or polycyclic.
+3.
+Open in a new tab
+Distribution
+of identified cyclic peptides based on their (A) type
+and (B) cyclization type. (C) Sankey graph showing co-occurrence between
+peptide type and cyclization type. Only cyclic peptides indexed with
+CAS roles THU, or PAC, or PKT were included for the analysis for the
+period 2020–2025. Source: CAS Content Collection.
+To determine the cyclization type, carbonyl carbon
+and amide nitrogen
+atoms were identified and checked for adjacency. If amide N is adjacent
+to an α-carbon, it was marked as head (backbone). If carbonyl
+C is adjacent to an α-carbon, it was marked as tail (backbone).
+The cyclization type was determined based on whether the two ends
+involved both as backbone (head-to-tail), one N backbone and other
+as C side-chain (head-to-side), one N side-chain and other as C backbone
+(side-to-tail), and both ends as side-chains (side-to-side).
+Our analysis showed that, macrocyclic peptides were the most prevalent,
+accounting for more than half of the identified cyclic peptides, followed
+by bicyclic and polycyclic structures (Figure 
+A). In contrast, cyclic dipeptides and tripeptides
+were least common, suggesting that larger peptides are generally preferred
+for therapeutic applications due to their superior stability and functional
+versatility. The distribution of cyclic peptide types across patents
+filed by leading commercial assignees (summarized in Supplementary Table S1) shows Bicycle Therapeutics as leaders
+in bicyclic or polycyclic peptides, whereas Bristol-Myers Squibb and
+Merck show most association with macrocyclic peptides.
+Among
+cyclization strategies, head-to-tail cyclization was most
+dominant, accounting for nearly 2/3rd of the identified cyclic peptides,
+followed by side-to-tail and mixed cyclizations. Head-to-side and
+side-to-side account for a very small fraction of cyclic peptides
+indicating that these cyclization types may not be preferred or as
+explored (Figure 
+B).
+Evaluation of patent portfolio from leading commercial assignees (Supplementary Table S2) shows strong co-occurrence
+of side-to-tail cyclized peptides in patents from Bicycle Therapeutics
+and head-to-tail cyclized peptides in patents from Bristol-Myers Squibb
+and Merck. Co-occurrence analysis between peptide type and cyclization
+strategy revealed that most head-to-tail cyclized peptides form macrocyclic
+architectures, whereas side-to-tail and mixed cyclizations contribute
+more diversely to bicyclic/polycyclic structures and smaller ring
+sizes such as tetrapeptides and pentapeptides (Figure 
+C). Supplementary Figures S6B and S6C show the number of documents (journal articles
+versus patent families) for different peptide types and cyclization
+types, respectively. Both show dominance of journal articles compared
+to patents. Overall, these findings highlight clear co-occurrence
+patterns between cyclization strategies and observed peptide architectures
+within the analyzed data set.
+We also looked at the MW distribution
+of these cyclic peptides,
+stratified by ring size and topology (Supplementary Figure S7). Most reported cyclic peptides cluster in the 1,000–2500
+Da range, with macrocyclic peptides constituting the dominant class
+across these MWs, whereas bicyclic or polycyclic peptides appear comparatively
+less frequently but are preferentially represented at higher MW.
+3.3. Cyclization Bonds and Chemical/Bioconjugate
+Modifications
+Cyclic peptides can be stabilized through diverse
+cyclization bonds such as disulfide, ether, thioether, ester, and
+thioester linkages, each imparting unique structural and functional
+properties. Disulfide bonds, formed between cysteine residues, are
+among the most common and confer conformational rigidity, though they
+can be redox-sensitive.
+,
+ Thioether and ether
+linkages provide enhanced chemical stability compared to disulfides,
+as they are resistant to reduction and proteolytic cleavage.
+,
+ Ester bonds in cyclic peptides enhance protease resistance, solubility,
+and conformational control, making them useful for improving stability
+and drug-like properties. Thioester bonds,
+meanwhile, play a key role in natural biosynthesis and synthetic cyclization
+by enabling acyl shifts, facilitating efficient macrocyclization,
+and mimicking biological pathways. Furthermore,
+amide-to-ester substitutions in cyclic peptides can also improve their
+membrane permeability. These cyclization
+bonds directly influence the therapeutic potential of cyclic peptides
+by modulating stability, bioavailability, and target affinity.
+Chemical or bioconjugate modifications on peptides constitute a fundamental
+strategy in the rational design of novel peptide entities and the
+expansion of their functional repertoire. By applying well established
+chemical methodologies, it is possible to modulate key physicochemical
+parameters, including net charge, hydrophobicity, conformational flexibility,
+amphiphilicity, and sequence composition that collectively govern
+peptide stability and biological performance. Some important modifications and their significance are summarized
+in Table 
+. Such targeted
+modifications enable researchers to overcome intrinsic limitations
+of native peptides, thereby improving pharmacokinetic behavior, enhancing
+biological activity, and broadening therapeutic applicability.
+2. Peptide Modifications and Their Significance.
+Modification
+Significance
+Methylation
+Improves oral bioavailability
+Improves protease resistance
+Increases membrane permeability
+Glycosylation
+Improves solubility and stability, improves half-life
+Enhances target binding
+Reduces immunogenicity
+Lipidation
+Increases membrane permeability
+Improves receptor selectivity and potency
+Increases enzymatic
+stability
+Phosphorylation
+Impacts peptide conformation and interactions with target proteins
+Sulfation
+Enhances receptor binding and improves aqueous solubility
+PEGylation
+Reduces renal clearance
+Prolongs circulation half-life
+Open in a new tab
+Our analysis focused on cyclization bonds (disulfide
+and thioether)
+and chemical modifications listed in Table 
+. Disulfide bonds were the most common, followed
+by thioether linkages. Among chemical modifications, N-methylation was most prevalent, followed by complex modifications
+(more than one modification) and lipidation. Glycosylation, PEGylation,
+sulfation, and phosphorylation were comparatively rare, likely because
+these modifications are more specialized and often used to enhance
+solubility, bioavailability, or targeting rather than being broadly
+applied across peptide classes (Figure 
+A). Complex modifications, thioether bonds, disulfide
+bonds, and PEGylation are mentioned more frequently in patents than
+in journal articles (Figure S6D). An analysis
+of patent filings from leading commercial assignees (Supplementary Table S3) shows distinct, company-specific preferences
+in cyclic peptide modification strategies. Thioether-mediated cyclization
+predominates as compared to disulfide linkages. N-methylation and more complex modifications occur more frequently
+in portfolios of large pharmaceutical companies, while lipidation,
+glycosylation, sulfation, and PEGylation appear sporadically, consistent
+with their use in later-stage optimization. Co-occurrence analysis
+between modifications and peptide type revealed that larger peptidesmacrocyclic
+and bicyclic/polycyclicexhibit diverse and extensive modifications,
+whereas smaller peptides tend to have fewer modifications (Figure 
+B). This trend suggests
+that structural complexity provides more opportunities for functional
+tailoring, which is critical for optimizing therapeutic performance.
+4.
+Open in a new tab
+(A) Distribution
+of cyclic peptides with specified modifications.
+(B) Sankey graph showing co-occurrence between the various modifications,
+peptide type, and cyclization type. Only cyclic peptides indexed with
+CAS roles THU, or PAC, or PKT covering the period 2020–2025
+were included for the analysis. Source: CAS Content Collection.
+3.4. Physicochemical Landscape Analysis: Rational
+Design Principles for Cyclic Peptide Therapeutics
+The comprehensive
+analysis of physicochemical properties provides crucial insights into
+the therapeutic potential and drug-like quality of cyclic peptides,
+informing rational selection strategies for experimental validation.
+We analyzed key physicochemical properties relevant to peptide drug-likeness,
+including hydrogen-bond donors and acceptors, molecular flexibility,
+polar surface area, lipophilicity, and pK
+a distributions. Physicochemical property values were retrieved from
+CAS SciFinder, which employs ACD/Laboratories algorithms for property
+prediction (please see Methods section in Supporting Information for more details).
+Figure 
+A shows the percentage of cyclic peptides
+violating each individual criterion (Lipinski’s/Veber’s
+rules), revealing that a substantial fraction of the data set exceeds
+classical thresholds for MW, polar surface area, hydrogen-bond donors
+or acceptors, and rotatable bonds. This pattern reflects the inherent
+structural features of cyclic and macrocyclic peptides, which are
+larger and more polar than conventional small molecules. Figure 
+B extends this analysis
+by depicting the percentage distribution of peptides according to
+the total number of rules violated simultaneously, demonstrating that
+most peptides breach multiple rules rather than failing a single parameter
+in isolation. Notably, peptides violating four or five rules constitute
+a major proportion of the data set, underscoring that therapeutic
+cyclic peptides predominantly reside in “beyond-Rule-of-5”
+chemical space. While this fact is well recognized in the literature, a systematic quantification across large data
+sets has been lacking. Here, we provide the first comprehensive analysis
+of Lipinski/Veber rule violations across 46,574 cyclic peptides.
+5.
+Open in a new tab
+Percentage
+of cyclic peptides violating individual Lipinski’s
+and Veber’s drug-likeness criteria: (A) individual criteria
+and (B) number of rules violated. Source: CAS Content Collection.
+Together, these percentage-based distributions
+highlight that classical
+drug-likeness rules systematically classify cyclic peptides as noncompliant,
+despite their known biological activity. This further emphasizes that
+alternative descriptors such as conformational rigidity, intramolecular
+hydrogen bonding, and three-dimensional shape are more appropriate
+for assessing the developability of peptide-based therapeutics.
+The clustering observed across the physicochemical property distributions
+reflects a strong interplay between cyclic peptide size, conformational
+constraint, and therapeutic selection pressures inherent to the CAS-indexed
+data set (Figure 
+A–E).
+Cyclization eliminates terminal functional groups and restricts backbone
+flexibility, which compresses properties such as hydrogen-bond donors,
+acceptors, and rotatable bonds into narrow, recurring ranges, particularly
+for macrocyclic peptides that dominate most bins. As peptide ring
+size increases, properties like polar surface area and hydrogen-bond
+acceptor count scale upward in a predictable manner due to additional
+amide bonds, yet these values remain clustered rather than broadly
+distributed because therapeutically relevant peptides are preferentially
+optimized to balance polarity, permeability, and binding affinity.
+Similarly, Log P values concentrate in the moderate
+range (0–5), reflecting medicinal chemistry bias against excessively
+hydrophobic or insoluble structures, while pK
+a clustering around basic values arises from recurrent inclusion
+of cationic amino acids that enhance solubility and target interaction.
+Overall, the accumulation of specific peptide classes within discrete
+regions of each panel indicates that these compounds occupy a constrained
+and highly optimized chemical subspace, shaped not by random sequence
+diversity but by biological function, developability constraints,
+and the physicochemical requirements necessary for therapeutic activity
+in cyclic and macrocyclic peptides.
+6.
+Open in a new tab
+Distribution of key physicochemical properties
+of cyclic peptides:
+(A) hydrogen-bond donors, (B) hydrogen-bond acceptors, (C) rotatable
+bonds, (D) polar surface area, (E) Log P, and (F)
+pK
+a, shown as stacked bars colored by
+peptide type. Source: CAS Content Collection.
+Figure 
+ illustrates
+how the type of cyclization systematically likely influences the physicochemical
+property distributions of therapeutically annotated cyclic peptides.
+Across all panels, head-to-tail cyclization dominates the primary
+clusters for hydrogen-bond donors and acceptors, reflecting its prevalence
+in stabilizing peptide backbones while minimizing terminal polarity
+through amide closure. The clustering of freely rotatable bonds between
+∼10 and 30 indicates that, despite differences in cyclization
+topology, most cyclic peptides converge toward a similar balance of
+rigidity and flexibility, with side-to-side and mixed cyclizations
+slightly shifting distributions toward higher flexibility due to additional
+linkers. Polar surface area shows pronounced accumulation in the 500–1000
+Å2 range regardless of linkage type, underscoring
+that overall polarity is primarily dictated by peptide size and backbone
+composition rather than the specific cyclization chemistry, although
+side-chain cyclizations marginally populate the >1000 Å2 bin. Likewise, Log P values cluster predominantly
+between 0 and 5 across all cyclization modes, revealing a shared medicinal
+chemistry bias toward moderate lipophilicity, while basic pK
+a values are enriched in mixed and side-chain
+cyclized peptides due to the frequent presence of ionizable side chains.
+Collectively, the observed clustering indicates that while cyclization
+topology introduces nuanced shifts in physicochemical profiles, therapeutically
+relevant cyclic peptides occupy a constrained and convergent chemical
+space shaped by developability and biological function rather than
+by cyclization mode alone. Together, our analysis shows that therapeutically
+relevant cyclic peptides, regardless of size or cyclization topology
+converge into a narrowly defined physicochemical space characterized
+by constrained hydrogen-bonding capacity, controlled flexibility,
+high but functionally masked polarity, and moderate lipophilicity,
+reflecting strong medicinal chemistry selection pressures rather than
+random structural diversity.
+7.
+Open in a new tab
+Distribution of key physicochemical properties
+of cyclic peptides:
+(A) hydrogen-bond donors, (B) hydrogen-bond acceptors, (C) rotatable
+bonds, (D) polar surface area, (E) Log P, and (F)
+pK
+a, shown as stacked bars colored by
+cyclization type. Source: CAS Content Collection.
+MW vs Log P and MW vs polar surface
+area (PSA)
+scatter plots provide complementary perspectives for assessing cyclic
+peptide drug-likeness and permeability. The MW–Log P plot captures the balance between hydrophobicity and aqueous
+solubility, offering insight into the permeability–solubility
+trade-off relevant to peptide optimization, rather than strict compliance
+with small-molecule drug-likeness rules. In parallel, the MW–PSA
+plot provides mechanistic context by reflecting hydrogen-bonding capacity
+and overall polarity: higher PSA values generally indicate increased
+polarity that can limit passive membrane permeation, whereas moderate
+PSA, in combination with conformational flexibility, may enable chameleonic
+behavior through intramolecular hydrogen bonding. Taken together,
+these analyses support rapid visual filtering of peptide libraries,
+with MW–Log P highlighting compounds with
+balanced physicochemical profiles and MW–PSA explaining how
+structural features influence permeability, thereby guiding medicinal
+chemistry efforts toward more permeable, bioavailable cyclic peptide
+therapeutics.
+The overlay (Figure 
+A) and individual MW–PSA scatter plots
+(Supplementary Figure S8) show that therapeutically
+relevant
+cyclic peptides are not randomly distributed but instead occupy a
+narrow and constrained physicochemical space. Beyond the expected
+positive relationship between MW and polar surface area, the tight,
+elongated distribution indicates that polarity increases with size
+in a highly controlled way, suggesting that added mass arises mainly
+from similar, amide-rich structural features rather than diverse chemical
+functionalities. This consistent PSA–MW relationship points
+to optimization for partly shielded or “hidden” polarity,
+where high calculated PSA can be accommodated through conformational
+folding and intramolecular hydrogen bonding, particularly in larger
+macrocycles. Although different cyclization topologies (head-to-tail,
+side-to-tail, and mixed) vary in density and spread, they all follow
+the same overall scaling trend, indicating that cyclization influences
+the extent of polarity variation without altering the fundamental
+physicochemical regime. Importantly, approved and clinically advanced
+peptides fall within the same MW–PSA range as the broader data
+set, indicating that clinical success is achieved by maintaining this
+optimized balance rather than avoiding high MW or polarity. The lack
+of sparsely populated or clearly excluded regions further suggests
+selection against unfavorable property combinations, reflecting biological
+and medicinal-chemistry constraints. The extreme high-MW (>2500
+Da)
+and high-PSA (>1400 Å2) outliers are largely older
+cyclic peptide drugs approved before 2010, consistent with discovery-driven
+development rather than deliberate property optimization.
+8.
+Open in a new tab
+Scatter plots
+showing the relationship between (A) MW and polar
+surface area for cyclic peptides and (B) MW and Log P, stratified by cyclization types (colored symbols). Dashed black
+boxes indicate “ideal druggable properties” according
+to Lipinski’s and Veber’s rules. Source: CAS Content
+Collection.
+The Log P–MW scatter plots
+(Figures 
+B and S9) reveal that, unlike polar surface area, lipophilicity
+in cyclic peptides does not scale linearly with increasing MW but
+instead remains confined within a relatively narrow band across a
+wide MW range. This constrained distribution suggests that additional
+mass in larger cyclic and macrocyclic peptides is not accompanied
+by proportional increases in hydrophobic surface, indicating deliberate
+balancing between hydrophobic and polar residues during peptide design.
+The broad horizontal spread at intermediate MWs implies that peptides
+of similar size can achieve markedly different lipophilicity through
+sequence composition and cyclization strategy, highlighting Log P as a tunable rather than size-dictated property. When
+stratified by cyclization topology, head-to-tail peptides display
+the tightest clustering around moderate Log P values,
+reflecting backbone-dominated chemistry with limited hydrophobic diversification,
+whereas mixed and side-chain-cyclized peptides show greater variance
+and a tendency toward lower Log P at higher MWs,
+consistent with increased polar side-chain involvement. Importantly,
+approved and clinically developed peptides are distributed throughout
+the central Log P band rather than occupying extreme
+values, indicating that clinical success does not demand high lipophilicity
+even at elevated MWs. The absence of peptides with strongly increasing
+Log P at higher MWs further suggests negative selection
+against overly hydrophobic macrocycles, likely due to aggregation,
+poor solubility, or unfavorable pharmacokinetics. Overall, these plots
+demonstrate that therapeutic cyclic peptides achieve developability
+not through increasing hydrophobicity with size, but through maintaining
+lipophilicity within a constrained window while exploiting conformational
+control and intramolecular interactions to offset their large MW.
+3.5. Co-Occurrence Patterns between Cyclic Peptide
+Features and Therapeutic Context
+We further explored the
+co-occurrences between various peptide types and routes of administration,
+major therapeutic areas, and potential molecular targets. Figure 
+ reveals several
+trends in the probable relationship between peptide design features
+and preferred administration routes.
+Oral, rectal, and intravenous (I.V.) delivery routes
+dominate almost all peptide classes, indicating that these routes
+remain the most feasible for diverse peptide structures. Macrocyclic,
+bicyclic, and polycyclic peptides are heavily represented in oral
+and I.V. routes, consistent with their enhanced metabolic stability
+and structural rigidity.
+,
+Subcutaneous (S.C.) and transdermal routes had very
+few cyclic peptides associated with them in our data set. Macrocyclic
+and polycyclic peptides are less dominant in the case of intramuscular
+and nasal routes. Their large size, rigidity, limited aqueous solubility,
+and poor absorption make them poorly suited for intramuscular and
+nasal routes, which rely on fast absorption of drugs in systemic circulation.
+,
+Some of the intermediate-sized cyclic
+peptides (like
+tetra- and pentapeptides) are being explored for intramuscular and
+nasal routes.
+,
+The topical route appears to have been explored mostly
+for bacterial skin infections, and inflammatory skin conditions like
+atopic dermatitis.
+Among cyclization
+types, head-to-tail, side-to-tail,
+and mixed types show maximum co-occurrence with oral, rectal, and
+I.V. routes, owing to their high stability and protease resistance.
+9.
+Open in a new tab
+Heatmap showcasing the co-occurrence of cyclic peptide types, cyclization
+types, and modifications with various administration routes. The heatmap
+is to be read vertically, with color intensity indicating relative
+frequency of number of cyclic peptides (green = low, red = high).
+Only cyclic peptides indexed with CAS roles THU, or PAC, or PKT covering
+the period 2020–2025 were included for the analysis. Source:
+CAS Content Collection.
+A closer examination of the modification patterns
+highlights how
+different chemical strategies influence compatibility with certain
+routes of administration (Figure 
+).
+N-methylation shows one of the strongest
+co-occurrence across oral, rectal, and I.V. routes, underscoring its
+well-known role in increasing protease resistance and improving membrane
+permeability by reducing hydrogen-bond donors.
+Disulfide and thioether linkages
+also appear prominently
+across major routes, reflecting their widespread use in stabilizing
+peptide secondary structures and constraining conformations to enhance
+metabolic stability.
+,
+Glycosylation and lipidation show distinct distribution,
+co-occurring mostly with oral route.
+PEGylation appears to be a modification mostly co-occurring
+with I.V. formulations, improving their half-life.
+The category of complex modifications
+(more than one
+modification) shows notable co-occurrence with the major routes, reflecting
+how drug discovery strategies are employing combinatorial chemical
+modifications to simultaneously address the multifactorial barriers
+associated with these routes.
+Next, we looked at co-occurrences of cyclic peptides
+with several
+diseases (Figure 
+) and observed a strong prominence of macrocyclic peptides across
+nearly all therapeutic areas, with an especially high co-occurrence
+with cancer, infectious, inflammatory, and autoimmune diseases. This
+trend underscores the structural advantage of macrocyclesenhanced
+stability, surface area for target engagement, and the ability to
+modulate traditionally undruggable targetswhich align well
+with the mechanistic challenges in these diseases.
+,
+ Apart from macrocyclic peptides, bicyclic and polycyclic peptides
+also show relatively high co-occurrence across all therapeutic areas.
+Cyclic pentapeptides and tetrapeptides show notable co-occurrences,
+although to a much lesser degree, suggesting that while these scaffolds
+are valued for their rigidity and selectivity, they have narrower
+applicability or face greater synthetic constraints. Our analysis highlights a few specific hotspots like in
+autoimmune diseases cyclic pentapeptides, macrocyclic, and bi- or
+polycyclic peptides appear to be widely explored.
+10.
+Open in a new tab
+Heatmap showcasing the
+co-occurrence of cyclic peptide types, cyclization
+types, and modifications with various therapeutic areas. The heatmap
+is to be read vertically, with color intensity indicating relative
+frequency of number of cyclic peptides (green = low, red = high).
+Only cyclic peptides indexed with CAS roles THU, or PAC, or PKT covering
+the period 2020–2025 were included for the analysis. Source:
+CAS Content Collection.
+Co-occurrence between cyclization patterns and
+therapeutic areas
+(Figure 
+) highlights
+the well-known preference for head-to-tail cyclized peptides due to
+their reliability in imparting conformational restraint and protease
+resistance without introducing complex chemistries. Among modifications,
+disulfide and thioether linkages, N-methylation,
+and complex modifications show greater co-occurrences across all therapeutic
+areas. The relative co-occurrences of other modifications suggest
+that their use is selective rather than having broad applicability.
+We leveraged our expertly curated CAS concept data to identify
+proteins co-occurring frequently with our identified cyclic peptides
+to understand trends with respect to different peptide types, cyclization
+strategies, and chemical modifications. These ten potential molecular
+targets (shown in Figure 
+) represent a diverse collection spanning multiple cellular
+compartments and functions, yet they share common characteristics
+that make them attractive for cyclic peptide therapeutics. The targets
+include cell surface immune regulators (PD1/PDL1/PDL2), intracellular
+signaling proteins (Ras, SOS1, STAT3), nuclear factors (TP53, MDM
+family), secreted enzymes (Factor IIa), inflammatory mediators (TNF
+superfamily), and metabolic receptors (MCR family), with most having
+significant implications in cancer, autoimmune diseases, or metabolic
+disorders. While traditional druggability varies widely, from highly
+druggable targets like Factor IIa and TNF superfamily to historically
+“undruggable” proteins like Ras and TP53, all identified
+proteins/molecules represent viable cyclic peptide targets due to
+their involvement in protein–protein interactions (PPIs), large
+binding interfaces, or natural peptide ligand recognition. Their frequent
+appearance in cyclic peptide literature reflects both high therapeutic
+importance and the unique advantages cyclic peptides offer: larger
+binding surfaces for shallow PPI interfaces, enhanced selectivity
+through conformational constraint, tunable membrane permeability for
+intracellular targets, and the ability to access binding sites unavailable
+to traditional small molecules, making them particularly valuable
+for addressing previously intractable therapeutic targets. While PPIs
+represent a major focus of cyclic peptide therapeutic development,
+cyclic peptides have also been explored against other target classes,
+including enzymes and transporters. Enzymatic targets such as proteases
+and kinases can benefit from the conformational rigidity and extended
+interaction surfaces provided by cyclic peptides, enabling high affinity
+and selectivity, particularly for substrate-recognition or allosteric
+sites that are challenging for small molecules. Cyclic peptides have
+also been investigated against transporter and membrane-associated
+targets, where enhanced stability and constrained conformations may
+support extracellular or luminal engagement. The comparatively lower
+representation of enzymatic and transporter targets within the present
+data set likely reflects historical development priorities and platform-specific
+strategies, rather than intrinsic limitations of cyclic peptides for
+these target classes. As design strategies, delivery approaches, and
+permeability-enabling modifications continue to advance, these target
+classes are expected to represent expanding areas of cyclic peptide
+therapeutic exploration. The heatmap (Figure 
+) shows clear patterns: macrocyclic peptides
+appear to co-occur with several molecular targets, particularly those
+associated with PD-1/PD-L1, Ras family, and SOS1. This indicates a
+strong preference for macrocyclic scaffolds in peptide libraries,
+likely due to their conformational rigidity and stability. Head-to-tail
+cyclization is emerging as the dominant strategy. Side-to-tail and
+mixed cyclization approaches appear more often with proteins such
+as MDM, p53, and Factor IIa, while chemical modifications like N-methylation are frequently associated with Ras proteins.
+Disulfide bridges and multimodifications occur broadly, reflecting
+design practices aimed at improving stability and permeability. It
+should be noted that these patterns represent descriptive co-occurrences
+within the data set and do not distinguish whether the observed preferences
+reflect intrinsic target-specific requirements or are influenced by
+historical development trajectories, platform technologies, or company-specific
+design strategies.
+11.
+Open in a new tab
+Heatmap summarizing the co-occurrence of cyclic peptide
+types,
+cyclization types, and modifications across various potential molecular
+targets. The heatmap is to be read vertically, with color intensity
+indicating relative frequency of number of cyclic peptides (green
+= low, red = high). Only cyclic peptides indexed with CAS roles THU,
+or PAC, or PKT covering the period 2020–2025 were included
+for the analysis. Source: CAS Content Collection.
+The preceding analysis underscores the structural
+and functional
+diversity of cyclic peptides indexed in the CAS Content Collection,
+highlighting the interplay between cyclization strategies, chemical
+modifications, therapeutic indications, and molecular targets. While
+these findings illustrate the breadth of current research and development,
+they also emphasize a persistent limitation in the clinical translation
+of cyclic peptides: their restricted oral bioavailability. Recent
+advances in molecular design and formulation approaches have begun
+to address this challenge, positioning orally available cyclic peptides
+as an emerging and strategically important subdomain. The following
+section therefore examines this evolving area in greater detail, with
+particular attention to design principles and therapeutic implications.
+4. Orally Bioavailable Cyclic Peptides
+Traditional biologics such as monoclonal antibodies and recombinant
+proteins have revolutionized the treatment of diseases ranging from
+cancer to autoimmune disorders. Their ability to engage PPIs with
+high specificity has enabled the targeting of previously “undruggable”
+pathways. However, these macromolecules
+are limited by their need for parenteral administration, which reduces
+patient compliance, increases healthcare costs, and complicates treatment
+logistics, especially for chronic conditions requiring frequent dosing.
+Conversely, small molecules offer oral bioavailability and ease of
+administration but often lack the surface area and conformational
+flexibility needed to effectively modulate PPIs. This dichotomy has
+created a therapeutic void: targets that demand the precision of biologics,
+but the delivery simplicity of oral drugs remain largely inaccessible.
+Cyclic peptides, with their intermediate size and tunable properties,
+are uniquely positioned to fill this gap.
+Our analysis of the
+cyclic peptides data set revealed distinct
+trends in the exploration of different drug administration routes
+across literature. Overall, the oral route dominated the field, accounting
+for the largest proportion of publications (Figure 
+A) and showing a sharp and sustained rise
+in interest over the past decade (Figure 
+B). This trend reflects the growing emphasis
+on improving oral bioavailability and stability of cyclic peptides,
+an area historically considered challenging due to their size and
+polarity. In comparison, other routesincluding rectal, I.V.,
+S.C., transdermal, topical, intramuscular, and nasalappear
+far less represented with relatively modest and stable publication
+numbers over time.
+12.
+Open in a new tab
+(A) Distribution of publications (journals and patents)
+and (B)
+their year-wise trends related to cyclic peptides based on the route
+of administration. Source: CAS Content Collection for the period 2006–2025.
+*Data until August 2025.
+4.1. Key Challenges in Oral Delivery of Cyclic
+Peptides
+The poor oral bioavailability of cyclic peptides
+arising from a constellation of interdependent factors, including
+physicochemical constraints, gastrointestinal (GI) tract biology,
+enzymatic degradation, active efflux, and first-pass metabolism, which
+collectively result in low and variable oral absorption, remains a
+significant obstacle. In this section, we briefly discuss the challenges
+associated with the oral delivery of cyclic peptides and highlight
+ongoing strategies to overcome these barriers.
+4.1.1. Physicochemical Limitations
+Most
+cyclic peptides possess high MWs (typically >500 Da), large polar
+surface areas, and numerous hydrogen-bond donors and acceptors, which
+violate conventional oral drug design rules such as Lipinski’s
+Rule of Five and Veber’s criteria. These properties limit passive membrane permeation,
+a key requirement for oral absorption. While cyclization can reduce
+conformational flexibility and mask polar groups through intramolecular
+hydrogen bonding, improving proteolytic stability and sometimes permeability,
+however, residual polarity, size, and excessive rigidity still hinder
+both transcellular diffusion and paracellular passage. Achieving a
+balance between aqueous solubility (for dissolution in GI fluids)
+and lipophilicity (for membrane partitioning) remains a major formulation
+challenge. These physicochemical barriers are fundamental drivers
+of low permeability observed in in vitro models like Caco-2 cells
+and in vivo studies.
+4.1.2. Enzymatic Degradation and Chemical Instability
+The alimentary canal and the brush border present a rich complement
+of proteases (pepsin, trypsin, chymotrypsin, brush-border peptidases)
+and acidic/alkaline microenvironments that cleave peptide bonds or
+modify labile side chains. While cyclization frequently increases
+protease resistance relative to linear peptides, many cyclic scaffolds
+still present susceptible linkages or solvent-exposed residues that
+enzymes can attack. Moreover, pH-dependent
+chemical reactions (deamidation, epimerization) can further reduce
+the fraction of intact drug reaching absorptive surfaces.
+4.1.3. Mucus Barrier and Epithelial Architecture
+The mucus gel overlaying the epithelium acts as a barrier by trapping
+or slowing the diffusion of molecules that interact with mucin, especially
+large, charged, or hydrophobic peptides, thereby reducing their effective
+concentration at the epithelial surface. Studies show that cyclic
+peptides like cyclosporin A can aggregate gel-forming mucins (MUC2,
+MUC5AC, MUC5B), further impeding their diffusion. Beyond the mucus layer, tight junctions restrict paracellular
+transport to very small solutes (typically <500 Da), effectively
+excluding most cyclic peptides. These junctions form a selectively
+permeable barrier that blocks macromolecules and peptides from passing
+between epithelial cells. Dedicated uptake
+transporters for large cyclic scaffolds are rare. As a result, cyclic
+peptides rely on transcellular passive diffusion or receptor-/lectin-mediated
+endocytosis, which are often inefficient.
+4.1.4. Active Efflux and First-Pass Metabolism
+Many peptide and macrocyclic scaffolds are substrates for efflux
+pumps such as P-glycoprotein (P-gp) and multidrug resistance proteins
+(MRPs), which actively transport them back into the intestinal lumen,
+thereby reducing net uptake and limiting oral bioavailability. Even when peptides are taken up into enterocytes,
+they may undergo degradation by intracellular and hepatic enzymes,
+resulting in substantial first-pass metabolic loss and contributing
+to interindividual variability in systemic exposure.
+,
+ Cyclosporine A, a classic example of an orally available cyclic
+peptide, illustrates how formulation strategies (e.g., microemulsions,
+liposomes, cyclodextrin complexes) and interactions with transporters
+like P-gp can lead to a wide range of bioavailability across different
+patient populations and product types.
+,
+4.1.5. Pharmacokinetic Variability and Clinical
+Implications
+The combined effect of dissolution variability,
+GI transit, fed/fasted state, microbiome interactions, and transporter/enzyme
+expression results in erratic PK profiles for many orally dosed cyclic
+peptides. Low absolute bioavailability
+often necessitates large oral doses or parenteral alternatives, increasing
+cost and reducing patient convenience.
+4.2. Strategies to Overcome Challenges in Oral
+Delivery
+To translate cyclic peptides into practical oral
+therapeutics, contemporary strategies operate at three complementary
+levels: (1) molecular engineering to improve intrinsic permeability
+and stability, (2) formulation and excipient strategies to protect
+and present peptides to absorption sites, and (3) device- and platform-level
+innovations that bypass or actively traverse physiological barriers.
+Integration across levels, “molecule + formulation + device”,
+increasingly defines successful programs.
+4.2.1. Molecular and Chemical Design
+4.2.1.1. Backbone Modifications and Noncanonical
+Residues
+Chemical modifications such as N-methylation, incorporation of d-amino acids, β-amino
+acids, and peptidomimetic linkers (e.g., azapeptides, amide isosteres)
+reduce hydrogen bond donors and proteolytic susceptibility, enhancing
+membrane permeability and metabolic stability. For example, incorporating d-amino acids into somatostatin analogs has increased stability
+and prolonged half-life.
+N-methylation has been used to develop peptide drugs like d-amino-8-d-arginine vasopressin (DDAVP, a synthetic form
+of vasopressin), which exhibits improved stability and antidiuretic
+activity. Combining N-methylation with head-to-tail cyclization has yielded peptides with
+improved oral absorption profiles. Our
+analysis shows a high co-occurrence between these two and the oral
+route of administration (Figure 
+).
+4.2.1.2. Lipidation and Prodrugs
+Lipidation,
+the chemical attachment of acyl or alkyl lipid chains to peptides,
+enhances amphipathicity and is widely employed to improve pharmacokinetic
+and pharmacodynamic properties. A recent study demonstrated the design
+and synthesis of cyclic lipidated peptides derived from the C-terminal
+region of Cx43, aimed at inhibiting hemichannel activity and targeting
+cardiac endothelium. Our analysis indicates
+lipidation is relatively less explored overall as compared to other
+modifications (Figure 
+A) and even more so in the context of oral cyclic peptides (Figure 
+).
+The prodrug
+strategy involves chemically modifying peptides into inactive forms
+that are converted back into active drugs postabsorption. This approach
+improves key properties such as lipophilicity, membrane permeability,
+and metabolic stability. Common modifications include masking polar
+groups through esterification, altering amide bonds to evade enzymatic
+degradation, and attaching cleavable pro-moieties that aid transport
+and are activated enzymatically or chemically after uptake.
+4.2.1.3. Chameleonic Design and Intramolecular
+H-Boning
+As part of broader molecular strategies to enhance
+the oral bioavailability of cyclic peptides, chameleonic design addresses
+the challenge of balancing aqueous solubility with membrane permeability.
+Chameleonic cyclic peptides adopt environment-dependent conformations,
+exposing polar groups in aqueous media while reorganizing in low-polarity
+environments, such as lipid membranes, to form intramolecular hydrogen
+bonds (IMHBs) that transiently mask polar surface area and facilitate
+passive diffusion.
+,
+ In practice, this behavior is
+pursued through sequence- and backbone-level modifications that complement
+other approaches, including selective backbone N-methylation,
+strategic placement of hydrogen bond donors and acceptors, and incorporation
+of noncanonical or sterically tuned residues to shift conformational
+equilibria without excessive rigidification. These changes are typically introduced iteratively to preserve solubility,
+target affinity, and metabolic stability. Chameleonic design is commonly
+implemented using a semi rational workflow combining targeted structural
+modification with conformational analysis by molecular dynamics simulations
+and solvent dependent NMR studies. As
+predictive design rules are still evolving, chameleonicity is best
+viewed as a complementary and emerging strategy for improving cyclic
+peptide oral bioavailability.
+4.2.1.4. AI and Computational Prediction
+Recent machine-learning tools specifically trained to predict cyclic
+peptide membrane permeability and chameleonic behavior (e.g., CycPeptMP and other AI models) accelerate the identification
+of sequences with favorable oral absorption properties, enabling library-scale
+preselection prior to synthesis. These computational advances are
+rapidly shortening discovery timelines and focusing medicinal chemistry
+efforts.
+4.2.2. Formulation and Excipient Strategies
+4.2.2.1. Lipid-Based Systems
+Self-emulsifying
+drug delivery systems (SEDDS) are isotropic mixtures of oil, surfactant/cosurfactant
+and solvent/cosolvent that spontaneously emulsify when diluted in
+aqueous fluids. Their renewed potential
+for oral peptides has emerged from a set of recent studies demonstrating
+that peptides could dissolve in the oil phase using the principle
+of hydrophobic ion pairing (HIP) through which peptide lipophilicity
+could be increased. Lipid-based nanoparticles,
+including liposomes, solid lipid nanoparticles (SLNs), and nanostructured
+lipid carriers (NLCs), offer another
+approach to peptide delivery. They improve
+solubilization, stabilize apolar cyclic peptides, and promote lymphatic
+transport, proven in the commercialization of cyclosporine (Neoral)
+and continually applied to newer macrocycles. The relative distribution of documents associated with
+various delivery systems for cyclic peptides is summarized in Supplementary Figure S10.
+4.2.2.2. Polymeric Nanoparticles and Mucoadhesives
+Polymeric nanoparticles, commonly
+made from biodegradable and biocompatible polymers such as poly­(lactic-co-glycolic acid) (PLGA), polylactic acid (PLA), chitosan,
+polyhydroxyalkanoates (PHAs), and thiolated polymer systems, can encapsulate
+peptides within their matrix or adsorb them onto their surface, shielding
+them from luminal enzymes, enabling controlled release, and increasing
+residence time via mucoadhesion.
+,,
+ Chitosan derivatives can also transiently modulate
+tight junctions to enhance paracellular flux. Safety and reversibility
+of permeation modulation are critical concerns. The preactivated thiolated
+chitosan nanoparticles loaded with octreotide increased systemic exposure
+and sustained the hypoglycemic effect in rats.
+4.2.2.3. Enteric and pH-Responsive Coatings
+Enteric polymers shield peptides from gastric acid and release them
+in the intestine where absorption potential is greater. Smart polymers
+that release payloads in target intestinal segments further refine
+exposure windows and reduce premature degradation.
+4.2.2.4. Coformulation with Protease Inhibitors
+and Permeation Enhancers
+Coadministration of enzyme inhibitors
+is used to protect peptides from degradation in the GI tract by temporarily
+inhibiting digestive enzymes like trypsin and chymotrypsin. Agents
+such as aprotinin, soybean trypsin inhibitor, and bacitracin have
+shown enhanced peptide absorption in preclinical studies. However,
+concerns around safety, interference with normal digestion, and regulatory
+challenges limit their clinical application.
+Permeation enhancers temporarily increase intestinal epithelial
+permeability, enabling absorption of peptides with poor membrane permeability.
+They act by opening tight junctions (enhancing paracellular transport),
+disrupting cell membranes (facilitating transcellular uptake), and
+inhibiting efflux transporters to boost intracellular drug levels.
+,,
+ A notable clinical example is
+MYCAPSSA (octreotide), approved by the U.S. FDA in June 2020.
+,
+ It uses Transient Permeation Enhancer (TPE) technology, an enteric-coated
+capsule containing an oily suspension of octreotide and sodium caprylate,
+which transiently opens tight junctions to improve absorption.
+4.2.3. Device- and Platform-Level Innovations
+4.2.3.1. Ingestible Microneedle/Biologic Devices
+A new generation of ingestible devices is redefining oral delivery
+by physically bypassing traditional absorption barriers and enabling
+direct translocation of biologics across the GI mucosa. The self-orienting
+millimeter-scale applicator (SOMA) has demonstrated proof-of-concept
+for gastric mucosal injection of biologics, enabling systemic exposure
+without full-thickness penetration of the stomach wall. Related platforms, including Rani Therapeutics’
+RaniPill and the intestinally deploying LUMI device, have advanced
+toward clinical or late preclinical evaluation, achieving bioavailability
+levels exceeding 10% in large animal models.
+,
+ Liquid-injecting SOMA (L-SOMA) and other self-unfolding proximity-enabling
+devices have further shown rapid systemic exposure for proteins and
+peptides such as insulin, with pharmacokinetics comparable to parenteral
+administration in swine models.
+,
+To
+date, these platforms have been primarily evaluated using proteins
+or linear peptide therapeutics, rather than cyclic peptides specifically.
+However, their ability to deliver large, impermeable macromolecules
+without reliance on molecular permeation suggests potential applicability
+to cyclic peptides that remain refractory to chemical or formulation-based
+oral delivery approaches. While further validation is required to
+establish suitability, targeting precision, and long-term safety for
+cyclic peptide applications, ingestible device-based delivery systems
+represent a promising complementary avenue for addressing oral bioavailability
+limitations in this modality.
+4.2.3.2. High-Velocity and Convective Delivery
+Capsules
+Emerging platforms that employ mechanical or fluidic
+forces to transiently penetrate or permeate intestinal tissue (e.g.,
+high-velocity jet capsules, expanding structures) are under development
+and show promise to deliver intact peptide doses to the submucosa,
+reducing enzymatic exposure.
+,
+4.2.3.3. Transporter Exploitation and Biomimetic
+Conjugation
+Conjugating peptides to molecular moieties recognized
+by endogenous intestinal transporters (bile acids, dipeptide motifs)
+can enable receptor- or carrier-mediated uptake. This strategy leverages
+host physiology for active uptake and is being actively explored in
+preclinical programs.
+Experience
+shows no single tactic suffices for all cyclic peptides. Rather, integrated
+solutions, combining rational sequence design (N-methylation,
+noncanonical residues), predictive AI selection, protective/targeted
+formulations (lipids, nanoparticles, enteric coatings), and, where
+necessary, device-based delivery, produce the best chance of attaining
+clinically meaningful oral bioavailability. Recent advances in computational
+models and proof-of-concept device successes suggest that peptides
+once considered strictly parenteral may now be amenable to oral dosing
+strategies. Continued emphasis on safety (especially for permeation
+enhancers and mechanical devices), manufacturability, and regulatory
+acceptability will be essential as multiple platforms progress from
+preclinical to clinical stages.
+4.3. Clinically Successful Oral Cyclic Peptides:
+Why Do They Remain Rare?
+Although cyclic peptides are increasingly
+explored as therapeutic modalities, clinically meaningful oral exposure
+remains rare. The most notable example, cyclosporine A, achieves modest
+and variable oral bioavailability through a unique combination of
+macrocyclization, conformational flexibility, and extensive intramolecular
+hydrogen bonding that masks polar functionality. Related analogues, such as voclosporin, further illustrate
+that only minor structural changes can significantly affect permeability
+and pharmacokinetics, underscoring the narrow design space for oral
+cyclic peptides.
+Currently, successful
+oral cyclic peptides represent rare, highly optimized outliers rather
+than the norm. These compounds typically exploit a combination of
+macrocyclization, extensive intramolecular hydrogen bonding, conformational
+flexibility, and carefully balanced lipophilicity to mask polarity
+during membrane transit while remaining sufficiently soluble in aqueous
+environments. In summary, oral cyclic peptides remain uncommon because
+clinical success requires an exceptional alignment of properties like
+effective polarity masking, adaptive conformational behavior, metabolic
+stability, and sufficient systemic exposure that only a very small
+fraction of cyclic peptides can achieve simultaneously. Despite limited
+clinical success so far, the strong research emphasis on oral delivery
+underscores ongoing efforts to address the challenges limiting oral
+cyclic peptides.
+5. Clinical Landscape
+Cyclic peptide therapeutics
+have demonstrated substantial clinical
+impact, with regulatory approvals spanning more than seven decades
+and addressing diverse therapeutic areas (Supplementary Table S4). The progression of cyclic peptide therapeutics reflects
+advances in drug development technologies and evolving clinical needs
+across diverse therapeutic areas. In this section, we will discuss
+successful cyclic peptide therapeutics that have received regulatory
+approval along with promising cyclic peptide therapeutic candidates
+that are currently in the clinical development pipeline. The initial
+wave of cyclic peptide approvals (1940s–1970s) established
+these molecules primarily as antibacterial agents, with bacitracin
+(1948), polymyxin B (1951), and vancomycin (1958) representing foundational
+therapeutics for serious bacterial infections. These early compounds
+were administered predominantly via intravenous or topical routes
+and frequently incorporated complex chemical modifications to optimize
+antimicrobial activity. For instance, vancomycin contains disaccharide
+modifications that contribute to its mechanism of bacterial cell wall
+synthesis inhibition, while polymyxin B features fatty acid chains
+that facilitate membrane disruption. This era established cyclic peptides
+as clinically viable therapeutic agents, despite their structural
+complexity and parenteral administration requirements.
+Beginning
+in the 1980s, the therapeutic scope of cyclic peptides
+expanded dramatically beyond anti-infective applications. This period
+witnessed approvals targeting endocrine pathologies (octreotide for
+acromegaly, 1988), cardiovascular emergencies (nesiritide for acute
+heart failure, 2001), and immune-mediated disorders (voclosporin for
+lupus nephritis, 2021). This diversification reflects advances in
+peptide engineering, target identification, and understanding of complex
+disease mechanisms. The development of somatostatin analogs exemplifies
+this evolution, with octreotide, lanreotide, and pasireotide demonstrating
+refined receptor selectivity profiles and improved pharmacokinetic
+properties across successive generations.
+Recent approvals (2020–2023)
+underscore the continued innovation
+within this therapeutic class, addressing previously intractable clinical
+challenges. Setmelanotide (2020) targets melanocortin-4 receptor pathways
+in genetic obesity disorders, representing a precision medicine approach
+to metabolic disease. Zilucoplan (2023) inhibits complement C5 for
+generalized myasthenia gravis, while rezafungin (2023) provides extended-spectrum
+antifungal activity against invasive candidiasis. These contemporary
+therapeutics reflect sophisticated target selection, advanced peptide
+engineering strategies, and comprehensive understanding of pharmacology-disease
+relationships.
+The approved cyclic peptide landscape demonstrates
+remarkable molecular
+diversity, with MW ranging from approximately 540 g/mol (romidepsin)
+to over 43,000 g/mol (pegcetacoplan). This 80-fold range reflects
+transformative advances in bioconjugation chemistry, particularly
+PEGylation technologies that extend circulation half-life and reduce
+immunogenicity.
+Route of administration has evolved substantially
+from early parenteral-only
+formulations to include diverse delivery modalities. Oral formulations
+now exist for immunosuppressants (voclosporin, octreotide), antiviral
+agents (voxilaprevir, grazoprevir), and gastrointestinal therapeutics
+(plecanatide, linaclotide). Alternative routes include nasal administration
+(desmopressin, salmon calcitonin), specialized intrathecal delivery
+(ziconotide for severe chronic pain), and subcutaneous self-administration
+(zilucoplan, setmelanotide, vosoritide). These delivery innovations
+have significantly improved patient convenience, adherence, and quality
+of life, particularly for chronic conditions requiring long-term therapy.
+The clinical landscape of cyclic peptides demonstrates progression
+in molecular design, target selection, and diversified therapeutic
+indications. The field has transitioned from traditional drug discovery
+to rational, structure-guided therapeutic development. This evolution
+positions cyclic peptides as a mature yet still-expanding drug class
+capable of addressing complex pathophysiology across diverse therapeutic
+areas.
+The therapeutic landscape of cyclic peptides has experienced
+remarkable
+growth. Highlighted in Table 
+ and below are 11 promising candidates currently advancing
+through clinical development. Current drug candidates represent diverse
+therapeutic areas from oncology to infectious diseases. These macrocyclic
+compounds leverage the structural advantages of peptides, including
+high selectivity and potency, reducing off-target effects, while addressing
+traditional limitations through innovative delivery systems and novel
+mechanisms of action.
+3. Highlighted Cyclic Peptides in Clinical
+Development
+.
+Drug
+CAS RN
+Indications
+Molar
+Mass (g/mol)
+Target
+Delivery route
+Clinical
+trials (NCT)
+Phase/Status
+Company, location
+ALXN2420
+n/a
+Acromegaly
+Not disclosed
+Growth hormone receptor
+S.C.
+NCT07037420
+Phase II/Recruiting
+Alexion, USA
+AMY-101 (compstatin 40)
+1427001–89–5
+Gingivitis
+1,789.10
+Complement C3
+Intragingival
+injection
+NCT03694444
+Phase II/Completed
+Amyndas Pharmaceuticals, USA
+Balixafortide
+(POL6326)
+1051366–32–5
+Metastatic
+pancreatic ductal adenocarcinoma
+1,864.10
+CXCR4
+I.V.
+NCT06981806
+Phase I/Recruiting
+Spexis, Switzerland
+BT1718
+2227366–66–5
+Advanced solid
+3,511.40
+Tubulin
+I.V.
+NCT03486730
+Phase II/Completed
+Bicycle Therapeutics, UK
+BT5528
+2648849–70–9
+EphA2+ advanced solid
+tumors
+4,403.14
+EphA2
+I.V.
+NCT04180371
+Phase II/Active
+Bicycle
+Therapeutics, UK
+BT7480
+2762739–36–4
+Nectin-4/CD137+ advanced solid tumors
+7,200.00
+Nectin-4 (tumor) and CD137 (immune)
+I.V.
+NCT05163041
+Phase II/Active
+Bicycle
+Therapeutics, UK
+CAP-232 (TT-232)
+147159–51–1
+Renal cell carcinoma
+947.14
+Somatostatin receptor (SSTR1/4)
+I.V.
+NCT00422786
+Phase II/Completed
+Thallion Pharmaceuticals, Canada
+Certepetide
+(LSTA1)
+2580154–02–3
+Metastatic
+PDAC
+989.09
+αv-integrins and NRP-1
+I.V.
+NCT05042128
+Phase II/Active
+Lisata Therapeutics, USA
+Dolcanatide
+(SP-333)
+1092457–65–2
+Opioid-induced
+constipation; colorectal cancer prevention
+1,681.89
+GC-C (guanylate cyclase-C)
+Oral
+NCT01983306; NCT03300570
+Phase II/Completed; Phase
+I/Completed
+Bausch Health, Canada
+Icotrokinra (JNJ-77242113)
+2763602–16–8
+Psoriatic Arthritis; Ulcerative colitis
+1,898.17
+IL-23 receptor
+Oral
+NCT06878404/NCT07196748
+Phase III/Recruiting; Phase III/Recruiting
+Johnson
+& Johnson, USA
+Lonodelestat (POL6014)
+906547–89–5
+Cystic fibrosis
+1,478.73
+Human neutrophil elastase
+Inhalation
+NCT03748199
+Phase II/Completed
+Santhera Pharmaceuticals, Switzerland
+MK-0616
+2861205–06–1
+Hypercholesterolemia
+1,722.09
+PCSK9
+Oral
+NCT06492291
+Phase III
+Merck, USA
+Noraramtide (BHV-1100)
+2580150–96–3
+Multiple myeloma
+4,633.11
+CD38
+I.V.
+NCT04634435
+Phase 1/Completed
+Biohaven Pharmaceuticals, Dana Farber Cancer Institute, US
+Paluratide (LUNA18)
+2676177–63–0
+KRAS mutant solid tumors
+1,437.68
+RAS proteins
+Oral
+NCT05012618
+Phase I/Active
+Chugai Pharmaceutical, Japan
+PL8177
+n/a
+Ulcerative
+colitis
+996.13
+Melanocortin-1 receptor
+Oral (gut-restricted)
+NCT05466890
+Phase II/Active
+Palatin Technologies, USA
+PL9643
+n/a
+Dry eye disease
+Not disclosed
+Melanocortin receptor (MC1R-5R)
+Ophthalmic solution
+NCT05201170
+Phase III/Completed
+Palatin Technologies, USA
+Rusfertide (PTG-300)
+1628323–80–7
+Polycythemia vera
+2,441.96
+Ferroportin
+S.C.
+NCT05210790
+Phase III/Active
+Protagonist Therapeutics, USA
+Solnatide
+(AP301)
+259206–53–6
+ARDS
+1,923.10
+ENaC
+Inhalation
+NCT03567577
+Phase II
+APEPTICO,
+Austria
+Sulanemadlin (ALRN-6924)
+1451199–98–6
+Advanced solid tumors, lymphomas
+1,930.25
+MDM2/MDMX (p53 activator)
+I.V.
+NCT02264613
+Phase II/Completed
+Aileron Therapeutics, USA
+VT1021
+2942310–76–9
+Glioblastoma
+Not disclosed
+CD36/CD47
+I.V.
+NCT03970447
+Phase III/Recruiting
+Vigeo Therapeutics, USA
+Zelenectide Pevedotin
+(BT8009)
+2407446–48–2
+Nectin-4
+expressing advanced tumors; advanced or metastatic
+urothelial cancer
+4,171.00
+Nectin-4
+I.V.
+NCT04561362; NCT06225596
+Phase
+II/Active; Phase III/Recruiting
+Bicycle Therapeutics,
+UK
+Zolucatetide (FOG-001)
+3044032–95–0
+Solid tumors with Wnt pathway activation
+2,076.40
+β-catenin–TCF4 interaction
+I.V.
+NCT05919264
+Phase II/Recruiting
+Parabilis Medicines, USA
+Open in a new tab
+a
+Source: CAS Content Collection
+and ClinicalTrials.gov.
+b
+ARDS, acute respiratory distress
+syndrome; I.V., intravenous; n/a, not available; S.C., subcutaneous.
+5.1. Oncology Indications
+Certepetide
+(LSTA-1), with a molar mass of 989.09 g/mol, demonstrates the potential
+of dual-targeting strategies in cancer therapy. This cyclic peptide
+simultaneously engages αv-integrins and neuropilin-1 (NRP-1),
+both critical mediators of tumor angiogenesis and metastasis. Certa Therapeutics has advanced this compound
+to Phase II trials (NCT05042128) for metastatic pancreatic ductal
+adenocarcinoma through the targeting of pathways involved in pancreatic
+cancer progression.
+Paluratide (LUNA18) exemplifies the growing
+interest in cyclic peptides for oncology, particularly in targeting
+previously “undruggable” pathways. This 1,437.68 g/mol
+macrocyclic compound disrupts RAS–SOS1 interactions, a key
+driver of KRAS mutant solid tumors. Developed
+by Chugai Pharmaceutical, LUNA18 is being evaluated in Phase I trials
+(NCT05012618) as an oral monotherapy and in combination with cetuximab.
+By directly interfering with pan-RAS signaling, LUNA18 addresses a
+long-standing challenge in cancer therapy, effectively targeting KRAS
+mutations. Its oral administration and novel mechanism of action position
+LUNA18 as a potential first-in-class agent in the RAS-targeted therapy
+space, offering hope for patients with limited treatment options.
+VT1021 represents a novel approach to glioblastoma treatment, one
+of the most challenging malignancies in oncology. This 638.76 g/mol
+cyclic peptide targets the CD36/CD47 axis, a critical immune checkpoint
+pathway that enables tumor immune evasion, currently being evaluated
+in Phase III trials (NCT03970447). Developed by Vigeo Therapeutics,
+VT1021 addresses the urgent need for effective treatments that can
+cross the blood–brain barrier and modulate the immunosuppressive
+tumor microenvironment characteristic of glioblastoma.
+In the realm of antibody-drug conjugates,
+zelenectide pevedotin
+(BT8009) exemplifies the evolution toward bicyclic peptide-drug conjugates.
+With a molar mass of approximately 4171 g/mol, this innovative therapeutic
+targets Nectin-4-expressing tumors. Phase
+III trial NCT06225596 is evaluating BT8009 in the treatment of urothelial
+cancer, while Phase II trial NCT04561362 is evaluating the treatment
+of Nectin-4-expressing advanced malignancies. Bicycle Therapeutics
+has engineered this compound to combine the selectivity of cyclic
+peptides with the cytotoxic potency of traditional chemotherapy. Zelenectide pevedotin demonstrates how cyclic
+peptide scaffolds can serve as precision delivery vehicles for cytotoxic
+payloads, potentially reducing systemic toxicity while enhancing therapeutic
+efficacy.
+5.2. Nononcology Indications
+In the endocrinology
+space, AZP-3813 demonstrates the potential of cyclic peptides as growth
+hormone receptor antagonists for acromegaly treatment. AZP-3813, currently
+in Phase I development, represents an alternative to existing somatostatin
+analogs, potentially offering improved selectivity and reduced side
+effects through S.C. administration.
+Icotrokinra represents
+a major advancement in oral peptide therapeutics for immune-mediated
+diseases. This ∼1900 g/mol cyclic peptide targets the IL-23
+receptor, a critical node in the inflammatory cascade implicated in
+psoriasis and ulcerative colitis. Developed
+by Johnson & Johnson in collaboration with Protagonist Therapeutics,
+Icotrokinra is currently in Phase III trials (NCT06878404) under the
+ICONIC program for moderate-to-severe psoriatic arthritis, with additional
+studies ongoing for ulcerative colitis (NCT07196748). The oral delivery
+system marks a significant technological achievement, offering patients
+a convenient alternative to injectable biologics while maintaining
+high target selectivity and potency. If successful, Icotrokinra could
+redefine treatment paradigms for chronic inflammatory disorders by
+combining biologic-like efficacy with oral dosing convenience.
+MK-0616 represents a breakthrough in
+oral peptide delivery for
+cardiovascular disease. This 1,722.09 g/mol proprotein convertase
+subtilisin/kexin type 9 (PCSK9) inhibitor, developed by Merck, has
+reached Phase III trials (NCT06492291) as an oral treatment for hypercholesterolemia.
+The successful development of an orally bioavailable cyclic peptide
+targeting PCSK9 represents a significant technological achievement,
+potentially offering the efficacy of injectable PCSK9 inhibitors with
+the convenience of oral administration.
+PL8177 showcases the versatility of cyclic peptides in inflammatory
+diseases, specifically targeting melanocortin-1 receptor for active
+ulcerative colitis treatment in Phase II trials (NCT05466890). Developed
+by Palatin Technologies, this 996.13 g/mol compound employs a gut-restricted
+oral delivery system, representing a significant advancement in peptide
+formulation technology. The ability
+to achieve local gastrointestinal activity while minimizing systemic
+exposure addresses a key challenge in inflammatory bowel disease treatment,
+potentially reducing side effects associated with systemic immunosuppression.
+Complementing PL8177, PL9643 demonstrates Palatin Technologies’
+expertise in melanocortin receptor modulation across different therapeutic
+areas. This cyclic peptide targets multiple melanocortin receptors
+(MC1R/3R/4R/5R) for dry eye disease
+treatment through ophthalmic delivery in Phase II trials (NCT05201170).
+PL9643 represents the growing recognition of melanocortin pathways
+in ocular inflammation and the potential for topical peptide therapeutics
+to address unmet needs in ophthalmology.
+Rusfertide (PTG-300) exemplifies the application of cyclic
+peptides
+in hematologic disorders, specifically targeting the hepcidin pathway
+for polycythemia vera treatment. This 2,441.96 g/mol compound, developed
+by Protagonist Therapeutics, has advanced to Phase III trials (NCT05210790)
+with S.C. delivery. Rusfertide represents a mechanistically novel
+approach to managing iron metabolism disorders, potentially offering
+improved efficacy and tolerability compared to traditional phlebotomy-based
+treatments.
+Finally, Solnatide
+(AP301) addresses critical care medicine through
+targeting of epithelial sodium channels (ENaC) for acute respiratory
+distress syndrome (ARDS) treatment. Developed by APEPTICO, this 1,923.10
+g/mol cyclic peptide utilizes inhaled delivery to directly target
+pulmonary epithelium, promoting alveolar fluid clearance, a critical
+mechanism in ARDS recovery. The compound’s
+progression to Phase II trials (NCT03567577) represents a significant
+advancement in critical care therapeutics, where few effective treatments
+currently exist.
+Collectively, these 11 cyclic peptides demonstrate
+the maturation
+of peptide therapeutics as a drug class, with successful applications
+across oncology, inflammatory conditions, hematology, critical care,
+endocrinology, and cardiovascular medicine. The diversity of targets,
+delivery systems, and therapeutic applications highlights the versatility
+of cyclic peptide scaffolds in addressing complex medical challenges.
+We utilized the workflow mentioned in this manuscript (Methods section in Supporting Information) and
+analyzed the candidates in clinical development, listed in Table 
+. The dominance of
+macrocyclic and bicyclic or polycyclic peptides and head-to-tail cyclization
+is closely aligned with the distribution observed in the CAS data
+set (Figure 
+), underscoring
+the translational relevance of these architectures from chemical space
+to clinical development. Among the modifications, disulfide linkages
+and N-methylation are the most common among candidates
+which are currently in clinical development (Supplementary Table S5). The advancement of multiple compounds to late-stage
+clinical trials suggests that cyclic peptides are poised to become
+a significant component of the therapeutic arsenal across multiple
+disease areas, offering the potential for improved efficacy, selectivity,
+and patient outcomes compared to traditional small molecules and biologic
+approaches.
+5.3. Physicochemical Characteristics of Approved
+and Clinical-Stage Cyclic Peptides
+To anchor the broader
+physicochemical trends in a translational context, we examined the
+properties of approved cyclic peptide drugs and selected clinical-stage
+candidates (Tables 
+ and , S6 and S7 for structures). These compounds represent a highly selective subset
+of the cyclic peptide design space and illustrate the physicochemical
+boundaries compatible with clinical advancement.
+4. Physiochemical Properties of Selected
+Approved Cyclic Peptides (2010 Onwards)
+.
+Drug
+CAS RN
+H bond acceptors
+H bond donors
+Freely
+rotatable bonds
+Log P
+MW
+Molar
+refractivity (m3/mol)
+Number of atoms
+Log S
+Log BB
+PSA (Å2)
+Plasma protein binding
+Predicted toxicity (EPA category)
+LD50 (mg/kg)
+Predicted pK
+a
+Rezafungin (Rezzayo)
+1396640–59–7
+25
+13
+18
+–5.447
+1226.39
+317.38
+88
+–6.47
+–4.14
+366.42
+70.41
+III
+1438
+9.859 ± 0.26
+Motixafortide (Aphexda)
+664334–36–5
+52
+43
+53
+–6.742
+2159.53
+560.61
+152
+–15.57
+–6.81
+942.64
+51.03
+I
+9.92
+NR
+Zilucoplan (Zilbrysq)
+1841136–73–9
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+–18.26
+–9.89
+NR
+100
+I
+10.4
+NR
+Voclosporin (Lupkynis)
+515814–01–4
+23
+5
+16
+1.85
+1214.62
+332.68
+86
+–11.32
+–1.71
+278.8
+100
+III
+1160
+13.315 ± 0.70
+Setmelanotide
+(Imcivree)
+920014–72–8
+27
+20
+20
+–3.175
+1117.31
+290.34
+78
+–9.02
+–4.46
+497.76
+23.15
+III
+1193.53
+12.818 ± 0.70
+Bremelanotide
+(Vyleesi)
+189691–06–3
+24
+15
+18
+–1.14
+1025.16
+268.58
+74
+–8.55
+–4
+376.47
+53.24
+III
+1728.05
+3.371 ± 0.70
+177Lu-DOTATATE (Lutathera)
+437608–50–9
+NR
+NR
+NR
+NR
+1609.55
+343.19
+101
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+Plitidepsin (Aplidin)
+137219–37–5
+22
+4
+15
+1.0003
+1110.34
+288.59
+79
+–9.61
+–1.98
+284.74
+99.94
+III
+1750.18
+11.278 ± 0.70
+Plecanatide (Trulance)
+467426–54–6
+44
+26
+28
+–5.693
+1681.89
+398.46
+113
+–3.72
+–7.87
+819.33
+0
+I
+15.5
+3.606 ± 0.21
+Voxilaprevir
+(Vosevi)
+1535212–07–7
+15
+3
+9
+4.171
+868.94
+202.66
+60
+–8.62
+–0.49
+203.6
+95.48
+III
+3139.78
+5.485 ± 0.40
+Grazoprevir (Zepatier)
+1350514–68–9
+15
+3
+8
+3.935
+766.91
+193.37
+54
+–6.42
+–0.84
+203.6
+73.86
+III
+3514.21
+5.511 ± 0.40
+Oritavancin (Orbactiv)
+171099–57–3
+36
+22
+19
+2.651
+1793.1
+440.43
+125
+–14.59
+–5.69
+560.98
+100
+III
+2474.05
+2.929 ± 0.70
+Terlipressin
+(Glypressin)
+14636–12–5
+31
+21
+25
+–7.085
+1227.38
+305.69
+85
+–6.01
+–3.6
+563.45
+0
+I
+8.01
+9.901 ± 0.15
+Linaclotide
+(Linzess)
+851199–59–2
+36
+21
+13
+–6.127
+1526.75
+367.4
+101
+NR
+NR
+725.71
+0
+I
+14.66
+3.053 ± 0.10
+Pasireotide (Signifor)
+396091–73–9
+19
+11
+18
+2.712
+1047.21
+287.04
+77
+–11.8
+–1.48
+281.2
+87.61
+III
+848.5
+11.858 ± 0.46
+Median values
+25
+15
+18
+–1.14
+1220.5
+305.69
+85
+–8.82
+–3.8
+376.47
+70.41
+III
+1193.53
+5.51
+Open in a new tab
+a
+Source: CAS Content Collection.
+b
+NR = Not reported.
+5. Physiochemical Properties of Cyclic
+Peptides in Clinical Development
+.
+Drug
+CAS RN
+H bond acceptors
+H bond donors
+Freely
+rotatable bonds
+Log P
+MW
+Molar
+refractivity (m3/mol)
+Number of atoms
+Log S
+Log BB
+PSA (Å2)
+Plasma protein binding
+Predicted toxicity (EPA category)
+LD50 (mg/kg)
+Predicted pK
+a
+AMY-101 (Compstatin 40)
+1427001895
+41
+25
+30
+–2.828
+1789.1
+464.67
+126
+–13.11
+–5.85
+692.35
+52.58
+III
+2537.89
+4.004 ± 0.10
+Balixafortide (POL6326)
+1051366325
+45
+28
+23
+–10.582
+1864.1
+472.95
+131
+–8.63
+–6.01
+756.46
+0
+III
+1079.48
+9.890 ± 0.15
+BT1718
+2227366–66–5
+78
+27
+60
+–3.405
+3511.4
+885.45
+243
+–15.71
+–12.3
+1207.3
+43.07
+NR
+NR
+NR
+CAP-232 (TT-232)
+147159–51–1
+19
+15
+16
+0.451
+947.14
+250.01
+66
+–5.65
+–2.38
+376.58
+42.78
+III
+667.26
+9.901 ± 0.15
+Certepetide (LSTA1)
+2580154–02–3
+28
+18
+15
+–8.305
+989.09
+235.48
+67
+–2.79
+–4.62
+509.32
+0
+III
+582.19
+4.005 ± 0.10
+Dolcanatide
+(SP-333)
+1092457–65–2
+44
+26
+28
+–5.693
+1681.89
+398.46
+113
+–3.72
+–7.87
+819.33
+0
+II
+470.99
+4.445 ± 0.10
+Icotrokinra (JNJ-77242113)
+2763602–16–8
+42
+24
+40
+–1.911
+1898.17
+488.84
+134
+–10.64
+–6.14
+709.17
+19.17
+III
+819.9
+4.445 ± 0.10
+Lonodelestat
+(POL6014)
+906547–89–5
+34
+17
+23
+–4.755
+1478.73
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+Paluratide (LUNA18)
+2676177–63–0
+24
+3
+13
+2.742
+1437.68
+369.87
+102
+–13.7
+–1.53
+270.09
+100
+III
+842.76
+13.236 ± 0.70
+Rusfertide (PTG-300)
+1628323–80–7
+55
+33
+67
+–0.894
+2441.96
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+Solnatide (AP301)
+259206–53–6
+50
+31
+27
+–13.017
+1923.10
+471.7
+134
+–5.86
+–8.65
+861.1
+0
+I
+9.05
+2.951 ± 0.70
+Sulanemadlin (ALRN-6924)
+1451199–98–6
+43
+25
+37
+0.051
+1930.25
+502.91
+138
+–14.22
+–5.79
+674.43
+51.94
+I
+7.44
+4.481 ± 0.10
+Zolucatetide (FOG-001)
+3044032–95–0
+43
+20
+18
+3.014
+2076.4
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+Median values
+43
+25
+27
+–2.82
+1826.6
+468.18
+128.5
+–9.63
+–5.93
+700.76
+30.97
+III
+667.26
+4.445
+Open in a new tab
+a
+Source: CAS Content Collection.
+b
+NR = Not reported.
+Approved and late-stage cyclic peptides consistently
+exceed classical
+small-molecule thresholds for MW and polar surface area, frequently
+approaching or surpassing 1 kDa and 500–1,000 Å2, respectively. Clinical success within this regime is therefore
+not driven by adherence to conventional drug-likeness criteria, but
+by compensatory features such as conformational constraint, stability,
+and context-dependent polarity masking. Parenterally administered
+peptides tolerate particularly high polarity and hydrogen-bonding
+capacity, whereas the few orally administered examples occupy a noticeably
+narrower property window, consistent with partial shielding of polar
+functionality and limited effective flexibility.
+Clinical-stage
+candidates further highlight the sources of attrition,
+with many exhibiting extreme molecular size, high flexibility, poor
+solubility, or unfavorable permeability predictions. These properties
+likely contribute to rapid clearance, restricted tissue distribution,
+or formulation challenges. Collectively, these benchmarks emphasize
+that cyclization alone does not ensure developability; instead, successful
+cyclic peptide therapeutics emerge from a narrow, context-dependent
+balance of size, polarity, flexibility, and stability tailored to
+the route of administration and target accessibility.
+5.4. Clinical Advancement and Attrition in Cyclic
+Peptide Development
+Our above analysis is inherently subject
+to survivorship bias, as it focuses on successful compounds reported
+in the literature and active clinical pipelines. Failed programs particularly
+those discontinued in preclinical or early clinical phases are systematically
+underreported, creating a significant knowledge gap. The structural
+features we identify in successful compounds (N-methylation,
+appropriate macrocycle size, stabilized secondary structures) are
+contributing factors that can enhance, but do not ensure, the likelihood
+of clinical advancement. A few failed examples of cyclic peptide therapeutics
+are discussed to provide some balance to our analysis.
+Cilengitide,
+a cyclic pentapeptide integrin αvβ3/αvβ5 inhibitor
+with N-methylated valine and d-phenylalanine
+for enhanced stability, achieved high receptor affinity (K
+d = 0.6 nM) and brain penetration. However, it failed
+to meet its primary end point in the Phase III CENTRIC trial (NCT00689221/2013)
+for glioblastoma with median overall survival of 26.3 months for both
+control and therapeutic groups for no survival benefit. Failure was
+attributed to target biology complexity; integrin inhibition may paradoxically
+promote invasion and suboptimal dosing schedules.
+,
+ This illustrates that structural optimization (N-methylation, cyclization) successfully addressed stability and affinity
+but could not overcome inadequate target validation and complex tumor
+biology.
+Romidepsin (FK228), a bicyclic depsipeptide HDAC inhibitor
+approved
+in 2009, contains an intramolecular disulfide bond that undergoes
+reductive cleavage within cells to unmask a zinc-binding thiol as
+the pharmacologically active species. Despite poor oral bioavailability (<10%) and the disulfide being
+viewed as a metabolic liability due to reduction by glutathione and
+thioredoxin in plasma, romidepsin succeeded where more “stable”
+analogues failed. Structure–activity relationship studies on
+spiruchostatin-based compounds with thioether replacements, FK228
+lactam variants with amide bonds replacing the depsipeptide ester,
+and largazole derivatives with nonreducible linkers all demonstrated
+10- to 100-fold reduced HDAC inhibition despite improved metabolic
+stability. These findings illustrate
+that the disulfide serves dual purposes: enabling cellular uptake
+as a lipophilic prodrug and providing conformational flexibility upon
+reduction for optimal active site engagement. Overstabilization eliminated
+these beneficial features, demonstrating that apparent structural
+liabilities can be integral to the therapeutic mechanism.
+Despite
+their promise, many cyclic peptides fail to progress beyond
+early development due to a combination of pharmacokinetic and formulation
+challenges. Rapid systemic clearance often driven by renal filtration
+and residual proteolytic susceptibility remains a major limitation,
+particularly for peptides lacking sufficient size, plasma protein
+binding, or stabilizing modifications. In addition, poor tissue penetration
+and unfavorable biodistribution can restrict efficacy, especially
+for intracellular or deep-tissue targets. Even when stability is improved
+through cyclization, the high polarity and hydrogen-bonding capacity
+of most cyclic peptides continue to limit membrane permeability, necessitating
+parenteral administration for the majority of candidates. Formulation
+challenges, including solubility, aggregation, and manufacturability,
+further complicate clinical translation. Together, these factors contribute
+to high attrition rates and underscore that cyclization alone does
+not guarantee favorable drug-like properties. Addressing these limitations
+requires integrated optimization of structure, physicochemical properties,
+delivery strategies, and formulation, highlighting the need for continued
+innovation to fully realize the therapeutic potential of cyclic peptides.
+Together, these challenges highlight that realizing the full therapeutic
+potential of cyclic peptides will depend on continued advances in
+design, delivery, and enabling technologies, which are discussed in
+the following section.
+6. Future Directions
+Cyclic peptides have
+emerged as a transformative modality in drug
+development, bridging the gap between small molecules and biologics.
+Their unique structural features, conformational rigidity, enhanced
+proteolytic stability, and high target specificity, make them ideal
+candidates for addressing previously “undruggable” targets
+such as PPIs. Nevertheless, despite notable successes, many challenges
+remain and with them, many exciting opportunities for future research.
+Below we highlight key directions likely to propel the field in the
+coming years.
+6.1. Enhancing Oral Bioavailability and Cell Permeability
+One of the most critical challenges for cyclic peptide therapeutics
+remains achieving oral bioavailability and cellular uptake, particularly
+for intracellular targets. Current strategies focus on multiple complementary
+approaches to overcome these barriers. Structural modifications are
+at the forefront of permeability enhancement. N-methylation
+of backbone amides has proven effective in reducing polar surface
+area while maintaining target affinity, as demonstrated by successful
+oral cyclic peptides like cyclosporine. Incorporation of noncanonical
+amino acids, including d-amino acids and β-amino acids,
+not only enhances permeability but also provides proteolytic resistance.
+Lipidation strategies, exemplified by semaglutide’s fatty acid
+modification, have shown promise in improving both membrane permeability
+and pharmacokinetic profiles.
+,,
+ Intramolecular hydrogen bonds, particularly those involving backbone
+amide carbonyls, enable partial shielding of polar functionality and
+reduce the energetic penalty associated with membrane desolvation.
+In parallel, conformational shielding, the ability of a cyclic peptide
+to adopt compact, folded conformations in nonpolar environments while
+remaining solvent-exposed in aqueous media plays a critical role in
+enabling permeability without sacrificing solubility. Importantly,
+these features must be carefully balanced, as over-rigidification
+can limit adaptive folding, while insufficient constraint exposes
+polar surface area and impairs permeability.
+Formulation approaches are equally important. Intestinal permeation
+enhancers such as sodium caprate and SNAC (sodium N-[8-(2-hydroxybenzoyl)­amino]­caprylate) have enabled oral delivery
+of peptides previously limited to parenteral administration. Nanoparticle encapsulation systems, including
+solid lipid nanoparticles and polymeric micelles, protect cyclic peptides
+from enzymatic degradation while facilitating transcellular transport. Microneedle patches represent an alternative
+transdermal delivery route that bypasses gastrointestinal barriers
+entirely. Additionally, designing cyclic
+peptides for active transport via peptide transporters (PepT1, PepT2)
+or exploiting transcytosis pathways can significantly improve oral
+bioavailability. These innovations collectively
+promise to transition cyclic peptides from injectable formulations
+to patient-friendly oral therapeutics within the coming decade.
+6.2. De Novo Design and AI-Driven Discovery
+The landscape of cyclic peptide discovery is rapidly evolving from
+natural product modification to computational de novo design powered
+by artificial intelligence (AI). As Heinis and colleagues emphasized,
+“new powerful techniques based on rational design and in vitro
+evolution have enabled the de novo development of cyclic peptide ligands
+to targets for which nature does not offer solutions.” Generative AI models, such as variational autoencoders
+(VAEs) and generative adversarial networks (GANs), have enabled the
+design of cyclic peptide sequences with optimized properties.
+,
+ More recently, diffusion models like CycleDesigner and RFpeptides
+have shown promise in generating novel macrocyclic scaffolds by learning
+the distribution of successful peptide structures.
+,
+Reinforcement learning (RL) frameworks, including CCPep and
+PepThink-R1, optimize multiple properties simultaneously like balancing
+affinity, selectivity, stability, and permeability.
+,
+ Specialized platforms such as PepFlow (flow-matching generative
+model), CycPeptMPNN (graph-based neural network for cyclic peptides),
+MultiCycPermea (multimodal permeability prediction), and CyclicChamp
+(energy-based heuristic design), address unique challenges like ring
+closure compatibility, conformational preferences, and membrane permeability.
+,,,
+Structure prediction tools have also advanced: AlphaFold3
+and its
+adaptations (e.g., AfCycDesign) now model cyclic peptides with noncanonical
+amino acids and disulfide bonds with atomic-level accuracy. Rosetta, Des3PI, and the cyclicpeptide Python
+package integrate structural modeling with predictive analytics for
+early-stage property analysis.
+,,
+ Integrated modeling suites and machine learning-guided tools like
+NCPepFold predict optimal cyclization strategies and ring conformations,
+accelerating the design-to-validation pipeline.
+By combining these AI-driven platforms with automated
+synthesis
+and screening, the field is poised to dramatically shorten discovery
+timelines, transforming cyclic peptide development from years to months,
+especially for targets previously considered intractable.
+6.3. Genetically Encoded and Display-Based Macrocycle
+Discovery Platforms
+mRNA display-based technologies, including
+the RaPID (Random nonstandard Peptides Integrated Discovery) platform,
+have become powerful drivers of cyclic peptide discovery by enabling
+the screening of extremely large libraries (109–1012 variants) against challenging biological targets. In mRNA
+display, peptides are covalently linked to their encoding mRNA via
+a puromycin tag, establishing a robust genotype–phenotype connection
+that allows rapid selection and amplification of high-affinity binders.
+RaPID further expands this capability by combining flexible in vitro
+translation with mRNA display to generate covalently cyclized peptide
+libraries incorporating diverse noncanonical amino acids and tailored
+cyclization chemistries, such as thioether linkages. These features
+significantly extend accessible chemical space beyond that of ribosomal
+peptides composed solely of natural residues. Cyclization within these
+libraries reduces conformational flexibility, lowering the entropic
+cost of target binding and improving proteolytic stability, while
+enabling high affinity and selectivity for difficult targets such
+as protein–protein interfaces.
+,
+Recent
+applications of mRNA display/RaPID-derived cyclic peptides illustrate
+the breadth of this platform across discovery and mechanistic research.
+Cyclic peptide scaffolds identified by mRNA display have been used
+as chemical probes to interrogate enzyme mechanisms, exemplified by
+inhibitors of mammalian N-terminal cysteine oxidase (ADO) that revealed
+key binding interactions and catalytic residues. In therapeutic discovery, optimized mRNA-display workflows
+have yielded high-affinity bicyclic peptide inhibitors of FGFR3c that
+outperform linear and monocyclic counterparts in both potency and
+plasma stability. The technology has
+also enabled targeting of structurally challenging or underexplored
+protein domains, such as the extraterminal domain of BRD3, by identifying
+cyclic peptide binders directly from mammalian cell lysates.
+Genetically encoded macrocycle libraries
+provide a powerful platform
+for cyclic peptide discovery by enabling the generation of highly
+diverse libraries with precise control over structural properties
+while maintaining a direct genotype–phenotype linkage. These
+systems allow the incorporation of noncanonical amino acids and predefined
+cyclization motifs, thereby expanding accessible chemical space beyond
+conventional peptide libraries. When coupled with selection methodologies
+such as display technologies, genetically encoded libraries facilitate
+rapid identification of cyclic peptides with high affinity and selectivity
+for challenging targets. As library design and chemical encoding strategies
+continue to advance, these platforms are expected to play an increasingly
+important role in discovering cyclic peptide scaffolds optimized for
+both target engagement and developability.
+Together, these technologies provide a versatile and scalable
+platform
+for both mechanistic investigation and therapeutic lead discovery.
+6.4. Expanding the Druggable Proteome
+Cyclic peptides are expanding the druggable proteome by enabling
+access to protein targets previously considered undruggable, such
+as transcription factors, scaffolding proteins, and intrinsically
+disordered proteins.
+,
+ These molecules can engage shallow
+or dynamic surfaces, induce conformational changes, and disrupt PPIs
+critical to disease pathways. Notable successes include cyclic peptides
+that inhibit the MDM2–p53 interaction, modulate BCL-2 family
+proteins, and target RAS-effector complexes, once deemed intractable.
+,
+ Advances in fragment-based and structure-guided design, combined
+with display technologies like mRNA and phage display, facilitate
+the discovery of potent cyclic binders.
+,
+ Moreover, the integration of covalent warheads into cyclic frameworks
+enhances specificity and expands targeting capabilities, positioning
+cyclic peptides as versatile tools in next-generation drug discovery.
+6.5. Novel Cyclization and Stabilization Techniques
+Advances in synthetic chemistry are enabling precise control over
+cyclic peptide architecture and stability, driving innovation in drug
+design. Orthogonal cyclization strategies, including head-to-tail,
+side-chain-to-side-chain (e.g., disulfide bridges, lactam bonds, hydrocarbon
+staples), and backbone cyclization, enhance conformational rigidity
+and proteolytic resistance. Enzymatic
+methods such as cyanobactin macrocyclases, split-intein systems, and
+sortase-mediated ligation offer site-specific and traceless cyclization
+under mild conditions.
+,,
+ Click chemistry approaches like copper-catalyzed azide–alkyne
+cycloaddition (CuAAC), strain-promoted azide–alkyne cycloaddition
+(SPAAC), and tetrazine-alkene cycloadditions provide bioorthogonal
+and rapid macrocycle formation. Metal-mediated
+techniques, including ruthenium-catalyzed ring-closing metathesis
+and palladium-catalyzed cross-coupling, introduce structural rigidity
+and enable incorporation of aromatic linkers. Manufacturing innovations, automated solid-phase synthesis,
+microwave-assisted cyclization, and flow chemistry, are improving
+scalability, reproducibility, and cost-effectiveness, making cyclic
+peptide production more commercially viable.
+6.6. Conjugation and Multifunctional Platforms
+Cyclic peptides emerge as versatile scaffolds for multifunctional
+therapeutic platforms, extending beyond traditional single-agent modalities.
+Peptide-drug conjugates (PDCs) combine targeting specificity with
+cytotoxic payloads, using cleavable linkers (e.g., hydrazone, disulfide,
+cathepsin-sensitive) or noncleavable linkers to enhance therapeutic
+indices. Bispecific formats, including
+peptidic bispecific antibodies, enable simultaneous engagement of
+multiple targets, showing promise in immunotherapy and resistance
+mitigation. Nanoparticle conjugation
+strategies utilize cyclic peptides like RGD (arginine (R), glycine
+(G), and aspartic acid (D)) for integrin-targeted delivery, improving
+biodistribution and reducing off-target effects. In PROTAC applications, cyclic peptides act as E3 ligase
+recruiters or target binders, facilitating targeted protein degradation
+and expanding therapeutic scope.
+,
+ Theranostic
+platforms integrate cyclic peptides with imaging agents (e.g., PET
+tracers, fluorophores, MRI contrast agents), enabling real-time monitoring
+of drug distribution and response. These multifunctional strategies
+position cyclic peptides as central components in next-generation
+precision therapeutics.
+,
+6.7. Emerging Therapeutic Areas
+Cyclic
+peptides, while already established in therapeutic areas such as oncology,
+infectious diseases, and cardiovascular disorders, are poised to expand
+into new domains including neurological diseases, where they can target
+intracellular protein–protein interactions implicated in neurodegeneration. Their potential in metabolic disorders is also
+growing, with orally bioavailable macrocyclic peptides being explored
+for conditions like diabetes and obesity. In the realm of rare diseases
+and gene regulation, cyclic peptides are emerging as modulators of
+RNA-binding proteins and epigenetic regulators.
+,
+ Furthermore, their structural versatility makes them promising candidates
+in the fight against antimicrobial resistance, offering novel scaffolds
+capable of disrupting bacterial virulence pathways without inducing
+resistance mechanisms.
+,
+7. Conclusion
+Cyclic peptides have become
+an important focus in current drug
+discovery because they offer a balance between the selectivity of
+biologics and the stability of small molecules. Recent advances in
+synthesis, screening technologies, and design strategies have made
+it easier to generate diverse and more drug-like cyclic peptide structures.
+This progress is clearly reflected in the growing number of publications
+and patents in the past few years, indicating steadily increasing
+interest from both academia and industry.
+In this study, we
+leveraged the data from CAS Content Collection,
+to provide a comprehensive data-driven overview of cyclic peptides
+and their therapeutic potential. Our analysis reveals a steady rise
+in research activity from 2006 to 2025, with journal publications
+predominating overall, but a recent surge in patent filings reflects
+increasing commercial interest. Patent classification trends highlight
+pharmaceuticals as the major innovation focus, alongside growing activity
+in immunochemistry, and production methodologies. Oral delivery has
+gained remarkable attention, underscoring advances aimed at improving
+metabolic stability and permeability of cyclic peptides, while most
+other routes remain modestly represented. Therapeutic area mapping
+identifies oncology as the dominant application space, followed by
+infectious and inflammatory diseases, and other emerging areas. Analyses
+of peptide architecture demonstrate a strong preference for macrocyclic,
+bicyclic, and polycyclic scaffolds, supported by dominant head-to-tail
+cyclization strategies and widespread use of stabilizing modifications
+such as disulfide bonds, thioethers, and N-methylation.
+Co-occurrence patterns between peptide features, administration routes,
+and therapeutic areas reveal that structural complexity, particularly
+in larger macrocycles, enables broader modification diversity and
+stronger alignment with oral and I.V. delivery, as well as with potentially
+challenging targets such as PD-1/PD-L1, Ras family proteins, p53,
+and SOS1. Together, these findings present a unified view of the evolving
+design principles, therapeutic priorities, and translational opportunities
+shaping the future landscape of cyclic peptide drug development.
+Going forward, the field is likely to expand further as newer tools
+such as computational design and improved macrocyclization methods
+help address remaining challenges related to bioavailability, manufacturing,
+and clinical translation. Overall, cyclic peptides are increasingly
+established as a practical and versatile therapeutic modality, with
+clear potential for continued growth as technologies mature.
+Supplementary Material
+jm6c01522_si_001.pdf (1.1MB, pdf) 
+Glossary
+Abbreviations
+AI
+artificial
+intelligence
+ARDS
+acute respiratory distress
+syndrome
+CAGR
+compound
+annual growth rate
+CuAAC
+Cu­(I)-catalyzed azide–alkyne cycloaddition
+CXCR4
+chemokine receptor
+type 4
+DDAVP
+d-amino-8-d-arginine-vasopressin
+ENaC
+epithelial sodium channels
+EphA2
+ephrin type-A receptor
+2
+FDA
+Food and Drug
+administration
+GANs
+generative adversarial networks
+GC-C
+guanylate cyclase-C
+GI
+gastrointestinal
+HIP
+hydrophobic ion pairing
+I.V.
+intravenous
+IL-23
+interleukin-23
+MCR
+melanocortin receptor
+MDM
+mouse double minute 2
+homologue
+MRI
+magnetic
+resonance imaging
+MRPs
+multidrug resistance proteins
+MUC
+mucin
+MW
+molecular weight
+NLCs
+nanostructured lipid carriers
+NRP-1
+neuropilin-1
+P-gp
+P-glycoprotein
+PCSK9
+proprotein convertase subtilisin/kexin type
+9
+PD1
+programmed
+cell death protein 1
+PDC
+peptide-drug conjugate
+PDL1
+programmed death-ligand 1
+PDL2
+programmed death-ligand 2
+PEG
+polyethylene glycol
+PepT
+peptide transporter
+PET
+positron emission
+tomography
+PHA
+polyhydroxyalkanoate
+PK
+pharmacokinetic
+PLA
+polylactic acid
+PLGA
+poly­(lactic-co-glycolic acid)
+PPIs
+protein–protein interactions
+PROTAC
+proteolysis targeting chimera
+PSA RL
+reinforcement
+learning
+S.C.
+subcutaneous
+SEEDS
+self-emulsifying
+drug delivery systems
+SLNs
+solid lipid nanoparticles
+SNAC
+sodium N-[8-(2-hydroxybenzoyl)­amino]­caprylate
+SOMA
+self-orienting
+millimeter-scale applicator
+SOS1
+Son of Sevenless homologue 1
+SPAAC
+strain-promoted azide–alkyne cycloaddition
+SSTR
+somatostatin receptor
+STAT3
+Signal Transducer
+and Activator of Transcription 3
+TCF4
+transcription factor 4
+TNF
+tumor necrosis factor
+TP53
+tumor protein 53
+VAEs
+variational autoencoders
+Biographies
+Trupti Thite holds a master’s
+degree in biotechnology
+from the University of Pune and a Ph.D. in Cell Biology from the Indian
+Institute of Science Education and Research (IISER) Pune, where her
+research focused on the role of caveolin-1 in regulating membrane
+properties and mechanosensing in cells growing in three-dimensional
+microenvironments. Following doctoral training, she gained industry
+experience in scientific writing and data analysis across diverse
+fields, including cancer genomics and precision oncology. Currently,
+at ACSI India, she is a part of an interdisciplinary team analyzing
+data from the CAS Content Collection to identify trends and derive
+insights across various areas in life sciences domain. Her skills
+span cell and molecular biology, oncology, genomics, and the application
+of data-driven methods in drug discovery.
+Kavita A. Iyer earned her bachelor’s degree
+in pharmacy from the University of Mumbai, India, in 2011. She further
+completed a Ph.D. in medicinal chemistry from the School of Pharmacy,
+Virginia Commonwealth University (VCU), with her doctoral work centered
+around developing organic cationic transporter 3 inhibitors as novel
+multimodal antidepressants. Subsequently, she was trained as a structural
+biologist in the Department of Physiology and Biophysics at VCU, working
+on elucidating the structure of ryanodine receptors, one of the largest
+calcium channels in the human body, using cryo-electron microscopy
+to identify molecular mechanisms underlying disease mutations. At
+CAS, she is a part of an interdisciplinary team analyzing data from
+the CAS Content Collection to identify trends and develop valuable
+insights across several areas, including medicinal chemistry, life
+sciences, and material sciences.
+Preeti Jain holds a master’s degree in biomedical
+sciences from Bundelkhand University, India, and earned her Ph.D.
+in Animal Science at the Central Avian Research Institute, India,
+where she investigated expression profiles of iNOS and cytokine genes
+in response to infectious bursal disease virus in immunodivergent
+chicken lines. She has worked on HIV-1 genome analysis, rotavirus
+genotyping, and evaluation of diagnostic kits for HIV, HBV, HCV, syphilis,
+and COVID-19, including WHO prequalification studies at the Indian
+Council of Medical Research, Pune, and the University of Pune, India.
+Her expertise spans molecular biology, immunology, and virology. Currently,
+she contributes to ACSI India by analyzing scientific data to identify
+trends and generate insights that advance research in medicinal chemistry
+and life sciences.
+Janet M. Sasso earned her B.S. in biology from The
+Ohio State University (OSU). She also holds her Master of Public Health
+from OSU, where she focused her research on public health equity and
+education. She joined CAS in 2006 as an Information Scientist in the
+Life Sciences department, curating pharmacology, pharmaceutical, environmental
+science, and toxicological research information. She is passionate
+about scientific communication to accelerate scientific analysis and
+inspire advancement worldwide.
+Rumiana
+Tenchov holds a Ph.D. and D.Sc. degrees in
+biophysics from the Bulgarian Academy of Sciences. She has been a
+research faculty member at Northwestern University and The Ohio State
+University, and is currently an Information Scientist at CAS, a division
+of the American Chemical Society. Her research interests include lipid
+membrane structure and assembly, lipid nanoparticles, drug delivery
+systems, cationic lipids/DNA assemblies and DNA delivery for transfection,
+thermodynamics and stability of proteins, and scientific information
+analysis in a broad range of life sciences.
+Sudarshan Murmu holds a master’s degree in
+Pharmacoinformatics from NIPER Kolkata, India, where his academic
+work focused on applying machine learning methods to chemoinformatics
+classification problems. He also earned a bachelor’s degree
+in pharmacy. He is currently working as a Bioinformatics Scientist
+with 3 years of experience at ACS International India Pvt. Ltd., Pune,
+India, in the Life Sciences division. His role involves scientific
+data analysis, data collection, data cleaning, data curation, and
+supporting ETL workflows for large-scale life sciences datasets. His
+work lies at the intersection of chemoinformatics, data analytics,
+machine learning, and structured scientific data processing with data-driven
+insights in life sciences.
+Mahaveer
+Surendranath holds an M.Sc. in Organic Chemistry
+from Bangalore University, India, his professional experience spans,
+synthesis of pharmaceutical chemicals, drug discovery, chemical informatics,
+and scientific content management. At ACSI India, he is part of an
+interdisciplinary team that integrates chemistry and biology domain
+expertise with informatics systems. His work includes scientific data
+curation, contributing to domain-driven software solutions, and developing
+insights that help translate scientific and user requirements into
+effective informatics functionalities.
+Ankush Maind is a Principal Data Scientist with around
+13 years of interdisciplinary experience spanning engineering, healthcare,
+and life sciences. He holds a Ph.D. in Computer Science and Engineering
+from VNIT Nagpur, India, where his research focused on identifying
+hub genes using biclustering algorithms. His technical expertise covers
+Generative AI, Machine Learning, and Natural Language Processing,
+with a proven track record of developing scalable AI solutions for
+drug discovery and biomedical literature analysis. At ACSI India,
+he leads strategic initiatives in Analytics, NLP, ML, LLMs, RAG, and
+agentic AI to advance and strengthen the life sciences division.
+Umesh T Balande holds a Ph.D.
+in optimization using
+data science techniques from Visvesvaraya National Institute of Technology
+(VNIT), Nagpur. Currently, he is working as a Data Scientist at ACSI
+INDIA for the Science Connect team. He is engaged in data extraction
+and NLP analytics for various projects. He has over 10 years of experience
+in data science, machine learning, and NLP, having previously worked
+as Generative AI consultant for various companies. His research interests
+include large language models, generative AI, natural language processing,
+retrieval-augmented generation (RAG), agentic AI frameworks, and deep
+learning applications across diverse domains such as education technology,
+BFSI, healthcare, and scientific information analysis.
+Qiongqiong Angela Zhou earned her Ph.D.
+in molecular
+pharmacology and toxicology from the University of Southern California.
+Then she was further trained as a cell biologist at Johns Hopkins
+School of Medicine and worked in the area of small molecule and siRNA
+drugs in cancer treatment at Harvard Medical School. Prior to joining
+CAS, she was an Assistant Professor at Missouri State University and
+later at Denison University. At CAS, Angela has been leading the Science
+Connect initiative. She and many CAS scientists have worked together
+and published multiple scientific trends reports on emerging topics,
+such as COVID-19, lipid nanoparticle technologies, RNA therapeutics,
+molecular glues, exosomes, and so on, all based on the CAS Content
+Collection.
+The Supporting Information is
+available free of charge at https://pubs.acs.org/doi/10.1021/acs.jmedchem.6c01522. 
+Supplementary Figure S1: publication trend related to
+peptide therapeutics, Supplementary Figure S2: leading patent assignees
+in the field of cyclic peptides, Supplementary Figures S3, S4, and
+S5: bibliometric analysis of leading research organizations and influential
+journals in cyclic peptide research, Supplementary Figure S6: number
+of documents contributing to CAS-indexed cyclic peptides, categorized
+by various parameters, Supplementary Figure S7: cyclic peptide types
+according to their MW, Supplementary Figure S8: individual scatter
+plots for MW versus PSA for each cyclization type, Supplementary Figure
+S9: individual scatter plots for MW versus Log P for
+each cyclization type, Supplementary Figure S10: delivery systems
+for cyclic peptides, Supplementary Tables S1, S2, and S3: distribution
+of cyclic peptide types or cyclization types or modifications across
+patents from leading commercial assignees, Supplementary Table S4:
+approved cyclic peptide therapeutics, Supplementary Table S5: SMILE-based
+analysis on the cyclic peptide therapeutics currently in clinical
+development, Supplementary Tables S6 and S7: structures and physicochemical
+properties of approved cyclic peptide drugs and clinical candidates
+(PDF)
+The authors
+declare no competing financial interest.
+References
+Muttenthaler M., King G. F., Adams D. J., Alewood P. F.. Trends in peptide
+drug discovery. Nat. Rev. Drug Discovery. 2021;20(4):309–325. doi: 10.1038/s41573-020-00135-8. [DOI] [PubMed] [Google Scholar]
+Wang L., Wang N., Zhang W., Cheng X., Yan Z., Shao G., Wang X., Wang R., Fu C.. Therapeutic
+peptides: current applications and future directions. Signal Transduction Targeted Ther. 2022;7(1):48. doi: 10.1038/s41392-022-00904-4. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Christou G. A., Katsiki N., Blundell J., Fruhbeck G., Kiortsis D. A.-O.. Semaglutide
+as a promising antiobesity drug. Obes. Rev. 2019;20:805–815. doi: 10.1111/obr.12839. [DOI] [PubMed] [Google Scholar]
+Sharma K., Sharma K. K., Sharma A., Jain R.. Peptide-based drug
+discovery: Current status and recent advances. Drug Discovery Today. 2023;28(2):103464. doi: 10.1016/j.drudis.2022.103464. [DOI] [PubMed] [Google Scholar]
+Xiao W., Jiang W., Chen Z., Huang Y., Mao J., Zheng W., Hu Y., Shi J.. Advance in peptide-based
+drug development: delivery platforms, therapeutics and vaccines. Signal Transduction Targeted Ther. 2025;10(1):74. doi: 10.1038/s41392-024-02107-5. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Hamman J. H., Enslin G. M., Kotzé A. F.. Oral Delivery
+of Peptide Drugs. BioDrugs. 2005;19(3):165–177. doi: 10.2165/00063030-200519030-00003. [DOI] [PubMed] [Google Scholar]
+Bockus A. T., McEwen C. M., Lokey R. S.. Form and
+Function in Cyclic Peptide
+Natural Products: A Pharmacokinetic Perspective. Curr. Top. Med. Chem. 2013;13(7):821–836. doi: 10.2174/1568026611313070005. [DOI] [PubMed] [Google Scholar]
+Cyclic Peptides Market by Type (Natural Cyclic Peptide,
+Synthetic
+Cyclic Peptide), Product Type (Antimicrobial Peptides, Hormonal Peptides,
+Immunomodulating Peptides), Technology, Application, End User - Global
+Forecast 2025–2032. 2025. https://www.360iresearch.com/library/intelligence/cyclic-peptides. (accessed 2025 29 December).
+Cyclic Peptides
+Market by Type, Product Type, Technology, Application,
+End User - Global Forecast 2025–2030. 2025. https://www.giiresearch.com/report/ires1809819-cyclic-peptides-market-by-type-product-type.html. (accessed 29 December 2025).
+Cyclic peptides
+market.
+2025. https://pmarketresearch.com/chemi/cyclic-peptides-market/. (accessed 29 December 2025).
+CAS Content Collection. https://www.cas.org/cas-data.
+Totaro, K. A.
+; 
+Dombroski, A.
+; 
+Giesler, R.
+; 
+Zhou, M.
+; 
+Streeter, M.
+; 
+Goffin, A.
+; 
+Qian, Z.
+; 
+Dougherty, P.
+. 
+Cyclic peptides for delivering
+therapeutics. WO 2,023,205,451 A1, 2023.
+Lang, B.
+; 
+Good, D.
+J.
+; 
+Mathias, N. R.
+; 
+Desai, D. S.
+; 
+Lavan, M.
+; 
+Arce, F.
+. 
+Pharmaceutical compositions for improving
+oral bioavailability. WO 2,024,196,790 A1, 2024.
+Comer, J.
+; 
+Thakkar, R.
+; 
+Tamura, M.
+. 
+Cyclic peptide for cancer
+immunotherapy. WO 2,023,121,699 A1, 2023.
+Chen, L.
+; 
+Lani, R.
+; 
+McDonnell, K.
+; 
+Mudd, G.
+E.
+; 
+Park, P.
+. 
+Bicyclic peptide ligands specific
+for CD137. US
+12,049,520 B2, 2024.
+RDKit:
+Open-Source Cheminformatics Software. https://www.rdkit.org/. (accessed
+2025 30th December).
+Thorstholm L., Craik D. J.. Discovery
+and applications of naturally occurring cyclic
+peptides. Drug Discovery Today: Technol. 2012;9(1):e13–e21. doi: 10.1016/j.ddtec.2011.07.005. [DOI] [PubMed] [Google Scholar]
+Liu H., Bai L., Jiang X.. Recent progress
+on total synthesis of cyclic peptides. Tetrahedron
+Lett. 2024;151:155314. doi: 10.1016/j.tetlet.2024.155314. [DOI] [Google Scholar]
+Ono S., Naylor M. R., Townsend C. E., Okumura C., Okada O., Lee H.-W., Lokey R. S.. Cyclosporin
+A: Conformational Complexity
+and Chameleonicity. J. Chem. Inf. Model. 2021;61(11):5601–5613. doi: 10.1021/acs.jcim.1c00771. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Schreidah C. M., Ratnayake K., Senarath K., Karunarathne A.. Microcystins:
+Biogenesis, Toxicity, Analysis, and Control. Chem. Res. Toxicol. 2020;33(9):2225–2246. doi: 10.1021/acs.chemrestox.0c00164. [DOI] [PubMed] [Google Scholar]
+Ciulla M. G., Gelain F.. Structure–activity
+relationships of antibacterial
+peptides. Microb. Biotechnol. 2023;16(4):757–777. doi: 10.1111/1751-7915.14213. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Wu X., Gong X., Xie T.. Mechanisms
+of aureobasidin A inhibition
+and drug resistance in a fungal IPC synthase complex. Nat. Commun. 2025;16(1):5010. doi: 10.1038/s41467-025-60423-y. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Wyer S., Townsend D. M., Ye Z., Kourtidis A., Choo Y.-M., de Barros A. L. B., Donia M. S., Hamann M. T.. Recent
+advances and limitations in the application of kahalalides for the
+control of cancer. Biomed. Pharmacother. 2022;148:112676. doi: 10.1016/j.biopha.2022.112676. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Ali M. A., Khan A. U., Ali A., Khaliq M., Khan N., Mujahid S., Calina D., Püsküllüoǧlu M., Sharifi-Rad J.. Didemnins
+as marine-derived anticancer agents: mechanistic
+insights and clinical potential. Med. Oncol. 2025;42(2):43. doi: 10.1007/s12032-024-02594-0. [DOI] [PubMed] [Google Scholar]
+Widodo W. S., Billerbeck S.. Natural and
+engineered cyclodipeptides: Biosynthesis,
+chemical diversity, and engineering strategies for diversification
+and high-yield bioproduction. Eng. Microbiol. 2023;3(1):100067. doi: 10.1016/j.engmic.2022.100067. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Kartha G., Ambady G., Shankar P. V.. Structure
+and Conformation of a Cyclic
+Tripeptide. Nature. 1974;247(5438):204–205. doi: 10.1038/247204a0. [DOI] [PubMed] [Google Scholar]
+Sarojini V., Cameron A. J., Varnava K. G., Denny W. A., Sanjayan G.. Cyclic Tetrapeptides
+from Nature and Design: A Review of Synthetic Methodologies, Structure,
+and Function. Chem. Rev. 2019;119(17):10318–10359. doi: 10.1021/acs.chemrev.8b00737. [DOI] [PubMed] [Google Scholar]
+Hill T. A., Lohman R.-J., Hoang H. N., Nielsen D. S., Scully C. C. G., Kok W. M., Liu L., Lucke A. J., Stoermer M. J., Schroeder C. I.. et al. Cyclic Penta- and Hexaleucine Peptides without
+N-Methylation Are Orally Absorbed. ACS Med.
+Chem. Lett. 2014;5(10):1148–1151. doi: 10.1021/ml5002823. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Chan L., Hutchison G. R., Morris G. M.. Understanding Ring Puckering in Small
+Molecules and Cyclic Peptides. J. Chem. Inf.
+Model. 2021;61(2):743–755. doi: 10.1021/acs.jcim.0c01144. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Schulze J.. Pharmacology
+of Cyclic Peptides: Vancomycin and Oxytocin as Paradigms. Protein Pept. Lett. 2014;21(6):593–596. doi: 10.2174/0929866521666140221152226. [DOI] [PubMed] [Google Scholar]
+Jeu L., Fung H. B.. Daptomycin: a cyclic
+lipopeptide antimicrobial agent. Clin. Ther. 2004;26:1728–1757. doi: 10.1016/j.clinthera.2004.11.014. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Lehrer R. I., Cole A. M., Selsted M. E.. θ-Defensins:
+Cyclic Peptides
+with Endless Potential. J. Biol. Chem. 2012;287(32):27014–27019. doi: 10.1074/jbc.R112.346098. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Sakai K., Passioura T., Sato H., Ito K., Furuhashi H., Umitsu M., Takagi J., Kato Y., Mukai H., Warashina S.. et al. Macrocyclic peptide-based inhibition and imaging
+of hepatocyte growth factor. Nat. Chem. Biol. 2019;15(6):598–606. doi: 10.1038/s41589-019-0285-7. [DOI] [PubMed] [Google Scholar]
+Driggers E. M., Hale S. P., Lee J., Terrett N. K.. The exploration
+of macrocycles for drug discoveryan underexploited structural
+class. Nat. Rev. Drug Discovery. 2008;7(7):608–624. doi: 10.1038/nrd2590. [DOI] [PubMed] [Google Scholar]
+Garcia
+Jimenez D., Poongavanam V., Kihlberg J.. Macrocycles in Drug
+DiscoveryLearning from the Past for the Future. J. Med. Chem. 2023;66(8):5377–5396. doi: 10.1021/acs.jmedchem.3c00134. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Macrocyclic peptides: Aiming for the perfect fit, 2024. https://cen.acs.org/pharmaceuticals/drug-discovery/Macrocyclic-peptides-Aiming-perfect-fit/102/i19 (accessed 30 December 2025).
+Ullrich S., Nitsche C.. Bicyclic peptides: Paving the road for therapeutics
+of the future. Pept. Sci. 2024;116(2):e24326. doi: 10.1002/pep2.24326. [DOI] [Google Scholar]
+Slough D. P., McHugh S. M., Lin Y.-S.. Understanding and designing head-to-tail
+cyclic peptides. Biopolymers. 2018;109(10):e23113. doi: 10.1002/bip.23113. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Hayes H. C., Luk L. Y. P., Tsai Y.-H.. Approaches for peptide and protein
+cyclisation. Org. Biomol. Chem. 2021;19(18):3983–4001. doi: 10.1039/D1OB00411E. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Schiller P.
+W., Nguyen T. M. D., Miller J.. Synthesis of side-chain to side-chain
+cyclized peptide analogs on solid supports. Int. J. Pept. Protein Res. 1985;25(2):171–177. doi: 10.1111/j.1399-3011.1985.tb02161.x. [DOI] [Google Scholar]
+Bechtler C., Lamers C. A.-O.. Macrocyclization
+strategies for cyclic peptides and
+peptidomimetics. RSC Med. Chem. 2021;12:1325–1351. doi: 10.1039/D1MD00083G. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Fang P., Pang W.-K., Xuan S., Chan W.-L., Leung K. C.-F.. Recent
+advances in peptide macrocyclization strategies. Chem. Soc. Rev. 2024;53(24):11725–11771. doi: 10.1039/D3CS01066J. [DOI] [PubMed] [Google Scholar]
+Buchanan D., Mori S., Chadli A., Panda S. S.. Natural Cyclic Peptides:
+Synthetic Strategies and Biomedical Applications. Biomedicines. 2025;13:240. doi: 10.3390/biomedicines13010240. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Merz M. L., Habeshian S., Li B., David J.-A. G. L., Nielsen A. L., Ji X., Il Khwildy K., Duany Benitez M. M., Phothirath P., Heinis C.. De novo development
+of small cyclic peptides that are orally bioavailable. Nat. Chem. Biol. 2024;20(5):624–633. doi: 10.1038/s41589-023-01496-y. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Walensky L. D., Bird G. H.. Hydrocarbon-Stapled
+Peptides: Principles, Practice,
+and Progress. J. Med. Chem. 2014;57(15):6275–6288. doi: 10.1021/jm4011675. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Yang, F.
+; 
+Yin, F.
+; 
+Li, Z.
+. 
+Helical Stabilization
+of Peptide MacrocyclesPeptidemacrocycles
+by Stapled Architectures. In Peptide Macrocycles:
+methods and Protocols, 
+Coppock, M. B.
+; 
+Winton, A. J.
+, Eds.; Springer US, 2022, pp. 391–409. [DOI] [PubMed] [Google Scholar]
+Zhang L., Chou C. P., Moo-Young M.. Disulfide
+bond formation and its
+impact on the biological activity and stability of recombinant therapeutic
+proteins produced by Escherichia coli expression system. Biotechnol. Adv. 2011;29(6):923–929. doi: 10.1016/j.biotechadv.2011.07.013. [DOI] [PubMed] [Google Scholar]
+Johnson M., Liu M., Struble E., Hettiarachchi K.. Characterization of cyclic peptides
+containing disulfide bonds. J. Pharm. Biomed.
+Anal. 2015;109:112–120. doi: 10.1016/j.jpba.2015.01.009. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Zhao R., Shi P., Chen J., Sun S., Chen J., Cui J., Wu F., Fang G., Tian C., Shi J.. et al. Chemical
+synthesis and biological activity of peptides incorporating an ether
+bridge as a surrogate for a disulfide bond. Chem. Sci. 2020;11(30):7927–7932. doi: 10.1039/D0SC02374D. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Chen H., Katoh T., Suga H.. Macrocyclic Peptides Closed by a
+Thioether–Bipyridyl Unit That Grants Cell Membrane Permeability. ACS Bio Med. Chem. Au. 2023;3(5):429–437. doi: 10.1021/acsbiomedchemau.3c00027. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Yang J., Huang H., Zhao J.. Active ester-based
+peptide bond formation
+and its application in peptide synthesis. Org.
+Chem. Front. 2023;10(7):1817–1846. doi: 10.1039/D2QO01686A. [DOI] [Google Scholar]
+Matsuda K.. Macrocyclizing-thioesterases
+in bacterial non-ribosomal peptide biosynthesis. J. Nat. Med. 2025;79(1):1–14. doi: 10.1007/s11418-024-01841-y. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Hosono Y., Uchida S., Shinkai M., Townsend C. E., Kelly C. N., Naylor M. R., Lee H.-W., Kanamitsu K., Ishii M., Ueki R., Ueda T.. et al. Amide-to-ester
+substitution as a stable alternative to N-methylation for increasing
+membrane permeability in cyclic peptides. Nat.
+Commun. 2023;14(1):1416. doi: 10.1038/s41467-023-36978-z. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Li Q., Chao W., Qiu L.. Therapeutic
+peptides: chemical strategies
+fortify peptides for enhanced disease treatment efficacy. Amino Acids. 2025;57(1):25. doi: 10.1007/s00726-025-03454-5. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Räder A. F. B., Reichart F., Weinmüller M., Kessler H.. Improving oral bioavailability
+of cyclic peptides by N-methylation. Bioorg.
+Med. Chem. 2018;26(10):2766–2773. doi: 10.1016/j.bmc.2017.08.031. [DOI] [PubMed] [Google Scholar]
+Li X., Wang N., Liu Y., Li W., Bai X., Liu P., He C.-Y.. Backbone N-methylation of peptides: Advances in synthesis
+and applications in pharmaceutical drug development. Bioorg. Chem. 2023;141:106892. doi: 10.1016/j.bioorg.2023.106892. [DOI] [PubMed] [Google Scholar]
+White T. R., Renzelman C. M., Rand A. C., Rezai T., McEwen C. M., Gelev V. M., Turner R. A., Linington R. G., Leung S. S. F., Kalgutkar A. S.. et al. On-resin N-methylation
+of cyclic peptides for discovery of orally bioavailable scaffolds. Nat. Chem. Biol. 2011;7(11):810–817. doi: 10.1038/nchembio.664. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Apostol C. R., Hay M., Polt R.. Glycopeptide
+drugs: A pharmacological dimension between
+“Small Molecules” and “Biologics”. Peptides. 2020;131:170369. doi: 10.1016/j.peptides.2020.170369. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Ho H. H., Gilbert M. T., Nussenzveig D. R., Gershengorn M. C.. Glycosylation
+Is Important for Binding to Human Calcitonin Receptors. Biochemistry. 1999;38(6):1866–1872. doi: 10.1021/bi981195e. [DOI] [PubMed] [Google Scholar]
+Costa A. R., Rodrigues M. E., Henriques M., Oliveira R., Azeredo J.. Glycosylation:
+impact, control and improvement during therapeutic protein production. Crit. Rev. Biotechnol. 2014;34(4):281–299. doi: 10.3109/07388551.2013.793649. [DOI] [PubMed] [Google Scholar]
+Simerska P., Moyle P. M., Toth I.. Modern lipid-,
+carbohydrate-, and
+peptide-based delivery systems for peptide, vaccine, and gene products. Med. Res. Rev. 2011;31(4):520–547. doi: 10.1002/med.20191. [DOI] [PubMed] [Google Scholar]
+Ward B. P., Ottaway N. L., Perez-Tilve D., Ma D., Gelfanov V. M., Tschöp M. H., DiMarchi R. D.. Peptide lipidation
+stabilizes structure
+to enhance biological function. Mol. Metab. 2013;2(4):468–479. doi: 10.1016/j.molmet.2013.08.008. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Emeh P., Englund M., Harun S., Santisteban Valencia Z., Revell J., Hugerth A., Davies N., Bergström C. A. S.. Impact
+of chemical structure, lipidation and formulation on luminal stability
+and intestinal absorption of GLP-1 analogues. J. Controlled Release. 2025;386:114144. doi: 10.1016/j.jconrel.2025.114144. [DOI] [PubMed] [Google Scholar]
+Bickel D., Vranken W.. Effects of Phosphorylation on Protein Backbone Dynamics
+and Conformational Preferences. J. Chem. Theory
+Comput. 2024;20(12):4998–5011. doi: 10.1021/acs.jctc.4c00206. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Xu P., Cai X., Guan X., Xie W.. Sulfoconjugation of
+protein peptides
+and glycoproteins in physiology and diseases. Pharmacol. Ther. 2023;251:108540. doi: 10.1016/j.pharmthera.2023.108540. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Bossard, M. J.
+; 
+Vicent, M. J.
+. 
+2 - PEGylated
+proteins: A rational design for mitigating clearance mechanisms and
+altering biodistribution. In Polymer-Protein
+Conjugates, 
+Pasut, G.
+; 
+Zalipsky, S.
+, Eds.; Elsevier, 2020, pp. 23–40. [Google Scholar]
+Toor J., Grabowska W. R., Johnson A. L., Jones J., Stetler-Stevenson W. G., Khalili H., Peeney D.. Histidine Tag-Specific PEGylation
+Improves the Circulating Half-Life of TIMP2. ACS Appl. Bio Mater. 2025;8(3):1946–1955. doi: 10.1021/acsabm.4c01385. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Doak B. C., Over B., Giordanetto F., Kihlberg J.. Oral Druggable Space
+beyond the Rule of 5: Insights from Drugs and Clinical Candidates. Chem. Biol. 2014;21(9):1115–1142. doi: 10.1016/j.chembiol.2014.08.013. [DOI] [PubMed] [Google Scholar]
+Vinogradov A. A., Yin Y., Suga H.. Macrocyclic
+Peptides as Drug Candidates: Recent Progress
+and Remaining Challenges. J. Am. Chem. Soc. 2019;141(10):4167–4181. doi: 10.1021/jacs.8b13178. [DOI] [PubMed] [Google Scholar]
+Polania Gutierrez, J. J.
+; 
+S, M.
+. 
+Intramuscular Injection; StatPearls Publishing, 2023. [PubMed] [Google Scholar]
+Wei S., Zhai Z., Kong X., Wu C., Zhu B., Zhao Z., Zhang X.. The review of nasal
+drug delivery
+system: The strategies to enhance the efficiency of intranasal drug
+delivery by improving drug absorption. Int.
+J. Pharm. 2025;676:125584. doi: 10.1016/j.ijpharm.2025.125584. [DOI] [PubMed] [Google Scholar]
+Shoshan, M.
+; 
+Tagwa, M.
+. 
+Cyclic tetrapeptides and metal complexes
+thereof. CA 3,200,621 A1, 2021.
+Fan N., Li Q., Liu Y., Ma B., Li M., Yin D.. Preparation
+of an HI-6-loaded brain-targeted liposomes based on the nasal delivery
+route and the evaluation of its reactivation of central toxic acetylcholinesterase. Eur. J. Pharm. Sci. 2023;184:106406. doi: 10.1016/j.ejps.2023.106406. [DOI] [PubMed] [Google Scholar]
+Feige, M. J.
+; 
+Braakman, I.
+; 
+Hendershot, L. M.
+. 
+Disulfide Bonds
+in Protein Folding and Stability. In Oxidative
+Folding of Proteins: basic Principles, Cellular Regulation and Engineering, 
+Feige, M. J.
+; The Royal Society of Chemistry, 2018. [Google Scholar]
+Eastman K. A. S., Roberts A. G., Bandarian V.. Diverse thioether
+macrocyclized peptides
+through a radical SAM maturase. Proc. Natl.
+Acad. Sci. U. S. A. 2025;122(34):e2512563122. doi: 10.1073/pnas.2512563122. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Grossi F., Yeh M., Xu R., Deschatelets P.. The Pharmacokinetics, Pharmacodynamics,
+and Safety of Intravenous Pegcetacoplan Treatment in Healthy Subjects. Blood. 2021;138(Supplement 1):4304–4304. doi: 10.1182/blood-2021-148069. [DOI] [Google Scholar]
+Yang J., Zhu Q., Wu Y., Qu X., Liu H., Jiang B., Ge D., Song X.. Utilization of macrocyclic
+peptides to target protein-protein
+interactions in cancer. Front. Oncol. 2022;12:992171. doi: 10.3389/fonc.2022.992171. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Wang W. -J., Dong X.-M., Li G.-B.. Macrocyclic peptides:
+up-and-coming
+weapons to combat antimicrobial resistance. Signal Transduction Targeted Ther. 2024;9(1):81. doi: 10.1038/s41392-024-01813-4. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Rhodes C. A., Pei D.. Bicyclic Peptides as Next-Generation Therapeutics. Chem. -Eur. J. 2017;23(52):12690–12703. doi: 10.1002/chem.201702117. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Leader B., Baca Q. J., Golan D. E.. Protein therapeutics: a summary and
+pharmacological classification. Nat. Rev. Drug
+Discovery. 2008;7(1):21–39. doi: 10.1038/nrd2399. [DOI] [PubMed] [Google Scholar]
+Lipinski C. A., Lombardo F., Dominy B. W., Feeney P. J.. Experimental and
+computational approaches to estimate solubility and permeability in
+drug discovery and development settings. Adv.
+Drug Delivery Rev. 1997;23(1):3–25. doi: 10.1016/S0169-409X(96)00423-1. [DOI] [PubMed] [Google Scholar]
+Veber D. F., Johnson S. R., Cheng H.-Y., Smith B. R., Ward K. W., Kopple K. D.. Molecular Properties That Influence
+the Oral Bioavailability
+of Drug Candidates. J. Med. Chem. 2002;45(12):2615–2623. doi: 10.1021/jm020017n. [DOI] [PubMed] [Google Scholar]
+Mathiowetz, A. M.
+Design Principles for Intestinal Permeability of Cyclic Peptides. In Cyclic Peptide Design; 
+Goetz, G.
+; ed., Springer: New York, 2019, pp. 1–15. [DOI] [PubMed] [Google Scholar]
+Kremsmayr T., Aljnabi A., Blanco-Canosa J. B., Tran H. N. T., Emidio N. B., Muttenthaler M.. On the Utility of Chemical Strategies to Improve Peptide
+Gut Stability. J. Med. Chem. 2022;65(8):6191–6206. doi: 10.1021/acs.jmedchem.2c00094. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Patel S., Vyas V. K., Mehta P. J.. A Review
+on Forced Degradation Strategies
+to Establish the Stability of Therapeutic Peptide Formulations. Int. J. Pept. Res. Ther. 2023;29(2):22. doi: 10.1007/s10989-023-10492-8. [DOI] [Google Scholar]
+Kishimoto H., Ridley C., Thornton D. J.. The lipophilic cyclic
+peptide cyclosporin
+A induces aggregation of gel-forming mucins. Sci. Rep. 2022;12(1):6153. doi: 10.1038/s41598-022-10125-y. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Han X., Zhang E. A.-O., Shi Y., Song B., Du H., Cao Z. A.-O.. Biomaterial-tight
+junction interaction and potential
+impacts. J. Mater. Chem. B. 2019;7:6310–6320. doi: 10.1039/C9TB01081E. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Rani P., Mandal P., Rajak B. K., Singh D. V.. A review on dynamics
+of permeability-glycoprotein in efflux of chemotherapeutic drugs. Front. Drug Discovery. 2024;4:1363364. doi: 10.3389/fddsv.2024.1363364. [DOI] [Google Scholar]
+Brayden D. J.. Evolving
+peptides for oral intake. Nat. Biomed. Eng. 2020;4(5):487–488. doi: 10.1038/s41551-020-0559-0. [DOI] [PubMed] [Google Scholar]
+Shakya, A. K.
+; 
+Al-Najjar, B. O.
+; 
+Deb, P. K.
+; 
+Naik, R. R.
+; 
+Tekade, R. K.
+. 
+Chapter 8 -
+First-Pass Metabolism Considerations in Pharmaceutical Product Development. In Dosage Form Design Considerations, 
+Tekade, R. K.
+, Eds.; Academic
+Press, 2018, pp. 259–286. [Google Scholar]
+Lahiani-Skiba M., Hallouard F., Bounoure F., Milon N., Karrout Y., Skiba M.. Enhanced Dissolution
+and Oral Bioavailability of Cyclosporine A:
+Microspheres Based on αβ-Cyclodextrins Polymers. Pharmaceutics. 2018;10:285. doi: 10.3390/pharmaceutics10040285. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Minami K., Kataoka M., Takagi T., Asai T., Oku N., Yamashita S.. Liposomal Formulation for Oral Delivery of Cyclosporine
+A: Usefulness as a Semisolid-Dispersion System. Pharm. Res. 2022;39(5):977–987. doi: 10.1007/s11095-022-03276-0. [DOI] [PubMed] [Google Scholar]
+Vinarov Z., Abdallah M., Agundez J. A. G., Allegaert K., Basit A. W., Braeckmans M., Ceulemans J., Corsetti M., Griffin B. T., Grimm M.. et al. Impact
+of gastrointestinal tract variability on oral drug absorption and
+pharmacokinetics: An UNGAP review. Eur. J. Pharm.
+Sci. 2021;162:105812. doi: 10.1016/j.ejps.2021.105812. [DOI] [PubMed] [Google Scholar]
+Veber D. F., Freidinger R. M., Perlow D. S., Paleveda W. J., Holly F. W., Strachan R. G., Nutt R. F., Arison B. H., Homnick C., Randall W. C.. et al. A potent cyclic hexapeptide analogue of somatostatin. Nature. 1981;292(5818):55–58. doi: 10.1038/292055a0. [DOI] [PubMed] [Google Scholar]
+Manning M., Misicka A., Olma A., Bankowski K., Stoev S., Chini B., Durroux T., Mouillac B., Corbani M., Guillon G.. Oxytocin and Vasopressin
+Agonists
+and Antagonists as Research Tools and Potential Therapeutics. J. Neuroendocrinol. 2012;24(4):609–628. doi: 10.1111/j.1365-2826.2012.02303.x. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Iaculli D., Montgomery J., Lamouroux A. A.-O., Caufriez A., Gozalbes R., Vinken M., Molica F., Kwak B. A.-O., Ballet S. A.-O.. Design
+and synthesis of cyclic lipidated peptides derived from the C-terminus
+of Cx43 for hemichannel inhibition and cardiac endothelium targeting. RSC Med. Chem. 2024;16:1289–1303. doi: 10.1039/D4MD00850B. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Barlow N., Chalmers D. K., Williams-Noonan B. J., Thompson P. E., Norton R. S.. Improving
+Membrane Permeation in the Beyond Rule-of-Five Space by Using Prodrugs
+to Mask Hydrogen Bond Donors. ACS Chem. Biol. 2020;15(8):2070–2078. doi: 10.1021/acschembio.0c00218. [DOI] [PubMed] [Google Scholar]
+Poongavanam V., Wieske L. H. E., Peintner S., Erdélyi M., Kihlberg J.. Molecular chameleons in drug discovery. Nat. Rev. Chem. 2024;8(1):45–60. doi: 10.1038/s41570-023-00563-1. [DOI] [PubMed] [Google Scholar]
+Lee D., Choi J., Yang M. J., Park C.-J., Seo J.. Controlling
+the Chameleonic Behavior and Membrane Permeability of Cyclosporine
+Derivatives via Backbone and Side Chain Modifications. J. Med. Chem. 2023;66(18):13189–13204. doi: 10.1021/acs.jmedchem.3c01140. [DOI] [PubMed] [Google Scholar]
+Rossi Sebastiano M., Doak B. C., Backlund M., Poongavanam V., Over B., Ermondi G., Caron G., Matsson P., Kihlberg J.. Impact of Dynamically Exposed Polarity
+on Permeability
+and Solubility of Chameleonic Drugs Beyond the Rule of 5. J. Med. Chem. 2018;61(9):4189–4202. doi: 10.1021/acs.jmedchem.8b00347. [DOI] [PubMed] [Google Scholar]
+Ramelot T. A., Palmer J., Montelione G. T., Bhardwaj G.. Cell-permeable chameleonic peptides: Exploiting conformational
+dynamics in de novo cyclic peptide design. Curr.
+Opin. Struct. Biol. 2023;80:102603. doi: 10.1016/j.sbi.2023.102603. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Li J., Yanagisawa K., Akiyama Y.. CycPeptMP: enhancing membrane permeability
+prediction of cyclic peptides with multi-level molecular features
+and data augmentation. Briefings Bioinf. 2024;25(5):bbae417. doi: 10.1093/bib/bbae417. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Jiang D., Chen Z., Du H.. Cyclic peptide membrane
+permeability prediction using deep learning model based on molecular
+attention transformer. Front. Bioinform. 2025;5:1566174. doi: 10.3389/fbinf.2025.1566174. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Phan T. N. Q., Le-Vinh B., Efiana N. A., Bernkop-Schnürch A.. Oral self-emulsifying
+delivery systems for systemic administration of therapeutic proteins:
+science fiction? J. Drug Targeting. 2019;27(9):1017–1024. doi: 10.1080/1061186X.2019.1584200. [DOI] [PubMed] [Google Scholar]
+Menzel C., Holzeisen T., Laffleur F., Zaichik S., Abdulkarim M., Gumbleton M., Bernkop-Schnürch A.. In vivo evaluation
+of an oral self-emulsifying drug delivery system (SEDDS) for exenatide. J. Controlled Release. 2018;277:165–172. doi: 10.1016/j.jconrel.2018.03.018. [DOI] [PubMed] [Google Scholar]
+Tenchov R., Bird R., Curtze A. E., Zhou Q.. Lipid NanoparticlesFrom
+Liposomes to mRNA Vaccine Delivery, a Landscape of Research Diversity
+and Advancement. ACS Nano. 2021;15(11):16982–17015. doi: 10.1021/acsnano.1c04996. [DOI] [PubMed] [Google Scholar]
+Guada M., Lasa-Saracíbar B., Lana H., Dios-Viéitez M.
+D. C., Blanco-Prieto M. J.. Lipid nanoparticles
+enhance the absorption of cyclosporine A through the gastrointestinal
+barrier: In vitro and in vivo studies. Int.
+J. Pharm. 2016;500(1):154–161. doi: 10.1016/j.ijpharm.2016.01.037. [DOI] [PubMed] [Google Scholar]
+Noble S., Markham A.. Cyclosporin. Drugs. 1995;50(5):924–941. doi: 10.2165/00003495-199550050-00009. [DOI] [PubMed] [Google Scholar]
+Tenchov R., Hughes K. J., Ganesan M., Iyer K. A., Ralhan K., Lotti Diaz L. M., Bird R. E., Ivanov J. M., Zhou Q. A.. Transforming Medicine:
+Cutting-Edge Applications of
+Nanoscale Materials in Drug Delivery. ACS Nano. 2025;19(4):4011–4038. doi: 10.1021/acsnano.4c09566. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Łagiewka J., Girek T. A.-O., Ciesielski W.. Cyclodextrins-Peptides/Proteins
+Conjugates: Synthesis, Properties and Applications. Polymers. 2021;13:1759. doi: 10.3390/polym13111759. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Frigaard J., Jensen J. L., Galtung H. K., Hiorth M.. The Potential
+of Chitosan in Nanomedicine: An Overview of the Cytotoxicity of Chitosan
+Based Nanoparticles. Front. Pharmacol. 2022;13:880377. doi: 10.3389/fphar.2022.880377. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Kalia, V. C.
+; 
+Ray, S.
+; 
+Patel, S.
+K. S.
+; 
+Singh, M.
+; 
+Singh, G.
+P.
+. 
+Applications of
+Polyhydroxyalkanoates and Their Metabolites as Drug Carriers. In Biotechnological Applications of Polyhydroxyalkanoates, 
+Kalia, V. C.
+, Eds.; Springer Singapore, 2019, pp. 35–48. [Google Scholar]
+Maria S., Sarwar H. S., Sohail M. F., Imran M., Salman Qureshi O., Raza A., Ahmad N. M., Iqbal A., Shahnaz G.. Synthesis
+and characterization of pre-activated thiolated
+chitosan nanoparticles for oral delivery of octreotide. J. Drug Delivery Sci. Technol. 2020;58:101807. doi: 10.1016/j.jddst.2020.101807. [DOI] [Google Scholar]
+Tang Y., Arbaugh B., Park H., Scher H. B., Bai L., Mao L., Jeoh T.. Targeting enteric release of therapeutic
+peptides by encapsulation in complex coacervated matrix microparticles
+by spray drying. J. Drug Delivery Sci. Technol. 2023;79:104063. doi: 10.1016/j.jddst.2022.104063. [DOI] [Google Scholar]
+Maher S., Ryan B., Duffy A., Brayden D. J.. Formulation
+Strategies to Improve Oral Peptide Delivery. Pharm. Pat. Anal. 2014;3(3):313–336. doi: 10.4155/ppa.14.15. [DOI] [PubMed] [Google Scholar]
+Kim D., Jin L., Park E. J., Na D. H.. Peptide permeation
+enhancers for improving oral bioavailability of macromolecules. J. Pharm. Invest. 2023;53(1):59–72. doi: 10.1007/s40005-022-00609-4. [DOI] [Google Scholar]
+Ling J., Schroder R., Wuelfing W. P., Higgins J., Kesisoglou F., Templeton A. C., Su Y.. Molecular Investigation
+of SNAC as an Oral Peptide Permeation Enhancer in Lipid Membranes
+via Solid-State NMR. Mol. Pharmaceutics. 2025;22(1):459–473. doi: 10.1021/acs.molpharmaceut.4c01061. [DOI] [PubMed] [Google Scholar]
+Raghunath I., Koland M., Narayanan A. V.. Piperine:
+A possible permeation enhancer for oral protein delivery. J. Appl. Pharm. Sci. 2024;14:35–45. doi: 10.7324/JAPS.2024.157160. [DOI] [Google Scholar]
+Octreotide FDA label. https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/208232s000lbl.pdf. (accessed 30 December 2025).
+Octreotide -
+2020 Approval NDA. https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/208232Orig1s000ltr.pdf.
+Brayden D. J., Maher S.. Transient Permeation
+Enhancer®
+(TPE®) technology for oral delivery of octreotide: a technological
+evaluation. Expert Opin. Drug Delivery. 2021;18(10):1501–1512. doi: 10.1080/17425247.2021.1942838. [DOI] [PubMed] [Google Scholar]
+Abramson A., Caffarel-Salvador E., Khang M., Dellal D., Silverstein D., Gao Y., Frederiksen M. R., Vegge A., Hubálek F., Water J. J.. et al. An
+ingestible self-orienting system for oral delivery of macromolecules. Science. 2019;363(6427):611–615. doi: 10.1126/science.aau2277. [DOI] [PMC free article] [PubMed] [Google Scholar]
+A First-in-Human Study of the RaniPill, an Oral
+Drug Delivery Platform
+(RaniPill). https://clinicaltrials.gov/study/NCT03798912. (accessed 30 December 2025).
+Abramson A., Caffarel-Salvador E., Soares V., Minahan D., Tian R. Y., Lu X., Dellal D., Gao Y., Kim S., Wainer J.. et al. A luminal unfolding microneedle injector for
+oral delivery of macromolecules. Nat. Med. 2019;25(10):1512–1518. doi: 10.1038/s41591-019-0598-9. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Abramson A. A.-O., Frederiksen M. A.-O., Vegge A., Jensen B., Poulsen M., Mouridsen B., Jespersen M. O., Kirk R. K., Windum J., Hubálek F. A.-O.. et al. Oral delivery of systemic monoclonal antibodies, peptides
+and small molecules using gastric auto-injectors. Nat. Biotechnol. 2022;40:103–109. doi: 10.1038/s41587-021-01024-0. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Ghavami M., Pedersen J., Kjeldsen R. B., Alstrup A. K. O., Zhang Z., Koulianou V., Palmfeldt J., Vorup-Jensen T., Thamdrup L. H. E., Boisen A.. A self-unfolding
+proximity
+enabling device for oral delivery of macromolecules. J. Controlled Release. 2023;361:40–52. doi: 10.1016/j.jconrel.2023.07.041. [DOI] [PubMed] [Google Scholar]
+Oral delivery of biotherapeutics designed to improve disease
+management. https://www.bioratherapeutics.com/pipeline/biojet-oral-therapeutic-delivery-platform. (accessed 30 December 2025).
+Palacios J. I., Wood-Yang A. J., Klavohn N., Friesenhahn N., Raman N., Baker N., Ashby G., Prausnitz M. R.. High-velocity
+delivery of biologics via the gastrointestinal tract by self-pressurized
+oral capsules. J. Controlled Release. 2025;385:113963. doi: 10.1016/j.jconrel.2025.113963. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Zeng H., Li Y., Deng X., Xiao P., Liu B., Zhang Y., Yin T., He H., Gou J., Tang X.. Harnessing the apical sodium-dependent
+bile acid transporter for
+enhanced oral delivery of peptide drugs: mechanisms, strategies, and
+therapeutic potential. Expert Opin. Drug Delivery. 2025;22(9):1375–1393. doi: 10.1080/17425247.2025.2524005. [DOI] [PubMed] [Google Scholar]
+Abdel-Kahaar E., Keller F.. Clinical Pharmacokinetics and Pharmacodynamics
+of Voclosporin. Clin. Pharmacokinet. 2023;62(5):693–703. doi: 10.1007/s40262-023-01246-2. [DOI] [PMC free article] [PubMed] [Google Scholar]
+ClinicalTrials.gov. https://clinicaltrials.gov/.
+Wang S., Zota V., Vincent M. Y., Clossey D., Chen J. J., Cieslewicz M., Watnick R. S., Mahoney J., Watnick J.. Assessing CD36 and
+CD47 expression levels in solid
+tumor indications to stratify patients for VT1021 treatment. Npj Precis. Oncol. 2024;8(1):278. doi: 10.1038/s41698-024-00774-9. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Mudd G. E., Scott H., Chen L., van Rietschoten K., Ivanova-Berndt G., Dzionek K., Brown A., Watcham S., White L., Park P. U.. et al. Discovery
+of BT8009:
+A Nectin-4 Targeting Bicycle Toxin Conjugate for the Treatment of
+Cancer. J. Med. Chem. 2022;65(21):14337–14347. doi: 10.1021/acs.jmedchem.2c00065. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Habib E., Nahla U. A., Haris M., Saddique M. N.. Oral icotrokinra
+for plaque psoriasis in adults and adolescents. Ann. Med. Surg. 2026;88(1):1064–1065. doi: 10.1097/MS9.0000000000004427. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Ballantyne Christie M., Banka P., Mendez G., Garcia R., Rosenstock J., Rodgers A., Mendizabal G., Mitchel Y., Catapano Alberico L.. Phase 2b Randomized Trial of the
+Oral PCSK9 Inhibitor MK-0616. JACC. 2023;81(16):1553–1564. doi: 10.1016/j.jacc.2023.02.018. [DOI] [PubMed] [Google Scholar]
+Dodd J., Jordan R., Makhlina M., Barnett K., Roffel A., Spana C., Obr A., Dhingra P., Kayne P. S.. A novel oral formulation of the melanocortin-1
+receptor
+agonist PL8177 resolves inflammation in preclinical studies of inflammatory
+bowel disease and is gut restricted in rats, dogs, and humans. Front. Immunol. 2023;14:1083333. doi: 10.3389/fimmu.2023.1083333. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Evans D., Kenyon K., Ousler G., Watson M., Vollmer P., McLaurin E. B., Torkildsen G., Winters J., Dodd J., Jordan R.. et al. Efficacy
+and Safety of the Melanocortin Pan-Agonist PL9643 in a Phase 2 Study
+of Patients with Dry Eye Disease. J. Ocul. Pharmacol.
+Ther. 2023;39:600–610. doi: 10.1089/jop.2023.0056. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Kremyanskaya M., Kuykendall Andrew T., Pemmaraju N., Ritchie Ellen K., Gotlib J., Gerds A., Palmer J., Pettit K., Nath Uttam K., Yacoub A.. et al. Rusfertide,
+a Hepcidin Mimetic, for Control of Erythrocytosis in Polycythemia
+Vera. N. Engl. J. Med. 2024;390(8):723–735. doi: 10.1056/NEJMoa2308809. [DOI] [PubMed] [Google Scholar]
+Schmid B., Kredel M., Ullrich R., Krenn K., Lucas R., Markstaller K., Fischer B., Kranke P., Meybohm P., Zwißler B.. et al. Safety and preliminary
+efficacy of sequential multiple ascending doses of solnatide to treat
+pulmonary permeability edema in patients with moderate-to-severe ARDSa
+randomized, placebo-controlled, double-blind trial. Trials. 2021;22(1):643. doi: 10.1186/s13063-021-05588-9. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Stupp R., Hegi M. E., Gorlia T., Erridge S. C., Perry J., Hong Y.-K., Aldape K. D., Lhermitte B., Pietsch T., Grujicic D.. et al. Cilengitide
+combined
+with standard treatment for patients with newly diagnosed glioblastoma
+with methylated MGMTpromoter (CENTRIC EORTC 26071–22072 study):
+a multicentre, randomised, open-label, phase 3 trial. Lancet Oncol. 2014;15(10):1100–1108. doi: 10.1016/S1470-2045(14)70379-1. [DOI] [PubMed] [Google Scholar]
+Nabors L. B., Fink K. L., Mikkelsen T., Grujicic D., Tarnawski R., Nam D. H., Mazurkiewicz M., Salacz M., Ashby L., Zagonel V.. et al. Two cilengitide
+regimens in combination with standard treatment for patients with
+newly diagnosed glioblastoma and unmethylated MGMT gene promoter:
+results of the open-label, controlled, randomized phase II CORE study. Neuro-Oncology. 2015;17:708–717. doi: 10.1093/neuonc/nou356. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Furumai R., Matsuyama A., Kobashi N., Kobashi N., Lee K.-H., Lee K., Nishiyama M., Nishiyama M., Nakajima H., Nakajima H.. et al. FK228
+(depsipeptide) as a natural prodrug that inhibits class I histone
+deacetylases. Cancer Res. 2002;62:4916–4921. doi: 10.1158/0008-5472.CAN-02-0589. [DOI] [PubMed] [Google Scholar]
+Narita K., Kikuchi T., Watanabe K., Takizawa T., Oguchi T., Kudo K., Matsuhara K., Abe H., Yamori T., Yoshida M.. et al. Total synthesis of the
+bicyclic depsipeptide HDAC inhibitors spiruchostatins A and B, 5′’-epi-spiruchostatin
+B, FK228 (FR901228) and preliminary evaluation of their biological
+activity. Chem. - Eur. J. 2009;15:11174–11186. doi: 10.1002/chem.200901552. [DOI] [PubMed] [Google Scholar]
+Hoang H. N., Hill T. A., Fairlie D. P.. Connecting Hydrophobic
+Surfaces in Cyclic Peptides Increases Membrane Permeability. Angew. Chem., Int. Ed. 2021;60(15):8385–8390. doi: 10.1002/anie.202012643. [DOI] [PubMed] [Google Scholar]
+Nielsen D. S., Shepherd N. E., Xu W., Lucke A. J., Stoermer M. J., Fairlie D. P.. Orally Absorbed
+Cyclic Peptides. Chem. Rev. 2017;117(12):8094–8128. doi: 10.1021/acs.chemrev.6b00838. [DOI] [PubMed] [Google Scholar]
+Alex A., Millan D. S., Perez M., Wakenhut F., Whitlock G. A.. Intramolecular hydrogen bonding to
+improve membrane
+permeability and absorption in beyond rule of five chemical space. MedChemComm. 2011;2(7):669–674. doi: 10.1039/c1md00093d. [DOI] [Google Scholar]
+Bohley M., Leroux J.-C.. Gastrointestinal Permeation Enhancers
+Beyond Sodium Caprate and SNAC - What is Coming Next? Adv. Sci. 2024;11(33):2400843. doi: 10.1002/advs.202400843. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Lin M., Wu L., Lu Y., Bao X., Zhong H., Dai Q., Yang Q., Xia Y., Tan X., Qin Y.. et al. Membrane fusion reverse micelle platforms as
+potential oral nanocarriers
+for efficient internalization of free hydrophilic peptides. Nano Res. 2023;16(7):9768–9780. doi: 10.1007/s12274-023-5645-7. [DOI] [Google Scholar]
+Kenchegowda M., Angolkar M., Hani U., Al Fatease A., Fatima F., Talath S., Dera A. A., Paramshetti S., Gangadharappa H. V., Osmani R. A. M., Kazi H. S.. et al. Polymeric
+microneedle advancements in macromolecule drug delivery: current trends,
+challenges, and future perspectives. Naunyn-Schmiedeberg’s
+Arch. Pharmacol. 2025;398(10):12951–12985. doi: 10.1007/s00210-025-04117-8. [DOI] [PubMed] [Google Scholar]
+Nielsen C. U., Brodin B., Jørgensen F. S., Frokjaer S., Steffansen B.. Human peptide transporters: therapeutic
+applications. Expert Opin. Ther. Pat. 2002;12(9):1329–1350. doi: 10.1517/13543776.12.9.1329. [DOI] [Google Scholar]
+Zorzi A., Deyle K., Heinis C.. Cyclic peptide therapeutics:
+past, present and future. Curr. Opin. Chem.
+Biol. 2017;38:24–29. doi: 10.1016/j.cbpa.2017.02.006. [DOI] [PubMed] [Google Scholar]
+Dean S. N., Alvarez J. A. E., Zabetakis D., Walper S. A., Malanoski A. P.. PepVAE:
+Variational Autoencoder Framework
+for Antimicrobial Peptide Generation and Activity Prediction. Front. Microbiol. 2021;12:725727. doi: 10.3389/fmicb.2021.725727. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Abbasi M., Santos B. P., Pereira T. C., Sofia R., Monteiro N. R. C., Simões C. J. V., Brito R. M. M., Ribeiro B., Oliveira J. L., Arrais J. P.. Designing
+optimized drug candidates
+with Generative Adversarial Network. J. Cheminform. 2022;14(1):40. doi: 10.1186/s13321-022-00623-6. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Zhang C., Xu Z., Lin K., Zhu N., Zhang C., Xu W., Guo J., Su A., Li C., Duan H.. CycleDesigner: Leveraging CycRFdiffusion and HighFold
+to Design Cyclic Peptide Binders for Specific Targets. J. Chem. Inf. Model. 2025;65(12):6155–6165. doi: 10.1021/acs.jcim.5c00227. [DOI] [PubMed] [Google Scholar]
+Rettie S. A., Juergens D., Adebomi V., Bueso Y. F., Zhao Q., Leveille A. N., Liu A., Bera A. K., Wilms J. A., Üffing A.. et al. Accurate de novo design
+of high-affinity protein-binding macrocycles using deep learning. Nat. Chem. Biol. 2025;21(12):1948–1956. doi: 10.1038/s41589-025-01929-w. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Yunxiang Y., Zhou Z., Hai G., Xinlu R., Yuting Z., Jianna M., Yi Z., Jian H., Jinhui T., Wenjin Y.. et al. Ai-driven
+de novo design
+of customizable membrane permeable cyclic peptides. J. Comput. -Aided Mol. Des. 2025;39(1):63. doi: 10.1007/s10822-025-00639-8. [DOI] [PubMed] [Google Scholar]
+PepThink-R1: LLM for Interpretable Cyclic Peptide Optimization
+with
+CoT SFT and Reinforcement Learning. 2025. https://arxiv.org/abs/2508.14765v2. (accessed 30 December 2025).
+Full-Atom Peptide
+Design based on Multi-modal Flow Matching.
+2024. https://arxiv.org/abs/2406.00735v1. (accessed 30 December 2025).
+Wang Z., Chen Y., Shang Y., Yang X., Pan W., Ye X., Sakurai T., Zeng X.. MultiCycPermea: accurate
+and interpretable prediction of cyclic peptide permeability using
+a multimodal image-sequence model. BMC Biol. 2025;23(1):63. doi: 10.1186/s12915-025-02166-2. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Zhu Q. A.-O., Mulligan V. A.-O., Shasha D. A.-O.. Heuristic
+energy-based
+cyclic peptide design. PLoS Comput. Biol. 2025;21:e1012290. doi: 10.1371/journal.pcbi.1012290. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Rettie S. A., Campbell K. V., Bera A. K., Kang A., Kozlov S., Bueso Y. F., De La
+Cruz J., Ahlrichs M., Cheng S., Gerben S. R.. et al. Cyclic
+peptide structure prediction and design using AlphaFold2. Nat. Commun. 2025;16(1):4730. doi: 10.1038/s41467-025-59940-7. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Berger, S.
+; 
+Hosseinzadeh, P.
+. 
+Computational
+Design of Structured and Functional Peptide Macrocycles. In Peptide Macrocycles: methods and Protocols, 
+Coppock, M. B.
+; 
+Winton, A. J.
+, Eds.; Springer
+US, 2022, pp. 63–100. [DOI] [PubMed] [Google Scholar]
+Delaunay M., Ha-Duong T.. Des3PI: a fragment-based
+approach
+to design cyclic peptides targeting protein–protein interactions. J. Comput. -Aided Mol. Des. 2022;36(8):605–621. doi: 10.1007/s10822-022-00468-z. [DOI] [PubMed] [Google Scholar]
+Yang L., Cao S., Liu L., Zhu R., Wu D.. cyclicpeptide: a Python package for cyclic peptide
+drug design. Briefings Bioinf. 2025;26(1):bbae714. doi: 10.1093/bib/bbae714. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Mao Q., Shang T., Xu W., Zhai S., Zhang C., Guo J., Su A., Li C., Duan H.. NCPepFold: Accurate
+Prediction of Noncanonical Cyclic Peptide Structures via Cyclization
+Optimization with Multigranular Representation. J. Chem. Theory Comput. 2025;21(9):4979–4991. doi: 10.1021/acs.jctc.5c00139. [DOI] [PubMed] [Google Scholar]
+Josephson K., Ricardo A., Szostak J.. W. mRNA display:
+from
+basic principles to macrocycle drug discovery. Drug Discovery Today. 2014;19(4):388–399. doi: 10.1016/j.drudis.2013.10.011. [DOI] [PubMed] [Google Scholar]
+Goto Y., Suga H.. The RaPID Platform
+for the Discovery
+of Pseudo-Natural Macrocyclic Peptides. Acc.
+Chem. Res. 2021;54(18):3604–3617. doi: 10.1021/acs.accounts.1c00391. [DOI] [PubMed] [Google Scholar]
+Jiramongkol Y., Patel K., Johansen-Leete J., Maxwell J. W. C., Chang Y., Du J. J., Passioura T., Cook K. M., Payne R. J., White M. D.. An mRNA-display
+derived cyclic peptide scaffold reveals the substrate binding interactions
+of an N-terminal cysteine oxidase. Nat. Commun. 2025;16(1):4761. doi: 10.1038/s41467-025-59960-3. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Villequey C. A.-O., Zurmühl S. S., Cramer C. A.-O., Bhusan B., Andersen B., Ren Q., Liu H., Qu X., Yang Y., Pan J.. et al. An efficient
+mRNA display
+protocol yields potent bicyclic peptide inhibitors for FGFR3c: outperforming
+linear and monocyclic formats in affinity and stability. Chem. Sci. 2024;15:6122–6129. doi: 10.1039/D3SC04763F. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Hurd C. A., Bush J. T., Powell A. J., Walport L.. J. mRNA Display
+in Cell Lysates Enables Identification of Cyclic Peptides Targeting
+the BRD3 Extraterminal Domain. Angew. Chem.,
+Int. Ed. 2024;63(38):e202406414. doi: 10.1002/anie.202406414. [DOI] [PubMed] [Google Scholar]
+Valentine, J.
+; 
+Tavassoli, A.
+. 
+Chapter Six -
+Genetically Encoded Cyclic Peptide Libraries: From Hit to Lead and
+Beyond. In Methods in Enzymology, 
+Lesburg, C. A.
+, Eds.; Academic
+Press, 2018, Vol. 610, pp. 117–134. [DOI] [PubMed] [Google Scholar]
+Durukan C., Arbore F., Klintrot R., Bigiotti C., Ilie I. M., Vreede J., Grossmann T. N., Hennig S.. Binding Dynamics of a Stapled Peptide Targeting the
+Transcription Factor NF–Y. ChemBioChem. 2024;25(9):e202400020. doi: 10.1002/cbic.202400020. [DOI] [PubMed] [Google Scholar]
+de Raffele D., Ilie I. M.. Unlocking novel
+therapies: cyclic
+peptide design for amyloidogenic targets through synergies of experiments,
+simulations, and machine learning. Chem. Commun. 2024;60(6):632–645. doi: 10.1039/D3CC04630C. [DOI] [PubMed] [Google Scholar]
+Wang X., Ni D., Liu Y., Lu S.. Rational Design
+of Peptide-Based Inhibitors Disrupting Protein-Protein Interactions. Front. Chem. 2021;9:682675. doi: 10.3389/fchem.2021.682675. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Wu X., Upadhyaya P., Villalona-Calero M. A., Briesewitz R., Pei D.. Inhibition of Ras–effector
+interactions by cyclic peptides. MedChemComm. 2013;4(2):378–382. doi: 10.1039/C2MD20329D. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Hosseinzadeh P., Watson P. R., Craven T. W., Li X., Rettie S., Pardo-Avila F., Bera A. K., Mulligan V. K., Lu P., Ford A. S.. et al. Anchor extension: a structure-guided approach
+to design cyclic peptides targeting enzyme active sites. Nat. Commun. 2021;12(1):3384. doi: 10.1038/s41467-021-23609-8. [DOI] [PMC free article] [PubMed] [Google Scholar]
+van’t Hof W., Maňásková S. H., Veerman E. C. I., Bolscher J. G. M.. Sortase-mediated backbone cyclization
+of proteins and peptides. Biol. Chem. 2015;396(4):283–293. doi: 10.1515/hsz-2014-0260. [DOI] [PubMed] [Google Scholar]
+Tavassoli A., Benkovic S. J.. Split-intein mediated
+circular ligation
+used in the synthesis of cyclic peptide libraries in E. coli. Nat. Protoc. 2007;2(5):1126–1133. doi: 10.1038/nprot.2007.152. [DOI] [PubMed] [Google Scholar]
+Houssen, W. E.
+Peptide Cyclization
+Catalyzed by Cyanobactin Macrocyclases. In Enzyme-Mediated Ligation Methods; 
+Nuijens, T.
+; 
+Schmidt, M.
+; ed., Springer: New York, 2019, pp. 193–210. [DOI] [PubMed] [Google Scholar]
+Rashad, A. A.
+Click Chemistry
+for Cyclic Peptide Drug Design. In Cyclic
+Peptide Design; 
+Goetz, G.
+; ed., Springer: New York, 2019, pp. 133–145. [DOI] [PubMed] [Google Scholar]
+Rivera D. G., Ojeda-Carralero G. M., Reguera L., Van der
+Eycken E. V.. Peptide macrocyclization by transition metal catalysis. Chem. Soc. Rev. 2020;49(7):2039–2059. doi: 10.1039/C9CS00366E. [DOI] [PubMed] [Google Scholar]
+Sabatino G., D’Ercole A., Pacini L., Zini M., Ribecai A., Paio A., Rovero P., Papini A. M.. An Optimized
+Scalable Fully Automated Solid-Phase Microwave-Assisted cGMP-Ready
+Process for the Preparation of Eptifibatide. Org. Process Res. Dev. 2021;25(3):552–563. doi: 10.1021/acs.oprd.0c00490. [DOI] [Google Scholar]
+Zhang D. -E., He T., Shi T., Huang K., Peng A.. Trends in the research and development
+of peptide drug conjugates:
+artificial intelligence aided design. Front.
+Pharmacol. 2025;16:1553853. doi: 10.3389/fphar.2025.1553853. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Shao C., Tang B., Chu J. C. H., Lau K. M., Wong W.-T., Che C.-M., Tai W. C. S., Wong W.-T., Wong C. T. T.. Macrophage-engaging peptidic bispecific
+antibodies
+(pBsAbs) for immunotherapy via a facile bioconjugation strategy. Chem. Sci. 2024;15(29):11272–11278. doi: 10.1039/D4SC00851K. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Battistini L., Bugatti K., Sartori A., Curti C., Zanardi F.. RGD Peptide-Drug Conjugates as Effective
+Dual Targeting
+Platforms: Recent Advances. Eur. J. Org. Chem. 2021;2021(17):2506–2528. doi: 10.1002/ejoc.202100240. [DOI] [Google Scholar]
+Shi Y.-Y., Dong D.-R., Fan G., Dai M.-Y., Liu M.. A cyclic peptide-based
+PROTAC induces intracellular degradation of
+palmitoyltransferase and potently decreases PD-L1 expression in human
+cervical cancer cells. Front. Immunol. 2023;14:1237964. doi: 10.3389/fimmu.2023.1237964. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Jing X., Mackay J. P., Passioura T.. Macrocyclic
+peptides as a new class of targeted protein degraders. RSC Chem. Biol. 2025;6(3):326–337. doi: 10.1039/D4CB00199K. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Wang X., Xie L., Zhang Y., Li L., Zhang S., Wang R., Zhang M.-R., Hu K.. Imaging uPAR
+with cyclic peptide-based PET tracers. J. Nucl.
+Med. 2024;65(supplement
+2):241781. [Google Scholar]
+Massière F., Wiedemann N., Borrego I., Hoehne A., Osterkamp F., Paschke M., Zboralski D., Schumann A., Bredenbeck A., Brichory F.. et al. Preclinical
+Characterization of DPI-4452: A (68)­Ga/(177)Lu Theranostic Ligand
+for Carbonic Anhydrase IX. J. Nucl. Med. 2024;65:761–767. doi: 10.2967/jnumed.123.266309. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Yamaguchi S., Ito S., Masuda T., Couraud P.-O., Ohtsuki S.. Novel cyclic peptides facilitating
+transcellular blood-brain
+barrier transport of macromolecules in vitro and in vivo. J. Controlled Release. 2020;321:744–755. doi: 10.1016/j.jconrel.2020.03.001. [DOI] [PubMed] [Google Scholar]
+Pal S., ‘t Hart P.. RNA-Binding Macrocyclic Peptides. Front. Mol. Biosci. 2022;9:883060. doi: 10.3389/fmolb.2022.883060. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Yao X., Aphicho K., Pani S., Rupanya A., Lan T., Dickinson B. C.. Discovery
+of Macrocyclic Peptide Binders, Covalent
+Modifiers, and Degraders of a Structured RNA by mRNA Display. J. Am. Chem. Soc. 2025;147(38):34256–34270. doi: 10.1021/jacs.5c05540. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Mourenza A., Ganesan R., Camarero J. A.. Resistance
+is futile:
+targeting multidrug-resistant bacteria with de novo Cys-rich cyclic
+polypeptides. RSC Chem. Biol. 2023;4(10):722–735. doi: 10.1039/D3CB00015J. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Mitra S., Chen M.-T., Stedman F., Hernandez J., Kumble G., Kang X., Zhang C., Tang G., Reed I., Daugherty I. Q.. et al. Cyclization of Two Antimicrobial
+Peptides Improves Their Activity. ACS Omega. 2025;10(9):9728–9740. doi: 10.1021/acsomega.4c11466. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+jm6c01522_si_001.pdf (1.1MB, pdf) 
+Articles from Journal of Medicinal Chemistry are provided here courtesy of American Chemical Society
+ACTIONS
+ View on publisher site
+ PDF (6.7 MB)
+ Cite
+ Collections
+ Permalink
+PERMALINK
+ Copy
+RESOURCES
+ Similar articles
+ Cited by other articles
+ Links to NCBI Databases
+Cite
+ Copy
+ Download .nbib
+ .nbib
+ Format:
+ AMA
+ APA
+ MLA
+ NLM
+Add to Collections
+ Create a new collection
+ Add to an existing collection
+ Name your collection
+ *
+ Choose a collection
+ Unable to load your collection due to an error
+ Please try again
+ Add
+ Cancel
+ Follow NCBI
+ NCBI on X (formerly known as Twitter)
+ NCBI on Facebook
+ NCBI on LinkedIn
+ NCBI on GitHub
+ NCBI RSS feed
+ Connect with NLM
+ NLM on X (formerly known as Twitter)
+ NLM on Facebook
+ NLM on YouTube
+ National Library of Medicine
+ 8600 Rockville Pike Bethesda, MD 20894
+ Web Policies
+ FOIA
+ HHS Vulnerability Disclosure
+ Help
+ Accessibility
+ Careers
+ NLM
+ NIH
+ HHS
+ USA.gov
+ Back to Top

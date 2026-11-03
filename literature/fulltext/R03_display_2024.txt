@@ -1,0 +1,682 @@
+
+ Encoding and display technologies for combinatorial libraries in drug discovery: The coming of age from biology to therapy - PMC
+ Skip to main content
+ An official website of the United States government
+ Here's how you know
+ Here's how you know
+ Official websites use .gov
+ A
+ .gov website belongs to an official
+ government organization in the United States.
+ Secure .gov websites use HTTPS
+ A lock (
+ Lock
+ Locked padlock icon
+) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites.
+ Search
+ Log in
+ Dashboard
+ Publications
+ Account settings
+ Log out
+ Search…
+ Search NCBI
+ Primary site navigation
+ Search
+ Logged in as:
+ Dashboard
+ Publications
+ Account settings
+ Log in
+Search PMC Full-Text Archive
+Search in PMC
+ Journal List
+ User Guide
+PERMALINK
+ Copy
+ As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health.
+ Learn more:
+ PMC Disclaimer
+ |
+ PMC Copyright Notice
+Acta Pharm Sin B. 2024 Apr 10;14(8):3362–3384. doi: 10.1016/j.apsb.2024.04.006
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Encoding and display technologies for combinatorial libraries in drug discovery: The coming of age from biology to therapy
+Yu Fan
+Yu Fan
+aMacao Centre for Research and Development in Chinese Medicine, State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+dZhuhai UM Science and Technology Research Institute, Zhuhai 519031, China
+Find articles by Yu Fan
+a,b,d,†, Ruibing Feng
+Ruibing Feng
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+Find articles by Ruibing Feng
+b,†, Xinya Zhang
+Xinya Zhang
+aMacao Centre for Research and Development in Chinese Medicine, State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+dZhuhai UM Science and Technology Research Institute, Zhuhai 519031, China
+Find articles by Xinya Zhang
+a,b,d, Zhen-Liang Wang
+Zhen-Liang Wang
+fGeriatric Medicine, First People's Hospital of XinXiang and the Fifth Affiliated Hospital of Xinxiang Medical College, Xinxiang 453100, China
+Find articles by Zhen-Liang Wang
+f, Feng Xiong
+Feng Xiong
+gShenzhen Innovation Center for Small Molecule Drug Discovery Co., Ltd., Shenzhen 518000, China
+Find articles by Feng Xiong
+g, Shuihua Zhang
+Shuihua Zhang
+gShenzhen Innovation Center for Small Molecule Drug Discovery Co., Ltd., Shenzhen 518000, China
+Find articles by Shuihua Zhang
+g, Zhang-Feng Zhong
+Zhang-Feng Zhong
+aMacao Centre for Research and Development in Chinese Medicine, State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+Find articles by Zhang-Feng Zhong
+a,b, Hua Yu
+Hua Yu
+aMacao Centre for Research and Development in Chinese Medicine, State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+Find articles by Hua Yu
+a,b, Qing-Wen Zhang
+Qing-Wen Zhang
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+Find articles by Qing-Wen Zhang
+b, Zhang Zhang
+Zhang Zhang
+cInternational Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Development, Ministry of Education (MoE) of People's Republic of China, College of Pharmacy, Jinan University, Guangzhou 510632, China
+eDepartment of Pharmacy, Guangzhou Red Cross Hospital, Faculty of Medical Science, Jinan University, Guangzhou 510632, China
+Find articles by Zhang Zhang
+c,e,⁎, Yitao Wang
+Yitao Wang
+aMacao Centre for Research and Development in Chinese Medicine, State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+Find articles by Yitao Wang
+a,b,⁎, Guodong Li
+Guodong Li
+aMacao Centre for Research and Development in Chinese Medicine, State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+dZhuhai UM Science and Technology Research Institute, Zhuhai 519031, China
+Find articles by Guodong Li
+a,b,d,⁎
+Author information
+Article notes
+Copyright and License information
+aMacao Centre for Research and Development in Chinese Medicine, State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+bState Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao SAR 999078, China
+cInternational Cooperative Laboratory of Traditional Chinese Medicine Modernization and Innovative Drug Development, Ministry of Education (MoE) of People's Republic of China, College of Pharmacy, Jinan University, Guangzhou 510632, China
+dZhuhai UM Science and Technology Research Institute, Zhuhai 519031, China
+eDepartment of Pharmacy, Guangzhou Red Cross Hospital, Faculty of Medical Science, Jinan University, Guangzhou 510632, China
+fGeriatric Medicine, First People's Hospital of XinXiang and the Fifth Affiliated Hospital of Xinxiang Medical College, Xinxiang 453100, China
+gShenzhen Innovation Center for Small Molecule Drug Discovery Co., Ltd., Shenzhen 518000, China
+⁎
+Corresponding authors. zhang_zhang@jnu.edu.cnytwang@um.edu.moguodongli@um.edu.mo
+†
+These authors made equal contributions to this work.
+Received 2024 Jan 19; Revised 2024 Mar 19; Accepted 2024 Apr 8; Issue date 2024 Aug.
+© 2024 The Authors
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+PMC Copyright notice
+PMCID: PMC11365444  PMID: 39220863
+Abstract
+Drug discovery is a sophisticated process that incorporates scientific innovations and cutting-edge technologies. Compared to traditional bioactivity-based screening methods, encoding and display technologies for combinatorial libraries have recently advanced from proof-of-principle experiments to promising tools for pharmaceutical hit discovery due to their high screening efficiency, throughput, and resource minimization. This review systematically summarizes the development history, typology, and prospective applications of encoding and displayed technologies, including phage display, ribosomal display, mRNA display, yeast cell display, one-bead one-compound, DNA-encoded, peptide nucleic acid-encoded, and new peptide-encoded technologies, and examples of preclinical and clinical translation. We discuss the progress of novel targeted therapeutic agents, covering a spectrum from small-molecule inhibitors and nonpeptidic macrocycles to linear, monocyclic, and bicyclic peptides, in addition to antibodies. We also address the pending challenges and future prospects of drug discovery, including the size of screening libraries, advantages and disadvantages of the technology, clinical translational potential, and market space. This review is intended to establish a comprehensive high-throughput drug discovery strategy for scientific researchers and clinical drug developers.
+Key words: Drug screening, Phage display, DNA-encoded chemical libraries, Peptide-encoded chemical libraries, Clinical drugs
+Graphical abstract
+Encoding and display technologies for combinatorial libraries have gained popularity in drug discovery landscapes, attributed to their enhanced screening efficiency, throughput, and contribution to reducing drug discovery timelines and expenditures.
+Open in a new tab
+1. Introduction
+High-efficiency drug screening has demonstrated marked success in identifying clinical drugs, and has become a dominant method in both academic research and the pharmaceutical industry1. However, traditional high-efficiency drug screening approaches face considerable challenges, particularly concerning efficiency, throughput, and cost—a critical triad for the drug discovery process2. For instance, established methods such as dynamic combinatorial chemistry3,4 and small-molecule microarrays5,6 are dependent on biochemical assays7, 8, 9, which create significant bottlenecks in terms of efficiency and cost-effectiveness10. These methods also necessitate the storage and management of vast chemical libraries, which limits the ability to screen millions of bioactive compounds effectively11.
+In recent years, the advent of “omics” technologies has greatly benefited drug screening by providing tools to link phenotypes with genotypes12, including display technologies such as phage, ribosome, mRNA and yeast display (Fig. 1). These technologies facilitate a physical connection between a molecule and its corresponding genetic information, thereby streamlining the identification process. In particular, phage display technology has become a powerful platform for drug discovery in the life sciences because it is easy to produce antibodies in vitro. Adalimumab, an antibody against tumor necrosis factor alpha (TNF-α), and belimumab, an antibody against B-lymphocyte stimulator, were discovered using phage display technology; tralokinumab, an antibody against interleukin 13 (IL-13), was discovered using RNA display technology; and both have been approved for use.
+Figure 1.
+Open in a new tab
+Encoding and display technologies for combinatorial libraries in drug discovery development timeline, pros and cons in drug discovery.
+Encoded library technologies, such as one-bead one-compound (OBOC) libraries and DNA-encoded chemical libraries (DELs), share similarities with display technologies by maintaining a physical link between a target and a coded substance (Fig. 1). Compared to display technologies that utilize biological machinery to evolve large libraries of peptides and peptidomimetics, encoded library technologies can access a larger chemical space. Accordingly, these technologies offer significant advantages in clinical drug development. The anti-inflammatory drug candidate GSK 2982772 is prime example of clinical drug developed through the use of DELs. Despite the high throughput, speed, and cost-effectiveness of DELs, they suffer from instability and chemical incompatibility issues. Encouragingly, the new peptide-encoded chemical library (PEL) technology exhibits improved chemical stability and compatibility, addressing some of the limitations of DELs and showing substantial potential in drug development13.
+Encoding and display technologies have considerably facilitated the rapid and efficient discovery of clinical drugs14. This review is intended to delineate the development and applications of these technologies for the high-throughput identification of therapeutic agents, compare their typologies, and discuss their prospective applicability in discovering various drug types, including small molecules, peptides, and antibodies. Additionally, this review analyzes different drug discovery strategies, including examples of pre-clinical and clinical translation, highlighting the potential and challenges of these promising technologies. The goal is to provide guidance for new drug screening efforts by elucidating the advantages and drawbacks of encoding and display technologies in the context of drug discovery.
+2. Encoding and display technologies in drug discovery
+2.1. Display technology
+Display technology bridges the gap between genotype and protein phenotype, allowing the screening of target proteins and their corresponding gene sequences from a protein display library using the specific ligand of the target protein15. Over the past three decades, display selection technologies, such as phage display, ribosome display, mRNA display, and yeast display, have undergone extensive advances in the field of drug discovery. This section focuses on the principles, advantages, disadvantages, and application domains of the aforementioned display techniques. The characteristics of display technologies are summarized in Table 1.
+Table 1.
+Characteristics of display technologies.
+Name
+Principle
+Advantage
+Disadvantage
+Application
+Ref.
+Phage display
+Inserting exogenous DNA fragments into a phage coat protein gene, resulting in a hybrid fusion protein that is expressed on the phage surface
+1) Able to display long peptides (e.g., 30 amino acids) with tertiary folds possible2) Multiple selection options (in vitro, in vivo and ex vivo)3) Libraries are commercially available, or can be generated in many laboratories
+1) Library diversity is constrained by transformation efficiency2) Typically limited to peptide libraries with eukaryotic amino acids3) Antibodies may not fold effectively, unable to generate complicated structures4) Two hosts (phage and bacterium) are needed
+Peptide cyclic peptide drug screening, enzyme activity assessment, protein folding and stability testing, functional genome and proteome studies, etc.
+16,21,40
+Ribosome display
+The mRNA-ribosome-protein complex is formed to connect the genotype and phenotype of the target protein, and DNA sequencing is performed for subsequent affinity/activity assessment
+1) No need for cellular transformation2) Being unaffected by cellular processes3) Newer system can incorporate unnatural amino acids
+1) Poorly stable mRNA‒ribosome‒protein complexes2) Only suitable for in vitro screening3) Low display efficiency
+Antibodies, antibody fragments, protein mutants drug screening, etc.
+16,27,40
+mRNA display
+In vitro peptide selection technology, Peptides are covalently linked to nucleic acid tags (encoding mRNA) for PCR amplification and sequencing, and puromycin is covalently linked to the corresponding coding RNA sequence for in vitro selection
+1) Robust, not require complex stabilization condition2) No need for cellular transformation3) Newer systems can incorporate unnatural amino acids4) Compatibility with PCR-based amplification and randomization techniques after each selection round5) High library diversity, suitable for selecting shorter peptide sequences and larger proteins
+Nonspecific binding between the display system and targets resulting in false positives
+Cyclic peptide, protein, linear peptide, etc.
+16,28,40
+Yeast display
+Eukaryotic protein expression system, in which foreign proteins encoded by DNA libraries are expressed on the surface of yeast cells
+1) Higher antibody-binding activity after the expression of trace amounts of antibodies2) Easier and more accurate to identify low-affinity antibodies
+1) Lower transformation efficiency2) Limited capacity and diversity of the library3) Unable to display highly stable structures of long peptides
+Functional proteins, mutants, antigens, antibodies drug discovery, etc.
+2,16
+Open in a new tab
+2.1.1. Phage display
+Phage display technology was pioneered by Smith in 1985 for peptide presentation15. Since the 1980s, the use of phage display technology has expanded exponentially. In recognition of these advances in the chemical revolution and the development of biopharmaceuticals, the 2018 Nobel Prize in Chemistry was awarded to George P. Smith and Sir Gregory P. Winter.
+This efficient protein screening method involves inserting exogenous DNA fragments into a phage coat protein-encoding gene, resulting in a hybrid fusion protein that is expressed on the phage surface (Fig. 2A)15,16. Libraries of phage-displayed peptides or proteins are thus physically linked to their encoding nucleic acid, facilitating the selection of binding partners through iterative rounds of in vitro panning and amplification, followed by DNA sequencing. Phage display has evolved significantly from its initial concept and has become a formidable tool in drug screening17. Numerous phage display peptide and antibody libraries, ranging from 1011 to 1012 unique members, have been constructed18. These libraries have been instrumental in isolating novel ligands for various targets and for investigating protein–protein interactions.
+Figure 2.
+Open in a new tab
+Overview of the representative drug screening strategies using display technology. (A) Schematic illustration of the phage display workflow for drug discovery. (B) Schematic illustration of the ribosome display workflow for drug discovery. (C) Schematic illustration of the mRNA display workflow for drug discovery. (D) Schematic illustration of the yeast surface display workflow for drug discovery.
+The direct linkage of genotype to phenotype via surface display is particularly valuable in antibody research, drug screening, enzyme activity assessment, protein folding and stability testing, and functional genome and proteome studies. This technology has facilitated the discovery of various peptide and cyclic peptide drugs19 and the production of ten commercially available antibody medicines, with numerous others in development. Notably, it has been used to create ligand-binding sites in antibodies and other protein scaffolds, resulting in the US Food and Drug Administration (FDA) approval of adalimumab, the first human therapeutic antibody20. Despite its successes, phage display has limitations: antibodies may not fold effectively, library diversity is constrained by transformation efficiency, the antibody library capacity is finite, and managing large libraries is labor-intensive. The largest documented libraries contain between 106 and 1011 different members21, and the size correlates directly to the likelihood of identifying novel binders22,23.
+2.1.2. Ribosome display
+Although phage display has marked significant milestones in peptide drug development, it faces limitations such as transformation efficiency and laborious construction for libraries exceeding 109 to 1010 independent members24. These challenges are surmountable through cell-free systems such as ribosome or mRNA display, which enable the rapid generation of libraries with up to 1012 to 1014 potential binders25,26.
+Ribosome display was one of the initial cell-free assays for drug discovery26. This method involves polymerase chain reaction (PCR) amplification of library inserts along with flanking regions from a ligated vector for in vitro transcription into mRNA. This mRNA is translated in vitro; however, at the end of the mRNA, the ribosome stalls due to the absence of a stop codon, retaining the encoded protein. The resulting mRNA–ribosome–protein complexes are selected for affinity for an immobilized target. Post-selection, mRNA from dissociated ribosomes is reverse transcribed and PCR amplified for subsequent affinity/activity evaluations through DNA sequencing (Fig. 2B). Ribosome display benefits from being unaffected by cellular processes such as proteolysis or potential cell toxicity from library members26. However, the mRNA–ribosome–protein complexes exhibit poor stability, and the reaction conditions are constrained, rendering ribosome display suitable only for in vitro screening27. This technology has been widely used in screening antibodies, antibody fragments, and protein mutants16.
+2.1.3. mRNA display
+mRNA display is an in vitro peptide selection technology that covalently links peptides to a nucleic acid tag–the encoding mRNA–that can be PCR-amplified and sequenced (Fig. 2C). mRNA display was elegantly described in 1997 by Roberts and Szostak, who demonstrated that peptides could be covalently linked to the corresponding encoding RNA sequence using puromycin for in vitro selection25,28. Compared to ribosome display, mRNA display is more robust across various conditions as it does not require complex stabilization conditions25,29,30, and therefore is not subject to unpredictable interactions with other complex components.
+mRNA display has gained popularity for selecting high-affinity molecules from synthetic and natural libraries for drug discovery, research on molecular interactions, and the elucidation of biological processes. The ability of this technique to incorporate nonstandard amino acids through genetic code reprogramming has expanded its utility. Various methodologies based on mRNA display have emerged, but all share the principle of covalently linking peptides to their encoding mRNA strand using puromycin as a linker20. Compared to phage display, mRNA display circumvents the limitations inherent to E. coli transformation by employing in vitro transcription and translation, enabling the preparation of significantly larger libraries (1012–1014 unique sequences)31.
+A notable advantage of mRNA display is its compatibility with PCR-based amplification and randomization techniques after each selection round. Random mutagenesis via methods such as error-prone PCR can be integrated with mRNA display32. A further advantage of mRNA display is that it is not limited to shorter peptide sequences: larger proteins can also be identified from selections33,34. However, one major disadvantage is nonspecific binding between the display system and targets, resulting in false positives–especially with highly positively charged target proteins that can nonspecifically bind to negatively charged mRNA tags. This problem represents a substantial challenge given that approximately 35% of human genome-encoded proteins are highly positively charged35.
+2.1.4. Yeast cell display
+Since its inception in 1997, yeast surface display (YSD) has emerged as a widely utilized methodology for protein engineering and the screening of diverse libraries36. YSD involves the presentation of foreign proteins, encoded by DNA libraries, on the surface of yeast cells. Typically, a single yeast cell can exhibit approximately 105 copies of a unique protein, allowing a substantial yeast population (approximately 108 cells) to represent an entire genomic library efficiently.
+First, a DNA plasmid library comprising various clones is constructed (Fig. 2D). This plasmid mutant library is then transformed into a yeast strain to create a YSD library. Various DNA plasmid variants are presented on yeast cells, forming the YSD library, which is subsequently subjected to selection based on binding affinity and becomes enriched in variants exhibiting higher affinity. Both the plasmid mutant library and each post-selection mutant library are sequenced using next-generation techniques to monitor the frequency changes of each variant and to decipher the leading drug candidates. In YSD, a protein of interest on the surface of S. cerevisiae is expressed as an N- or C-terminal fusion to the Aga2 subunit of the yeast mating protein α-agglutinin36,37. The exogenous proteins are expressed in-frame with a surface anchoring system, such as N-terminal fused anchor proteins (e.g., SAG1, SED1), the α-agglutinin display system (Aga1p and Aga2p), or the Flo1p display system38,39. These anchor proteins are situated on the exterior of the cell wall, making the foreign proteins accessible for ligand interaction. Because of the eukaryotic expression system, complex eukaryotic proteins can be expressed and folded in YSD, and their structure and efficiency are not affected by heterologous proteins. In comparison to phage display libraries, YSD technology exhibits increased antibody-binding activity even with minimal antibody expression, facilitating the more precise identification of low-affinity antibodies. Nonetheless, YSD has lower transformation efficiency, and its library capacity and diversity are constrained2. This technique is predominantly used in drug discovery to identify functional proteins, mutants, antigens, and antibodies.
+2.2. Encoding technology
+Encoding technology is an advanced combinatorial synthetic library technology for drug discovery that is distinct from display technologies41. This approach linking screening library molecules with the corresponding encoding DNA, peptide nucleic acid (PNA), or peptides to facilitate rapid screening. These techniques include OBOC, DNA-encoded, PNA-encoded, and novel peptide-encoded technologies. A systematic overview of these encoding techniques is provided, drawing parallels with the previously discussed display methodologies. The characteristics of the encoding technologies are summarized in Table 2.
+Table 2.
+Characteristics of encoding technologies.
+Name
+Principle
+Advantage
+Disadvantage
+Application
+Ref.
+OBOC library
+Using a “split-mix” synthesis procedure to create peptide or chemical libraries, each bead is individually bound to a single compound entity to enable screening.
+1) Extensive libraries, yielding significant diversity2) Not limited to natural amino acids3) More inclusive range of components and structural possibilities4) Applicable to both binding and functional assays5) Inexpensive, and multiple use possible
+Small storage capacity
+Linear, branched, and macrocyclic peptides, etc.
+16,40,46
+DEL
+DELs associate synthetic chemotypes (chemical compounds) with genotypes (DNA tags), using DNA tags as amplifiable identification barcodes.
+1) High efficiency screening2) Large storage capacity3) Wide chemical space4) Low cost5) Easy operation
+1) Incompatibility of oligonucleotides with special chemical reaction conditions2) Loss of stored information3) Unstable (under metal catalysis, strong acid or base conditions)4) Unsuitable for protein complexes, organoids, and tissue samples5) Unable screen targets (transcription factors)
+Polypeptides and antibodies
+52
+PNA-encoded library
+PNA are used as DNA analogues to synthesize peptides using a “split-and-mix” approach, and screening is achieved by decoding the PNA library through sequence-specific hybridization to organized DNA microarrays.
+1) Able to split-mix synthesis to generate the library2) Greater resistance to chemical and biological degradation than DNA3) Persist in live cell environments for extended durations
+1) Peptide and PNA code are not spatially segregated, and interference from the PNA coding tag can be problematic2) PNA cannot be amplified by standard PCR3) Synthesis of PNA coding tag is cumbersome4) Limited to binding and simple functional assay
+Peptides, heterocycles, glycoconjugates, etc.
+16
+PEL
+Encoded peptides utilize the hexadecimal coding alphabet of non-isologous amino acids to optimize the sequence of the encoded peptide by systematically including selected amino acids to fine-tune polarity and ease of sequencing, allowing for high-fidelity decoding of MS for the target discovery.
+1) High information density and chemical stability2) Superior compatibility with various reaction conditions3) High efficiency
+1) Inability to amplify peptides2) Limited detection sensitivity3) False positive screening due to solubility and nonspecific peptide aggregation issues
+Small organic molecules
+13,59
+Open in a new tab
+2.2.1. OBOC drug screening
+The OBOC combinatorial library method was first introduced by Lam et al. in 199142. It entails synthesizing millions of random compounds so that each bead presents a singular compound. By employing a “split-mix” synthesis procedure, it is possible to create peptide or chemical libraries in which each bead exclusively presents a single compound entity.
+OBOC peptide library screening encompasses three principal phases: the construction of the library, the isolation of positive beads, and the sequencing of the peptides (Fig. 3A). The OBOC peptide library is derived from standard solid-phase peptide synthesis (SPPS) and employs the “split-mix” synthesis method. During each cycle of library synthesis, the bead mixture is evenly divided into distinct groups for individual chemical reactions. After the reaction, the OBOC beads are thoroughly mixed for the subsequent synthesis cycle. This process is iterated to assemble the peptide library. The resulting libraries can be exceptionally extensive, yielding significant diversity43.
+Figure 3.
+Open in a new tab
+Overview of the representative drug screening strategies using encoding technology. (A) Schematic illustration of the OBOC workflow for drug discovery. (B) Schematic illustration of the DEL workflow for drug discovery. (C) Schematic illustration of the PNA-encoded chemical libraries workflow for drug discovery. (D) Schematic illustration of the PEL workflow for drug discovery.
+The fundamental aspects of the OBOC technique include the separation of positive beads, improvement of the positive rate, and reduction of false positives44. To identify peptide sequences, certain chemical linkers, such as methionine, need to be added at the initial site of the OBOC library. This allows the direct cleavage and subsequent retrieval of peptides from the beads. Sequencing can be accomplished through Edman microsequencing or tandem mass spectrometry (MS), facilitating the determination of peptide sequences45. Compared to biological libraries such as phage display libraries, OBOC libraries boast a more inclusive range of components and structural possibilities. OBOC permits not only natural amino acids but also other chemical entities in the library, such as radioisotopes, fluorescent dyes, and d-amino acids. Additionally, specific peptide structures such as linear, branched, and macrocyclic peptides can be integrated into the OBOC library46. While this method affords complete chemical control over synthesis, only libraries on the order of approximately 104–107 members can be reliably produced and screened.
+2.2.2. DEL drug screening strategy
+DEL technology is a potent method for small-molecule discovery that was initially proposed in the 1990s and currently enhances OBOC libraries41. DELs associate synthetic chemotypes (chemical compounds) with genotypes (DNA tags) by using DNA tags solely as amplifiable identification barcodes which enables the entire library to be synthesized, processed, and selected as a single mixture. DEL technology comprises four principal components: chemistry, encoding, selection, and hit decoding/data analysis (Fig. 3B)47,48. In 2009, GSK published seminal research on the application of DELs in drug discovery49. Since these pivotal studies, DELs have undergone significant development and have matured into an established technological platform that is now widely adopted within the pharmaceutical industry47.
+The high encoding capacity and amplifiability of DNA molecules allow the selection of DELs to be selected on a minuscule scale (approximately 1 amol per compound), thereby overcoming the throughput limitations inherent in traditional high-throughput screening (HTS) methods and offering a more cost-effective and accessible option for researchers. Moreover, DELs enable the exploration of a broader chemical space than biological display libraries—especially with recent developments in DEL-compatible reactions. Compared with high-throughput biochemical screens, DELs offer numerous advantages, including efficient screening processes, easily multiplexed target and library selections, minimal resources required to evaluate an entire DEL collection, and large library sizes. To date, three main types of DEL have been identified: single-pharmacophore (ss-DEL), dual-pharmacophore (ds-DEL) and trio-pharmacophore DEL (t-DEL)50,51. Additionally, Xu et al. recently highlighted that DNA-compatible synthesis reactions and DEL selection technology are the driving forces behind DEL technological evolution, responsible for expanding chemical space and enabling efficient hit selection in DEL individually52. Consequently, efforts to develop novel DNA-compatible chemical reactions and selection technologies may continue to drive the field of DEL.
+2.2.3. Drug screening strategy using PNA-encoded chemical libraries
+In 2004, Winssinger et al.53 introduced a self-assembled PNA-encoded peptide library method, identifying PNA as a valuable alternative to DNA for use in encoding. PNA is a DNA analog that binds strongly to DNA, theoretically enabling PNA library decoding via sequence-specific hybridization with organized DNA microarrays54. PNA encoding leverages conventional SPPS, increasing compatibility with library synthesis.
+In this method, peptides were synthesized using the “split-mix” method and then cleaved from the resin to produce a PNA-encoded soluble peptide library. Each peptide was linked to a PNA coding tag via a hydrophilic linker (Fig. 3C). The library was combined with the protein of interest and exposed to a planar oligonucleotide microarray with predetermined sequences55. Alternatively, the PNA-encoded soluble peptide library could be first hybridized to oligonucleotide microarrays and then mixed with the target protein. Decoding was achieved through direct readout from the microarray.
+PNA demonstrates greater resistance to chemical and biological degradation than does DNA, imposing fewer constraints on the chemistries available for constructing PNA-encoded libraries and enabling extended persistence PNA in live-cell environments56. However, since the peptide and PNA code are not spatially segregated, interference from the PNA coding tag can present problems. Moreover, a significant challenge with PNA encoding is the inability to amplify PNA using standard nucleic acid amplification techniques. Encouragingly, Svensen et al. developed an innovative method for amplifying hits from a PNA-tagged peptide library, circumventing this limitation through indirect DNA amplification of PNA tags, i.e., PNA to DNA decoding57. Furthermore, PNA-encoding is notable for its compatibility with standard solid-phase synthesis and has been used to generate libraries of peptides, heterocycles, and glycoconjugates. Various screening formats, including selection-based and microarray-based methods, have produced specific ligands against diverse target classes such as membrane receptors and lectins55.
+2.2.4. PEL drug screening strategy
+PELs, a novel technology proposed by Stephen L. Buchwald and Bradley L. Pentelute in 2023, are designed to address the incompatibility of oligonucleotides with various chemical reaction conditions that can lead to the loss of stored information13. This concept is based on the idea that molecular encoding can be achieved in any polymer with at least two distinguishable monomers. Peptides, which are biopolymers, have been utilized for target discovery as carriers of information decoded by determining their amino acid sequences. The encoding peptide is designed utilizing a hexadecimal encoding alphabet of nonisobaric amino acids, resulting in high information density and chemical stability. The sequence of the encoding peptide is optimized through the systematic inclusion of selected amino acids to fine-tune the polarity and ease of sequencing, leading to high-fidelity decoding by MS.
+In this study, the identities of small molecules were encoded within an additional peptide that was expanded in tandem with small molecule synthesis. The encoding peptide comprised hexadecimal coding letters consisting of nonisobaric amino acids, ensuring high information density and chemical stability. The optimization of the coding peptide sequences involved systematic amino acid selection to adjust polarity and facilitate sequencing, enabling high-fidelity decoding through MS (Fig. 3D). Peptides offer superior chemical stability and compatibility under various reaction conditions compared to commonly used DNA and can be efficiently prepared via solid-phase synthesis, making them particularly suitable for encoding small molecule synthesis. The high purity of these conjugates contrasts sharply with the case of DELs, where decoded hits often necessitate additional synthesis under the original library preparation conditions to isolate the active compound from numerous byproducts58. Consequently, the PEL discovery platform is characterized by chemical stability, compatibility, efficiency, and the ability to yield diverse and previously unidentified small-molecule binding partners for target proteins. However, some obstacles need to be overcome, as peptide concentrations must be greater than 10 fmol/L to be detectable by MS. Additionally, unlike DNA, peptides cannot be amplified, which limits the size of PELs. Importantly, hydrophobic peptide tags may present solubility challenges and the potential for non-specific peptide aggregation, which can result in false positives59.
+3. Application of encoding and display technologies for combinatorial libraries in drug discovery
+3.1. Discovery of small molecule drugs
+3.1.1. Small molecule compounds
+The discovery of bioactive small-molecule ligands continues to be a pivotal pursuit in life sciences research. Traditional methods for discovering small molecules typically involve screening extensive libraries of chemical compounds60. Over the past two decades, DEL technology has emerged as a formidable approach for small-molecule ligand discovery in both drug development and chemical biology research. The foundational concept of DEL was first suggested by Brenner and Lerner in 1992 and quickly implemented through the efforts of Brenner and Janda as well as Gallop et al.61. These seminal works established the core principles of DELs: library encoding, selection processes, and strategies for hit decoding. For example, Cuozzo et al. utilized a single DEL comprising 225 million compounds to identify potent small molecule inhibitors of autotaxin; notably, their lead compound X-165 has advanced through investigational new drug (IND)-enabling studies and received FDA approval for phase I clinical trials62. To explore the effects of stereo- and regiochemistry on ligand identification, Favalli et al. synthesized a DEL containing 670,752 derivatives based on 2-azido-3-iodophenylpropionic acids63. Additionally, ssDEL have been widely used for the discovery of targets such as covalent kinase inhibitors64, heat shock protein 70 (Hsp70)65, fibroblast activation protein inhibitors66, nicotinamide adenine dinucleotide (NAD+)-dependent enzyme inhibitors67 and ribonuclease targeting chimera68, etc.
+Natural products have developed remarkable structural and biological diversity through evolution. However, their integration into DELs has been limited due to the complex and multistep synthesis needed, which does not readily align with the streamlined processes of conventional combinatorial chemistry. Encouragingly, Yang and Xu et al. established natural product-enriched DELs (nDELs)69,70 and employed end-product labeling to generate isomeric clusters tagged with a single DNA marker at varying positions, facilitating the discovery of natural product leads. Through this approach, a novel poly (adenosine diphosphate (ADP)-ribose) polymerase 1 (PARP1) inhibitor derived from traditional Chinese medicine was successfully identified from an nDEL69. In 2020, Yang and Xu et al. further reported the use of a structurally diverse nDEL containing 160 traditional Chinese medicines to identify a polycyclic analog of the guanidine derivative metformin that binds to and activates the insulin receptor. More importantly, they found that this activation results in insulin-like activity in a cell-based system71. In 2022, Wang and Yang et al. further expanded on this work by isolating, from an nDEL, a small molecule that binds to TNF-α, demonstrating in vivo anti-inflammatory effects. The identified nDEL compound, kaempferol, presents a new chemical framework for specific TNF-α recognition and exhibits promise as a foundation for developing TNF-α inhibitory agents70.
+The advancement of ligand discovery techniques that are compatible with the natural conditions of cellular membranes is of paramount importance. Li and coworkers introduced a method of screening a DEL comprising more than 30 million compounds against live cells expressing folate receptor (FR), carbonic anhydrase XII (CA-XII), and epidermal growth factor receptor (EGFR), leading to the identification and validation of novel ligands for these targets (Fig. 4)72. To denoise DEL datasets, Li and coworkers further developed a novel machine learning (ML)-based approach employing a maximum a posteriori estimation loss function to process cell-based DEL selection data. This technique was successfully applied to a small molecule DEL selection dataset targeting a purified carbonic anhydrase II (CA-II) and a cell line expressing CA-XII73.
+Figure 4.
+Open in a new tab
+Application of encoding and display technologies for combinatorial libraries in the drug discovery of small molecule compounds. (A) The strategy of cell-based DEL selection. (B) Structures of the identified compounds. (C) Example of the selection of a 30.42-million DEL against the folate receptor on live cells. (D) Analysis of potential inhibitors H1 and H2 through fluorescence polarization and fluorescent cell imaging. Reproduced with permission from Ref. 72. Copyright ©2021 Springer Nature.
+The use of DNA for encoding information imposes constraints on synthesis due to the incompatibility of oligonucleotides with certain chemical reactions, which could therefore risk the integrity of the information. As an alternative, synthetic peptides can act as information carriers, with their amino acid sequences revealing the encoded data. Compared with DELs, PELs exhibit greater reaction stability, library quality, capacity, and screening hit rates, bridging the screening gap for targets that are challenging to bind with DELs13,59. Recently, Rössler et al. demonstrated the de novo discovery of small-molecule protein-binding ligands from PELs containing tens of thousands of members by performing affinity selection against CAIX and oncogenic protein targets such as bromodomain-containing protein 4 and murine double minute 2 (MDM2)13. However, despite the promising outcomes of PELs, several challenges remain, such as the inability to amplify peptides, limited detection sensitivity, and the risk of false positive screenings due to solubility problems and nonspecific peptide aggregation61.
+3.1.2. Non-peptidic macrocycles
+Non-peptidic macrocycles present intriguing potential as high-affinity ligands for challenging protein targets74. While macrocyclic peptides generally lack cell permeability, limiting their use to extracellular targets, non-peptidic macrocycles with suitable physicochemical properties, can passively traverse cellular membranes, thus broadening the spectrum of addressable targets. Li et al. described the identification of specific binding partners for various proteins using a non-peptidic macrocyclic scaffold library of over 35 million compounds, including carbonic anhydrase IX (CA-IX) and others (Fig. 5)75. Moreover, Usanov et al. introduced second-generation DNA-templated macrocycle libraries designed for discovering bioactive non-peptidic macrocycles with enhanced drug-like properties60. Roy et al. reported a robust quality control technique for the on-resin analysis of cyclization efficiency in thousands of non-peptidic thioether macrocycles within a DEL76. Koesema detailed the solid-phase synthesis of a DEL comprising several hundred thousand thioether-linked macrocycles designed for scaffold diversity and improved cell permeability77. The utility of this library was demonstrated by the isolation of high-affinity macrocyclic ligands for streptavidin (SA), which was used as a model target. Overall, non-peptidic macrocycle libraries exhibit promise as valuable resources for probing both intracellular and extracellular proteins, particularly those considered ‘undruggable’.
+Figure 5.
+Open in a new tab
+Application of encoding and display technologies for combinatorial libraries in the drug discovery of non-peptidic macrocycles. (A) Design of a non-peptidic macrocycle library construction using a split-and-pool strategy. (B) Enrichments and dissociation constants of synthesized compounds. (C) High-throughput DNA sequencing plot and fluorescence polarization measurements of selected combinations against human serum albumin (HSA) and alpha-1 acid glycoprotein (AGP). Reproduced with permission from Ref. 75. Copyright ©2018 Springer Nature.
+3.2. Discovery of peptide drugs
+Peptide drugs represent a distinct pharmaceutical category, consisting of orderly amino acid sequences typically ranging from 500 to 5000 Da in size78. Due to their relatively large structures, these drugs have proven more effective than small molecules in targeting proteins that interact via extensive, relatively flat surfaces79. The past decade has seen significant progress in peptide drug development, propelled by potent and reliable encoding and display technologies for combinatorial libraries. To date, several peptide drug forms, including linear, monocyclic, and bicyclic peptides, have been developed using these technologies80.
+3.2.1. Linear peptides
+Endogenous and synthetic linear peptides can modulate intracellular signaling without requiring modifications81. They offer advantages over antibodies such as deeper tissue penetration, reduced immunogenic potential, lower production costs, and simpler quality control during synthesis82. Gurung et al. identified two programmed cell death ligand-1 (PD-L1)-blocking peptides by screening a phage-displayed peptide library for selective PD-L1 binding on cells82. OBOC technology has also shown promise for discovering linear peptides or peptoids. Astle et al. introduced an experimental platform utilizing OBOC with microarray-based quantitative comparisons for rapid active linear peptide hit identification83. Morimoto et al. reported the use of OBOC to identify an α-helical linear peptide as an effective inhibitor of α-helix-mediated p53–MDM2 interaction84. Takada et al. discovered a linear peptide, gramicidin A analog, by multidimensional screening of an OBOC library85. The OBOC technique has also been successfully used for the rapid screening of self-assembling peptides, such as ITSVV, ISDNL, LDFPI, and FFVDF. Notably, OBOC was also used to screen the antifungal linear peptide K-oLBF12786, a membrane-active peptide (Fig. 6). K-oLBF127 was found to exhibit low toxicity and to reduce the lung fungal burden in mice infected with 104 cells of Cryptococcus neoformans. In addition, Gee et al. developed a yeast-display library of human leukocyte antigens to identify linear peptide ligands of orphan T-cell receptors (TCRs) and identified tumor-infiltrating lymphocyte TCRs in separate patient tumors87. These studies successfully demonstrated the effectiveness of the combinatorial libraries using different encoding and display technologies for in identifying linear peptides, including peptide inhibitors, self-assembling peptide inhibitors, and antifungal peptides, and peptide antigens.
+Figure 6.
+Open in a new tab
+Application of encoding and display technologies for combinatorial libraries in linear peptide drug discovery. (A) Schematic illustration of the sequential screening strategy for screening potent antifungal linear peptide. (B) A potent antifungal linear peptide K-oLBF127 from the OBOC combinatorial linear peptide library with the reduction in lung fungal burden. Reproduced with permission from Ref. 86. Copyright ©2022 ACS Publications.
+3.2.2. Monocyclic peptides
+Macrocyclic peptides are commonly superior to their linear counterparts in terms of biological activity due to their conformational constraints, which confer decreased entropic penalties upon binding as well as heightened affinity, specificity, stability, and cell permeability79,88. In recent years, encoding and display technologies for combinatorial libraries, such as phage display and mRNA display have been extensively applied for high-efficiency drug screening and affinity selection of cyclic peptide binders89.
+Phage display is an especially potent technique for creating vast genetically encoded polypeptide libraries and identifying peptide ligands for target proteins89. Wang et al. used a phage-displayed monocyclic-peptide library to identify binding partners for the TEV protease and histone deacetylase HDAC8, and the resulting monocyclic peptides demonstrated stronger binding than their linear counterparts79. In addition, Owens et al. described an integrated phage display platform that enabled the discovery of nonreducible genetically encoded cyclic peptides with inhibitory functions89.
+Random nonstandard peptide integrated discovery (RaPID) mRNA display has been utilized effectively to pinpoint ligands for various proteins. This robust technique allows the genetic code to be reprogrammed to integrate noncanonical amino acids into peptide libraries, generating more than one trillion macrocyclic peptides. For instance, McAllister and colleagues discovered cyclic peptides with sub-nanomolar affinity for prolyl hydroxylase isoform 2 using an mRNA library that encoded N-chloroacetyl-d-Tyr to promote cyclization90. Similarly, a library containing both natural and nonnatural amino acids enabled the identification of two cyclic peptides, αIL6R-1 and αIL6R-2, with high affinities for the interleukin-6 receptor with the dissociation constant (Kd) values of 44 and 357 nmol/L, respectively91. Additionally, this method has revealed high-affinity cyclic peptide ligands for eotaxin-1, which is a target in treating allergic asthma and eosinophilia92. In 2022, Johansen-Leete et al. further uncovered antiviral peptides targeting the main protease of SARS-CoV-2 by RaPID mRNA display93. The most potent inhibitor identified was a cyclic peptide with low inhibitory concentration values against the protease with a half maximal inhibitory concentration (IC50) of 70 ± 18 nmol/L and a Ki of 14 ± 3 nmol/L. Despite its effectiveness, mRNA display is limited by the small number of known cyclization reactions compatible with it. Fleming et al. demonstrated that peptides containing tyrosine and cysteine could be rapidly cyclized by tyrosinase treatment. This method proved to be broadly applicable to various macrocycle sizes and scaffolds, leading to the discovery of macrocyclic ligands with substantial inhibitory effects on melanoma-associated antigen A4 (MAGE-A4) with substantial inhibitory effects (Fig. 7)94. Moreover, many monocyclic peptides have been successfully identified by mRNA display highlighting their robustness to chemical posttranslational modifications and their potential for future drug development30,95, 96, 97.
+Figure 7.
+Open in a new tab
+Application of encoding and display technologies for combinatorial libraries in the drug discovery of monocyclic peptides. (A) Workflow for the discovery of potent monocyclic peptides against MAGE-A4 using combination of tyrosinase-mediated cyclization with mRNA display methods. (B) The chemical structure of the monocyclic peptides. Reproduced with permission from Ref. 94. Copyright ©2023 ACS Publications.
+3.2.3. Bicyclic peptides
+Bicyclic peptides are increasingly recognized for their potential in therapeutic applications due to their structural rigidity and metabolic stability. They are particularly effective for binding to complex drug targets with high affinity and specificity. Recent advance in combinatorial library technologies have accelerated the synthesis and screening of large bicyclic peptide libraries. By using phage display20, Heinis et al. successfully produced potent thioether-linked bicyclic peptide inhibitors of human proteases with an IC50 of 20–50 nmol/L. In previous study, Wong et al. reported the use of bicyclic phage-displayed peptide libraries to obtain 19b, a proteolytically stable bicyclic inhibitor NODAL, as shown in Fig. 8
+19. Compound 19b, a promising NODAL antagonist, was found to have high cytotoxicity toward the TYK-nu cell line. These discoveries underscore the versatility of encoding and display technologies for combinatorial libraries in drug discovery.
+Figure 8.
+Open in a new tab
+Application of encoding and display technologies for combinatorial libraries in drug discovery of bicyclic peptides. (A) Schematic diagram of phage-encoded chemical libraries for screening bicyclic peptide inhibitors of NODAL. (B) The chemical structure of 19b. (C) Cell viability assay of TYK-nu cell line transfected with rhNODAL and treated with 19b at various peptide concentrations. Reproduced with permission from Ref. 19. Copyright ©2021 Royal Society of Chemistry.
+3.3. Discovery of antibody drugs
+Phage display and YSD have been pivotal in antibody drug discovery. The initial report on phage display by Smith et al. in 1985 revealed new possibilities for screening antibody binders15. Recent developments, such as the use of YSD for identifying protective antimalarial antibodies and ribosome display for in vitro selection from large DNA libraries, have further showcased the power of these technologies. For instance, Banach et al. reported combining precision library generation and YSD to identify highly protective antimalarial antibodies98. The most improved antibody, CIS43_Var10, contained three mutations and showed approximately sixfold greater protective potency in vivo than did CIS43. In contrast to phage display and YSD, which require the use of cells, ribosome display is one of the most successful cell-free display technologies for the in vitro selection of antibodies from large recombinant DNA libraries. Specifically, Porebski et al. reported a deep screening method for antibody discovery based on ribosome display that leverages the Illumina HiSeq platform to screen on the order of 108 antibody–antigen interactions (Fig. 9)99. This method was used to identify the three anti-HER2 human single-chain antibody fragment (scFv) clones (HER20003, HER20004 and HER20005) with the highest scores, which had binding curves that closely matched that of ML3-9 from the affinity panel, with a known Kd of 1.0 nmol/L. In addition, Hanes et al. reported the application of ribosome display to the in vitro selection and evolution of scFvs from a large synthetic human combinatorial antibody library against bovine insulin100. The above examples shows the strength of encoding and display technologies for combinatorial libraries, such as phage display, YSD, and ribosome display, in screening antigens and antibody drugs.
+Figure 9.
+Open in a new tab
+Application of encoding and display technologies for combinatorial libraries in antibody drug discovery. (A) Schematic illustration of the ribosome display screening strategy for antibody discovery. (B) Rapid discovery of high-affinity antibodies via massively parallel sequencing, ribosome display. Reproduced with permission from Ref. 99. Copyright ©2023 Springer Nature.
+3.4. Additional successful applications
+The directed identification of drug or vaccine targets remains a formidable challenge due to the lack of suitable genetic tools for manipulating protozoan pathogens. Heslop and colleagues devised an efficient approach for constructing genome-wide libraries for YSD and introduced YSD fitness screening (YSD-FS) to pinpoint drug targets101. By utilizing YSD-FS, they successfully identified genuine interaction partners of metronidazole, a medication prescribed for protozoan and bacterial infections. In addition to protein target identification, the application of encoding and display technologies for combinatorial libraries has also shown promise for in vitro ribosomal synthesis and evolution. Hammerling et al. described a cell-free method for ribosome synthesis and evolution (RISE) via ribosome display, enabling the selection of active genotypes from an extensive library of ribosomal RNA (rRNA) variants and the identification of mutant ribosomes that were resistant to clindamycin102. In 1999, a yeast display technique was developed to express T-cell receptors103. Subsequently, Holler et al. screened a yeast display library of V-alpha CDR3 mutants to identify higher-affinity soluble monomeric TCR variants, selecting TCR variants with affinities in the low nanomolar range104. Jin et al. utilized yeast display for the molecular evolution of a human integrin protein and EGF, leading to the identification of protein mutants with high affinity for physiological interactors105. Moreover, Zhao et al. employed YSD to express a variety of extracellular membrane domains106,107. In summary, encoding and display technologies for combinatorial libraries have not only facilitated drug discovery but also significantly impacted other areas, such as protein target identification, RIES, and the expression of active protein targets.
+4. Representative marketed drugs and investigational new drugs
+Over the past two decades, encoding and display technologies for combinatorial libraries have not only enabled the identification of numerous active compounds currently under investigation (Supporting Information Table S1 and Figs. S1‒S9) but also led to significant clinical advances in drug development. This section describes the discovery of two representative drugs, adalimumab and GSK2982772, by using these technologies and provides an overview of representative marketed drugs and INDs (Table 3).
+Table 3.
+Representative marketed and investigational new drugs discovered by using encoding and display technologies.
+Technology
+Manufacturer
+Product
+Target
+Indication
+Phase
+Ref.
+Phage display
+Abbott Laboratories
+Adalimumab (Humira, ABT-D2E7)
+Antibody-dependent cell cytotoxicity; Immunosuppressants; Tumour necrosis factor alpha (TNF-α) inhibitors
+Ankylosing spondylitis; Behcet's syndrome; Crohn's disease; Hidradenitis suppurativa;Juvenile rheumatoid arthritis; Plaque psoriasis;Psoriatic arthritis; Pustular psoriasis; Rheumatoid arthritis; Spondylarthritis; Ulcerative colitis;Uveitis
+Approved
+108
+GlaxoSmithKline
+Belimumab (Benlysta, GSK1550188)
+B cell activating factor (BlyS) inhibitors
+Lupus nephritis; Systemic lupus erythematosus;Anti-neutrophil cytoplasmic antibody-associated vasculitis;Myositis;Membranous glomerulonephritis; Multiple sclerosis; Myasthenia gravis; Renal transplant rejection; Systemic scleroderma
+1) Approved2) Phase III3) Phase II/III4) Phase II
+109
+GlaxoSmithKline
+Raxibacumab (Abthrax, PAmAb)
+Anthrax toxin inhibitors
+Anthrax
+Approved
+110
+Ablynx
+Caplacizumab (Cablivi, ALX-0081)
+Platelet aggregation inhibitors; Von Willebrand factor (vWF) inhibitors
+Thrombotic thrombocytopenic purpura
+Approved
+NCT05785468
+Cubist Pharmaceuticals; Dyax; Fovea Pharmaceuticals; Neopharm Ltd.; Takeda
+Ecallantide (Kalbitor, CB-500, DX-88, FOV 2302)
+Plasma kallikrein inhibitors
+Hereditary angioedema
+Approved
+NCT01059526
+Genentech
+Ranibizumab (Lucentis, RG-6321)
+Vascular endothelial growth factor A (VEGF-A) inhibitors
+Choroidal neovascularisation; Degenerative myopia; Diabetic macular oedema; Diabetic retinopathy; Retinal oedema; Retinopathy of prematurity; Wet age-related macular degeneration;Polypoidal choroidal vasculopathy
+1) Approved2) Phase I/II
+111
+Eli Lilly and Company
+Ramucirumab (Cyramza, IMC-1121B)
+Vascular endothelial growth factor receptor-2 (VEGFR2) antagonists
+Colorectal cancer; Gastric cancer; Liver cancer; Non-small cell lung cancer;Oesophageal cancer; Urogenital cancer;Biliary cancer; Carcinoid tumour; Solid tumours; Synovial sarcoma;Head and neck cancer; Pancreatic cancer; Soft tissue sarcoma
+1) Approved2) Phase III3) Phase II4) Phase I/II
+NCT03520946; NCT02314117; NCT02520141; NCT05980000
+Eli Lilly and Company
+Necitumumab (Portrazza, IMC-11F8, LY 3012211)
+Epidermal growth factor (EGFR) inhibitors
+Non-small cell lung cancer;Solid tumours
+1) Approved2) Phase II
+NCT04285671; NCT01624467
+Amgen; Dyax; Oak Hill Bio; Takeda; UCB
+Lanadelumab (Takhzyro, DX-2930)
+Plasma kallikrein inhibitors
+Hereditary angioedema;COVID 2019 infections;COVID-19 pneumonia; Diabetic macular oedema
+1) Approved2) Phase III3) Phase I
+NCT04070326; NCT04422509; NCT04460105
+Amgen; Kirin-Amgen
+Romiplostim (Nplate, AMG-531, Romiplate)
+Thrombopoietin receptor agonists
+Idiopathic thrombocytopenic purpura;Acute radiation syndrome; Aplastic anaemia;ThrombocytopeniaMyelodysplastic syndromes
+1) Approved2) Registered3) Phase III4) Phase I/II
+NCT02760251; NCT03957694; NCT03937154; NCT04350164; NCT02279173
+AstraZeneca
+Moxetumomab Pasudotox (Lumoxiti, CAT-8015)
+Apoptosis stimulants; Peptide elongation factor 2 inhibitors
+Hairy cell leukaemia
+III
+NCT01829711
+Cambridge Antibody Technology/Human Genome Sciences
+Mapatumumab (HGS-ETR1, HGS-1012)
+Apoptosis stimulants; TNF related apoptosis inducing ligand stimulants; TRAIL receptor 1 (TRAIL-R1) agonists
+Cervical cancer
+Phase I/II
+NCT01088347
+Arana Therapeutics; Teva Pharmaceutical Industries
+Placulumab (ART-621, CEP-37247, PN-0621)
+TNF-α inhibitors
+Inflammation; Psoriasis; Rheumatoid arthritis
+II
+112
+Genzyme/Sanofi-AventisBaylor College of Medicine; Sanofi
+Fresolimumab (GC-1008)
+Transforming growth factor beta (TGF-β) inhibitors
+Fibrosis; Malignant melanoma; Osteogenesis imperfecta; Pulmonary fibrosis; Renal cancer
+II
+112
+Amgen
+AMG-386
+Angiogenesis inhibitors; Angiopoietin-1 inhibitors; Angiopoietin-2 inhibitors; TIE 2 receptor antagonists
+Anti-angiogenicSolid tumours
+III
+112
+RNA display
+LEO Pharma; Karolinska University Hospital; MedImmune
+Tralokinumab (Adtralza, CAT-354)
+Interleukin 13 (IL-13) inhibitors
+Atopic dermatitis;Alopecia areata
+1) Approved2) Phase II
+113,114
+DEL technology
+GlaxoSmithKline
+GSK-2256294
+soluble epoxide hydrolase (sEH) inhibitors
+Chronic obstructive pulmonary disease (COPD);Aneurysmal subarachnoid hemorrhage;3) Obese or pre-diabetic patients with impaired insulin sensitivity
+1) phase II2) phase II3) phase II
+115, 116, 117, 118, 119
+GlaxoSmithKline
+GSK-2982772
+RIPK1 protein inhibitors (RIP1)
+1) Rheumatoid arthritis;2) Ulcerative colitis;3) Severe psoriasis;4) Plaque psoriasis;5) Moderate psoriasis;6) Autoimmune diseases;7) Inflammatory bowel diseases
+1) Phase Ⅱ2) Phase Ⅱ3) Phase Ⅱ4) Phase Ⅱ5) Phase Ⅰ6) Phase Ⅰ7) Phase Ⅰ
+120, 121, 122
+GlaxoSmithKline
+GSK-3145095
+RIPK1 protein inhibitors (RIP1)
+Solid tumours
+Phase Ⅰ/Ⅱ
+123,124
+HitGen
+HG146
+Histone deacetylase inhibitors (HDACI/Iib)
+Lymphoma; Multiple myeloma; Solid tumours
+Phase I
+NCT04977167
+HitGen
+HG381
+MPYS protein stimulants
+Solid tumours
+Phase I
+NCT04998422
+X-Chem, Inc.
+X-165
+Autotaxin
+Idiopathic Pulmonary Fibrosis
+Phase Ⅰ
+62
+Open in a new tab
+4.1. Adalimumab
+Adalimumab was the first human monoclonal antibody identified by phage display to be approved by the FDA in 2002 for treating various forms of rheumatoid arthritis125. Adalimumab has demonstrated positive therapeutic effects in treating various diseases. It was assessed in randomized, double-blind studies involving adults with active rheumatoid arthritis126. The drug was administered subcutaneously at doses ranging from 12.5 to 80 mg, as a monotherapy or in combination with MTX or other DMARDs. Radiographic assessment revealed significantly less disease progression in patients receiving adalimumab than in those receiving a placebo. Additionally, a 52-week multicenter study of 1212 patients showed that adalimumab (40 mg) was effective and well-tolerated for treating chronic plaque psoriasis127. Importantly, adalimumab treatment effectively decreases the levels of key cytokines, particularly IL-1b, and the numbers of inflammatory cells, particularly CD11c+ dendritic cells, in lesional Hidradenitis suppurativa skin lesions128. In clinical trials, adalimumab demonstrated sustained efficacy and safety, coupled with the convenience of subcutaneous administration and flexible dosing schedules108. Currently, adalimumab is authorized across multiple regions for a range of conditions, including Behcet's syndrome, Crohn's disease, hidradenitis suppurativa, psoriatic arthritis, pustular psoriasis, rheumatoid arthritis, spondylarthritis, ulcerative colitis (UC), and uveitis, making it one of the best-selling antibody drugs129.
+4.2. GSK2982772
+DEL technology has become integral to drug discovery within pharmaceutical and biotech companies. Currently, GSK is performing phase II clinical trials of several drugs, including GSK-2982772, GSK-2256294, and GSK-3145095. Notably, GSK-2256294 is the first small molecule identified using DEL technology that has entered clinical trials118. To date, GSK2982772 has undergone numerous clinical trials for various diseases. Preclinical studies in rats and cynomolgus monkeys indicated a predictable human blood concentration–time profile and good solubility for oral dosing across a broad dose range. Phase I clinical trials confirmed the safety and tolerability of GSK2982772122. Subsequent phase II trials involving patients with active UC revealed that daily administration of GSK-2982772 was generally well tolerated, but suggested that RIPK1 might not be an effective therapeutic target in using GSK2982772 as a monotherapy for UC130.
+4.3. Analysis of the global market size for drugs
+Analyzing the global market size for drugs is crucial for developing successful pharmaceutical marketing strategies and ensuring robust industry growth. Given the burgeoning significance of DEL technology in the realm of pharmaceutical drug discovery, it is pertinent to consider its market dimensions as an example. The global market size for DEL was valued USD 4.25 billion in 2023 and is projected to grow at a compound annual growth rate (CAGR) of 18.2%, reaching USD 13.7 billion by 2030131. Due to the concentration of headquarters of leading manufacturers, North America leads the DEL market, followed by Europe, the Asia-Pacific region, South America, and the Middle East and Africa. With the largest chemical space available, DEL platforms are ideally positioned for big data analytics and modeling techniques enhanced by artificial intelligence (AI) and ML.
+5. Discussion and future perspectives
+Over the past decade, combinatorial libraries using various encoding and display technologies have emerged as valuable and versatile alternatives to conventional HTS used in drug discovery132. Both academia and industry have leveraged these libraries to target a wide array of biomedically relevant molecules, as detailed in the strategies outlined within this article. The important milestones achieved by these methods—including the discovery of promising new molecular backbones, clinical research advancements, and even the commercialization of new drugs—attest to their success. However, it is equally important to recognize the categorical differences, application scopes, and technological limitations of these technologies. Presenting and addressing these factors will undoubtedly promote the development of novel therapeutics.
+5.1. Differences between encoding and display technologies
+Encoding and display technologies for combinatorial libraries integrate phenotype and genotype screening based on affinity, yet they differ fundamentally in their screening principles and protocols. Display technologies usually rely on protein fusion to screen for target affinity binding, whereas encoded libraries are constructed by using chemical synthesis to link target proteins with compounds for similar purposes133. The former is more dependent on biochemical activity, while the difficulty of the latter lies in the library construction. More importantly, display technology is inseparable from the central dogma of genetics. Transcription and translation provide inherent advantages for target discovery, but their use means that library size and diversity are limited by naturally occurring amino acids. Encoding technology is not restricted by the central dogma, and it has unique advantages in the discovery of small-molecule drugs. Notably, compared with encoding technology, the emerging PEL technology combines SPSS with palladium-catalyzed C–N and C–C peptide encoding to achieve high stability, high purity, and high efficiency in screening multiple types of small molecules for protein binding.
+5.2. Library sizes and types
+The empirical screening of large, chemically diverse libraries is fundamental for generating novel ligands, and this process necessitates increased storage capacity. Library diversity ranges widely across various technologies: phage display libraries (library size: 1010), ribosome and mRNA display libraries (library size: 1012), YSD libraries (library size: 107), OBOC libraries (library size: 106), DELs (library size: 109), PNA-encoded libraries (library size: 1010), and PELs (library size: 1012)40,134. Display technologies typically yield random peptides, cDNAs, antibodies, etc., while encoding technologies are focused on small molecules and macrocyclic compounds. Display technologies translate genetic information into peptides via the central dogma of genetics, resulting in inherently limited diversity compared with that of encoded libraries. To address this limitation, Passioura and Suga incorporated flexizyme into transcription templates to produce more diverse RaPID systems135,136. The evolution of display technologies will rely heavily on improved screening methods, the construction of library vectors, and the optimization of display scaffolds. The evaluation of encoded combinatorial libraries will further benefit from the continual advancement of DNA sequencing methods, providing longer read lengths and increased throughput. However, encoding technologies depend on synthetic compound libraries where purity and content pose significant screening challenges.
+5.3. Screening technology matrices and prospects
+Display technologies have gradually developed into a set of procedures ranging from in vivo (phage) and in vitro (ribosome, mRNA) screening to cell (yeast) screening methods. In vitro selection avoids the transformation efficiency limitations involved in introducing the original library into phages or cells. Nevertheless, the affinity and specificity for the target are reduced, and the screening efficiency is reduced accordingly. Newly developed encoding technologies, from the use of solution and immobilized proteins to screening in living cells, are designed to pursue a more physiologically relevant protein activity state and thereby increase the success rate of screening72,137. With phage display technology and encoding technology promising to obtain a significant market share in drug discovery worldwide, these combined efforts will likely continue to drive applications of both encoded libraries and display libraries across clinical proteomics and drug discovery.
+5.4. AI-based drug encoding technology for drug discovery
+Recent advancements in AI techniques have significantly transformed their application in drug discovery, diverging greatly from traditional wet laboratory testing. Coupled with the advent of accessible data resources, AI methodologies are reshaping the drug discovery landscape. In the decoding process, display and encoding technologies involve the PCR amplification and analysis of DNA sequences for the accurate analysis of target small molecules or macromolecules. However, this process is cumbersome due to the large amount of library content. By incorporating AI technology and algorithms, the decoding cycles of biological technologies can be shortened, presenting new opportunities in drug screening.
+Except for the direct binding and encoding by DNA and peptides, compounds are also encoded based on their substructures, such as the number of rings, functional groups, substituent atoms, and atom-centred fragments, utilizing encoding systems like the Simplified Molecular-Input Line-Entry System (SMILES) and the International Chemical Identifier (InChI). This encoding approach, particularly with the assistance of AI in recent decades, has made significant strides138. For instance, in the discovery of natural drugs, the integration of omics data—including genomic, transcriptomic, proteomic, metabolomic, and epigenomic data—may expedite the identification of natural products in medicinal plants139. Furthermore, AI's capability to predict drug-target structures narrows the scope of screening and enhances efficiency. Crucially, predictions regarding drug toxicity, bioactivity, and physicochemical properties by using zero-dimensional (0D)–three-dimensional (3D) descriptor encoding are instrumental in advancing the discovery of bioactive drugs and their pharmaceutical analysis140. In short, AI technology has proven invaluable in efficiently screening active substances by encoding approach141.
+5.5. Prospects for clinical application
+Display technologies have been under development for nearly 40 years since 1985. On this basis, ten class-one innovative antibody drugs, including adalimumab, belimumab and raxibacumab, have been approved by the FDA and have quickly obtained a substantial market share because of their high in vivo compatibility and excellent therapeutic effects. Display technology has great advantages in the discovery of antibody drugs. Moreover, it has been 30 years since encoding technology was proposed in 1992. In recent years, 10 small-molecule drugs discovered based on this technology have entered phase I/II clinical trials. Encoded libraries have great potential in the research and development of small-molecule clinical drugs, greatly shortening the research and development cycle.
+5.6. Limitations of encoding and display technologies for combinatorial libraries
+Similar to display libraries, encoded chemical libraries use affinity selection without an activity assay, which can result in false positives—binders that are not functionally active—thus reducing the precision of screening142. Notably, affinity and druggability are not always correlated; compounds with optimal affinity or activity often require structural modifications to increase their clinical suitability143. Intermediate-affinity antibodies have shown promise in CAR-T-cell development144, as lower binding affinities can increase tumor penetration. At present, drug screening may also take a molecule with weaker affinity or activity over a molecule with stronger binding as the primary reference molecule for the next step of research. In this process, it is also important to consider other facets of druggability, such as solubility and fat solubility. Therefore, a clinical candidate often requires necessary medicinal chemistry optimization after affinity selection by using encoding and display technologies for combinatorial libraries.
+6. Conclusions
+Encoding and display technologies for combinatorial libraries are pivotal tools for drug discovery and exhibit considerable potential for identifying hits and expanding leads. This review has elucidated the developmental trajectories, principles, methods of construction, scopes of application, and strengths and weaknesses of encoding and display technologies. We also highlighted the successful application of encoding and display technologies for combinatorial libraries in the discovery of multiple drug types, including small-molecule compounds, nonpeptidic macrocycles, linear peptides, monocyclic peptides, bicyclic peptides, and antibody drugs. Based on the increasing impact of these technologies on the drug discovery process in academia and the pharmaceutical industry, we have summarized the clinical drugs discovered to date and presented a forecast of the market potential of these technologies in global R&D. Affinity alone is not the sole determinant for successful drug discovery through these libraries; rather, an appropriate affinity/activity balance is crucial for druggability. Ongoing advances in AI and DNA sequencing are poised to revitalize drug discovery methodologies. In the future, it is anticipated that encoding and display technologies for combinatorial libraries will contribute significantly to clinical and market advancement across various therapeutic areas, diagnostics, industrial processes, nanotechnology, and beyond.
+Acknowledgments
+This work was supported by the National Natural Science Foundation of China (82304698 and 32300317), Science and Technology Development Fund, Macau SAR (file nos. 0048/2023/ITP2, 0150/2022/A3, 001/2023/ALC, 0006/2020/AKP and 005/2023/SKL, China), Guangdong Basic and Applied Basic Research Foundation (grant nos 2021A1515110338, China), Natural Science Foundation of Guangdong Province (2024A1515012659 and 2023B1515120023, China), Shenzhen-Hong Kong-Macau S&T Program (Category C) (SGDX2020110309420200, China) and the Research Fund of University of Macau (CPG2024-00038-ICMS, China). We thank anonymous reviewers for their very constructive comments and suggestions on the submitted manuscript.
+Author contributions
+Yu Fan: Formal analysis, Writing – original draft. Ruibing Feng: Formal analysis, Visualization, Writing – review & editing, Funding acquisition. Xinya Zhang: Writing – review & editing. Zhen-Liang Wang: Resources. Feng Xiong: Conceptualization. Shuihua Zhang: Conceptualization. Zhang-Feng Zhong: Visualization. Hua Yu: Resources. Qing-Wen Zhang: Resources. Zhang Zhang: Formal analysis, Funding acquisition, Supervision. Yitao Wang: Funding acquisition, Supervision. Guodong Li: Conceptualization, Funding acquisition, Supervision, Writing – review & editing.
+Conflicts of interest
+The authors have declared that no conflict of interest exists.
+Footnotes
+Peer review under the responsibility of Chinese Pharmaceutical Association and Institute of Materia Medica, Chinese Academy of Medical Sciences.
+Appendix A
+Supporting information to this article can be found online at https://doi.org/10.1016/j.apsb.2024.04.006.
+Contributor Information
+Zhang Zhang, Email: zhang_zhang@jnu.edu.cn.
+Yitao Wang, Email: ytwang@um.edu.mo.
+Guodong Li, Email: guodongli@um.edu.mo.
+Appendix A. Supporting information
+The following is the Supporting Information to this article.
+Multimedia component 1
+mmc1.pdf (1.5MB, pdf) 
+References
+1.Jones L.H., Bunnage M.E. Applications of chemogenomic library screening in drug discovery. Nat Rev Drug Discov. 2017;16:285–296. doi: 10.1038/nrd.2016.244. [DOI] [PubMed] [Google Scholar]
+2.Mahdavi S.Z.B., Oroojalian F., Eyvazi S., Hejazi M., Baradaran B., Pouladi N., et al. An overview on display systems (phage, bacterial, and yeast display) for production of anticancer antibodies; advantages and disadvantages. Int J Biol Macromol. 2022;208:421–442. doi: 10.1016/j.ijbiomac.2022.03.113. [DOI] [PubMed] [Google Scholar]
+3.Corbett P.T., Leclaire J., Vial L., West K.R., Wietor J.L., Sanders J.K.M., et al. Dynamic combinatorial chemistry. Chem Rev. 2006;106:3652–3711. doi: 10.1021/cr020452p. [DOI] [PubMed] [Google Scholar]
+4.Lehn J.-M., Eliseev A.V. Dynamic combinatorial chemistry. Science. 2001;291:2331–2332. doi: 10.1126/science.1060066. [DOI] [PubMed] [Google Scholar]
+5.Uttamchandani M., Walsh D.P., Yao S.Q., Chang Y.T. Small molecule microarrays: recent advances and applications. Curr Opin Chem Biol. 2005;9:4–13. doi: 10.1016/j.cbpa.2004.12.005. [DOI] [PubMed] [Google Scholar]
+6.Vegas A.J., Fuller J.H., Koehler A.N. Small-molecule microarrays as tools in ligand discovery. Chem Soc Rev. 2008;37:1385–1394. doi: 10.1039/b703568n. [DOI] [PMC free article] [PubMed] [Google Scholar]
+7.Keserű G.M., Makara G.M. Hit discovery and hit-to-lead approaches. Drug Discov Today. 2006;11:741–748. doi: 10.1016/j.drudis.2006.06.016. [DOI] [PubMed] [Google Scholar]
+8.Li G., Liu H., Feng R., Kang T.-S., Wang W., Ko C.N., et al. A bioactive ligand-conjugated iridium (III) metal-based complex as a Keap1–Nrf2 protein‒protein interaction inhibitor against acetaminophen-induced acute liver injury. Redox Biol. 2021;48 doi: 10.1016/j.redox.2021.102129. [DOI] [PMC free article] [PubMed] [Google Scholar]
+9.Li G., Henry S.A., Liu H., Kang T.S., Nao S.C., Zhao Y., et al. A robust photoluminescence screening assay identifies uracil-DNA glycosylase inhibitors against prostate cancer. Chem Sci. 2020;11:1750–1760. doi: 10.1039/c9sc05623h. [DOI] [PMC free article] [PubMed] [Google Scholar]
+10.Li H., Wei W., Xu H. Drug discovery is an eternal challenge for the biomedical sciences. Acta Mater Med. 2022;1:1–3. [Google Scholar]
+11.Mullard A. Induced protein proximity drug discovery, from 30,000 feet. Nat Rev Drug Discov. 2022;21:172–173. doi: 10.1038/d41573-022-00037-x. [DOI] [PubMed] [Google Scholar]
+12.Herath H.M.P.D., Taki A.C., Rostami A., Jabbar A., Keiser J., Geary T.G., et al. Whole-organism phenotypic screening methods used in early-phase anthelmintic drug discovery. Biotechnol Adv. 2022;57 doi: 10.1016/j.biotechadv.2022.107937. [DOI] [PubMed] [Google Scholar]
+13.Rössler S.L., Grob N.M., Buchwald S.L., Pentelute B.L. Abiotic peptides as carriers of information for the encoding of small-molecule library synthesis. Science. 2023;379:939–945. doi: 10.1126/science.adf1354. [DOI] [PMC free article] [PubMed] [Google Scholar]
+14.Jin H., Cui D., Fan Y., Li G., Zhong Z., Wang Y. Recent advances in bioaffinity strategies for preclinical and clinical drug discovery: screening natural products, small molecules and antibodies. Drug Discov Today. 2024;29 doi: 10.1016/j.drudis.2024.103885. [DOI] [PubMed] [Google Scholar]
+15.Smith G.P. Filamentous fusion phage: novel expression vectors that display cloned antigens on the virion surface. Science. 1985;228:1315–1317. doi: 10.1126/science.4001944. [DOI] [PubMed] [Google Scholar]
+16.Liu R., Li X., Xiao W., Lam K.S. Tumor-targeting peptides from combinatorial libraries. Adv Drug Deliv Rev. 2017;110–111:13–37. doi: 10.1016/j.addr.2016.05.009. [DOI] [PMC free article] [PubMed] [Google Scholar]
+17.Ch'ng A.C.W., Lam P., Alassiri M., Lim T.S. Application of phage display for T-cell receptor discovery. Biotechnol Adv. 2022;54 doi: 10.1016/j.biotechadv.2021.107870. [DOI] [PubMed] [Google Scholar]
+18.Hoogenboom H.R. In: Antibody phage display: methods and protocols. Methods in Molecular Biology™. O'Brien P.M., Aitken R., editors. Humana Press; 2002. Overview of antibody phage-display technology and its applications; pp. 1–37. [DOI] [PubMed] [Google Scholar]
+19.Wong J.Y.K., Mukherjee R., Miao J., Bilyk O., Triana V., Miskolzie M., et al. Genetically-encoded discovery of proteolytically stable bicyclic inhibitors for morphogen NODAL. Chem Sci. 2021;12:9694–9703. doi: 10.1039/d1sc01916c. [DOI] [PMC free article] [PubMed] [Google Scholar]
+20.Heinis C., Rutherford T., Freund S., Winter G. Phage-encoded combinatorial chemical libraries based on bicyclic peptides. Nat Chem Biol. 2009;5:502–507. doi: 10.1038/nchembio.184. [DOI] [PubMed] [Google Scholar]
+21.Kong X.D., Carle V., Díaz-Perlas C., Butler K., Heinis C. Generation of a large peptide phage display library by self-ligation of whole-plasmid PCR product. ACS Chem Biol. 2020;15:2907–2915. doi: 10.1021/acschembio.0c00497. [DOI] [PubMed] [Google Scholar]
+22.Dotter H., Boll M., Eder M., Eder A.C. Library and post-translational modifications of peptide-based display systems. Biotechnol Adv. 2021;47 doi: 10.1016/j.biotechadv.2021.107699. [DOI] [PubMed] [Google Scholar]
+23.Nixon A.E., Sexton D.J., Ladner R.C. Drugs derived from phage display: from candidate identification to clinical practice. mAbs. 2014;6:73–85. doi: 10.4161/mabs.27240. [DOI] [PMC free article] [PubMed] [Google Scholar]
+24.Hoffmüller U., Schneider-Mergener J. In vitro evolution and selection of proteins: ribosome display for larger libraries. Angew Chem Int Ed. 1998;37:3241–3243. doi: 10.1002/(SICI)1521-3773(19981217)37:23<3241::AID-ANIE3241>3.0.CO;2-2. [DOI] [PubMed] [Google Scholar]
+25.Roberts R.W., Szostak J.W. RNA-peptide fusions for the in vitro selection of peptides and proteins. Proc Natl Acad Sci U S A. 1997;94:12297–12302. doi: 10.1073/pnas.94.23.12297. [DOI] [PMC free article] [PubMed] [Google Scholar]
+26.Mattheakis L.C., Bhatt R.R., Dower W.J. An in vitro polysome display system for identifying ligands from very large peptide libraries. Proc Natl Acad Sci U S A. 1994;91:9022–9026. doi: 10.1073/pnas.91.19.9022. [DOI] [PMC free article] [PubMed] [Google Scholar]
+27.Schaffitzel C., Hanes J., Jermutus L., Plückthun A. Ribosome display: an in vitro method for selection and evolution of antibodies from libraries. J Immunol Methods. 1999;231:119–135. doi: 10.1016/s0022-1759(99)00149-0. [DOI] [PubMed] [Google Scholar]
+28.Sohrabi C., Foster A., Tavassoli A. Methods for generating and screening libraries of genetically encoded cyclic peptides in drug discovery. Nat Rev Chem. 2020;4:90–101. doi: 10.1038/s41570-019-0159-2. [DOI] [PubMed] [Google Scholar]
+29.Fukuda I., Kojoh K., Tabata N., Doi N., Takashima H., Miyamoto-Sato E., et al. In vitro evolution of single-chain antibodies using mRNA display. Nucleic Acids Res. 2006;34:e127. doi: 10.1093/nar/gkl618. [DOI] [PMC free article] [PubMed] [Google Scholar]
+30.Newton M.S., Cabezas-Perusse Y., Tong C.L., Seelig B. In vitro selection of peptides and proteins—advantages of mRNA display. ACS Synth Biol. 2020;9:181–190. doi: 10.1021/acssynbio.9b00419. [DOI] [PMC free article] [PubMed] [Google Scholar]
+31.Franzini R.M., Randolph C. Chemical space of DNA-encoded libraries: miniperspective. J Med Chem. 2016;59:6629–6644. doi: 10.1021/acs.jmedchem.5b01874. [DOI] [PubMed] [Google Scholar]
+32.Yuan L., Kurek I., English J., Keenan R. Laboratory-directed protein evolution. Microbiol Mol Biol. 2005;69:373–392. doi: 10.1128/MMBR.69.3.373-392.2005. [DOI] [PMC free article] [PubMed] [Google Scholar]
+33.Shen X., Valencia C.A., Gao W., Cotten S.W., Dong B., Huang B.C., et al. Ca2+/Calmodulin-binding proteins from the C. elegans proteome. Cell Calcium. 2008;43:444–456. doi: 10.1016/j.ceca.2007.07.008. [DOI] [PubMed] [Google Scholar]
+34.Shen X., Valencia C.A., Szostak J., Dong B., Liu R. Scanning the human proteome for calmodulin-binding proteins. Proc Natl Acad Sci U S A. 2005;102:5969–5974. doi: 10.1073/pnas.0407928102. [DOI] [PMC free article] [PubMed] [Google Scholar]
+35.Lamboy J.A., Tam P.Y., Lee L.S., Jackson P.J., Avrantinis S.K., Lee H.J., et al. Chemical and genetic wrappers for improved phage and RNA display. Chembiochem. 2008;9:2846–2852. doi: 10.1002/cbic.200800366. [DOI] [PMC free article] [PubMed] [Google Scholar]
+36.Boder E.T., Wittrup K.D. Yeast surface display for screening combinatorial polypeptide libraries. Nat Biotechnol. 1997;15:553–557. doi: 10.1038/nbt0697-553. [DOI] [PubMed] [Google Scholar]
+37.Gera N., Hussain M., Rao B.M. Protein selection using yeast surface display. Methods. 2013;60:15–26. doi: 10.1016/j.ymeth.2012.03.014. [DOI] [PubMed] [Google Scholar]
+38.Shusta E., Pepper L., Cho Y., Boder E. A decade of yeast surface display technology: where are we now?. Comb Chem High Throughput Screen. 2008;11:127–134. doi: 10.2174/138620708783744516. [DOI] [PMC free article] [PubMed] [Google Scholar]
+39.Cherf G.M., Cochran J.R. In: Yeast surface display: methods, protocols, and applications. Liu B., editor. Springer; New York: 2015. Applications of yeast surface display for protein engineering; pp. 155–175. [DOI] [PMC free article] [PubMed] [Google Scholar]
+40.Obexer R., Walport L.J., Suga H. Exploring sequence space: harnessing chemical and biological diversity towards new peptide leads. Curr Opin Chem Biol. 2017;38:52–61. doi: 10.1016/j.cbpa.2017.02.020. [DOI] [PubMed] [Google Scholar]
+41.Brenner S., Lerner R.A. Encoded combinatorial chemistry. Proc Natl Acad Sci U S A. 1992;89:5381–5383. doi: 10.1073/pnas.89.12.5381. [DOI] [PMC free article] [PubMed] [Google Scholar]
+42.Lam K.S., Salmon S.E., Hersh E.M., Hruby V.J., Kazmierski W.M., Knapp R.J. A new type of synthetic peptide library for identifying ligand-binding activity. Nature. 1991;354:82–84. doi: 10.1038/354082a0. [DOI] [PubMed] [Google Scholar]
+43.Yan Y., Wang L., Wang H. Functional peptides from one-bead one-compound high-throughput screening technique. Chem Res Chin Univ. 2023;39:83–91. [Google Scholar]
+44.Wang P., Arabaci G., Pei D. Rapid sequencing of library-derived peptides by partial edman degradation and mass spectrometry. J Comb Chem. 2001;3:251–254. doi: 10.1021/cc000102l. [DOI] [PubMed] [Google Scholar]
+45.Chen X., Tan P.H., Zhang Y., Pei D. On-bead screening of combinatorial libraries: reduction of nonspecific binding by decreasing surface ligand density. J Comb Chem. 2009;11:604–611. doi: 10.1021/cc9000168. [DOI] [PMC free article] [PubMed] [Google Scholar]
+46.David A. Peptide ligand-modified nanomedicines for targeting cells at the tumor microenvironment. Adv Drug Deliv Rev. 2017;119:120–142. doi: 10.1016/j.addr.2017.05.006. [DOI] [PubMed] [Google Scholar]
+47.Huang Y., Li Y., Li X. Strategies for developing DNA-encoded libraries beyond binding assays. Nat Chem. 2022;14:129–140. doi: 10.1038/s41557-021-00877-x. [DOI] [PubMed] [Google Scholar]
+48.Fitzgerald P.R., Paegel B.M. DNA-encoded chemistry: drug discovery from a few good reactions. Chem Rev. 2020;121:7155–7177. doi: 10.1021/acs.chemrev.0c00789. [DOI] [PMC free article] [PubMed] [Google Scholar]
+49.Clark M.A., Acharya R.A., Arico-Muendel C.C., Belyanskaya S.L., Benjamin D.R., Carlson N.R., et al. Design, synthesis and selection of DNA-encoded small-molecule libraries. Nat Chem Biol. 2009;5:647–654. doi: 10.1038/nchembio.211. [DOI] [PubMed] [Google Scholar]
+50.Neri D., Lerner R.A. DNA-encoded chemical libraries: a selection system based on endowing organic compounds with amplifiable information. Annu Rev Biochem. 2018;87:479–502. doi: 10.1146/annurev-biochem-062917-012550. [DOI] [PMC free article] [PubMed] [Google Scholar]
+51.Cui M., Nguyen D., Gaillez M.P., Heiden S., Lin W., Thompson M., et al. Trio-pharmacophore DNA-encoded chemical library for simultaneous selection of fragments and linkers. Nat Commun. 2023;14:1481. doi: 10.1038/s41467-023-37071-1. [DOI] [PMC free article] [PubMed] [Google Scholar]
+52.Ma P., Zhang S., Huang Q., Gu Y., Zhou Z., Hou W., et al. Evolution of chemistry and selection technology for DNA-encoded library. Acta Pharm Sin B. 2024;14:492–516. doi: 10.1016/j.apsb.2023.10.001. [DOI] [PMC free article] [PubMed] [Google Scholar]
+53.Winssinger N., Damoiseaux R., Tully D.C., Geierstanger B.H., Burdick K., Harris J.L. PNA-encoded protease substrate microarrays. Chem Biol. 2004;11:1351–1360. doi: 10.1016/j.chembiol.2004.07.015. [DOI] [PubMed] [Google Scholar]
+54.Svensen N., Díaz-Mochón J.J., Bradley M. Encoded peptide libraries and the discovery of new cell binding ligands. Chem Commun. 2011;47:7638–7640. doi: 10.1039/c1cc11668a. [DOI] [PubMed] [Google Scholar]
+55.Zambaldo C., Barluenga S., Winssinger N. PNA-encoded chemical libraries. Curr Opin Chem Biol. 2015;26:8–15. doi: 10.1016/j.cbpa.2015.01.005. [DOI] [PubMed] [Google Scholar]
+56.Galloway W.R.J.D., Isidro-Llobet A., Spring D.R. Diversity-oriented synthesis as a tool for the discovery of novel biologically active small molecules. Nat Commun. 2010;1:80. doi: 10.1038/ncomms1081. [DOI] [PubMed] [Google Scholar]
+57.Svensen N., Díaz-Mochón J.J., Bradley M. Decoding a PNA encoded peptide library by PCR: the discovery of new cell surface receptor ligands. Chem Biol. 2011;18:1284–1289. doi: 10.1016/j.chembiol.2011.07.017. [DOI] [PubMed] [Google Scholar]
+58.Su W., Ge R., Ding D., Chen W., Wang W., Yan H., et al. Triaging of DNA-encoded library selection results by high-throughput resynthesis of DNA–conjugate and affinity selection mass spectrometry. Bioconjugate Chem. 2021;32:1001–1007. doi: 10.1021/acs.bioconjchem.1c00170. [DOI] [PubMed] [Google Scholar]
+59.Haap W. Peptide barcodes meet drug discovery. Science. 2023;379:883. doi: 10.1126/science.adg7484. [DOI] [PubMed] [Google Scholar]
+60.Usanov D.L., Chan A.I., Maianti J.P., Liu D.R. Second-generation DNA-templated macrocycle libraries for the discovery of bioactive small molecules. Nat Chem. 2018;10:704–714. doi: 10.1038/s41557-018-0033-8. [DOI] [PMC free article] [PubMed] [Google Scholar]
+61.Song Y., Li X. Evolution of the selection methods of DNA-encoded chemical libraries. Acc Chem Res. 2021;54:3491–3503. doi: 10.1021/acs.accounts.1c00375. [DOI] [PubMed] [Google Scholar]
+62.Cuozzo J.W., Clark M.A., Keefe A.D., Kohlmann A., Mulvihill M., Ni H., et al. Novel autotaxin inhibitor for the treatment of idiopathic pulmonary fibrosis: a clinical candidate discovered using DNA-encoded chemistry. J Med Chem. 2020;63:7840–7856. doi: 10.1021/acs.jmedchem.0c00688. [DOI] [PubMed] [Google Scholar]
+63.Favalli N., Bassi G., Pellegrino C., Millul J., De Luca R., Cazzamalli S., et al. Stereo- and regiodefined DNA-encoded chemical libraries enable efficient tumour-targeting applications. Nat Chem. 2021;13:540–548. doi: 10.1038/s41557-021-00660-y. [DOI] [PMC free article] [PubMed] [Google Scholar]
+64.Chan A.I., McGregor L.M., Jain T., Liu D.R. Discovery of a covalent kinase inhibitor from a DNA-encoded small-molecule library × protein library selection. J Am Chem Soc. 2017;139:10192–10195. doi: 10.1021/jacs.7b04880. [DOI] [PMC free article] [PubMed] [Google Scholar]
+65.Daguer J.P., Zambaldo C., Ciobanu M., Morieux P., Barluenga S., Winssinger N. DNA display of fragment pairs as a tool for the discovery of novel biologically active small molecules. Chem Sci. 2015;6:739–744. doi: 10.1039/c4sc01654h. [DOI] [PMC free article] [PubMed] [Google Scholar]
+66.Puglioli S., Schmidt E., Pellegrino C., Prati L., Oehler S., De Luca R., et al. Selective tumor targeting enabled by picomolar fibroblast activation protein inhibitors isolated from a DNA-encoded affinity maturation library. Chem. 2023;9:411–429. [Google Scholar]
+67.Yuen L.H., Dana S., Liu Y., Bloom S.I., Thorsell A.G., Neri D., et al. A focused DNA-encoded chemical library for the discovery of inhibitors of NAD+-dependent enzymes. J Am Chem Soc. 2019;141:5169–5181. doi: 10.1021/jacs.8b08039. [DOI] [PubMed] [Google Scholar]
+68.Meyer S.M., Tanaka T., Zanon P.R.A., Baisden J.T., Abegg D., Yang X., et al. DNA-encoded library screening to inform design of a ribonuclease targeting chimera (RiboTAC) J Am Chem Soc. 2022;144:21096–21102. doi: 10.1021/jacs.2c07217. [DOI] [PMC free article] [PubMed] [Google Scholar]
+69.Ma P., Xu H., Li J., Lu F., Ma F., Wang S., et al. Functionality-independent DNA encoding of complex natural products. Angew Chem Int Ed. 2019;58:9254–9261. doi: 10.1002/anie.201901485. [DOI] [PubMed] [Google Scholar]
+70.Wang S., Shi X., Li J., Huang Q., Ji Q., Yao Y., et al. A small molecule selected from a DNA-encoded library of natural products that binds to TNF-α and attenuates inflammation in vivo. Adv Sci. 2022;9 doi: 10.1002/advs.202201258. [DOI] [PMC free article] [PubMed] [Google Scholar]
+71.Xie J., Wang S., Ma P., Ma F., Li J., Wang W., et al. Selection of small molecules that bind to and activate the insulin receptor from a DNA-encoded library of natural products. iScience. 2020;23 doi: 10.1016/j.isci.2020.101197. [DOI] [PMC free article] [PubMed] [Google Scholar]
+72.Huang Y., Meng L., Nie Q., Zhou Y., Chen L., Yang S., et al. Selection of DNA-encoded chemical libraries against endogenous membrane proteins on live cells. Nat Chem. 2021;13:77–88. doi: 10.1038/s41557-020-00605-x. [DOI] [PubMed] [Google Scholar]
+73.Hou R., Xie C., Gui Y., Li G., Li X. Machine-learning-based data analysis method for cell-based selection of DNA-encoded libraries. ACS Omega. 2023;8:19057–19071. doi: 10.1021/acsomega.3c02152. [DOI] [PMC free article] [PubMed] [Google Scholar]
+74.Driggers E.M., Hale S.P., Lee J., Terrett N.K. The exploration of macrocycles for drug discovery—an underexploited structural class. Nat Rev Drug Discov. 2008;7:608–624. doi: 10.1038/nrd2590. [DOI] [PubMed] [Google Scholar]
+75.Li Y., De Luca R., Cazzamalli S., Pretto F., Bajic D., Scheuermann J., et al. Versatile protein recognition by the encoded display of multiple chemical elements on a constant macrocyclic scaffold. Nat Chem. 2018;10:441–448. doi: 10.1038/s41557-018-0017-8. [DOI] [PMC free article] [PubMed] [Google Scholar]
+76.Roy A., Koesema E., Kodadek T. High-throughput quality control assay for the solid-phase synthesis of DNA-encoded libraries of macrocycles. Angew Chem Int Ed. 2021;60:11983–11990. doi: 10.1002/anie.202100230. [DOI] [PMC free article] [PubMed] [Google Scholar]
+77.Koesema E., Roy A., Paciaroni N.G., Coito C., Tokmina-Roszyk M., Kodadek T. Synthesis and screening of a DNA-encoded library of non-peptidic macrocycles. Angew Chem Int Ed. 2022;134 doi: 10.1002/anie.202116999. [DOI] [PMC free article] [PubMed] [Google Scholar]
+78.Henninot A., Collins J.C., Nuss J.M. The current state of peptide drug discovery: back to the future?. J Med Chem. 2018;61:1382–1414. doi: 10.1021/acs.jmedchem.7b00318. [DOI] [PubMed] [Google Scholar]
+79.Wang X.S., Chen P.H.C., Hampton J.T., Tharp J.M., Reed C.A., Das S.K., et al. A genetically encoded, phage-displayed cyclic-peptide library. Angew Chem Int Ed. 2019;58:15904–15909. doi: 10.1002/anie.201908713. [DOI] [PMC free article] [PubMed] [Google Scholar]
+80.Wang L., Wang N., Zhang W., Cheng X., Yan Z., Shao G., et al. Therapeutic peptides: current applications and future directions. Signal Transduct Targeted Ther. 2022;7:48. doi: 10.1038/s41392-022-00904-4. [DOI] [PMC free article] [PubMed] [Google Scholar]
+81.Zuconelli C.R., Brock R., Adjobo-Hermans M.J.W. Linear peptides in intracellular applications. Curr Med Chem. 2017;24:1862–1873. doi: 10.2174/0929867324666170508143523. [DOI] [PubMed] [Google Scholar]
+82.Gurung S., Khan F., Gunassekaran G.R., Yoo J.D., Poongkavithai Vadevoo S.M., Permpoon U., et al. Phage display-identified PD-L1-binding peptides reinvigorate T-cell activity and inhibit tumor progression. Biomaterials. 2020;247 doi: 10.1016/j.biomaterials.2020.119984. [DOI] [PubMed] [Google Scholar]
+83.Astle J.M., Simpson L.S., Huang Y., Reddy M.M., Wilson R., Connell S., et al. Seamless bead to microarray screening: rapid identification of the highest affinity protein ligands from large combinatorial libraries. Chem Biol. 2010;17:38–45. doi: 10.1016/j.chembiol.2009.12.015. [DOI] [PMC free article] [PubMed] [Google Scholar]
+84.Morimoto J., Hosono Y., Sando S. Isolation of a peptide containing D-amino acid residues that inhibits the α-helix-mediated p53–MDM2 interaction from a one-bead one-compound library. Bioorg Med Chem Lett. 2018;28:231–234. doi: 10.1016/j.bmcl.2018.01.001. [DOI] [PubMed] [Google Scholar]
+85.Yang P.P., Li Y.J., Cao Y., Zhang L., Wang J.Q., Lai Z., et al. Rapid discovery of self-assembling peptides with one-bead one-compound peptide library. Nat Commun. 2021;12:4494. doi: 10.1038/s41467-021-24597-5. [DOI] [PMC free article] [PubMed] [Google Scholar]
+86.Bansal S., Vu K., Liu R., Ajena Y., Xiao W., Menon S.M., et al. Discovery and characterization of a potent antifungal peptide through one-bead, one-compound combinatorial library screening. ACS Infect Dis. 2022;8:1291–1302. doi: 10.1021/acsinfecdis.2c00019. [DOI] [PubMed] [Google Scholar]
+87.Gee M.H., Han A., Lofgren S.M., Beausang J.F., Mendoza J.L., Birnbaum M.E., et al. Antigen identification for orphan T cell receptors expressed on tumor-infiltrating lymphocytes. Cell. 2018;172:549–563. doi: 10.1016/j.cell.2017.11.043. [DOI] [PMC free article] [PubMed] [Google Scholar]
+88.Simonetti L., Ivarsson Y. Genetically encoded cyclic peptide phage display libraries. ACS Cent Sci. 2020;6:336–338. doi: 10.1021/acscentsci.0c00087. [DOI] [PMC free article] [PubMed] [Google Scholar]
+89.Owens A.E., Iannuzzelli J.A., Gu Y., Fasan R. MOrPH-PhD: an integrated phage display platform for the discovery of functional genetically encoded peptide macrocycles. ACS Cent Sci. 2020;6:368–381. doi: 10.1021/acscentsci.9b00927. [DOI] [PMC free article] [PubMed] [Google Scholar]
+90.McAllister T.E., Yeh T.L., Abboud M.I., Leung I.K.H., Hookway E.S., King O.N.F., et al. Non-competitive cyclic peptides for targeting enzyme–substrate complexes. Chem Sci. 2018;9:4569–4578. doi: 10.1039/c8sc00286j. [DOI] [PMC free article] [PubMed] [Google Scholar]
+91.Passioura T., Liu W., Dunkelmann D., Higuchi T., Suga H. Display selection of exotic macrocyclic peptides expressed under a radically reprogrammed 23 amino acid genetic code. J Am Chem Soc. 2018;140:11551–11555. doi: 10.1021/jacs.8b03367. [DOI] [PubMed] [Google Scholar]
+92.Johansen-Leete J., Passioura T., Foster S.R., Bhusal R.P., Ford D.J., Liu M., et al. Discovery of potent cyclic sulfopeptide chemokine inhibitors via reprogrammed genetic code mRNA display. J Am Chem Soc. 2020;142:9141–9146. doi: 10.1021/jacs.0c03152. [DOI] [PubMed] [Google Scholar]
+93.Johansen-Leete J., Ullrich S., Fry S.E., Frkic R., Bedding M.J., Aggarwal A., et al. Antiviral cyclic peptides targeting the main protease of SARS-CoV-2. Chem Sci. 2022;13:3826–3836. doi: 10.1039/d1sc06750h. [DOI] [PMC free article] [PubMed] [Google Scholar]
+94.Fleming M.C., Bowler M.M., Park R., Popov K.I., Bowers A.A. Tyrosinase-catalyzed peptide macrocyclization for mRNA display. J Am Chem Soc. 2023;145:10445–10450. doi: 10.1021/jacs.2c12629. [DOI] [PMC free article] [PubMed] [Google Scholar]
+95.Nawatha M., Rogers J.M., Bonn S.M., Livneh I., Lemma B., Mali S.M., et al. De novo macrocyclic peptides that specifically modulate Lys48-linked ubiquitin chains. Nat Chem. 2019;11:644–652. doi: 10.1038/s41557-019-0278-x. [DOI] [PMC free article] [PubMed] [Google Scholar]
+96.Nitsche C., Passioura T., Varava P., Mahawaththa M.C., Leuthold M.M., Klein C.D., et al. De novo discovery of nonstandard macrocyclic peptides as noncompetitive inhibitors of the zika virus NS2B-NS3 protease. ACS Med Chem Lett. 2019;10:168–174. doi: 10.1021/acsmedchemlett.8b00535. [DOI] [PMC free article] [PubMed] [Google Scholar]
+97.Kawamura A., Münzel M., Kojima T., Yapp C., Bhushan B., Goto Y., et al. Highly selective inhibition of histone demethylases by de novo macrocyclic peptides. Nat Commun. 2017;8 doi: 10.1038/ncomms14773. [DOI] [PMC free article] [PubMed] [Google Scholar]
+98.Banach B.B., Tripathi P., Da Silva Pereira L., Gorman J., Nguyen T.D., Dillon M., et al. Highly protective antimalarial antibodies via precision library generation and yeast display screening. J Exp Med. 2022;219 doi: 10.1084/jem.20220323. [DOI] [PMC free article] [PubMed] [Google Scholar]
+99.Porebski B.T., Balmforth M., Browne G., Riley A., Jamali K., Fürst M.J.L.J., et al. Rapid discovery of high-affinity antibodies via massively parallel sequencing, ribosome display and affinity screening. Nat Biomed Eng. 2024;8:214–232. doi: 10.1038/s41551-023-01093-3. [DOI] [PMC free article] [PubMed] [Google Scholar]
+100.Hanes J., Schaffitzel C., Knappik A., Plückthun A. Picomolar affinity antibodies from a fully synthetic naive library selected and evolved by ribosome display. Nat Biotechnol. 2000;18:1287–1292. doi: 10.1038/82407. [DOI] [PubMed] [Google Scholar]
+101.Heslop R., Gao M., Brito Lira A., Sternlieb T., Loock M., Sanghi S.R., et al. Genome-wide libraries for protozoan pathogen drug target screening using yeast surface display. ACS Infect Dis. 2023;9:1078–1091. doi: 10.1021/acsinfecdis.2c00568. [DOI] [PMC free article] [PubMed] [Google Scholar]
+102.Hammerling M.J., Fritz B.R., Yoesep D.J., Kim D.S., Carlson E.D., Jewett M.C. In vitro ribosome synthesis and evolution through ribosome display. Nat Commun. 2020;11:1108. doi: 10.1038/s41467-020-14705-2. [DOI] [PMC free article] [PubMed] [Google Scholar]
+103.Kieke M.C., Shusta E.V., Boder E.T., Teyton L., Wittrup K.D., Kranz D.M. Selection of functional T cell receptor mutants from a yeast surface-display library. Proc Natl Acad Sci U S A. 1999;96:5651–5656. doi: 10.1073/pnas.96.10.5651. [DOI] [PMC free article] [PubMed] [Google Scholar]
+104.Holler P.D., Holman P.O., Shusta E.V., O'Herrin S., Wittrup K.D., Kranz D.M. In vitro evolution of a T cell receptor with high affinity for peptide/MHC. Proc Natl Acad Sci U S A. 2000;97:5387–5392. doi: 10.1073/pnas.080078297. [DOI] [PMC free article] [PubMed] [Google Scholar]
+105.Jin M., Song G., Carman C.V., Kim Y.S., Astrof N.S., Shimaoka M., et al. Directed evolution to probe protein allostery and integrin I domains of 200,000-fold higher affinity. Proc Natl Acad Sci U S A. 2006;103:5758–5763. doi: 10.1073/pnas.0601164103. [DOI] [PMC free article] [PubMed] [Google Scholar]
+106.Bacon K., Burroughs M., Blain A., Menegatti S., Rao B.M. Screening yeast display libraries against magnetized yeast cell targets enables efficient isolation of membrane protein binders. ACS Comb Sci. 2019;21:817–832. doi: 10.1021/acscombsci.9b00147. [DOI] [PubMed] [Google Scholar]
+107.Zhao L., Qu L., Zhou J., Sun Z., Zou H., Chen Y.Y., et al. High throughput identification of monoclonal antibodies to membrane bound and secreted proteins using yeast and phage display. PLoS One. 2014;9 doi: 10.1371/journal.pone.0111339. [DOI] [PMC free article] [PubMed] [Google Scholar]
+108.Bain B., Brazil M. Adalimumab. Nat Rev Drug Discov. 2003;2:693–694. doi: 10.1038/nrd1182. [DOI] [PubMed] [Google Scholar]
+109.Vaughan T.J., Williams A.J., Pritchard K., Osbourn J.K., Pope A.R., Earnshaw J.C., et al. Human antibodies with sub-nanomolar affinities isolated from a large non-immunized phage display library. Nat Biotechnol. 1996;14:309–314. doi: 10.1038/nbt0396-309. [DOI] [PubMed] [Google Scholar]
+110.Migone T.S., Subramanian G.M., Zhong J., Healey L.M., Corey A., Devalaraja M., et al. Raxibacumab for the treatment of inhalational anthrax. N Engl J Med. 2009;361:135–144. doi: 10.1056/NEJMoa0810603. [DOI] [PubMed] [Google Scholar]
+111.Steinbrook R. The price of sight—ranibizumab, bevacizumab, and the treatment of macular degeneration. N Engl J Med. 2006;355:1409–1412. doi: 10.1056/NEJMp068185. [DOI] [PubMed] [Google Scholar]
+112.Omidfar K., Daneshpour M. Advances in phage display technology for drug discovery. Expet Opin Drug Discov. 2015;10:651–669. doi: 10.1517/17460441.2015.1037738. [DOI] [PubMed] [Google Scholar]
+113.May R., Monk P., Cohen E., Manuel D., Dempsey F., Davis N., et al. Preclinical development of CAT-354, an IL-13 neutralizing antibody, for the treatment of severe uncontrolled asthma. Br J Dermatol. 2012;166:177–193. doi: 10.1111/j.1476-5381.2011.01659.x. [DOI] [PMC free article] [PubMed] [Google Scholar]
+114.Piper E., Brightling C., Niven R., Oh C., Faggioni R., Poon K., et al. A phase II placebo-controlled study of tralokinumab in moderate-to-severe asthma. Eur Respir J. 2013;41:330–338. doi: 10.1183/09031936.00223411. [DOI] [PMC free article] [PubMed] [Google Scholar]
+115.Belyanskaya S.L., Ding Y., Callahan J.F., Lazaar A.L., Israel D.I. Discovering drugs with DNA-encoded library technology: from concept to clinic with an inhibitor of soluble epoxide hydrolase. Chembiochem. 2017;18:837–842. doi: 10.1002/cbic.201700014. [DOI] [PubMed] [Google Scholar]
+116.Mashayekhi M., Wanjalla C.N., Warren C.M., Simmons J.D., Ghoshal K., Pilkinton M., et al. The soluble epoxide hydrolase inhibitor GSK2256294 decreases the proportion of adipose pro-inflammatory T cells. Prostag Other Lipid Mediat. 2022;158 doi: 10.1016/j.prostaglandins.2021.106604. [DOI] [PMC free article] [PubMed] [Google Scholar]
+117.Yang L., Cheriyan J., Gutterman D.D., Mayer R.J., Ament Z., Griffin J.L., et al. Mechanisms of vascular dysfunction in COPD and effects of a novel soluble epoxide hydrolase inhibitor in smokers. Chest. 2017;151:555–563. doi: 10.1016/j.chest.2016.10.058. [DOI] [PMC free article] [PubMed] [Google Scholar]
+118.Yang L., Cheriyan J., Lazaar A., Maki-Petaja K., Wilkinson I. The role of epoxyeicosatrienoic acids in regulating endothelial function and the effects of a novel soluble epoxide hydrolase inhibitor GSK2256294 in humans. J Am Coll Cardiol. 2016;67:2308. [Google Scholar]
+119.Luther J.M., Ray J., Wei D., Koethe J.R., Hannah L., DeMatteo A., et al. GSK2256294 decreases seh (soluble epoxide hydrolase) activity in plasma, muscle, and adipose and reduces f2-isoprostanes but does not alter insulin sensitivity in humans. Hypertension. 2021;78:1092–1102. doi: 10.1161/HYPERTENSIONAHA.121.17659. [DOI] [PMC free article] [PubMed] [Google Scholar]
+120.Shi K., Zhang J., Zhou E., Wang J., Wang Y. Small-molecule receptor-interacting protein 1 (RIP1) inhibitors as therapeutic agents for multifaceted diseases: current medicinal chemistry insights and emerging opportunities. J Med Chem. 2022;65:14971–14999. doi: 10.1021/acs.jmedchem.2c01518. [DOI] [PubMed] [Google Scholar]
+121.Weisel K., Scott N.E., Tompson D.J., Votta B.J., Madhavan S., Povey K., et al. Randomized clinical study of safety, pharmacokinetics, and pharmacodynamics of RIPK1 inhibitor GSK2982772 in healthy volunteers. Pharmacol Res Perspect. 2017;5 doi: 10.1002/prp2.365. [DOI] [PMC free article] [PubMed] [Google Scholar]
+122.Harris P.A., Berger S.B., Jeong J.U., Nagilla R., Bandyopadhyay D., Campobasso N., et al. Discovery of a first-in-class receptor interacting protein 1 (RIP1) kinase specific clinical candidate (GSK2982772) for the treatment of inflammatory diseases. J Med Chem. 2017;60:1247–1261. doi: 10.1021/acs.jmedchem.6b01751. [DOI] [PubMed] [Google Scholar]
+123.Harris P.A., Marinis J.M., Lich J.D., Berger S.B., Chirala A., Cox J.A., et al. Identification of a RIP1 kinase inhibitor clinical candidate (GSK3145095) for the Treatment of pancreatic cancer. ACS Med Chem Lett. 2019;10:857–862. doi: 10.1021/acsmedchemlett.9b00108. [DOI] [PMC free article] [PubMed] [Google Scholar]
+124.Cohen D.J., Pant S., O'Neil B., Marinis J., Winnberg J., Ahlers C.M., et al. A phase I/II study of GSK3145095 alone and in combination with anticancer agents including pembrolizumab in adults with selected solid tumors. J Clin Oncol. 2019;37:TPS4165. [Google Scholar]
+125.Nelson A.L., Dhimolea E., Reichert J.M. Development trends for human monoclonal antibody therapeutics. Nat Rev Drug Discov. 2010;9:767–774. doi: 10.1038/nrd3229. [DOI] [PubMed] [Google Scholar]
+126.Weinblatt M.E., Keystone E.C., Furst D.E., Moreland L.W., Weisman M.H., Birbara C.A., et al. Adalimumab, a fully human anti–tumor necrosis factor α monoclonal antibody, for the treatment of rheumatoid arthritis in patients taking concomitant methotrexate: the ARMADA trial. Arthritis Rheum. 2003;48:35–45. doi: 10.1002/art.10697. [DOI] [PubMed] [Google Scholar]
+127.Menter A., Tyring S.K., Gordon K., Kimball A.B., Leonardi C.L., Langley R.G., et al. Adalimumab therapy for moderate to severe psoriasis: a randomized, controlled phase III trial. J Am Acad Dermatol. 2008;58:106–115. doi: 10.1016/j.jaad.2007.09.010. [DOI] [PubMed] [Google Scholar]
+128.Van Der Zee H.H., Laman J.D., De Ruiter L., Dik W.A., Prens E.P. Adalimumab (antitumour necrosis factor-α) treatment of hidradenitis suppurativa ameliorates skin inflammation: an in situ and ex vivo study: adalimumab ameliorates inflammation in HS. Br J Dermatol. 2012;166:298–305. doi: 10.1111/j.1365-2133.2011.10698.x. [DOI] [PubMed] [Google Scholar]
+129.Burmester G.R., Panaccione R., Gordon K.B., McIlraith M.J., Lacerda A.P.M. Adalimumab: long-term safety in 23,458 patients from global clinical trials in rheumatoid arthritis, juvenile idiopathic arthritis, ankylosing spondylitis, psoriatic arthritis, psoriasis and Crohn's disease. Ann Rheum Dis. 2013;72:517–524. doi: 10.1136/annrheumdis-2011-201244. [DOI] [PMC free article] [PubMed] [Google Scholar]
+130.Weisel K., Scott N., Berger S., Wang S., Brown K., Powell M., et al. A randomised, placebo-controlled study of RIPK1 inhibitor GSK2982772 in patients with active ulcerative colitis. BMJ Open Gastroenterol. 2021;8 doi: 10.1136/bmjgast-2021-000680. [DOI] [PMC free article] [PubMed] [Google Scholar]
+131.MarketDigits Global DNA encoded library market research report 2023. MarketDigits. 2024 https://www.marketdigits.com/dna-encoded-library-market-1705393450 Available from: [Google Scholar]
+132.Li G., Boyle J.W., Ko C.N., Zeng W., Wong V.K.W., Wan J.B., et al. Aurone derivatives as Vps34 inhibitors that modulate autophagy. Acta Pharm Sin B. 2019;9:537–544. doi: 10.1016/j.apsb.2019.01.016. [DOI] [PMC free article] [PubMed] [Google Scholar]
+133.Dockerill M., Winssinger N. DNA-encoded libraries: towards harnessing their full power with darwinian evolution. Angew Chem Int Ed. 2023;62 doi: 10.1002/anie.202215542. [DOI] [PubMed] [Google Scholar]
+134.Quartararo A.J., Gates Z.P., Somsen B.A., Hartrampf N., Ye X., Shimada A., et al. Ultra-large chemical libraries for the discovery of high-affinity peptide binders. Nat Commun. 2020;11:3183. doi: 10.1038/s41467-020-16920-3. [DOI] [PMC free article] [PubMed] [Google Scholar]
+135.Goto Y., Suga H. The RaPID platform for the discovery of pseudo-natural macrocyclic peptides. Acc Chem Res. 2021;54:3604–3617. doi: 10.1021/acs.accounts.1c00391. [DOI] [PubMed] [Google Scholar]
+136.Passioura T., Suga H. A RaPID way to discover nonstandard macrocyclic peptide modulators of drug targets. Chem Commun. 2017;53:1931–1940. doi: 10.1039/c6cc06951g. [DOI] [PubMed] [Google Scholar]
+137.Cai B., Kim D., Akhand S., Sun Y., Cassell R.J., Alpsoy A., et al. Selection of DNA-encoded libraries to protein targets within and on living cells. J Am Chem Soc. 2019;141:17057–17061. doi: 10.1021/jacs.9b08085. [DOI] [PMC free article] [PubMed] [Google Scholar]
+138.Chen W., Song C., Leng L., Zhang S., Chen S. The application of artificial intelligence accelerates g protein-coupled receptor ligand discovery. Engineering. 2024;32:18–28. [Google Scholar]
+139.Sun W., Xu Z., Song C., Chen S. Herbgenomics: decipher molecular genetics of medicinal plants. Innovation. 2022;3 doi: 10.1016/j.xinn.2022.100322. [DOI] [PMC free article] [PubMed] [Google Scholar]
+140.Chen W., Liu X., Zhang S., Chen S. Artificial intelligence for drug discovery: resources, methods, and applications. Mol Ther Nucleic Acids. 2023;31:691–702. doi: 10.1016/j.omtn.2023.02.019. [DOI] [PMC free article] [PubMed] [Google Scholar]
+141.Montoya A.L., Glavatskikh M., Halverson B.J., Yuen L.H., Schüler H., Kireev D., et al. Combining pharmacophore models derived from DNA-encoded chemical libraries with structure-based exploration to predict Tankyrase 1 inhibitors. Eur J Med Chem. 2023;246 doi: 10.1016/j.ejmech.2022.114980. [DOI] [PMC free article] [PubMed] [Google Scholar]
+142.Cochrane W.G., Malone M.L., Dang V.Q., Cavett V., Satz A.L., Paegel B.M. Activity-based DNA-encoded library screening. ACS Comb Sci. 2019;21:425–435. doi: 10.1021/acscombsci.9b00037. [DOI] [PMC free article] [PubMed] [Google Scholar]
+143.Yu X., Orr C.M., Chan H.T.C., James S., Penfold C.A., Kim J., et al. Reducing affinity as a strategy to boost immunomodulatory antibody agonism. Nature. 2023;614:539–547. doi: 10.1038/s41586-022-05673-2. [DOI] [PubMed] [Google Scholar]
+144.Mao R., Kong W., He Y. The affinity of antigen-binding domain on the antitumor efficacy of CAR T cells: moderate is better. Front Immunol. 2022;13 doi: 10.3389/fimmu.2022.1032403. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Multimedia component 1
+mmc1.pdf (1.5MB, pdf) 
+Articles from Acta Pharmaceutica Sinica. B are provided here courtesy of Elsevier
+ACTIONS
+ View on publisher site
+ PDF (5.0 MB)
+ Cite
+ Collections
+ Permalink
+PERMALINK
+ Copy
+RESOURCES
+ Similar articles
+ Cited by other articles
+ Links to NCBI Databases
+Cite
+ Copy
+ Download .nbib
+ .nbib
+ Format:
+ AMA
+ APA
+ MLA
+ NLM
+Add to Collections
+ Create a new collection
+ Add to an existing collection
+ Name your collection
+ *
+ Choose a collection
+ Unable to load your collection due to an error
+ Please try again
+ Add
+ Cancel
+ Follow NCBI
+ NCBI on X (formerly known as Twitter)
+ NCBI on Facebook
+ NCBI on LinkedIn
+ NCBI on GitHub
+ NCBI RSS feed
+ Connect with NLM
+ NLM on X (formerly known as Twitter)
+ NLM on Facebook
+ NLM on YouTube
+ National Library of Medicine
+ 8600 Rockville Pike Bethesda, MD 20894
+ Web Policies
+ FOIA
+ HHS Vulnerability Disclosure
+ Help
+ Accessibility
+ Careers
+ NLM
+ NIH
+ HHS
+ USA.gov
+ Back to Top

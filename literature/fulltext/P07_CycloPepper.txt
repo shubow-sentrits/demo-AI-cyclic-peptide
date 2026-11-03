@@ -1,0 +1,1382 @@
+[PAGE 1]
+Article https://doi.org/10.1038/s41467-026-69441-w
+CycloPepper: a machine learning platform
+for predicting cyclization outcomes and
+optimizing synthesis of therapeutic
+cyclopeptides
+Yourong Pan1,2,5, Chengrui Hu1,2,5,J i a q iL i3,F e n gW a n1,2,X i nH o n g 3,4 &
+Chengxi Li 1,2
+Cyclic peptides exhibit remarkable stability, membrane permeability, and
+binding afﬁnity, positioning them as promising therapeutics. However, their
+synthesis, particularly on-resin head-to-tail cyclization, remains challenging,
+with cyclization site selection critically inﬂuencing yield. Here, we introduce a
+machine learning (ML) approach to predict cyclization outcomes, leveraging
+CycloBot, our fully automated cyclic peptide synthesis platform. Using this
+system, we generate a standardized dataset of 306 cyclic peptides (2–14
+residues) and develop an ML model achieving an average prediction accuracy
+of 84%. Experimental validation with 74 random and therapeutic peptides
+showed an 86% prediction consistency. To facilitate practical use, we built
+CycloPepper, a user-friendly platformavailable through both web and soft-
+ware interfaces, enabling rapid cyclization site assessment. This tool effec-
+tively identiﬁed potential cyclization sites for disease-targeting peptides,
+including cancer biomarkers. Our work illustrates the potential of ML-assisted
+synthesis to streamline cyclic peptidesynthesis and accelerate therapeutic
+discovery.
+Cyclic peptides represent a structurally diverse class of biomolecules,
+exhibiting a broad spectrum of shapes, sizes, and chemical
+functionalities
+1. Their natural abundance underscores their evolu-
+tionary signiﬁcance, with many displaying potent biological activities
+ranging from hormonal signaling (e.g., oxytocin and vasopressin) to
+antimicrobial defense (e.g., vancomycin and its clinically approved
+derivatives telavancin, dalbavancin, and oritavancin)
+2–5. The con-
+strained architecture of cyclic peptides often confers superior phar-
+macological properties compared to their linear counterparts,
+including enhanced binding af ﬁnity and speci ﬁcity
+6, improved
+proteolytic stability7, and increased membrane permeability2 (Fig. 1a).
+Additionally, cyclization can reﬁne selectivity and potency, unlocking
+peptide-based therapeutic potential while enabling differentiated
+pharmacological proﬁles
+8.
+Among the various cyclization strategies, head-to-tail cyclization
+is particularly advantageous for drug development9.U n l i k ea l t e r n a t i v e
+approaches (e.g., side chain-to-side chain, head-to-side chain, or side
+chain-to-tail cyclization)
+10–12, head-to-tail closure eliminates freeN-a n d
+C-termini, thereby enhancing metabolic stability 2. Furthermore, this
+method preserves native amide bonds without requiring transition
+Received: 2 May 2025
+Accepted: 29 January 2026
+Check for updates
+1Key Laboratory of Biomass Chemical Engineering of Ministry of Education, College of Chemical and Biological Engineering, Zhejiang University,
+Hangzhou, PR China. 2Zhejiang Key Laboratory of Intelligent Manufacturing for Functional Chemicals, ZJU-Hangzhou Global Scientiﬁc and Technological
+Innovation Center, Zhejiang University, Hangzhou, PR China.3Center of Chemistry for Frontier Technologies, Department of Chemistry, Zhejiang University,
+Hangzhou, PR China. 4School of Chemistry and Chemical Engineering, Henan Normal University, Xinxiang, PR China.5These authors contributed equally:
+Yourong Pan, Chengrui Hu. e-mail: hxchem@zju.edu.cn; cxli@zju.edu.cn
+Nature Communications|         (2026) 17:2803 1
+1234567890():,;
+1234567890():,;
+[PAGE 2]
+metal catalysts or special amino acids, ensuring broad compatibility
+with diverse peptide sequences. The simplicity of this approach also
+facilitates computational design and optimization
+13, enabling the
+development of cyclic peptides tailored to speci ﬁc biological tar-
+gets (Fig. 1b).
+Despite these advantages, head-to-tail cyclization remains syn-
+thetically challenging. The entropic penalty associated with pre-
+cyclization conformational organization often hinders intramolecular
+ring closure, particularly for shorter peptides (<7 residues)
+9.C o m p e t -
+ing intermolecular reactions, such as dimerization or oligomerization,
+further complicate the process
+9. Additionally, the inherent preference
+of amide bonds for trans-con ﬁgurations promotes extended linear
+conformations, exacerbating cyclization inef ﬁciencies9. Solid-phase
+peptide synthesis (SPPS) mitigates some puri ﬁcation challenges but
+introduces steric constraints due to resin tethering, rendering cycli-
+zation highly sequence-dependent. For instance, bulky residues near
+the cyclization site can impede productive ring closure, necessitating
+careful retrosynthetic disconnection planning (Fig.1c).
+Advances in machine learning (ML) have revolutionized the
+identiﬁcation of complex structure-activity relationships, offering
+insights beyond traditional empirical approaches. In synthetic chem-
+istry, ML-integrated automation has accelerated drug discovery by
+optimizing reaction pathways and predicting molecular properties
+14,15.
+Within peptide science, ML has been applied to forecast self-
+assembly
+16, membrane permeability 17, bioactivity (e.g.,
+antimicrobial18,19, anticancer 20,21, and cell-penetrating peptides 20),
+structure prediction and design22–24. However, its utility in cyclic pep-
+tide synthesis, particularly on-resin head-to-tail cyclization, remains
+underexplored. A major limitation is data heterogeneity25:l i t e r a t u r e -
+reported cyclization yields often derive from disparate methods,
+conditions, and analytical standards, complicating reproducibility and
+model training
+26. Automated synthesis platforms address this by
+a)
+c)
+Therapeutic advantages of cyclic peptides
+cyclo-GGLPPPIF
+retrosynthesis
+cyclization sites analysis
+d)
+Impact of cyclization sites on peptide cyclization
+ML-guided cyclization site selection for head-to-tail cyclic peptide synthesis
+8 Cyclization Sites
+IFGGLPPP
+PPIFGGLP
+GGLPPPIFPPPIFGGL
+GLPPPIFG
+PIFGGLPP
+FGGLPPPI
+LPPPIFGG
+How to pick synthetically
+accessible sequence ?
+NH2
+O
+HO
+N
+HO
+target
+N
+H
+O
+O
+higher affinity
+to target
+higher resistance
+to proteases
+protease
+N
+HO
+improved membrane
+permeability
+N
+HO
+vs
+stable structure
+head-to-tail
+R C
+NH2 2
+21
+O R N
+COOH
+H
+R R
+NHCOOH
+head-to-side chain
+side chain-to-side chainVS
+computer-aided design (CAD)
+simple synthesis
+b) Advantages of head-to-tail cyclic peptides in CAD
+N
+HO
+target
+binding to
+target
+Cyclization Strategy
+of sites
+NHOOC
+R
+n
+side chain-to-tail
+N
+NN
+N
+N
+N N
+N
+O
+O
+O
+O
+O
+O
+O
+O
+H
+Heterophyllin B
+N
+NN
+N
+N
+N N
+N
+O
+O
+O
+O
+O
+O
+O
+O
+H
+Automated synthesis
+& Dataset building Machine learning
+Prediction & 
+Experimental validation
+• standardized process
+ within minutes for each peptide
+Convenient cyclization design
+ 84% cross validation accuracy  86% experimental
+  validation accuracy  user-friendly      real-time result
+Software
+&
+Web Web
+CycloPepper
+peptide
+sequences
+Input Output
+306
+datapoints
+N
+H
+C
+O
+Fig. 1 | Background and cyclization site selection. a Therapeutic advantages of
+cyclic peptides over linear peptides.b The characteristics of head-to-tail cyclization
+make it convenient for CAD and prediction. c Critical inﬂuence of cyclization site
+selection on successful cyclization.d Integrated workﬂow combining automated
+synthesis for dataset generation, machine learning for pattern recognition and site
+prediction, experimental validation, and user-friendly platform development to
+guide cyclic peptide synthesis.
+Article https://doi.org/10.1038/s41467-026-69441-w
+Nature Communications|         (2026) 17:2803 2
+[PAGE 3]
+generating standardized, high- ﬁdelity datasets27,a se x e m p l iﬁed by
+Pentelute’ s high-throughputﬂow synthesis of small proteins28,29.
+Here, we bridge this gap by combining automatedﬂow synthesis
+with ML-driven predictive modeling. Leveraging a diaminonicotinic
+acid (DAN) linker system that enables rapid, cleavage-free on-resin
+cyclization, we construct a dataset of 306 cyclic peptides (2 –14 resi-
+dues) using the CycloBot automated platform and AutoXpert control
+software
+30. Twelve ML algorithms are evaluated, yielding an optimized
+model with 84% accuracy in predicting cyclization feasibility. Experi-
+mental validation conﬁrms an 86% success rate, demonstrating good
+generalization within the scope of the available dataset. To democra-
+tize access, we develop CycloPepper, an open-source platform fea-
+turing standalone software and a web interface for real-time
+cyclization prediction. This tool streamlines cyclic peptide design for
+therapeutic targets, as validated by its performance on the synthesis of
+disease-relevant peptides. By unifying automated synthesis, ML pre-
+diction, and a user-friendly interface, this platform reduces empirical
+optimization burdens and accelerates the development of functional
+cyclic peptides (Fig. 1d).
+Results
+Dataset building
+To establish a reliable dataset for cyclic peptide synthesis, we
+employed an on-resin head-to-tail cyclization strategy using DAN
+resin
+30 (Fig. 2a). Linear peptides were ﬁrst synthesized via standard
+solid-phase peptide synthesis (SPPS) on DAN resin. Subsequent treat-
+ment with isoamyl nitrite facilitated the conversion of the DAN linker
+into reactive triazolopyridine intermediates, which, upon addition of
+N, N-diisopropylethylamine (DIEA) as a base, underwent ef ﬁcient
+intramolecular cyclization to afford the desired cyclic peptides. To
+ensure rapid and reproducible dataset generation, we leveraged an
+automated ﬂow synthesis platform, CycloBot
+30, which enabled high-
+temperature on-resin cyclization in a controlled and scalable manner.
+The system was equipped with precision switching valves, pumps, a
+temperature-regulated reactor, an in-line UV detector, and dedicated
+reagent reservoirs (see Supplementary Information Section 2.1 for
+more details). Reaction mixtures were collected directly from the
+system and analyzed by liquid chromatography-mass spectrometry
+(LC-MS). Successful cyclization was determined by the presence of the
+target molecular weight, with samples assigned a binary classiﬁcation
+(“1” for successful cyclization, “0” for unsuccessful cyclization)
+(Fig. 2b). This fully automated approach not only optimized labor
+efﬁciency but also ensured high data consistency, enabling the rapid
+assembly of a high-quality dataset for downstream machine learning
+applications.
+Given our focus on predicting cyclization feasibility, we estab-
+lished a training dataset of 306 linear peptide sequences (2 –14 resi-
+dues), each corresponding to a single experimentally validated
+cyclization outcome. Crucially, each entry represents only the speci-
+ﬁed linear precursor. For example, “FPGM” exclusively denotes cycli-
+zation of linear FPGM to cyclo-FPGM, excluding permutation variants
+such as PGMF. The dataset comprises 174 cyclization-viable sequences
+(labeled “1”) and 132 non-viable sequences (labeled “0”), ensuring
+balanced representation without outcome bias. Notably, shorter
+cyclic peptides (2- and 3-residue) exhibited distinct cyclization beha-
+viors due to their constrained backbones, prompting us to prioritize
+these subsets for deeper analysis. The ﬁnal strati ﬁed dataset com-
+prised 45 two-residue, 53 three-residue, 120 four-to-six-residue,
+69 seven-to-nine-residue, and 19 ten-residue and longer cyclic
+peptides. This strati ﬁed distribution facilitated more balanced
+model training and provided preliminary evidence of the model ’ s
+generalization capability.
+DAN resin
+3min/AA
+on-resin
+linear peptide
+in situ cyclization
+cyclic
+peptide 1 0
+DAN resin
+a)  Synthetic route of cyclic peptide synthesis based on DAN resin
+b)  Fully automated process of dataset construction
+no target m/z
+peak was found
+target m/z peak
+was found 
+LC-MS
+cleavage-free
+within minutes for each cyclic peptide
+KT  1
+PGTF  0
+EGMPN  0
+HDADGGTD  1
+306 data
+……
+Dataset
+standardized
+and rapid
+AA monomers
+& DMF
+piperidine &
+HATU & DMF
+DIEA & isoamyl
+nitrite & DMF
+switching
+valves pumps reactor
+UV detector
+else:
+      couple (amino, 0.8, middle)
+      DMF_through wash (10, slow)
+      depro (4, fast)
+      DMF_through wash (4, fast)
+      
+AutoXpert
+N
+N
+H
+O
+NH2
+NH2 N
+N
+H
+O
+H
+NNH2
+O
+NH2
+N
+N
+H
+O
+NH2
+N
+N
+N
+O
+N
+HO
+automated
+SPPS synthesis
+isoamyl nitrite
+cyclizationactivation
+dataset
+construction
+CycloBot
+Fig. 2 | Cyclic peptide dataset construction. aSynthetic route of on-resin head-to-
+tail cyclization utilizing DAN resin.b Overview of the fully automated dataset
+construction process. The automated synthesis is carried out by the AutoXpert
+control software and CycloBot automated synthesis system. Cyclic peptide pro-
+ducts were detected by LC-MS.
+Article https://doi.org/10.1038/s41467-026-69441-w
+Nature Communications|         (2026) 17:2803 3
+[PAGE 4]
+Peptide sequences encoding and feature engineering
+To enable reliable analysis of complex biological and chemical data
+and achieve high predictive accuracy, we established a systematic
+methodology for peptide sequence encoding and feature extraction.
+Our approach leveraged sequence-based encodings to capture
+essential structural and functional attributes of cyclic peptides (Fig.3).
+One-hot encoded sequences: Each peptide sequence, derived
+from cyclic peptides by cleavage at cyclization sites, was encoded as a
+ﬁxed-length numerical vector to facilitate machine learning analysis.
+We employed one-hot encoding to represent each amino acid in the
+peptide sequence as a 20-dimensional binary vector, where each
+position corresponds to one of the 20 canonical amino acids. For
+instance, alanine (A) is encoded as [1, 0, 0, … , 0], with the “1” in the
+position corresponding to alanine. Given a maximum sequence length
+of 14 residues, each sequence was represented as a concatenation of
+fourteen 20-dimensional vectors. Sequences shorter than 14 residues
+were padded with zero vectors to maintain uniform dimensionality,
+resulting in a ﬁnal 280-dimensional feature vector per sequence.
+Amino acid composition (AAC) measures the normalized fre-
+quency of the 20 standard amino acids in a peptide sequence, pro-
+ducing 20-dimensional feature vectors. It is computed as:
+faðÞ =
+NðaÞ
+L , a 2f A, C, D, ... ,Y g ð1Þ
+Here, faðÞ represents the frequency of amino acid a, NðaÞ is the
+count of amino acida in the peptide sequence, andL is the total length
+of the sequence.
+Dipeptide composition (DPC) generates a 400-dimensional fea-
+ture vector, calculated as:
+Dr , sðÞ = Nrs
+L /C0 1 , r, s 2f A, C, D, ... ,Y g ð2Þ
+In this case, Nrs refers to the number of dipeptides composed of
+amino acids r and s.
+Domain-speciﬁc hand-crafted features: In addition to sequence-
+based encodings, we designed a set of 16-dimensional hand-crafted
+features derived from empirical observations of peptide cyclization
+efﬁciency. These features were formulated through systematic
+analysis of synthetic outcomes, incorporating domain knowledge to
+enhance predictive performance. For example, inductive reasoning
+from experimental data revealed that sequences terminating in
+proline (P) or cysteine (C) exhibit reduced cyclization propensity,
+likely due to steric constraints or unfavorable conformational
+dynamics. Conversely, glycine (G) at the N-terminus was found
+to promote cyclization, presumably owing to its minimal steric hin-
+drance and conformational ﬂexibility. To encode these trends,
+binary indicators (1/0) were assigned to sequences exhibiting these
+features, thereby integrating empirical synthetic knowledge into the
+feature space.
+Collectively, this multi-faceted feature engineering strategy,
+combining one-hot encoding, AAC/DPC descriptors, and hand-
+crafted experimental insights, provided a solid foundation for pre-
+dictive modeling of cyclic peptide behavior. The resulting 716-
+dimensional feature vectors (280 from one-hot encoding, 20 from
+0.55
+0.6
+0.65
+0.7
+0.75
+0.8
+0.85
+0.9
+0.95Accuracy
+Model trainingModel training
+AAC
+20 Dimensions
+DPC
+400 Dimensions
+One-hot encoded
+sequences
+280 Dimensions
+Domain-specific
+hand-crafted features
+16 Dimensions
+Input featuresInput features
+DatasetDataset
+306 data points306 data points
+1
+Success
+Output responseOutput response
+0
+Fail
+One-hot encoded
+sequences
+Amino Acid A C D E F G H I K L
+n u m b e r 123456789 1 0
+Amino Acid M N P Q R S T V W Y
+number 11 12 13 14 15 16 17 18 19 20
+e.g. AAWG
+280 Dimensions
+1 …0 00 11 10 00 00… ……
+14×0+1 14×1+1 14×2+19 14×3+6Dimension 
+AAC
+20 Dimensions
+0.5 …0 0 0.25 0 00…
+1 61 9
+0.25
+AA W G A G W
+DPC
+400 Dimensions
+AA  AC  AD  AE  AF  AG           YV  YW  YY…
+0.33 … 0 0 0 0…
+20×0+1 20×0+19 20×18+6
+0…0.33 0.330
+AA AW WG
+Based on
+laboratory
+experience
+Dimension 
+Domain-specific
+hand-crafted features
+16 Dimensions
+Model performanceModel performance
+0.84 ± 0.06
+Fig. 3 | Overview of machine learning models. Input features include one-hot
+encoded sequences, AAC, DPC, and domain-speciﬁc hand-crafted features. The
+principles of each encoding are illustrated in theﬁgure. Model selection is based on
+the average accuracy values. Gray dots represent individual accuracy data points
+from cross-validation folds, and bar heights indicate the mean accuracy. Error bars
+represent standard deviation (n = 5 folds), and data are presented as mean
+values ± SD. The GaussianNB model shows the lowest mean accuracy (0.74),
+whereas the SVC model shows the highest mean accuracy (0.84), with its bar
+highlighted in yellow. For additional model performance details, see Supplemen-
+tary Table 4.
+Article https://doi.org/10.1038/s41467-026-69441-w
+Nature Communications|         (2026) 17:2803 4
+[PAGE 5]
+AAC, 400 from DPC, and 16 from hand-crafted features) ensured a
+comprehensive representation of sequence information, laying the
+foundation for accurate and interpretable machine learning
+predictions.
+ML model selection and performance evaluation
+Before constructing the machine learning model, we ﬁrst con-
+catenated the derived feature vector, followed by the removal of all
+zero dimensions. The processed dataset was then employed as input
+0%
+20%
+40%
+60%
+80%
+100%
+a) b) c) d) e) f) g) h) i) j) k) l) Overall
+100% 100% 100%
+86%
+71%
+100% 100%
+71%
+80%
+86% 80% 75%
+86%
+Accuracy
+NH
+N
+HN
+N
+HN
+N
+H
+NH
+NH
+O
+O
+O
+O
+O
+O
+O
+O
+OH
+H
+HO H Pro
+Pro Phe
+Phe
+Thr
+Thr
+Leu
+Gly
+1 / 1
+N
+H
+N
+HN
+NH
+NH
+O
+O
+OO
+O
+HO
+Gly
+Leu
+Pro
+Ala
+Tyr
+NH
+N
+NHNH
+HN
+HN
+H
+N
+O
+O
+O
+O
+O
+O
+O
+OH
+Gly
+Gly
+Tyr
+Pro
+Leu
+Leu
+Ile
+N
+NH
+NH
+HN
+HN
+HN
+O
+O
+O
+O
+O
+O
+O
+OH
+HO
+HS
+Ala
+Pro
+Tyr
+Cys
+Gly
+Ser Ile
+NH
+a) b)
+k)j)i) l)Cyclo-GGYPLIL
+Cyclo-YLHIEGV
+Cyclo-LAGPY Cyclo-GTPTPLFFCyclo-GPVYA
+Cyclo-APYCGSI
+accuracy: 4 / 5
+Cyclic peptides in Pseudostellariae radix
+Randomly generated sequences
+accuracy: 6 / 7 accuracy: 6 / 8
+accuracy: 7 / 7 accuracy: 7 / 7
+accuracy: 4 / 5
+Gly
+Pro
+Val
+Tyr
+Ala
+N
+N
+N
+NH
+N
+O
+O
+O
+O
+O
+OH
+N
+N
+NN
+N
+N
+N
+O
+O
+O
+O
+O
+O
+O
+HO
+O
+H
+N
+H
+NHO
+H
+H
+HH
+H
+H
+H
+Gly
+Val
+Tyr
+Leu
+Ile
+His
+Glu
+NH
+HN
+H
+N
+O
+O
+O
+NH2
+c) Cyclo-KCL
+HS
+Cys Lys
+Leu
+accuracy: 3 / 3
+H
+H H
+Cyclo-MMVMPY
+NH
+H
+N
+HN
+HN
+N
+H
+N
+O
+O
+O
+O
+O
+O
+OH
+S
+S
+S
+Pro
+Tyr
+Met
+Met
+Met
+Val
+Cyclo-WMLWEPF
+NH
+NH
+NHN
+H
+HN
+HN
+H
+N
+O
+O
+O
+O
+O
+O
+O
+HO
+O
+N
+NH
+NH2
+O
+HO
+HO
+O
+H2N
+O
+H2N
+Tyr
+Gln
+GlnGlu
+Glu
+His
+Lys
+Cyclo-QEYQHEK
+NH
+NH
+NHN
+H
+HN
+HN
+H
+N
+O
+O
+O
+OO
+O
+O
+H2N
+OH
+NH2O
+O
+OH
+O
+N
+H
+H2N
+HN
+HO Gln
+Gln
+Ser
+Val
+Ser
+Arg
+Glu
+Cyclo-QSVQERS
+HN
+HN
+H
+N
+NH
+N
+O
+O
+O
+O
+O
+NH
+NHN
+S
+N
+NH
+His
+His
+Pro
+Met
+Trp
+Cyclo-HMHPW
+NH
+NH
+NHN
+H
+HN
+N
+H
+N
+O
+O
+O
+O
+O
+O
+O NH
+S
+HN
+HO
+O
+Met
+Trp
+Trp
+LeuPro
+Glu
+Phe
+d)
+accuracy: 6 / 7
+accuracy: 5 / 7 accuracy: 5 / 5 accuracy: 6 / 6 accuracy: 5 / 7
+e) f) g) h)
+m)  Accuracy of each sequence
+1 / 0
+1 / 1
+1 / 1
+1 / 1
+0 / 1
+0 / 0
+0 / 0
+1 / 1
+1 / 1
+1 / 1
+0 / 1
+0 / 0
+0 / 0
+0 / 0
+0 / 0
+0 / 0
+1 / 0
+0 / 0
+0 / 1
+1 / 1
+1 / 1
+1 / 11 / 1
+0 / 0
+0 / 0
+0 / 0
+0 / 0
+0 / 0
+0 / 1
+0 / 0
+0 / 0
+0 / 0
+1 / 1
+1 / 1
+1 / 1
+0 / 0
+0 / 0
+0 / 0
+0 / 0
+0 / 1
+0 / 1
+1 / 1
+0 / 1
+1 / 1
+1 / 1
+1 / 1
+1 / 1
+1 / 1
+0 / 0
+1 / 1
+1 / 1
+0 / 0 0 / 0
+0 / 0
+0 / 0
+0 / 1
+0 / 0
+0 / 0
+1 / 1
+1 / 1
+1 / 1
+1 / 1
+1 / 1
+1 / 1
+1 / 1
+1 / 1 1 / 1
+0 / 0
+0 / 0
+0 / 0
+1 / 0
+0 / 0
+0 / 0
+0 / 0
+P: Predicted  E: Experimental 0 / 1 P/E
+Fig. 4 | Agreement between predicted cyclization outcomes and experimental
+validation.Cyclization sites are indicated by colored amide bonds, and results are
+displayed within colored boxes as P/E, where P denotes the predicted cyclization
+outcome (1 = feasible, 0 = infeasible) and E denotes the experimental result (1 =
+successful, 0 = not observed). Boxes outlined with a gray dashed border indicate
+discrepancies between prediction and experiment, whereas boxes without a
+dashed border indicate agreement between the two. Panelsa–h show randomly
+generated cyclic peptides. Panelsi–l show cyclic peptides derived from Pseudos-
+tellariae radix exhibiting tyrosinase inhibitory activity. Panelm summarizes the
+accuracy of individual cyclic peptides and the overall prediction accuracy, with the
+latter highlighted by a yellow bar.
+Article https://doi.org/10.1038/s41467-026-69441-w
+Nature Communications|         (2026) 17:2803 5
+[PAGE 6]
+for model training and evaluation. In our systematic search for the
+optimal predictive algorithm, we assessed the performance of twelve
+distinct machine learning models, encompassing both individual
+classiﬁers and ensemble methods Fig. 3.T h ee v a l u a t e da l g o r i t h m s
+included Gaussian Naive Bayes (GaussianNB), k-Nearest Neighbors
+(KNN), Gradient Boosting Classi ﬁer (GB), Random Forest Classi ﬁer
+(RF), Support Vector Classi ﬁer (SVC), Logistic Regression (LR),
+Extreme Gradient Boosting (XGB), Adaptive Boosting Classiﬁer (Ada-
+Boost), and four ensemble conﬁgurations: (i) a voting classiﬁer com-
+bining GaussianNB, RF, SVC, and XGB (Voting1), (ii) a voting classiﬁer
+integrating RF and SVC (Voting2), (iii) a voting classiﬁer incorporating
+GaussianNB, RF, and SVC (Voting3), and (iv) a stacked classi ﬁer com-
+posed of GaussianNB, RF, and SVC (Stacking).
+Model performance was evaluated usingﬁve-fold cross-validation
+to ensure statistical reliability. The results indicated that the differ-
+ences among the learning algorithms were not statistically signiﬁcant,
+as all performances fell within one standard deviation. The GaussianNB
+classiﬁer displayed the lowest performance (0.74 ± 0.05). Several
+models, including RF (0.79 ± 0.06), LR (0.81 ± 0.07), and XGB
+(0.76 ± 0.06), achieved moderate accuracies within the 0.70-0.80
+range. Slightly higher accuracies were obtained for GB (0.82 ± 0.04),
+AdaBoost (0.82 ± 0.05), and the stacking (0.82 ± 0.06). Notably, KNN
+(0.83 ± 0.06) and SVC (0.84 ± 0.06) delivered the highest mean
+accuracies. Given the close performance and comparable variance, the
+SVC model with the highest mean accuracy was selected for sub-
+sequent experimental validation and predictive applications.
+Experimental validation of ML model
+To assess the predictive performance of our ML model, we
+implemented a validation protocol wherein each candidate cyclic
+peptide sequence was systematically evaluated across all poten-
+tial cyclization sites. For the 8 randomly generated sequences
+(Fig. 4a– h): ﬁve 7-residue sequences, cyclo-APYCGSI, cyclo-
+YLHIEGV, cyclo-QSVQERS, cyclo-QEYQHEK, cyclo-WMLWEPF, a
+6-residue sequence, cyclo-MMVMPY, a 5-residue sequence, cyclo-
+HMHPW, and a 3-residue sequence, cyclo-KCL, we synthesized
+every linear precursor by changing cyclization sites. Speci ﬁcally,
+cyclo-KCL yielded three linear precursors (KCL, CLK, LKC), while
+each 7-residue peptide generated seven precursors. Following
+automated solid-phase synthesis using DAN resin under standard
+conditions, reaction outcomes were veri ﬁed via LC-MS detection
+of the desired cyclic products. The experimental results demon-
+strated overall agreement with the model ’ s predictions, with
+cyclization accuracies of 71% for both cyclo-QEYQHEK and cyclo-
+WMLWEPF, 86% for cyclo-QSVQER S, and 100% for cyclo-APYCGSI,
+cyclo-YLHIEGV, cyclo-KCL, cyclo-HMHPW, and cyclo-MMVMPY.
+These ﬁndings underscore the model ’ s reliability in identifying
+viable cyclization sites within the evaluated dataset.
+To further validate the model’ s practical utility, we extended our
+investigation to four biologically active cyclic peptides derived from
+Pseudostellariae radix
+31,i n c l u d i n gHeterophyllin J (5-residue),Pseudos-
+tellarins D (7-residue), Pseudostellarins A (5-residue), and Pseudos-
+tellarins H (8-residue) (Fig. 4i–l). Comparative analysis between the
+predicted and experimentally observed cyclization ef ﬁciencies
+revealed a substantial degree of consistency, with prediction accura-
+cies of 80% for Heterophyllin J,8 6 %f o r Pseudostellarins D,8 0 %f o r
+Pseudostellarins A,a n d7 5 %f o rPseudostellarins H.
+I nt h ee n t i r ee x p e r i m e n t a lv a l i d a t i o ns e t ,3 9s e q u e n c e sw e r e
+cyclizable, while 35 were non-cyclizable, providing a nearly balanced
+dataset for evaluating model performance. After conducting
+74 synthesis experiments across seven distinct cyclic peptide
+sequences, 64 predictions were consistent with experimental results.
+The aggregate predictive accuracy of the model reached 86% (Fig.4m),
+supporting its reliability in guiding the selection of suitable cyclization
+sites for peptide synthesis within the evaluated dataset. This success
+rate suggests the model could serve as a useful tool for synthetic
+chemists, assisting in the design and optimization of cyclic peptides
+while minimizing experimental trial and error.
+Alemtuzumab
+CD52
+CD41
+Abciximab
+TNF
+Adalimumab
+RASQGIRNYLA
+ASQGIRNYLAR
+SQGIRNYLARA
+QGIRNYLARAS
+GIRNYLARASQ
+IRNYLARASQG
+RNYLARASQGI
+NYLARASQGIR
+YLARASQGIRN
+LARASQGIRNY
+ARASQGIRNYL
+PDL1
+Avelumab
+HER2
+Anvatabart
+CEACAMs
+Arcitumomab
+YPTNGY
+PTNGYY
+TNGYYP
+NGYYPT
+GYYPTN
+YYPTNG
+GFNIKDT
+FNIKDTG
+NIKDTGF
+IKDTGFN
+KDTGFNI
+DTGFNIK
+TGFNIKD
+TWNSGH
+WNSGHT
+NSGHTW
+SGHTWN
+GHTWNS
+HTWNSG
+GYTFTNY
+YTFTNYG
+TFTNYGY
+FTNYGYT
+TNYGYTF
+NYGYTFT
+YGYTFTN
+YPGNSD
+PGNSDY
+GNSDYP
+NSDYPG
+SDYPGN
+DYPGNS
+LQHISRPRT
+QHISRPRTL
+HISRPRTLQ
+ISRPRTLQH
+SRPRTLQHI
+RPRTLQHIS
+PRTLQHISR
+RTLQHISRP
+TLQHISRPR
+GFTFTDF
+FTFTDFG
+TFTDFGF
+FTDFGFT
+TDFGFTF
+DFGFTFT
+FGFTFTD RASSSVTYIH
+ASSSVTYIHR
+SSSVTYIHRA
+SSVTYIHRAS
+SVTYIHRASS
+VTYIHRASSS
+TYIHRASSSV
+YIHRASSSVT
+IHRASSSVTY
+HRASSSVTYI
+GFTFTDY
+FTFTDYG
+TFTDYGF
+FTDYGFT
+TDYGFTF
+DYGFTFT
+YGFTFTD
+YPSGGI
+PSGGIY
+SGGIYP
+GGIYPS
+GIYPSG
+IYPSGG
+IKLGTVTTVDY
+KLGTVTTVDYI
+LGTVTTVDYIK
+GTVTTVDYIKL
+TVTTVDYIKLG
+VTTVDYIKLGT
+TTVDYIKLGTV
+TVDYIKLGTVT
+VDYIKLGTVTT
+DYIKLGTVTTV
+YIKLGTVTTVD
+e.g. cyclo-GFTFTDF CD52 TNFPDL1
+CD41 HER2CEACAMs
+BatchSingle or 
+WebsiteSoftware or 
+ġ5 seconds
+GFTFTDF
+CycloPepper
+Cyclo-Peptide Sequence
+Fig. 5 | A user-friendly platform for rational design of bioactive cyclic peptides.
+The CycloPepper enables rapid evaluation of cyclization feasibility for both indi-
+vidual and multiple peptide sequences. Six antibodies and their complementarity-
+determining regions are presented, with binding sites highlighted in dark blue and
+outlined with colored boxes. Users submit peptide sequences and obtain real-time
+predictions of successful cyclization sites (color-coded for viable sites versus black
+for non-cyclizing positions), providing an efﬁcient tool for optimizing synthetic
+routes to therapeutic cyclic peptides targeting diverse diseases. For more model
+performance details, see Supplementary Table 6.
+Article https://doi.org/10.1038/s41467-026-69441-w
+Nature Communications|         (2026) 17:2803 6
+[PAGE 7]
+CycloPepper prediction for bioactive cyclic peptides
+To address the critical challenge of translating computational
+predictions into practical cyclic peptide synthesis, we developed
+CycloPepper, a platform incorporating our optimized machine learn-
+ing algorithm (Fig. 5). This versatile tool, accessible through both
+standalone software and web interface, enabled: (1) single-sequence
+analysis (e.g., GFTDFGF), (2) batch processing of multiple sequences
+via CSV upload (software only), and (3) real-time prediction of cycli-
+zation feasibility across all potential sites. The web interface is acces-
+sible from mobile devices, allowing researchers to easily perform
+predictions from their phones, enabling seamless predictions anytime
+and anywhere. The platform’ sa u t o m a t e dw o r kﬂow was initiated upon
+activation of the execution module, wherein input sequences were
+transformed into 716-dimensional feature vectors, processed by our
+SVC model, and yielded results within seconds. The output interface
+provides immediate quality assessment, displaying “SUCCESS” for
+sequences containing≥1 viable cyclization site, with detailed positional
+annotations (green checkmarks indicating successful sites versus red
+crosses for non-viable positions) to guide synthetic efforts.
+We validated CycloPepper’ s utility across seven therapeutically
+relevant protein targets: CD52, PD-L1, TNF-α, CD41, CEACAMs, HER2,
+and APP, leveraging known antibody complementarity-determining
+regions as design templates
+32. Systematic analysis of 561 designed
+cyclic peptides revealed 341 (60.8%) feasible cyclization sites, with
+some sequences only exhibiting 1–2 viable cyclization sites. This pre-
+dictive capability offered three key advantages for peptide drug
+development: elimination of 39.2% non-viable sequences prior to
+synthesis, accelerated identiﬁcation of bioactive candidates, and sub-
+stantial reduction in resource expenditure, decreasing both synthetic
+timelines and associated costs by enabling data-driven sequence
+prioritization.
+Discussion
+This study established an integrated experimental-computational fra-
+mework for predictive cyclic peptide design. By employing automated
+solid-phase peptide synthesis with DAN resin, we generated a high-
+quality training dataset encompassing diverse on-resin head-to-tail
+cyclization outcomes. Through systematic machine learning evalua-
+tion, we identi ﬁed an SVC model that achieved an average cross-
+validation accuracy of 84% in cyclization site prediction, with sub-
+sequent experimental validation showing 86% prediction consistency.
+The implementation of this optimized algorithm in our CycloPepper
+platform enables real-time analysis of individual peptide sequences,
+high-throughput batch processing capabilities, and reliable identi ﬁ-
+cation of potential cyclization motifs across multiple therapeutic tar-
+gets. Notably, CycloPepper offers user-friendly convenience, as it can
+be accessed both via software on a computer and through a mobile-
+friendly website, allowing users to quickly and easily assess cyclization
+sites from anywhere. This work provides researchers with a practical
+computational tool that bridges the gap between sequence design and
+synthetic feasibility, accelerating the development of bioactive cyclic
+peptides for pharmaceutical applications. The combination of reliable
+predictive modeling and user-friendly accessibility highlights Cyclo-
+Pepper’ s potential as a valuable resource in peptide-based drug
+discovery.
+Methods
+Rapid cyclic peptides dataset building
+Comprising 306 linear peptides, the dataset was engineered to ensure
+comprehensive representation of all 20 native amino acids, with each
+type appearing in more than 20 distinct sequences to support
+balanced model training and reliable evaluation. The seed sequences
+were randomly generated using a programmatic approach to ensure
+the inclusion of all 20 native amino acids. From this pool, speci ﬁc
+subsequences were selected for the directed variation strategies,
+including residue addition (e.g., TDDA to TDDAG), deletion, and sub-
+stitution. These modi ﬁcations were manually performed (Supple-
+mentary Information Section 2.5). Minimal sequence alterations
+revealed critical structure-cyclability relationships while maintaining
+broad heterogeneity without redundancy, as evidenced by TDDA (no
+cyclization) versus TDDAG/GTDDA (successful cyclization).
+The main step of dataset construction is the synthesis of cyclic
+peptides. Theﬁrst step is manual DAN resin synthesis. Forty milligrams
+of DAN resin (0.36 mmol/g loading) were used in all experiments in the
+dataset. The next step is automated synthesis. All cyclic peptides were
+synthesized on the automated instrument CycloBot along with control
+software AutoXpert. The following stock solutions were used for cyclic
+peptide synthesis: Fmoc-protected amino acids, including 20 native
+amino acids. Activating agent O-(7-Azabenzotriazol−1-yl)-N, N, N′,
+N′-tetramethyluronium hexaﬂuorophosphate (HATU) as a 0.38 M
+stock solution in DMF, DIEA (10% v/v in DMF), DIEA (1% v/v in DMF), and
+deprotection stock solution (40% piperidine and 1% HCOOH (v/v) in
+DMF, which was diluted inline to 20%(v/v) and 0.5%(v/v) during
+synthesis). The automated process includes linear peptide synthesis at
+90 °C, activation at room temperature (25 °C), and cyclization at 50 °C.
+The reaction mixtures were characterized by LC-MS (for more details,
+see Supplementary Information Section 2).
+Model training
+We made a 716-dimensional vector feature depending on the cyclic
+peptide sequences, which consists of one-hot encoded sequences,
+amino acid composition (AAC), dipeptide composition (DPC), and
+domain-speciﬁc hand-crafted features. After removing all 0 dimen-
+sions, it ended up with a 414-dimensional vector (for more details, see
+Supplementary Information Section 3).
+Featurization
+Twelve ML model architectures were implemented in the Python
+programming environment, version 3.7.1. Five-fold cross-validation
+was used for evaluating model performance. ML algorithms were
+mostly imported from the module “scikit-learn”.
+Similarity evaluation
+Following the DOME recommendations for supervised machine
+learning validation in biology33, we measured sequence similarity as
+percent identity, quantifying the independence between training set
+and experimental validation set by computing global pairwise identity
+between each experimental amino-acid sequence and all training
+sequences on the linearized peptides. Since cyclic peptides can be
+represented with different starting positions when linearized, we
+performed a rotation-invariant audit for high-similarity pairs (initial
+identity ≥60%) (for more details, see Supplementary Information
+Section 4.2).
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+All the relevant data generated in this study are provided in the Sup-
+plementary Information and Source Data. The training dataset of 306
+cyclic peptides, along with all prediction results, has been deposited in
+the GitHub repository under https://github.com/Yongboxiao/
+Selection-of-Cyclization-Sites. Source data are provided with
+this paper.
+Code availability
+The Python code for the machine learning model described in this
+manuscript is available in a GitHub repository ( https://github.com/
+Yongboxiao/Selection-of-Cyclization-Sites) and archived on https://
+Article https://doi.org/10.1038/s41467-026-69441-w
+Nature Communications|         (2026) 17:2803 7
+[PAGE 8]
+doi.org/10.5281/zenodo.1815499434. Additionally, the CycloPepper
+platform can be accessed through its user-friendly website interface at
+http://www.cyclopepper.com/.
+References
+1. Thorstholm, L. & Craik, D. J. Discovery and applications of naturally
+occurring cyclic peptides.Drug Discov. Today Technol.9,e 1 3–e21
+(2012).
+2. Ji, X., Nielsen, A. L. & Heinis, C. Cyclic peptides for drug develop-
+ment. Angew. Chem. Int. Ed. 63, e202308251 (2024).
+3. Muttenthaler, M., King, G. F., Adams, D. J. & Alewood, P. F.
+Trends in peptide drug discovery. Nat. Rev. Drug Discov. 20,
+309–325 (2021).
+4. Zorzi, A., Deyle, K. & Heinis, C. Cyclic peptide therapeutics: past,
+present and future. Curr. Opin. Chem. Biol. 38,2 4–29 (2017).
+5. Lai, S., Zhang, Q. & Jin, L. Natural and man-made cyclic peptide-
+based antibiotics.Antibiotics12,4 2( 2 0 2 3 ) .
+6 . H i l l ,T .A . ,S h e p h e r d ,N .E . ,D i n e s s ,F .&F a i r l i e ,D .P .C o n s t r a i n i n g
+cyclic peptides to mimic protein structure motifs.Angew. Chem.
+Int. Ed. 53,1 3 0 2 0–13041 (2014).
+7. Khatri, B., Nuthakki, V. R. & Chatterjee, J. Strategies to Enhance
+Metabolic Stabilities. In Cyclic Peptide Design (ed. Goetz, G.)
+17–40 (Springer, https://doi.org/10.1007/978-1-4939-9504-2_
+2.2 0 1 9 ) .
+8. Bhat, A., Roberts, L. R. & Dwyer, J. J. Lead discovery and optimiza-
+tion strategies for peptide macrocycles.Eur. J. Med. Chem. 94,
+471–479 (2015).
+9. Bechtler, C. & Lamers, C. Macrocyclization strategies for cyclic
+peptides and peptidomimetics.RSC Med. Chem. 12,1 3 2 5–1351
+(2021).
+10. Chow, H. Y., Zhang, Y., Matheson, E. & Li, X. Ligation technologies
+for the synthesis of cyclic peptides.Chem. Rev. 119, 9971–10001
+(2019).
+11. Zhan, W., Duan, H. & Li, C. Recent advances in metal-free peptide
+stapling strategies.C h e m .B i o .E n g .1,5 9 3–605 (2024).
+12. Fang, P., Pang, W.-K., Xuan, S., Chan, W.-L. & Leung, K. C.-F. Recent
+advances in peptide macrocyclization strategies.C h e m .S o c .R e v .
+53, 11725–11771 (2024).
+13. Zhang, C. et al. HighFold: accurately predicting structures of cyclic
+peptides and complexes with head-to-tail and disulﬁde bridge
+constraints.Brief. Bioinform.25, bbae215 (2024).
+14. Wang, X. et al. Towards ef ﬁcient discovery of green synthetic
+pathways with Monte Carlo tree search and reinforcement learning.
+Chem. Sci. 11,1 0 9 5 9–10972 (2020).
+1 5 . C o l e y ,C .W . ,B a r z i l a y ,R . ,J a a k k o l a ,T .S . ,G r e e n ,W .H .&J e n s e n ,K .F .
+Prediction of organic reaction outcomes using machine learning.
+ACS Cent. Sci. 3,4 3 4–443 (2017).
+16. Batra, R. et al. Machine learning overcomes human bias in the dis-
+covery of self-assembling peptides.Nat. Chem. 14,1 4 2 7–1435
+(2022).
+17. Li, J., Yanagisawa, K. & Akiyama, Y. CycPeptMP: enhancing mem-
+brane permeability prediction of cyclic peptides with multi-level
+molecular features and data augmentation.Brief. Bioinform.25,
+bbae417 (2024).
+18. Yoshida, M. et al. Using evolutionary algorithms and machine
+learning to explore sequence space for the discovery of anti-
+microbial peptides.Chem. 4,5 3 3–543 (2018).
+19. Huang, J. et al. Identi ﬁcation of potent antimicrobial peptides via a
+machine-learning pipeline that mines the entire space of peptide
+sequences.Nat. Biomed. Eng. 7,7 9 7–810 (2023).
+20. Lin, Y.-C. et al. Multidimensional design of anticancer peptides.
+Angew. Chem. Int. Ed. 54,1 0 3 7 0–10374 (2015).
+21. Yuan, Q., Chen, K., Yu, Y., Le, N. Q. K. & Chua, M. C. H. Prediction of
+anticancer peptides based on an ensemble model of deep learning
+and machine learning using ordinal positional encoding.Brief.
+Bioinform. 24, bbac630 (2023).
+22. Salveson, P. J. et al. Expansive discovery of chemically diverse
+structured macrocyclic oligoamides. Science 384, 420–428
+(2024).
+23. Watson, J. L. et al. De novo design of protein structure and function
+with RFdiffusion.Nature 620,1 0 8 9–1100 (2023).
+24. Rettie, S. A. et al. Cyclic peptide structure prediction and design
+using AlphaFold2.Nat Commun 16,4 7 3 0( 2 0 2 5 ) .
+2 5 . B a k e r ,M .1 , 5 0 0s c i e n t i s t sl ift the lid on reproducibility.Nature 533,
+452–454 (2016).
+2 6 . C o l e y ,C .W . ,E y k e ,N .S .&J e n s e n ,K .F .A u t o n o m o u sd i s c o v e r yi nt h e
+chemical sciences Part I: progress.Angew. Chem. Int. Ed. 59,
+22858–22893 (2020).
+27. Li, C. et al. Machine learni ng guides peptide nucleic acid ﬂow
+synthesis and sequence design.Adv. Sci. 9, 2201988 (2022).
+28. Mijalis, A. J. et al. A fully automated ﬂow-based approach for
+accelerated peptide synthesis.Nat. Chem. Biol.13,4 6 4–466 (2017).
+29. Hartrampf, N. et al. Synthesis of proteins by automated ﬂow
+chemistry.Science 368,9 8 0–987 (2020).
+30. Wan, F. et al. Automated rapid synthesis of high-purity head-to-tail
+cyclic peptides via a diaminonicotinic acid scaffold.J. Am. Chem.
+Soc. 148,9 8 6–996 (2026).
+31. Hu, D., Shakerian, F., Zhao, J. & Li, S.-P. Chemistry, pharmacology
+and analysis of Pseudostellariaheterophylla: a mini-review.Chinese
+Med. 14,2 1( 2 0 1 9 ) .
+32. Dunbar, J. et al. SAbDab: the structural antibody database. Nucleic
+Acids Res. 42, D1140–D1146 (2014).
+33. Walsh, I. et al. DOME: recommendations for supervised
+machine learning validation in biology. Nat Methods 18, 1122–1127
+(2021).
+34. Pan. Y. Yongboxiao/Selection-of-Cyclization-Sites: First release.
+Zenodo https://doi.org/10.5281/zenodo.18154994(2026).
+Acknowledgements
+This work was ﬁnancially supported by the National Natural Science
+Foundation of China (Grant Nos. 22208290, C.L.; 22122109, X.H.;
+22271253, X.H.; W2512004, X.H.). The China Postdoctoral Science
+Foundation (Grant No. 2023M743085, F.W.). National Key R&D Program
+of China (Grant No. 2022YFA1504301, X.H.). New Generation Artiﬁcial
+Intelligence-National Science and Technology Major Project (Grant No.
+2025ZD0121905 X.H.).
+Author contributions
+Y.P. contributed to the main idea, data collection, algorithm design,
+development of machine learning code, and manuscript writing. C.H.
+was involved in optimizing the machine learning algorithms, developing
+the software and website, and writing relevant sections of the manu-
+script. J.L. contributed to the algorithm design and provided valuable
+suggestions. F.W. assisted with data collection and experimental vali-
+dation. X.H. and C.L. supervised the research and participated in the
+manuscript revision, and were responsible for the overall quality and
+direction of the work.
+Competing interests
+The authors declare no competing interests.
+Article https://doi.org/10.1038/s41467-026-69441-w
+Nature Communications|         (2026) 17:2803 8
+[PAGE 9]
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-026-69441-w.
+Correspondenceand requests for materials should be addressed to
+Xin Hong or Chengxi Li.
+Peer review informationNature Communicationsthanks Denis Shields
+and the other, anonymous, reviewer(s)for their contribution to the peer
+review of this work. A peer review ﬁle is available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visithttp://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2026
+Article https://doi.org/10.1038/s41467-026-69441-w
+Nature Communications|         (2026) 17:2803 9

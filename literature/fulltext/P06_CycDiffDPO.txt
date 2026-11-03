@@ -1,0 +1,2201 @@
+
+
+
+    
+
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+        
+  
+
+
+  
+
+
+
+  
+  
+    
+
+  
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+
+        
+            Design of permeability-optimized target-binding macrocycles via direct preference optimization - PMC
+        
+
+        
+        
+  
+  
+
+
+
+
+
+
+  
+    
+
+    
+        
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+        
+    
+      Skip to main content
+    
+
+
+        
+            
+
+
+    
+        
+            
+                
+                    
+                
+
+                
+                    
+
+                        An official website of the United States government
+                    
+                    Here's how you know
+                
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                    Here's how you know
+                
+
+        
+    
+        
+            
+        
+
+
+            
+        
+
+        
+            
+                
+                    
+                    
+                        
+
+                            Official websites use .gov
+                            
+                            A
+                            .gov website belongs to an official
+                            government organization in the United States.
+                        
+                    
+                
+
+                
+                    
+
+                    
+                        
+
+                            Secure .gov websites use HTTPS
+                            
+                            A lock (
+                            
+                                
+                                    Lock
+                                    
+                                    Locked padlock icon
+                                    
+                                    
+                                
+) or https:// means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            
+                        
+                    
+                
+            
+        
+    
+
+        
+
+        
+    
+    
+    
+
+
+
+
+
+
+
+    
+        
+            
+                
+            
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                
+                    
+                
+            
+
+        
+    
+        
+            
+        
+
+
+
+            
+                
+                
+                    
+                        
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                            
+
+
+
+    
+
+
+                            Search
+                        
+
+        
+    
+        
+            
+        
+
+
+                    
+
+                    
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                                
+
+
+
+    
+
+
+
+                                Log in
+
+                                
+                                
+
+
+
+    
+
+
+
+                                
+                                
+
+
+
+    
+
+
+                            
+
+        
+    
+        
+            
+        
+
+
+
+                            
+                            
+                                
+                                    
+                                        
+                                        
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Dashboard
+        
+
+        
+    
+
+
+                                    
+                                
+                                    
+                                        
+                                        
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Publications
+        
+
+        
+    
+
+
+                                    
+                                
+                                    
+                                        
+                                        
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Account settings
+        
+
+        
+    
+
+
+                                    
+                                
+                                
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        Log out
+
+        
+    
+        
+            
+        
+
+
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+
+    
+    
+        
+            
+                
+                    
+                        Search…
+                    
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                        
+                            Search NCBI
+                        
+                    
+
+        
+    
+        
+            
+        
+
+
+                
+
+                
+            
+        
+    
+
+    
+        
+
+            Primary site navigation
+        
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+            
+        
+
+        
+    
+        
+            
+        
+
+
+
+        
+            
+            
+                
+                    Search
+                
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        
+                    
+                    
+                
+
+        
+    
+        
+            
+        
+
+
+            
+
+            
+        
+
+        
+        
+        
+
+        
+            
+                
+
+                    Logged in as:
+                    
+                
+                
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Dashboard
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Publications
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Account settings
+        
+
+        
+    
+
+
+                        
+                    
+                
+            
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+
+        Log in
+
+        
+    
+        
+            
+        
+
+
+    
+
+
+    
+    
+        
+
+
+    
+        
+           
+               
+           
+            
+                
+                
+            
+        
+        
+            
+
+
+
+Search PMC Full-Text Archive
+
+
+
+
+Search in PMC
+
+
+
+            
+                
+                    
+                        
+                            
+                                Journal List
+                            
+                        
+                    
+                    
+                        
+                            
+                                User Guide
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+    
+
+
+        
+        
+
+       
+  
+
+    
+
+   
+
+
+
+
+    
+        
+             
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                    
+                        
+                                
+                        
+                    
+                    
+                    
+                        
+                             
+
+                                 
+                            
+                        
+                    
+                    
+                        
+                            
+                            
+                        
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+                    
+                    
+                         
+                            
+                        
+                        
+
+
+    
+          
+PERMALINK
+          
+              
+              
+                  
+                  Copy
+              
+          
+    
+
+                    
+                
+            
+            
+                
+            
+        
+    
+
+    
+      
+        
+            
+                
+                    
+                        
+    As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.
+    Learn more:
+    PMC Disclaimer
+    |
+    
+        PMC Copyright Notice
+    
+
+                    
+                
+                
+                    
+                    
+
+                      
+                        
+Chem Sci. 2026 Apr 9;17(20):10223–10236. doi: 10.1039/d6sc01722c
+
+
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+
+
+Design of permeability-optimized target-binding macrocycles via direct preference optimization
+Heqi Sun
+
+Heqi Sun
+
+aState Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200040, P. R. China, Email: dqwei@sjtu.edu.cn
+Find articles by Heqi Sun
+
+
+a, Hong Tan
+
+Hong Tan
+
+aState Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200040, P. R. China, Email: dqwei@sjtu.edu.cn
+Find articles by Hong Tan
+
+
+a, Yanyi Chu
+
+Yanyi Chu
+
+bKey Laboratory of RNA Innovation, Science and Engineering, CAS Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China
+Find articles by Yanyi Chu
+
+
+b, Jiayi Li
+
+Jiayi Li
+
+aState Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200040, P. R. China, Email: dqwei@sjtu.edu.cn
+Find articles by Jiayi Li
+
+
+a, Ruixuan Wang
+
+Ruixuan Wang
+
+aState Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200040, P. R. China, Email: dqwei@sjtu.edu.cn
+Find articles by Ruixuan Wang
+
+
+a, Dong-Qing Wei
+
+Dong-Qing Wei
+
+aState Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200040, P. R. China, Email: dqwei@sjtu.edu.cn
+
+cHebi Branch, Henan Academy of Sciences, Qishui Guang East, Qibin District, Hebi Henan, 458030, P. R. China
+
+dQihe Laboratory, Qishui Guang East, Qibin District, Hebi, Henan, 458030, P. R. China
+Find articles by Dong-Qing Wei
+
+
+a,c,d,✉
+
+
+Author information
+Article notes
+Copyright and License information
+
+
+
+
+aState Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences and School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200040, P. R. China, Email: dqwei@sjtu.edu.cn
+
+bKey Laboratory of RNA Innovation, Science and Engineering, CAS Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, China
+
+cHebi Branch, Henan Academy of Sciences, Qishui Guang East, Qibin District, Hebi Henan, 458030, P. R. China
+
+dQihe Laboratory, Qishui Guang East, Qibin District, Hebi, Henan, 458030, P. R. China
+
+✉
+Corresponding author.
+
+
+
+Received 2026 Feb 28; Accepted 2026 Apr 8; Collection date 2026 May 27.
+
+This journal is © The Royal Society of Chemistry
+
+This article is licensed under a Creative Commons Attribution-Non Commercial 3.0 Unported Licence. You can use material from this article in other publications without requesting further permissions from the RSC, provided that the correct acknowledgement is given and it is not used for commercial purposes.
+PMC Copyright notice
+
+
+PMCID: PMC13074632  PMID: 41982931
+
+
+Abstract
+
+Macrocyclic peptides represent a promising therapeutic modality for challenging targets, such as protein–protein interactions. However, their clinical utility is often limited by inadequate membrane permeability, which restricts both intracellular target access and oral bioavailability. Existing structure-based generative methods for cyclic peptide design prioritize structural validity and binding affinity, yet lack mechanisms to co-optimize membrane permeability. Here we present CycDiff-DPO, a preference-aligned diffusion framework for designing target-specific macrocyclic peptide binders with optimized membrane permeability. By ranking sampled candidates with a Caco-2 permeability predictor and constructing preference pairs, CycDiff-DPO aligns the generative distribution toward permeability-favorable chemical space while preserving target binding competence. We benchmarked CycDiff-DPO across 56 protein targets, finding higher predicted Caco-2 and PAMPA permeability across multiple independent predictors, alongside superior binding energetics and comparable stereochemical quality relative to baseline methods. Case studies on Keap1–Nrf2 and SPSB2–iNOS confirm that top designs recapitulate hot-spot interactions and maintain stable bound poses in molecular dynamics simulations. CycDiff-DPO provides a framework for permeability-enhanced macrocyclic peptide design with broad therapeutic applications.
+
+CycDiff-DPO uses preference-aligned diffusion to design target-specific macrocyclic peptides with enhanced membrane permeability, balancing binding competence and cell permeability in one framework.
+Introduction
+
+Macrocyclic peptides have emerged as a promising therapeutic modality that occupies an intermediate space between small-molecule drugs and large biologics.1–3 While biologics can achieve high affinity and selectivity, their size and polarity generally limit them to extracellular targets.4 Small molecules, in contrast, can access intracellular targets but are often ill-suited for modulating protein–protein interactions (PPIs), which typically involve large, shallow interfaces that lack the deep hydrophobic pockets required for high-affinity binding.5,6 By bridging these two regimes, macrocyclic peptides offer sufficient molecular size to engage such challenging interfaces while benefiting from conformational constraint.7 Their rigidity can enhance binding specificity and improve proteolytic stability relative to linear counterparts.1,8,9 The translational impact of cyclic peptides is evident from their presence among approved drugs across oncology and autoimmune disease.10–12
+
+Traditionally, protein-binding macrocyclic peptides have been discovered either from natural products or through display-based screening of large randomized libraries.2,3 Although natural products can yield potent starting points, their synthetic complexity and limited amenability to systematic diversification often hinder analogue generation and lead optimization.13 Display technologies can explore broad sequence space, yet iterative selection and downstream characterization are labor-intensive and still undersample the chemical and topological diversity accessible to macrocyclic scaffolds. As a result, it is difficult to optimize binding and developability in parallel, especially membrane permeability, since this multiparameter profile depends on precise control of ring architecture and physicochemical properties that is hard to maintain during library design and selection.14
+
+More broadly, computational methods have been applied to quantitatively model PPI interface energetics; for example, Wang et al. combined persistent-homology descriptors of 3D complex structures with a CNN and gradient-boosting ensemble to predict mutation-induced binding affinity changes.15 Building on such structure-based modeling foundations, recent advances in structure-based deep learning have enabled the de novo design of cyclic peptide binders with defined target specificity. Representative strategies include diffusion-based target-conditioned macrocycle generation, such as RFpeptides16 and CP-composer;17 AlphaFold-guided sequence optimization like EvoBind2;18 and reinforcement-learning-based methods, including CYC_BUILDER19 and HighPlay.20 Despite this progress, most models focus on optimizing binding and structural validity while neglecting membrane permeability, which is a key determinant of oral bioavailability and intracellular target access.21–23 Incorporating permeability into structure-guided design is therefore an important open challenge, yet the choice of strategy is constrained by data availability. Conditioning the generator directly on permeability requires paired structure–permeability data, which remain scarce for cyclic peptides. Preference-based alignment offers an alternative by steering a pretrained model with ranked feedback. Among such approaches, direct preference optimization (DPO) is particularly suited to this setting,24 as it learns directly from winner–loser pairs without requiring a separate reward model, and such pairs can be constructed from predictor-based rankings when experimental data are limited. DPO has recently been extended to diffusion-model alignment in molecular and antibody design.25–27
+
+Here we present CycDiff-DPO (Fig. 1), a preference-aligned diffusion framework that generates target-binding macrocyclic peptides while co-optimizing membrane permeability. Starting from a pretrained diffusion model, CycDiff-DPO first constructs target-specific winner–loser pairs by sampling macrocycles and ranking them with a Caco-2 permeability predictor. It then applies diffusion-based DPO to shift the generative distribution toward more permeable candidates while preserving binding competence. We benchmarked CycDiff-DPO on 56 unseen protein targets and observed consistent enrichment of permeability-favorable chemical space, including higher predicted Caco-2 permeability, increased lipophilicity, and reduced exposed polarity, while maintaining stereochemical plausibility and structural diversity. These improvements generalized across multiple external predictors and extended to PAMPA, an orthogonal passive-diffusion assay. Importantly, binding-related metrics, including Rosetta interface energies and interaction patterns, remained stable. Case studies on intracellular targets Keap1–Nrf2 and SPSB2–iNOS further showed that CycDiff-DPO produced permeability-enriched candidates that retained key hot-spot contacts and stable bound poses. CycDiff-DPO thus provides a general framework for designing permeability-enhanced macrocyclic binders, and may further facilitate the development of orally bioavailable cyclic peptide therapeutics.
+
+Fig. 1. Overview of the CycDiff-DPO framework. (a) CycDiff-DPO performs permeability-guided preference alignment for target-conditioned cyclic-peptide design, shifting the generated distribution toward cell-permeable and target-specific binders. (b) Cyclic-peptide candidates are sampled from a pretrained diffusion generator and scored by an in-house Caco-2 permeability predictor. Within each target context, candidates are ranked by predicted permeability to form winner–loser preference pairs. The active diffusion policy (pθ) is then aligned by diffusion-based direct preference optimization (LDPO) by comparing its denoising predictions against a frozen reference model. An SFT-style reconstruction regularizer preserves sequence–structure fidelity.
+
+
+Open in a new tab
+Results
+
+Overview of CycDiff-DPO
+
+CycDiff-DPO presents a direct permeability-guided preference optimization method for designing cell-permeable cyclic peptides with target specificity (Fig. 1a). It drives a controlled distributional shift by preferentially increasing the generation likelihood of highly permeable candidates while suppressing poorly permeable ones within the same target pocket. The method consists of three modules: candidate sampling, permeability evaluation, and preference-based alignment (Fig. 1b). Starting from a pretrained generator,17 we sample a pool of cyclic peptides for each target context. Each design is then scored using an in-house Caco-2 permeability predictor, and candidates are ranked within target to construct winner–loser preference pairs by matching higher-scoring peptides (winners) to lower-scoring peptides (losers). Using these target-specific preference pairs, we align the diffusion generator via diffusion-based DPO, optimizing the current model (θ) to increase the relative likelihood of winners over losers with respect to a frozen reference model (θref) initialized from the same pretrained checkpoint. To stabilize optimization and preserve sequence–structure fidelity, we additionally apply an SFT-style reconstruction regularizer on winner samples. Together, this preference-driven alignment enables an efficient shift toward permeability-favorable binders without compromising geometric validity or binding-competent conformations.
+Performance on target-conditioned cyclic peptide design
+
+To systematically evaluate the stereochemical validity, physicochemical properties, and diversity of cyclic peptides generated by CycDiff-DPO, we benchmarked the model on a non-redundant dataset of 56 curated protein–peptide complexes collected from the literature.28 The reference peptide lengths ranged from 5 to 16 residues. Because CycDiff-DPO was tailored to target-conditioned macrocyclic peptide design, we restricted our comparisons to representative structure-based methods for macrocycle generation that can be run uniformly across the full 56-target benchmark. Specifically, we compared against RFpeptides16 for cyclic backbone design coupled with ProteinMPNN29 for sequence design, as well as sequence–structure co-design models CP-composer,17 PepFlow,30 and PepGLAD.31 Official pipelines and released weights were used for RFpeptides and CP-composer, while fine-tuned PepFlow and PepGLAD models trained on 71 867 cyclic peptide complexes were adopted from a benchmarking study.28 All generated peptides were evaluated using Ramachandran acceptance and favored rates, log P, polar SASA ratio, and structural diversity (see Methods for details).
+
+As summarized in Table 1, CycDiff-DPO ranks third in stereochemical quality, achieving Ramachandran acceptance and favored rates of 72.5% and 42.2%, respectively—comparable to CP-composer (72.2%/40.0%) and PepGLAD (71.9%/40.5%). This indicates that our preference-guided optimization does not compromise structure plausibility relative to other co-design models. In terms of physicochemical profiles, log P is a widely used proxy for the balance between hydrophobicity and desolvation cost relevant to passive membrane partitioning.32 CycDiff-DPO produces the highest log P (−1.84) and the lowest polar SASA ratio (0.20) among all models, indicating reduced solvent-accessible polar surface exposure—an attribute often associated with permeable macrocycles.33 Importantly, these improvements are not achieved at the expense of molecular diversity. CycDiff-DPO attained a structural diversity score of 0.72, comparable to those of the baseline methods, demonstrating that the incorporation of DPO enhanced permeability-related properties while preserving broad coverage of the accessible conformational space.
+Table 1. Performance of cyclic peptide generation models.
+
+
+
+
+
+
+
+
+
+
+
+Model
+Ramachandran accepted
+Ramachandran favored
+Log P
+
+Polar SASA ratio
+Diversity
+
+
+
+
+CycDiff-DPO
+72.5%
+42.2%
+
+−1.84 ± 3.09
+
+
+0.20 ± 0.04
+
+0.72
+
+
+
+CP-composer
+72.2%
+40.0%
+−5.55 ± 3.52
+0.23 ± 0.03
+0.71
+
+
+
+RFpeptides
+
+95.8%
+
+
+83.4%
+
+−6.72 ± 3.37
+0.26 ± 0.06
+0.73
+
+
+
+PepFlow (cyc)
+82.5%
+58.9%
+−5.88 ± 3.01
+0.24 ± 0.04
+
+0.74
+
+
+
+
+PepGLAD (cyc)
+71.9%
+40.5%
+−5.08 ± 2.47
+0.23 ± 0.04
+0.72
+
+
+
+Open in a new tab
+Next, we examined the amino acid composition of cyclic peptides generated by different models and compared it with the reference distribution from the test set (Fig. 2a). CycDiff-DPO showed a relatively low Kullback–Leibler (KL) divergence of 0.30. This value was substantially lower than those of RFpeptides (0.66) and PepFlow (1.25), and moderately higher than those of PepGLAD (0.11) and CP-composer (0.14). We observed modest enrichments of leucine and alanine, consistent with the highest log P and lowest polar SASA ratio among all models (Table 1). Meanwhile, charged (E, K, R) and polar (T, Q) residues remain present at appreciable frequencies, reflecting their essential roles in forming hydrogen bonds and salt bridges at the peptide–receptor interface. These residue types are generally unfavorable for passive membrane permeability owing to desolvation penalties and increased polar surface exposure. However, the impact of the retained charged residues on membrane transit is likely mitigated by pKa shifts in the low-dielectric membrane interior, which can drive ionizable side chains toward neutralization at physiological pH, with reported shifts of +2 to +5 units for Glu34 and −4 to −5 units for Lys.35 The remaining polar residues (T, Q) are uncharged and therefore impose a much smaller barrier to membrane crossing than ionizable residues, as their membrane transfer free energies are only ∼3–5 kcal mol−1 compared to >14 kcal mol−1 for formally charged side chains.36 Importantly, we found no evidence of amino-acid-level mode collapse, a common failure mode in property-optimized generative models where the sequence space collapses to a narrow set of residue choices.
+Fig. 2. Sequence and conformational profiles of designed cyclic peptides. (a) Amino-acid frequency distributions for peptides generated by different models compared with the reference dataset. (b) Side-chain dihedral angle distributions (χ1–χ4) for the reference structures (top) and CycDiff-DPO designs (bottom).
+
+
+Open in a new tab
+To further assess the realism of local side-chain geometries, we analyzed the distributions of side-chain dihedral angles (χ1–χ4) for cyclic peptides generated by CycDiff-DPO and compared them with those in experimentally determined structures from the test set (Fig. 2b). Across all torsional degrees of freedom, the dihedral angle distributions closely matched the reference distributions. The agreement was strongest for χ1 and χ2. Higher-order torsions (χ3 and χ4) were more variable, but they still followed the same overall trends as the reference. Together, these results indicated that the designed cyclic peptides retained natural-like sequence statistics and locally realistic structural features.
+Binding patterns of designed cyclic peptides
+
+To assess whether permeability-guided preference alignment preserves target engagement, we compared binding energetics and interfacial quality for cyclic peptides generated by CycDiff-DPO and the baseline methods. For each target, peptide–receptor complexes were refined using a single round of Rosetta FastRelax and the best-scoring design per method was selected according to the Rosetta interface energy (ΔG).37 Across all peptide-length categories, CycDiff-DPO produced consistently more favorable interface energies than competing approaches (Fig. 3a). For most models, longer peptides generally exhibit lower interface energies, consistent with their ability to form larger binding interfaces and more extensive contacts with the target protein. We further examined binding quality as a function of the number of generated candidates per target. As shown in Fig. 3c, CycDiff-DPO maintained a clear advantage over baseline models across all sampling depths, with its average ΔG decreasing and gradually converging as the candidate pool expands. This convergence behavior indicated that the performance gains of CycDiff-DPO were not driven by isolated outliers, but instead reflect a systematic enrichment of high-affinity binders within the generated set. In line with the interface trends, the Rosetta total energies of the generated complexes were also shifted towards more favorable values for CycDiff-DPO (Fig. 3b), supporting that improved binding free energy was compatible with globally stable bound poses.
+Fig. 3. Binding characteristics of designed cyclic peptide binders. (a) Distributions of Rosetta interface energy (ΔG) grouped by peptide length. (b) Distributions of Rosetta total energy for generated complexes. (c) Interface energy as a function of sampling depth (mean ± s.e.m.). (d) Average numbers of hydrophobic contacts, hydrogen bonds, and salt bridges (mean ± s.e.m.).
+
+
+Open in a new tab
+Beyond energetic metrics, we characterized intermolecular contacts to obtain a chemically interpretable view of the binding modes. Using PLIP,38 we quantified hydrophobic contacts, hydrogen bonds, and salt bridges for the generated complexes. CycDiff-DPO designs exhibited the highest average number of hydrophobic contacts (Fig. 3d), consistent with tighter nonpolar packing and improved shape complementarity at the interface. Hydrogen-bond counts were modestly reduced relative to CP-composer, whereas salt-bridge counts remained comparable. This is expected under permeability-driven optimization, which enriches hydrophobic residues and reduces exposed polarity. Overall, CycDiff-DPO appears to preserve affinity primarily through tighter nonpolar packing at the interface.
+Results on permeability optimization
+
+Preference optimization in this work was guided by Caco-2 permeability, a widely adopted and practically actionable metric in lead optimization that serves as a cell-based proxy for intestinal absorption. Compared with physicochemical descriptors (e.g., lipophilicity) and with PAMPA which primarily reflects passive diffusion, Caco-2 permeability provides a more integrated measure of membrane transport and can additionally reflect transporter-related liabilities such as efflux.39,40 This makes Caco-2 permeability a pragmatic optimization target for improving the developability of macrocyclic peptides. To ensure that our in-house Caco-2 predictor provides a reliable signal for constructing preference pairs, we benchmarked it on the CycPeptMPDB dataset21 using five-fold cross-validation, and compared it against two recent state-of-the-art deep learning models for cyclic peptide Caco-2 prediction (CPMP41 and PharmPapp42). As shown in Fig. 4a, our model achieved R2 = 0.747, MSE = 0.159, and Spearman's ρ = 0.856, outperforming CPMP and PharmPapp. Per-fold metrics across the five splits are shown in Table S1.
+Fig. 4. Permeability benchmarking at predictor and peptide levels. (a) Five-fold cross-validation performance of Caco-2 permeability predictors, reported as R2, MSE, and Spearman's ρ. (b) Mean predicted Caco-2 permeability for the same peptide sets, averaged across independent predictors. (c) Mean predicted PAMPA permeability for cyclic peptides generated by different design models, averaged across independent predictors.
+
+
+Open in a new tab
+Due to limited experimental throughput, we assessed membrane permeability of the designed cyclic peptides using machine-learning predictors. We evaluated each peptide set with multiple independent predictors and report results averaged across models to reduce dependence on any single evaluator, with per-predictor results provided in the Table S2 and S3. Since preference construction was guided by a Caco-2 signal, we additionally assessed PAMPA to test whether the observed gains extend to an assay that mainly reports passive transmembrane diffusion. For Caco-2 permeability, we used CPMP and PharmPapp as external predictors. For PAMPA permeability, we used DMPNN and AttentiveFP as the top-performing predictors reported in the most recent benchmarking study,43 together with CPMP. As shown in Fig. 4b, CycDiff-DPO yields the highest predicted Caco-2 permeability and the distribution is shifted towards higher values relative to all baselines. This advantage remains when each predictor is examined individually, indicating that the improvement is not driven by a single evaluation model. The same trend is observed for PAMPA (Fig. 4c), where CycDiff-DPO again attains the most favorable predictions across predictors despite PAMPA not being used to construct the preference signal. Therefore, permeability improvements generalized across predictors and assay modalities. To investigate whether the observed permeability gains are attributable to intramolecular hydrogen-bond (IMHB) shielding, we quantified IMHB counts for the generated peptides and compared them with experimentally characterized macrocycles. Across all five generative models, CycDiff-DPO did not increase the mean IMHB count relative to the baselines (Fig. S3). Consistently, analysis of CycPeptMPDB indicates that high-permeability cyclic peptides are not enriched in IMHBs; instead, the high-permeability subset shows a modestly reduced IMHB count for both Caco-2 and PAMPA measurements (Fig. S4). These observations suggest that IMHB shielding is unlikely to be the primary driver in our setting and are consistent with a permeability enhancement mechanism dominated by reduced global polarity. To account for solvent-dependent conformational reorganization, we performed CREST conformational searches under ALPB chloroform as a membrane-mimicking environment44,45 for representative subsets of experimentally characterized cyclic peptides from CycPeptMPDB dataset covering peptide lengths from 3 to 15 residues. Boltzmann-weighted IMHB counts showed no positive association with experimental permeability: in the Caco-2 dataset, a weak but statistically significant negative correlation was observed (Spearman r = −0.24, p = 0.042), although the difference between high- and low-permeability groups did not reach significance in a group comparison (Mann–Whitney p = 0.177). In the PAMPA dataset, neither correlation nor group comparison reached significance (Spearman r = −0.16, p = 0.19; Mann–Whitney p = 0.391; Fig. S5 and Table S4). In both assays, high-permeability peptides showed numerically lower mean IMHB counts, and no positive association was detected. These findings indicate that IMHB-mediated shielding does not emerge as a driver of permeability in this chemical space, consistent with a global depolarization mechanism.
+Case studies
+
+We further applied CycDiff-DPO to two clinically relevant intracellular PPI targets to test whether permeability-guided preference optimization can enrich cell-permeable cyclic peptide inhibitors without compromising target engagement. We selected Keap1–Nrf2, a central regulatory node in the cellular antioxidant response, because pharmacological modulation of the Keap1–Nrf2 axis is widely pursued for oxidative-stress–driven pathologies (e.g., chronic inflammation and degenerative disorders).46 We also selected SPSB2–iNOS, an intracellular interaction in which SPSB2 recruits ubiquitin machinery to control iNOS lifetime and thereby tunes nitric oxide output in inflammation and host defence; disrupting this interaction has been proposed as a route to prolong iNOS activity and enhance antimicrobial responses.47 For Keap1–Nrf2, we used a reported Keap1-bound cyclic peptide complex as the structural reference (PDB ID: 7K2S); for SPSB2–iNOS, we used a cyclic peptide bound to SPSB2 as the reference (PDB ID: 5XN3). In both systems, the receptor design region was defined as residues whose Cβ atoms lie within 10 Å of the ligand in the reference complex. CycDiff-DPO then generated 1000 cyclic peptides matching the reference ligand length, followed by a single round of Rosetta FastRelax refinement. We discarded candidates with positive Rosetta interface ΔG and prioritized the remaining designs by interface ΔG together with the total number of intermolecular interactions identified by PLIP.
+Keap1–Nrf2
+
+For Keap1–Nrf2, the top-ranked cyclic peptide is shown in Fig. 5a. The designed peptide overlays closely with the reference macrocycle and recapitulates hot-spot recognition within the Keap1 pocket. In the refined complex, the generated peptide forms hydrogen bonds with the hot-spot residues Arg415, Arg483, and Tyr525, whereas the reference peptide engages Arg380 and Arg483 (Fig. 5a). The refined complex achieves a Rosetta interface ΔG of −43.7 REU and a DMPNN-predicted PAMPA score of −5.93, compared to −33.7 REU and −11.00 for the reference macrocycle. Evaluation across five independent predictors and two assay modalities showed that four predictors consistently indicate improved permeability for the top design over the reference, though PharmPapp showed minimal differentiation (Table S5). To assess bound-state stability beyond static scoring, we carried out explicit-solvent MD simulations for both the designed complex and the reference (Fig. 5c). The designed peptide remained stably bound over the trajectory and exhibited a lower peptide heavy-atom RMSD than the reference (1.09 Å versus 1.17 Å).
+Fig. 5. Case studies of CycDiff-DPO-designed cyclic peptide inhibitors targeting Keap1–Nrf2 and SPSB2–iNOS. (a, and b) Designed peptide–protein complex structures overlaid with reference peptides (purple; PDB IDs: 7K2S and 5XN3, respectively); dashed lines denote hydrogen bonds involving hot-spot residues. (c, and d) Peptide heavy-atom RMSD from MD simulations for the Keap1–Nrf2 and SPSB2–iNOS complexes, respectively. (e, and g) Interaction recovery rates with hot-spot residues on Keap1 (e) and SPSB2 (g). (f, and h) Binding–permeability landscapes for the Keap1–Nrf2 and SPSB2–iNOS design sets, respectively, with the reference peptide marked by a star.
+
+
+Open in a new tab
+Across the design set, contact recovery analysis further showed frequent engagement of experimentally validated Keap1 hot-spot residues (Fig. 5e),48 with high recovery for Tyr572, Tyr334, Arg415, and Tyr525, and additional hot spots such as Arg380 and Arg483 also recovered across designs. Consistent with these recovery profiles, individual designs typically formed contacts with 3–5 hot-spot residues (Fig. S1a), indicating that the improved permeability predictions are achieved while retaining multi-residue hot-spot engagement. The binding–permeability landscape (Fig. 5f) provides a complementary view of the design set. Relative to the reference macrocycle (star), all generated samples achieve higher predicted permeability, and 18.8% of candidates improve both predicted permeability and interface ΔG.
+SPSB2–iNOS
+
+A similar pattern is observed for SPSB2–iNOS. The representative design shown in Fig. 5b closely overlaps with the reference binding geometry and remains well accommodated in the SPSB2 pocket. The refined design shows both a slightly more favorable interface ΔG (−31.23 vs. −30.34 REU) and improved predicted PAMPA (−6.82 vs. −8.10) relative to the reference. This improvement was consistent across all five predictors, despite PharmPapp again showing minimal differentiation (Table S5). In the refined complex, the generated peptide forms hydrogen bonds with the hot-spot residues Thr102 and Tyr120, consistent with the reference interaction pattern (Fig. 5b). MD simulations further support the stability of the bound pose (Fig. 5d). The designed peptide remained associated with SPSB2 and exhibited a slightly lower mean peptide heavy-atom RMSD than the reference (1.82 Å versus 1.91 Å). Hot-spot recovery analysis indicates frequent engagement of hot-spot residues on SPSB2,47 particularly Tyr120 and Trp207, with additional contributions from Thr102 and Val206 (Fig. 5g). In line with these recovery rates, individual designs typically contacted 2–3 hot-spot residues (Fig. S1b), consistent with a compact hot-spot-centered interaction footprint across the design set. In the binding–permeability landscape (Fig. 5h), 84.7% of generated samples achieve higher predicted permeability than the reference; among these, 78.7% also show more favorable interface ΔG than the reference.
+
+Both case study top designs contain charged residues, which may raise concerns about membrane permeability. However, ionizable side chains undergo substantial pKa shifts in low-dielectric membrane environments. The Keap1–Nrf2 design c[LLLVVVK] contains a single charged residue (Lys). In aqueous solution Lys is cationic (pKa ≈ 10.4), but in the low-dielectric membrane interior its pKa shifts downward by −4 to −5 units to approximately 5.6–6.5, as demonstrated by constant-pH MD34 and solid-state NMR in DOPC bilayers.35 At physiological pH, membrane-embedded Lys would be predominantly deprotonated and neutral. The remaining six residues are all strongly hydrophobic, yielding a highly lipophilic overall composition that favors membrane partitioning. The SPSB2–iNOS design c[KVLDIHLL] contains two charged residues: one Lys and one Asp. The Lys is expected to undergo the same downward pKa shift toward neutralization. The Asp (aqueous pKa ≈ 4.0) shifts upward by +2 to +5 units in membrane environments, reaching values of 5.8–9.4,34,49 at which it would be predominantly protonated and neutral at pH 7.4. Consequently, both designs are expected to carry substantially less charge during membrane crossing than their aqueous ionization states would suggest. To provide a property-level assessment independent of ML predictors, we computed the physicochemical profiles of the top designs and reference peptides (Table S6). Across three key permeability-related descriptors—HBD, TPSA, and log P—the top designs show substantial improvements over the reference peptides, with particularly large gains in log P and TPSA. MW increased modestly due to the incorporation of additional hydrophobic residues, but remained within the range reported for orally bioavailable macrocycles.50
+
+Collectively, these two intracellular case studies indicate that CycDiff-DPO can generate cyclic peptide inhibitors that preserve target-like binding modes, stable bound-state behavior, and hot-spot engagement, while enriching candidates with improved predicted membrane permeability.
+Ablation analyses
+
+To quantify how preference optimization and the inverse-temperature parameter β modulate the permeability–affinity trade-off, we compared the base generator (no DPO), SFT, and DPO across a range of β values (Tables 2, S7, and S8). Relative to the base model, SFT provides only marginal improvements in permeability (Caco-2: −5.72 vs. −5.73; PAMPA: −8.17 vs. −8.31). In contrast, DPO improves performance in both assays, with the highest mean permeability observed at an intermediate β (Caco-2: −5.66; PAMPA: −7.89). Notably, the effect of β is non-monotonic: although β acts as an inverse temperature that rescales the preference signal, performance deteriorates at both low and high extremes (e.g., Caco-2: −5.69 and −5.71; PAMPA: −8.03 and −8.10). This pattern is consistent with prior observations that the optimal β depends on the signal-to-noise ratio and information content of the preference pairs. Importantly, Rosetta interface energies remain essentially unchanged across conditions (−36.13 to −37.78), indicating that the permeability gains are achieved without detectable loss of binding energetics.
+Table 2. Effect of training strategy and DPO inverse temperature (β) on mean predicted permeability and interface energy.
+
+
+
+
+
+
+
+
+
+DPO setting
+Caco-2 permeability
+PAMPA permeability
+Rosetta ΔG
+
+
+
+
+
+SFT
+−5.72
+−8.17
+−36.90
+
+
+
+Without DPO
+−5.73
+−8.31
+−36.13
+
+
+
+
+β = 0.1
+−5.69
+−8.03
+−37.01
+
+
+
+
+β = 0.5
+
+−5.66
+
+
+−7.89
+
+
+−37.78
+
+
+
+
+
+β = 5
+−5.69
+−7.97
+−37.75
+
+
+
+
+β = 50
+−5.71
+−8.10
+−36.60
+
+
+
+Open in a new tab
+Conclusions
+
+CycDiff-DPO introduces a preference-aligned diffusion framework that shifts a pretrained generator toward cyclic peptides with improved membrane permeability while preserving target-binding competence. Existing generative models for cyclic peptides have focused primarily on binding affinity and structural validity, without incorporating permeability during design. Conversely, methods that optimize for permeability have not addressed target-specific binding. By adapting direct preference optimization to the continuous, E(3)-equivariant latent space of a geometric diffusion model through a denoising-error surrogate, CycDiff-DPO integrates both objectives directly into the generative process, enabling exploration of chemical space that is simultaneously binding-competent and membrane-permeable, which is a critical requirement for intracellular targets.
+
+Across 56 non-redundant test targets, CycDiff-DPO achieves a systematic distribution-level shift toward permeability-favorable physicochemical space, including elevated lipophilicity, reduced polar surface exposure, and improved predicted Caco-2 and PAMPA permeability that generalizes across independent external predictors. These gains are accompanied by the most favorable Rosetta interface energies among all methods tested across peptide-length categories and sampling depths, together with stereochemical quality and structural diversity comparable to baseline approaches. Case studies on two clinically relevant intracellular PPI targets, Keap1–Nrf2 and SPSB2–iNOS, further confirm that the designed peptides retain hot-spot engagement and exhibit stable bound poses in explicit-solvent MD simulations.
+
+The intermolecular interaction profiles offer a physicochemically coherent account of how the model balances binding and permeability. CycDiff-DPO designs exhibit an increased number of hydrophobic contacts at the peptide–receptor interface, coupled with a modest reduction in hydrogen bonds relative to some baselines (Fig. 3d). This shift toward hydrophobically driven binding is consistent with reduced polarity and improved membrane partitioning. The enrichment of leucine and alanine in the generated sequences supports this global depolarization strategy (Fig. 2a), in line with experimental evidence that reducing overall polarity and polar surface area is critical for improving membrane permeability in macrocycles.23 IMHB analysis provides further evidence for this mechanism: generated peptides show no enrichment of IMHBs relative to baselines, and experimentally characterized compounds in CycPeptMPDB reveal a significantly negative association between IMHB count and permeability (Fig. S3 and S4). This conclusion is further supported by membrane-mimicking conformational ensemble analysis, which shows no positive association between IMHB counts and permeability even when conformational changes in the membrane environment were taken into account (Fig. S5 and Table S4). These observations suggest that IMHB shielding is not the dominant permeation mechanism in the chemical space explored here, and that the permeability gains of CycDiff-DPO are more consistent with a global depolarization strategy. Importantly, binding metrics remain stable despite the absence of binding-related supervision in the preference signal. This robustness likely arises from the SFT-style reconstruction regularizer and from the fact that hydrophobic residues enriched by permeability optimization also contribute to tighter nonpolar packing at the binding interface.
+
+More broadly, CycDiff-DPO bridges target-specific binding design and membrane permeability optimization within a single generative framework, unifying two objectives that were previously pursued independently. This establishes distributional preference alignment as a practical paradigm for designing cell-permeable cyclic peptide binders against intracellular targets. Nonetheless, several limitations should be noted. First, the design space is currently restricted to the 20 canonical amino acids, whereas non-natural modifications such as N-methylation, d-amino acids, and backbone alterations are established tools for improving membrane permeability and metabolic stability. Incorporating such building blocks into the generative model is a key direction for future work. Second, permeability assessment in this work relies entirely on computational predictors. We have mitigated this limitation through multiple orthogonal lines of evidence—multi-predictor consensus across independent models and assay modalities, residue-specific pKa analysis under membrane-mimicking conditions, and physicochemical profiling against reported property spaces for orally bioavailable macrocycles—all of which consistently support the predicted permeability gains. Nevertheless, experimental validation of membrane permeability for top-ranked designs remains a necessary next step to confirm the computational predictions and to establish the translational relevance of the framework.
+Methods
+
+Dataset
+
+The preference-alignment data for DPO were derived from PepBench, a curated benchmark of protein–peptide complexes introduced by Kong et al.31 The PepBench training split contains 4157 complexes, with receptor proteins longer than 30 residues and peptide ligands of 4–25 residues. From this split, we randomly selected 500 receptor targets for preference-pair generation. From this split, we randomly selected 500 receptor targets for preference-pair generation. After running CP-composer to generate initial cyclic peptide structures, 9 targets were excluded because generation failed, leaving 491 unique targets. We then partitioned these targets at the receptor level into training and validation sets in a 9 : 1 ratio (441 targets for training and 50 for validation).
+
+To evaluate generalization across unseen targets, we started from the large non-redundant (LNR) dataset curated in prior work51 and further selected a cyclic-peptide–compatible subset following the ligand-length and pocket-topology criteria in CPSea.28 Complexes were first filtered by ligand length, retaining only those with peptide ligands of 5–16 residues—a length regime that typically supports head-to-tail macrocyclization without excessive ring strain or major backbone rearrangements upon closure. Complexes were further excluded if introducing a cyclic topology would be expected to cause substantial steric clashes with the receptor or destabilize the bound conformation (Fig. S2). The remaining receptors were clustered using MMseqs2 to reduce redundancy.52 To prevent overlap with the cyclic-peptide fine-tuning data used for PepFlow and PepGLAD, we excluded any receptor showing >40% sequence identity to targets in the fine-tuning data.28 After these procedures, 56 non-redundant targets were retained as the final test set.
+Base model architecture
+
+We adopt CP-composer as our base model for target-conditioned cyclic peptide generation.17 CP-composer represents the binding site and peptide as a fully-connected geometric graph G = (V, E), where each node corresponds to a residue with features (hi, Xi), including the amino-acid type encoding hi and the coordinates Xi of associated atoms. The model is a latent geometric diffusion framework with a variational autoencoder that maps peptide graphs to residue-level latent variables via an encoder Eϕ, and reconstructs sequence and structure via a decoder Dξ. Here zi is an E(3)-invariant scalar latent variable and  is an E(3)-invariant vector latent variable. A diffusion denoiser εθ(G(t)z, t) parameterized by an equivariant GNN is trained in this compact latent space. During sampling, latents are initialized from the prior and progressively denoised for T steps using a DDPM sampler, then decoded back to the data space using Dξ.
+Permeability scoring model
+
+We trained a machine-learning permeability predictor to assign each macrocyclic peptide candidate a scalar permeability score, sperm, which is subsequently used to construct preference pairs for preference optimization. We used Caco-2 measurements because they provide a higher-level proxy for cellular membrane permeation that reflects integrated transport phenomena (e.g., uptake and efflux) beyond purely passive diffusion, in contrast to artificial-membrane assays such as PAMPA.
+
+The predictor was trained on the Caco-2 permeability subset of the CycPeptMPDB database.21 After deduplication, the dataset comprises 1273 unique cyclic peptides with experimentally measured log Pexp values. Each peptide was represented by an extended feature vector that concatenates Morgan fingerprints (ECFP; radius = 6; 2048 bits) together with 35 two-dimensional physicochemical descriptors (Table S9). All features were standardized using a StandardScaler prior to model training. The predictor is an ensemble of 10 XGBoost regressors, each instantiated with a distinct hyperparameter configuration to promote diversity in model capacity and regularization strength. The 10 configurations span tree counts of 150–300, maximum depths of 5–9, learning rates of 0.05–0.10, row subsampling ratios of 0.72–0.78, and L1/L2 regularization weights of 0.01–0.20 and 1.0–2.0, respectively (Table S10). This deliberate variation in inductive biases—ranging from shallow, heavily regularized models to deeper, faster-learning ones—reduces ensemble variance and improves robustness when scoring generated peptides that may lie outside the training distribution. The final permeability score is obtained by averaging the predictions of the 10 base models. The predictor was evaluated using five-fold cross-validation. The final production model used for scoring during preference-pair construction was retrained on the full deduplicated dataset to maximize data utilization.
+Preference pair construction
+
+To improve permeability without confounding target-dependent effects, we construct preference pairs independently within each receptor target. For each target, we generate K = 200 macrocyclic peptide candidates using the base model CP-composer, resulting in a target-conditioned candidate pool {mc,i}i=1K for each target c. Each valid cyclic peptide candidate is converted to SMILES representation and assigned a permeability score sperm(mc,i) using our permeability predictor.
+
+Preference pairs are constructed within each target to avoid confounding from cross-target differences. For a given target c, we sort candidates by predicted score in descending order and pair high-scoring samples with low-scoring samples using a symmetric rank-matching strategy: the i-th highest-scoring candidate is paired against the i-th lowest-scoring candidate. This yields up to [Nc/2] raw pairs per target, where Nc is the number of scored candidates. To ensure informative supervision, we retain a pair (m+, m−) only if the score margin satisfiessperm(m+) − sperm(m−) ≥ δ,with δ = 0.1. The final preference dataset thus consists of tuplesDpref = {(c, m+, m−)},where m+ denotes the preferred (“winner”) candidate with higher predicted permeability and m− denotes the dispreferred (“loser”) candidate. These target-conditioned preference pairs provide the supervision signal for DPO training.
+Preference alignment with DPO
+
+Given target-conditioned preference tuples (ci, m+i, m−i) constructed above, where m = (H, X) denotes a cyclic peptide design with sequence H and structure X under target context c, we align the pretrained generator toward higher permeability using DPO strategy. Let pθ be the current diffusion model and pref be a frozen reference initialized from the same pretrained checkpoint. DPO increases the relative likelihood of the preferred design over the dispreferred one while regularizing against the reference model. Formally, we optimizewhere σ(·) is the sigmoid function, β is an inverse temperature parameter that controls alignment strength.
+
+Direct evaluation of log pθ(m|c) is intractable for diffusion generators because it requires marginalizing over the full denoising trajectory. We therefore replace the log-likelihood terms in Δθ with a tractable proxy derived from the diffusion score-matching objective, so that preference comparisons can be computed using denoising errors (MSE) rather than exact log p values.53 Concretely, in the latent diffusion space z produced by the autoencoder, we sample a diffusion timestep t and noise ε, form the noised latent ztvia the forward process, and compute a model-vs-reference denoising-error gap for a design m:
+
+Intuitively, if the current model explains m better than the reference, its denoising error is smaller and gθ(m) decreases, corresponding to a higher proxy likelihood under pθ relative to pref. We instantiate the preference logit using denoising-gap contrasts:Δ(c, m+, m−) ≈ −gθ(m+) + gθ(m−),which preserves the logistic DPO form while avoiding exact likelihood computation. In practice, we reuse the same sampled (t, ε) when evaluating m+ and m− to reduce variance and ensure a fair comparison. In order to stabilize preference optimization and preserve the base generator's sequence–structure fidelity, we use an SFT-style reconstruction regularization term computed on the winner samples. The overall objective isL = λ1LDPO + LSFT(m+),where the SFT regularizer is defined asLSFT(m+) = λ2LH,reconstruct(H+) + λ3LX,reconstruct(X+).Here LH,reconstruct and LX,reconstruct denote the sequence and coordinate reconstruction losses, respectively.
+Training and implementation details
+
+CycDiff-DPO is trained on a single RTX 3090 GPU (24 GB) using AdamW. The model is initialized from the pretrained CP-composer checkpoint,17 and the autoencoder parameters are kept frozen throughout training. Preference alignment is performed using the DPO objective described above, with β = 0.5 and the loss weights set to λ1 = 1, λ2 = 1, and λ3 = 1. We train for up to 50 epochs and select checkpoints based on validation performance. The initial learning rate is 1 × 10−5 with weight decay 0.05, and is reduced by a factor of 0.6 if the validation loss does not improve for three consecutive epochs. Early stopping is applied with a patience of 10 epochs. We retain the top 10 checkpoints according to validation performance for downstream analysis, and report results using the best-performing checkpoint.
+Evaluation metrics
+
+We evaluated the backbone stereochemical quality using Ramachandran statistics of ϕ/ψ dihedrals. reporting the mean proportion of residues in accepted and favored regions across all generated samples. To characterize surface polarity, we computed the polar solvent-accessible surface area (SASA) ratio,where SASApolar denotes the SASA contributed by polar atoms and SASAtotal is the total SASA. Lipophilicity was summarized by log P (octanol–water partition coefficient), which serves as a compact descriptor relevant to permeability-related trade-offs. Structural diversity within a generated set was quantified as the mean pairwise dissimilarity 1 − TM, where TM-score is computed after backbone structural alignment; for N peptides, we reportso that larger D indicates greater diversity. For complex-level evaluation, peptide–receptor structures were refined with one cycle of Rosetta FastRelax prior to scoring, after which we computed the Rosetta interface energy (ΔG) using the REF2015 score function and additionally reported the Rosetta total energy of the relaxed complex as a proxy for overall bound-state stability. To provide interpretable interaction readouts beyond energies, we analyzed interfaces using PLIP38 and reported the numbers of hydrophobic contacts, hydrogen bonds, and salt bridges detected for each complex.
+Molecular dynamics simulations
+
+Protein–peptide complexes were protonated at pH 7 using PROPKA in PDB2PQR.54 Systems were solvated in a 10 Å truncated octahedral TIP3P water box55 and neutralized with Na+/Cl− to 150 mM. Proteins and peptides were modeled with ff14SB.56 Simulations were performed in Amber22 using GPU-accelerated PME on RTX 3090 hardware.57 Each system was minimized for 2500 steepest-descent and 2500 conjugate-gradient steps with restraints on solvent/ions, followed by an unrestrained minimization of identical length. Velocities were assigned from a Boltzmann distribution, then heated from 0 to 310 K over 500 ps in the NVT ensemble with a Langevin thermostat and 10.0 kcal mol−1·Å−2 solute restraints. NPT equilibration (310 K, 1 bar) was run for 2.5 ns while reducing solute restraints from 5.0 to 0.1 kcal mol−1·Å−2 in four 0.5 ns stages. Production runs were conducted at 310 K and 1 bar without restraints using a Langevin thermostat and Berendsen barostat. Each production simulation was run for 100 ns, and three independent replicates with different random seeds were performed per system. A 4.0 fs timestep was enabled by hydrogen mass repartitioning,58 bonds to hydrogens were constrained with SHAKE,59 and nonbonded interactions used a 10 Å cutoff.
+Author contributions
+
+Conceptualization: H. S., H. T., J. L; methodology: H. S., Y. C.; formal analysis: H. S.; writing – original draft: H. S.; writing – review & editing: H. S., H. T., R. W., D. W.; supervision: D. W.; funding acquisition: D. W.
+Conflicts of interest
+
+The authors declare no conflicts of interest.
+Supplementary Material
+SC-017-D6SC01722C-s001
+
+SC-017-D6SC01722C-s001.txt (1.9KB, txt) 
+SC-017-D6SC01722C-s002
+
+SC-017-D6SC01722C-s002.pdf (569.8KB, pdf) 
+SC-017-D6SC01722C-s003
+
+SC-017-D6SC01722C-s003.pdf (1.2MB, pdf) 
+SC-017-D6SC01722C-s004
+
+SC-017-D6SC01722C-s004.pdf (289.8KB, pdf) 
+SC-017-D6SC01722C-s005
+
+SC-017-D6SC01722C-s005.pdf (578.4KB, pdf) 
+SC-017-D6SC01722C-s006
+
+SC-017-D6SC01722C-s006.pdf (701.1KB, pdf) 
+SC-017-D6SC01722C-s007
+
+SC-017-D6SC01722C-s007.pdf (765.1KB, pdf) 
+
+Acknowledgments
+
+This work was supported by the National Natural Science Foundation of China (32570803, 32030063) and the National Key R&D Program of China (2024YFA1306400, 2023YFE0199200).
+Data availability
+
+The pretrained CycDiff-DPO model weights, the preprocessed input data, and the code for running the CycDiff-DPO algorithm are available on GitHub at https://github.com/sun-heqi/CycDiff-DPO, and on Zenodo at zenodo.org/records/19429073.
+
+Supplementary information (SI) is available. See DOI: https://doi.org/10.1039/d6sc01722c.
+References
+
+
+Buckton L. K. Rahimi M. N. McAlpine S. R. Cyclic peptides as drugs for intracellular targets: the next frontier in peptide therapeutic development, Chem. Eur. J. 2021;27:1487–1513. doi: 10.1002/chem.201905385. [DOI] [PubMed] [Google Scholar]
+
+Vinogradov A. A. Yin Y. Suga H. Macrocyclic peptides as drug candidates: recent progress and remaining challenges. J. Am. Chem. Soc. 2019;141:4167–4181. doi: 10.1021/jacs.8b13178. [DOI] [PubMed] [Google Scholar]
+
+Muttenthaler M. King G. F. Adams D. J. Alewood P. F. Trends in peptide drug discovery. Nat. Rev. Drug Discovery. 2021;20:309–325. doi: 10.1038/s41573-020-00135-8. [DOI] [PubMed] [Google Scholar]
+
+Tsomaia N. Peptide therapeutics: targeting the undruggable space. Eur. J. Med. Chem. 2015;94:459–470. doi: 10.1016/j.ejmech.2015.01.014. [DOI] [PubMed] [Google Scholar]
+
+Casas A. I. Hassan A. A. Larsen S. J. Gomez-Rangel V. Elbatreek M. Kleikers P. W. M. Guney E. Egea J. López M. G. Baumbach J. Schmidt H. H. H. W. From single drug targets to synergistic network pharmacology in ischemic stroke. Proc. Natl. Acad. Sci. U. S. A. 2019;116:7129–7136. doi: 10.1073/pnas.1820799116. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Hopkins A. L. Network pharmacology: the next paradigm in drug discovery. Nat. Chem. Biol. 2008;4:682–690. doi: 10.1038/nchembio.118. [DOI] [PubMed] [Google Scholar]
+
+González-Muñiz R. Bonache M. Á. de Vega M. J. P. Modulating protein–protein interactions by cyclic and macrocyclic peptides. Prominent strategies and examples. Molecules. 2021;26:445. doi: 10.3390/molecules26020445. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Gavenonis J. Sheneman B. A. Siegert T. R. Eshelman M. R. Kritzer J. A. Comprehensive analysis of loops at protein-protein interfaces for macrocycle design. Nat. Chem. Biol. 2014;10:716–722. doi: 10.1038/nchembio.1580. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Beck J. G. Chatterjee J. Laufer B. Kiran M. U. Frank A. O. Neubauer S. Ovadia O. Greenberg S. Gilon C. Hoffman A. Kessler H. Intestinal permeability of cyclic peptides: common key backbone motifs identified. J. Am. Chem. Soc. 2012;134:12125–12133. doi: 10.1021/ja303200d. [DOI] [PubMed] [Google Scholar]
+
+Grant C. Rahman F. Piekarz R. Peer C. Frye R. Robey R. W. Gardner E. R. Figg W. D. Bates S. E. Romidepsin: a new therapy for cutaneous T-cell lymphoma and a potential therapy for solid tumors. Expert Rev. Anticancer Ther. 2010;10:997–1008. doi: 10.1586/era.10.88. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+van Gelder T. Lerma E. Engelke K. Huizinga R. B. Voclosporin: a novel calcineurin inhibitor for the treatment of lupus nephritis. Expet Rev. Clin. Pharmacol. 2022;15:515–529. doi: 10.1080/17512433.2022.2092470. [DOI] [PubMed] [Google Scholar]
+
+Russell J. A. Walley K. R. Singer J. Gordon A. C. Hébert P. C. Cooper D. J. Holmes C. L. Mehta S. Granton J. T. Storms M. M. Cook D. J. Presneill J. J. Ayers D. Vasopressin versus norepinephrine infusion in patients with septic shock. N. Engl. J. Med. 2008;358:877–887. doi: 10.1056/NEJMoa067373. [DOI] [PubMed] [Google Scholar]
+
+Atanasov A. G. Zotchev S. B. Dirsch V. M. Orhan I. E. Banach M. Rollinger J. M. Barreca D. Weckwerth W. Bauer R. Bayer E. A. Majeed M. Bishayee A. Bochkov V. Bonn G. K. Braidy N. Bucar F. Cifuentes A. D'Onofrio G. Bodkin M. Diederich M. Dinkova-Kostova A. T. Efferth T. El Bairi K. Arkells N. Fan T. P. Fiebich B. L. Freissmuth M. Georgiev M. I. Gibbons S. Godfrey K. M. Gruber C. W. Heer J. Huber L. A. Ibanez E. Kijjoa A. Kiss A. K. Lu A. Macias F. A. Miller M. J. S. Mocan A. Müller R. Nicoletti F. Perry G. Pittalà V. Rastrelli L. Ristow M. Russo G. L. Silva A. S. Schuster D. Sheridan H. Skalicka-Woźniak K. Skaltsounis L. Sobarzo-Sánchez E. Bredt D. S. Stuppner H. Sureda A. Tzvetkov N. T. Vacca R. A. Aggarwal B. B. Battino M. Giampieri F. Wink M. Wolfender J. L. Xiao J. Yeung A. W. K. Lizard G. Popp M. A. Heinrich M. Berindan-Neagoe I. Stadler M. Daglia M. Verpoorte R. Supuran C. T. Natural products in drug discovery: advances and opportunities. Nat. Rev. Drug Discovery. 2021;20:200–216. doi: 10.1038/s41573-020-00114-z. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Bhardwaj G. O'Connor J. Rettie S. Huang Y. H. Ramelot T. A. Mulligan V. K. Alpkilic G. G. Palmer J. Bera A. K. Bick M. J. Di Piazza M. Li X. Hosseinzadeh P. Craven T. W. Tejero R. Lauko A. Choi R. Glynn C. Dong L. Griffin R. van Voorhis W. C. Rodriguez J. Stewart L. Montelione G. T. Craik D. Baker D. Accurate de novo design of membrane-traversing macrocycles. Cell. 2022;185:3520–3532. doi: 10.1016/j.cell.2022.07.019. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Wang M. Cang Z. Wei G.-W. A topology-based network tree for the prediction of protein–protein binding affinity changes following mutation. Nat. Mach. Intell. 2020;2:116–123. doi: 10.1038/s42256-020-0149-6. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Rettie S. A. Juergens D. Adebomi V. Bueso Y. F. Zhao Q. Leveille A. N. Liu A. Bera A. K. Wilms J. A. Üffing A. Kang A. Brackenbrough E. Lamb M. Gerben S. R. Murray A. Levine P. M. Schneider M. Vasireddy V. Ovchinnikov S. Weiergräber O. H. Willbold D. Kritzer J. A. Mougous J. D. Baker D. DiMaio F. Bhardwaj G. Accurate de novo design of high-affinity protein-binding macrocycles using deep learning. Nat. Chem. Biol. 2025;21:1948–1956. doi: 10.1038/s41589-025-01929-w. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+Jiang D., Kong X., Han J., Li M., Jiao R., Huang W., Ermon S., Ma J. and Liu Y., Zero-shot cyclic peptide design via composable geometric constraints, in Proc. 42nd Int. Conf. Mach. Learn., PMLR, 2025, vol. 267, pp. 27553–27568 [Google Scholar]
+
+Li Q. Vlachos E. N. Bryant P. Design of linear and cyclic peptide binders from protein sequence information. Commun. Chem. 2025;8:211. doi: 10.1038/s42004-025-01601-3. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Wang F. Zhang T. Zhu J. Zhang X. Zhang C. Lai L. Reinforcement learning-based target-specific de novo design of cyclic peptide binders. J. Med. Chem. 2025;68:17287–17302. doi: 10.1021/acs.jmedchem.5c00789. [DOI] [PubMed] [Google Scholar]
+
+Lin H. Zhu C. Shang T. Zhu N. Lin K. Zhang C. Shao X. Wang X. Duan H. HighPlay: cyclic peptide sequence design based on reinforcement learning and protein structure prediction. J. Med. Chem. 2025;68:12047–12057. doi: 10.1021/acs.jmedchem.5c00896. [DOI] [PubMed] [Google Scholar]
+
+Li J. Yanagisawa K. Sugita M. Fujie T. Ohue M. Akiyama Y. CycPeptMPDB: a comprehensive database of membrane permeability of cyclic peptides. J. Chem. Inf. Model. 2023;63:2240–2250. doi: 10.1021/acs.jcim.2c01573. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Zhang C. Xu Z. Lin K. Zhu N. Zhang C. Xu W. Guo J. Su A. Li C. Duan H. CycleDesigner: leveraging CycRFdiffusion and HighFold to design cyclic peptide binders for specific targets. J. Chem. Inf. Model. 2025;65:6155–6165. doi: 10.1021/acs.jcim.5c00227. [DOI] [PubMed] [Google Scholar]
+
+Merz M. L. Habeshian S. Li B. David J. A. G. L. Nielsen A. L. Ji X. Khwildy K. I. Duany Benitez M. M. Phothirath P. Heinis C. De novo development of small cyclic peptides that are orally bioavailable. Nat. Chem. Biol. 2024;20:624–633. doi: 10.1038/s41589-023-01496-y. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+Rafailov R., Sharma A., Mitchell E., Ermon S., Manning C. D. and Finn C., Direct preference optimization: your language model is secretly a reward model, in Adv. Neural Inf. Process. Syst., 2023, p. 36 [Google Scholar]
+
+
+Zhou X., Xue D., Chen R., Zheng Z., Wang L. and Gu Q., Antigen-specific antibody design via direct energy-based preference optimization, in Adv. Neural Inf. Process. Syst., 2024, p. 37 [Google Scholar]
+
+
+Gu S., Xu M., Powers A., Nie W., Geffner T., Kreis K., Leskovec J., Vahdat A. and Ermon S., Aligning target-aware molecule diffusion models with exact energy optimization, in Adv. Neural Inf. Process. Syst., 2024, p. 37 [Google Scholar]
+
+
+Cheng X., Zhou X., Bao Y., Yang Y. and Gu Q., Decomposed direct preference optimization for structure-based drug design, arXiv, 2024, preprint, arXiv:2407.13981, 10.48550/arXiv.2407.13981 [DOI]
+
+
+Yang Z., Xie H., Jia Y., Kong X., Zheng J., Zhang Z., Liu Y., Liu L. and Lan Y., CPSea: large-scale cyclic peptide-protein complex dataset for machine learning in cyclic peptide design, OpenReview, 2025 [Google Scholar]
+
+Dauparas J. Anishchenko I. Bennett N. Bai H. Ragotte R. J. Milles L. F. Wicky B. I. M. Courbet A. de Haas R. J. Bethel N. Leung P. J. Y. Huddy T. F. Pellock S. Tischer D. Chan F. Koepnick B. Nguyen H. Kang A. Sankaran B. Bera A. K. King N. P. Baker D. Robust deep learning-based protein sequence design using ProteinMPNN. Science. 2022;378:49–56. doi: 10.1126/science.add2187. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+Li J., Cheng C., Wu Z., Guo R., Luo S., Ren Z., Peng J. and Ma J., Full-atom peptide design based on multi-modal flow matching, in Proc. 41st Int. Conf. Mach. Learn., PMLR, 2024, vol. 235, pp. 27615–27640 [Google Scholar]
+
+
+Kong X., Jia Y., Huang W. and Liu Y., Full-atom peptide design with geometric latent diffusion, in Adv. Neural Inf. Process. Syst., 2024, vol. 37, pp. 74808–74839 [Google Scholar]
+
+Liu X. Testa B. Fahr A. Lipophilicity and its relationship with passive drug permeation. Pharm. Res. 2011;28:962–977. doi: 10.1007/s11095-010-0303-7. [DOI] [PubMed] [Google Scholar]
+
+Rossi Sebastiano M. Doak B. C. Backlund M. Poongavanam V. Over B. Ermondi G. Caron G. Matsson P. Kihlberg J. Impact of dynamically exposed polarity on permeability and solubility of chameleonic drugs beyond the rule of 5. J. Med. Chem. 2018;61:4189–4202. doi: 10.1021/acs.jmedchem.8b00347. [DOI] [PubMed] [Google Scholar]
+
+Panahi A. Brooks C. L. Membrane environment modulates the pKa values of transmembrane helices. J. Phys. Chem. B. 2015;119:4601–4607. doi: 10.1021/acs.jpcb.5b00289. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Gleason N. J. Vostrikov V. V. Greathouse D. V. Koeppe R. E. Buried lysine, but not arginine, titrates and alters transmembrane helix tilt. Proc. Natl. Acad. Sci. U. S. A. 2013;110:1692–1695. doi: 10.1073/pnas.1215400110. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+MacCallum J. L. Drew Bennett W. F. Tieleman D. P. Distribution of amino acids in a lipid bilayer from computer simulations. Biophys. J. 2008;94:3393–3404. doi: 10.1529/biophysj.107.112805. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Alford R. F. Leaver-Fay A. Jeliazkov J. R. O'Meara M. J. DiMaio F. P. Park H. Shapovalov M. V. Renfrew P. D. Mulligan V. K. Kappel K. Labonte J. W. Pacella M. S. Bonneau R. Bradley P. Dunbrack R. L. Das R. Baker D. Kuhlman B. Kortemme T. Gray J. J. The Rosetta All-Atom Energy Function for Macromolecular Modeling and Design. J. Chem. Theory Comput. 2017;13:3031–3048. doi: 10.1021/acs.jctc.7b00125. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Adasme M. F. Linnemann K. L. Bolz S. N. Kaiser F. Salentin S. Haupt V. J. Schroeder M. PLIP 2021: expanding the scope of the protein–ligand interaction profiler to DNA and RNA. Nucleic Acids Res. 2021;49:W530–W534. doi: 10.1093/nar/gkab294. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Avdeef A. Bendels S. Di L. Faller B. Kansy M. Sugano K. Yamauchi Y. PAMPA—critical factors for better predictions of absorption. J. Pharm. Sci. 2007;96:2893–2909. doi: 10.1002/jps.21068. [DOI] [PubMed] [Google Scholar]
+
+Artursson P. Palm K. Luthman K. Caco-2 monolayers in experimental and theoretical predictions of drug transport. Adv. Drug Deliv. Rev. 2001;46:27–43. doi: 10.1016/S0169-409X(00)00128-9. [DOI] [PubMed] [Google Scholar]
+
+Jiang D. Chen Z. Du H. Cyclic peptide membrane permeability prediction using deep learning model based on molecular attention transformer. Front. Bioinform. 2025;5:1566174. doi: 10.3389/fbinf.2025.1566174. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Tan X. Liu Q. Fang Y. Zhu Y. Chen F. Zeng W. Ouyang D. Dong J. Predicting peptide permeability across diverse barriers: a systematic investigation. Mol. Pharm. 2024;21:4116–4127. doi: 10.1021/acs.molpharmaceut.4c00478. [DOI] [PubMed] [Google Scholar]
+
+Liu W. Li J. Verma C. S. Lee H. K. Systematic benchmarking of 13 AI methods for predicting cyclic peptide membrane permeability. J. Cheminf. 2025;17:129. doi: 10.1186/s13321-025-01083-4. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Rezai T. Yu B. Millhauser G. L. Jacobson M. P. Lokey R. S. Testing the conformational hypothesis of passive membrane permeability using synthetic cyclic peptide diastereomers. J. Am. Chem. Soc. 2006;128:2510–2511. doi: 10.1021/ja0563455. [DOI] [PubMed] [Google Scholar]
+
+Grambow C. A. Weir H. Cunningham C. N. Biancalani T. Chuang K. V. CREMP: conformer-rotamer ensembles of macrocyclic peptides for machine learning. Sci. Data. 2024;11:859. doi: 10.1038/s41597-024-03698-y. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Cuadrado A. Rojo A. I. Wells G. Hayes J. D. Cousin S. P. Rumsey W. L. Attucks O. C. Franklin S. Levonen A. L. Kensler T. W. Dinkova-Kostova A. T. Therapeutic targeting of the NRF2 and KEAP1 partnership in chronic diseases. Nat. Rev. Drug Discovery. 2019;18:295–317. doi: 10.1038/s41573-018-0008-x. [DOI] [PubMed] [Google Scholar]
+
+Kuang Z. Lewis R. S. Curtis J. M. Zhan Y. Saunders B. M. Babon J. J. Kolesnik T. B. Low A. Masters S. L. Willson T. A. Kedzierski L. Yao S. Handman E. Norton R. S. Nicholson S. E. The SPRY domain-containing SOCS box protein SPSB2 targets iNOS for proteasomal degradation. J. Cell Biol. 2010;190:129–141. doi: 10.1083/jcb.200912087. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Lo S. C. Li X. Henzl M. T. Beamer L. J. Hannink M. Structure of the Keap1:Nrf2 interface provides mechanistic insight into Nrf2 signaling. EMBO J. 2006;25:3605–3617. doi: 10.1038/sj.emboj.7601243. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Hanz S. Z. Shu N. S. Qian J. Christman N. Kranz P. An M. Grewer C. Qiang W. Protonation-driven membrane insertion of a pH-low insertion peptide. Angew. Chem., Int. Ed. 2016;55:12376–12381. doi: 10.1002/anie.201605203. [DOI] [PubMed] [Google Scholar]
+
+Villar E. A. Beglov D. Chennamadhavuni S. Porco J. A. Kozakov D. Vajda S. Whitty A. How proteins bind macrocycles. Nat. Chem. Biol. 2014;10:723–731. doi: 10.1038/nchembio.1584. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Tsaban T. Varga J. K. Avraham O. Ben-Aharon Z. Khramushin A. Schueler-Furman O. Harnessing protein folding neural networks for peptide–protein docking. Nat. Commun. 2022;13:176. doi: 10.1038/s41467-021-27838-9. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Mirdita M. Steinegger M. Söding J. MMseqs2 desktop and local web server app for fast, interactive sequence searches. Bioinformatics. 2019;35:2856–2858. doi: 10.1093/bioinformatics/bty1057. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+
+Wallace B., Dang M., Rafailov R., Zhou L., Lou A., Purushwalkam S., Ermon S., Xiong C., Joty S. and Naik N., Diffusion model alignment using direct preference optimization, in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit., 2024, pp. 8228–8238 [Google Scholar]
+
+Dolinsky T. J. Czodrowski P. Li H. Nielsen J. E. Jensen J. H. Klebe G. Baker N. A. PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res. 2007;35:W522–W525. doi: 10.1093/nar/gkm276. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Jorgensen W. L. Chandrasekhar J. Madura J. D. Impey R. W. Klein M. L. Comparison of simple potential functions for simulating liquid water. J. Chem. Phys. 1983;79:926–935. doi: 10.1063/1.445869. [DOI] [Google Scholar]
+
+Maier J. A. Martinez C. Kasavajhala K. Wickstrom L. Hauser K. E. Simmerling C. ff14SB: improving the accuracy of protein side chain and backbone parameters from ff99SB. J. Chem. Theory Comput. 2015;11:3696–3713. doi: 10.1021/acs.jctc.5b00255. [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Salomon-Ferrer R. Götz A. W. Poole D. Le Grand S. Walker R. C. Routine microsecond molecular dynamics simulations with AMBER on GPUs. 2. Explicit solvent particle mesh Ewald. J. Chem. Theory Comput. 2013;9:3878–3888. doi: 10.1021/ct400314y. [DOI] [PubMed] [Google Scholar]
+
+Hopkins C. W. Le Grand S. Walker R. C. Roitberg A. E. Long-time-step molecular dynamics through hydrogen mass repartitioning. J. Chem. Theory Comput. 2015;11:1864–1874. doi: 10.1021/ct5010406. [DOI] [PubMed] [Google Scholar]
+
+Ryckaert J.-P. Ciccotti G. Berendsen H. J. C. Numerical integration of the cartesian equations of motion of a system with constraints: molecular dynamics of n-alkanes. J. Comput. Phys. 1977;23:327–341. doi: 10.1016/0021-9991(77)90098-5. [DOI] [Google Scholar]
+
+Associated Data
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+
+Supplementary Materials
+SC-017-D6SC01722C-s001
+
+SC-017-D6SC01722C-s001.txt (1.9KB, txt) 
+SC-017-D6SC01722C-s002
+
+SC-017-D6SC01722C-s002.pdf (569.8KB, pdf) 
+SC-017-D6SC01722C-s003
+
+SC-017-D6SC01722C-s003.pdf (1.2MB, pdf) 
+SC-017-D6SC01722C-s004
+
+SC-017-D6SC01722C-s004.pdf (289.8KB, pdf) 
+SC-017-D6SC01722C-s005
+
+SC-017-D6SC01722C-s005.pdf (578.4KB, pdf) 
+SC-017-D6SC01722C-s006
+
+SC-017-D6SC01722C-s006.pdf (701.1KB, pdf) 
+SC-017-D6SC01722C-s007
+
+SC-017-D6SC01722C-s007.pdf (765.1KB, pdf) 
+
+Data Availability Statement
+
+The pretrained CycDiff-DPO model weights, the preprocessed input data, and the code for running the CycDiff-DPO algorithm are available on GitHub at https://github.com/sun-heqi/CycDiff-DPO, and on Zenodo at zenodo.org/records/19429073.
+
+Supplementary information (SI) is available. See DOI: https://doi.org/10.1039/d6sc01722c.
+
+Articles from Chemical Science are provided here courtesy of Royal Society of Chemistry
+
+                      
+
+                    
+                
+            
+        
+
+        
+
+
+
+
+
+    
+        
+            
+        
+    
+       
+              
+ACTIONS
+           
+               
+               
+                     
+                         
+                         View on publisher site
+                     
+               
+               
+               
+               
+                    
+                         
+                        PDF (2.2 MB)
+                    
+               
+               
+                
+               
+                   
+                       
+                       Cite
+                    
+               
+                
+               
+
+                        
+                            
+                            
+                            Collections
+                       
+               
+               
+                    
+                        
+                        Permalink
+                    
+                   
+
+
+    
+          
+PERMALINK
+          
+              
+              
+                  
+                  Copy
+              
+          
+    
+
+               
+           
+       
+     
+
+        
+            
+RESOURCES
+            
+                
+                    
+
+                        
+                            Similar articles
+                        
+                    
+                    
+                        
+                    
+                    
+
+                        
+                             Cited by other articles
+                        
+                    
+                    
+                          
+                    
+                    
+                        
+
+                            
+                                 Links to NCBI Databases
+                            
+                        
+                        
+                        
+                    
+                    
+                
+            
+        
+
+
+        
+    
+
+
+        
+
+
+    
+        
+            
+Cite
+             
+                 
+             
+        
+
+        
+
+
+  
+  
+      
+        
+            
+            Copy
+        
+      
+      
+          
+                
+                Download .nbib
+                .nbib
+            
+      
+      
+          
+
+
+  Format:
+  
+    
+      
+        AMA
+      
+    
+      
+        APA
+      
+    
+      
+        MLA
+      
+    
+      
+        NLM
+      
+    
+  
+
+      
+  
+
+    
+
+
+        
+  
+   
+        
+Add to Collections
+    
+    
+      
+
+
+
+
+    
+
+    
+        
+            
+            Create a new collection
+        
+        
+            
+            Add to an existing collection
+        
+    
+
+    
+        
+           
+                Name your collection
+               *
+          
+          
+        
+        
+             
+                Choose a collection
+              
+              
+              
+              
+                Unable to load your collection due to an error
+                Please try again
+              
+        
+    
+
+    
+        
+          Add
+        
+        
+          Cancel
+        
+    
+
+    
+  
+
+
+        
+
+      
+    
+  
+
+
+
+        
+    
+    
+
+
+    
+        
+            
+                Follow NCBI
+            
+
+            
+                
+                    
+                        
+                            
+                            
+                        
+                        NCBI on X (formerly known as Twitter)
+                    
+                
+
+                
+                    
+                        
+                            
+                            
+                        
+                        NCBI on Facebook
+                    
+                
+
+                
+                    
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                        NCBI on LinkedIn
+                    
+                
+
+                
+                    
+                        
+                            
+                            
+                        
+                        NCBI on GitHub
+                    
+                
+
+                
+                    
+                        
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                        NCBI RSS feed
+                    
+                
+            
+        
+    
+
+    
+        
+            
+                
+                    
+                        
+
+                            Connect with NLM
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                
+                                NLM on X (formerly known as Twitter)
+                            
+                        
+
+                        
+                            
+                                
+                                    
+                                    
+                                
+                                NLM on Facebook
+                            
+                        
+
+                        
+                            
+                                
+                                    
+                                
+                                NLM on YouTube
+                            
+                        
+                    
+                
+            
+
+            
+                
+                    
+        
+
+            National Library of Medicine
+             8600 Rockville Pike Bethesda, MD 20894
+        
+    
+                
+            
+
+            
+                
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Web Policies
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            FOIA
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            HHS Vulnerability Disclosure
+        
+
+        
+    
+
+
+                        
+                    
+                
+            
+
+            
+                
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Help
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Accessibility
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            Careers
+        
+
+        
+    
+
+
+                        
+                    
+                
+            
+        
+
+        
+            
+                
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            NLM
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            NIH
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            HHS
+        
+
+        
+    
+
+
+                        
+                    
+                        
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+            USA.gov
+        
+
+        
+    
+
+
+                        
+                    
+                
+            
+        
+    
+
+
+    
+
+
+        
+        
+    
+  
+
+
+    
+        
+
+
+    Back to Top
+    
+
+    
+
+
+        
+    
+    
+    
+    
+        
+    
+    
+
+    
+    
+    
+
+
+    
+     
+
+    
+
+
+
+    
+    
+
+    
+

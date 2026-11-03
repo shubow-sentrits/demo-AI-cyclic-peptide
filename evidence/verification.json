@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-03",
+  "syntax": "data.js and app.js parsed successfully",
+  "links": "All local links in three authored HTML pages and 11 fulltext/text pairs resolve",
+  "browser": "Desktop 1440px and mobile 390px inspected; no document-level horizontal overflow; graph scrolls within container on mobile",
+  "interactions": [
+    "distinct and shared project coverage",
+    "keyboard node detail",
+    "FlexRibbon scope and absence of verified wet endpoint",
+    "route selection and feedback highlight",
+    "11 fulltext filter",
+    "7 manual-needed filter",
+    "literature search",
+    "zero-hit handling",
+    "invalid funnel ordering",
+    "cost-per-hit arithmetic",
+    "zoom and reset",
+    "SVG export serialized as valid standalone XML with 16 nodes",
+    "PDPS chemistry-to-synthesis connection",
+    "print stylesheet",
+    "20-note standalone page and 7-item fulltext request page"
+  ],
+  "console_errors": 0,
+  "limits": "No design models or laboratory experiments run. SVG export content validated with intercepted download; OS save dialog not tested. Direct file URL opening not tested by automation; local page uses classic relative JS/CSS with no fetch dependencies."
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "R01_rules_2026",
+    "url": "https://www.nature.com/articles/s44386-026-00090-1.pdf",
+    "final_url": "https://www.nature.com/articles/s44386-026-00090-1.pdf?error=cookies_not_supported&code=b3764b1c-021c-4128-b28a-72446043ab84",
+    "bytes": 1285833,
+    "content_type": "application/pdf",
+    "saved": "route-atlas/literature/fulltext/R01_rules_2026.pdf",
+    "status": "downloaded"
+  },
+  {
+    "id": "R02_cell_penetration_2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6739158/",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6739158/",
+    "bytes": 760104,
+    "content_type": "text/html; charset=utf-8",
+    "saved": "route-atlas/literature/fulltext/R02_cell_penetration_2019.html",
+    "status": "downloaded"
+  },
+  {
+    "id": "R03_display_2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11365444/",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11365444/",
+    "bytes": 375299,
+    "content_type": "text/html; charset=utf-8",
+    "saved": "route-atlas/literature/fulltext/R03_display_2024.html",
+    "status": "downloaded"
+  },
+  {
+    "id": "R04_genAI_2026",
+    "url": "https://pubs.rsc.org/en/content/articlepdf/2026/cc/d5cc04998a",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "R05_MMPBSA_2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4487606/",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4487606/",
+    "bytes": 263645,
+    "content_type": "text/html; charset=utf-8",
+    "saved": "route-atlas/literature/fulltext/R05_MMPBSA_2015.html",
+    "status": "downloaded"
+  },
+  {
+    "id": "R06_trends_2026",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13492385/",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13492385/",
+    "bytes": 480437,
+    "content_type": "text/html; charset=utf-8",
+    "saved": "route-atlas/literature/fulltext/R06_trends_2026.html",
+    "status": "downloaded"
+  },
+  {
+    "id": "P01_RFpeptides",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12643943/",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12643943/",
+    "bytes": 261885,
+    "content_type": "text/html; charset=utf-8",
+    "saved": "route-atlas/literature/fulltext/P01_RFpeptides.html",
+    "status": "downloaded"
+  },
+  {
+    "id": "P02_BoltzGen",
+    "url": "https://hannes-stark.com/assets/boltzgen.pdf",
+    "final_url": "https://hannes-stark.com/assets/boltzgen.pdf",
+    "bytes": 9559814,
+    "content_type": "application/pdf",
+    "saved": "route-atlas/literature/fulltext/P02_BoltzGen.pdf",
+    "status": "downloaded"
+  },
+  {
+    "id": "P03_AfCycDesign",
+    "url": "https://www.nature.com/articles/s41467-025-59940-7.pdf",
+    "final_url": "https://www.nature.com/articles/s41467-025-59940-7.pdf?error=cookies_not_supported&code=cdd98946-f001-41f2-9588-780d3b6f3cc3",
+    "bytes": 3409554,
+    "content_type": "application/pdf",
+    "saved": "route-atlas/literature/fulltext/P03_AfCycDesign.pdf",
+    "status": "downloaded"
+  },
+  {
+    "id": "P04_LatentX2",
+    "url": "https://arxiv.org/pdf/2512.20263",
+    "bytes": 11255503,
+    "content_type": "application/pdf",
+    "saved": "route-atlas/literature/fulltext/P04_LatentX2.pdf",
+    "status": "downloaded"
+  },
+  {
+    "id": "P05_FlexRibbon",
+    "url": "https://openreview.net/pdf?id=B8BXHrshMi",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "P06_CycDiffDPO",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13074632/",
+    "bytes": 235421,
+    "content_type": "text/html; charset=utf-8",
+    "saved": "route-atlas/literature/fulltext/P06_CycDiffDPO.html",
+    "status": "downloaded"
+  },
+  {
+    "id": "P07_CycloPepper",
+    "url": "https://www.nature.com/articles/s41467-026-69441-w.pdf",
+    "bytes": 1025638,
+    "content_type": "application/pdf",
+    "saved": "route-atlas/literature/fulltext/P07_CycloPepper.pdf",
+    "status": "downloaded"
+  }
+]
